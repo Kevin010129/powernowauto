@@ -10,13 +10,13 @@
     "stats_models": "出口车型",
     "stats_countries": "出口国家",
     "stats_clients": "满意客户",
-    "companyIntro": "PowerNowAuto — 值得信赖的汽车出口伙伴",
-    "companyDesc": "PowerNowAuto 坐落于中国汽车工业重镇——江苏常州，是一家专业从事新能源车与燃油车出口的综合性服务商。我们以透明、可靠、高效的服务，连接全球客户与中国最优秀的汽车品牌。公司拥有丰富的品牌资源和专业的出口团队，致力于为海外经销商和个人客户提供一站式车辆采购与出口解决方案。",
+    "companyIntro": "常州后浪新能源汽车进出口有限公司 — 值得信赖的汽车出口伙伴",
+    "companyDesc": "常州后浪新能源汽车进出口有限公司坐落于中国汽车工业重镇——江苏常州，是一家专业从事新能源车与燃油车出口的综合性服务商。我们以透明、可靠、高效的服务，连接全球客户与中国最优秀的汽车品牌。公司拥有丰富的品牌资源和专业的出口团队，致力于为海外经销商和个人客户提供一站式车辆采购与出口解决方案。",
     "featuredModels": "2025/2026 最新车型",
     "latestNews": "行业新闻",
     "viewAll": "查看全部",
     "contactUs": "联系我们",
-    "whyTitle": "为什么选择 PowerNowAuto",
+    "whyTitle": "为什么选择 常州后浪新能源汽车进出口有限公司",
     "whyPricing": "透明定价",
     "whyPricingDesc": "价格公开透明，无任何隐藏费用，报价即实价。",
     "whyQuality": "品质检测",
@@ -70,11 +70,11 @@
     "success": "消息发送成功！我们会尽快与您联系。",
     "address": "中国江苏省常州市",
     "phone_number": "+86-XXX-XXXX-XXXX",
-    "email_address": "info@powernowauto.cn"
+    "email_address": "info@houlang-auto.com"
   },
   "footer": {
     "brands": "热门品牌", "types": "车型类别", "fuel": "燃料类型", "quickLinks": "快速链接", "contact": "联系方式",
     "requestInfo": "立即咨询",
-    "copyright": "© 2025 常州 PowerNowAuto 进出口有限公司 版权所有。"
+    "copyright": "© 2025 常州后浪新能源汽车进出口有限公司 版权所有。"
   }
 }

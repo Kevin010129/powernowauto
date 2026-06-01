@@ -10,13 +10,13 @@
     "stats_models": "Vehicle Models",
     "stats_countries": "Export Countries",
     "stats_clients": "Happy Clients",
-    "companyIntro": "PowerNowAuto — Your Trusted Auto Export Partner",
-    "companyDesc": "Based in Changzhou, Jiangsu — the heart of China's automotive industry — PowerNowAuto is a professional vehicle export company specializing in both new energy vehicles (NEV) and traditional fuel vehicles. We bridge global customers with China's top automotive brands through transparent, reliable, and efficient export services.",
+    "companyIntro": "Changzhou Houlang NEV I/E Co., Ltd. — Your Trusted Auto Export Partner",
+    "companyDesc": "Based in Changzhou, Jiangsu — the heart of China's automotive industry — Changzhou Houlang NEV I/E Co., Ltd. is a professional vehicle export company specializing in both new energy vehicles (NEV) and traditional fuel vehicles. We bridge global customers with China's top automotive brands through transparent, reliable, and efficient export services.",
     "featuredModels": "Latest 2025/2026 Models",
     "latestNews": "Industry News",
     "viewAll": "View All",
     "contactUs": "Get in Touch",
-    "whyTitle": "Why Choose PowerNowAuto",
+    "whyTitle": "Why Choose Changzhou Houlang NEV I/E Co., Ltd.",
     "whyPricing": "Transparent Pricing",
     "whyPricingDesc": "Honest, upfront pricing with no hidden fees — what we quote is what you pay.",
     "whyQuality": "Quality Inspection",
@@ -70,11 +70,11 @@
     "success": "Message sent successfully! We'll contact you soon.",
     "address": "Changzhou, Jiangsu, China",
     "phone_number": "+86-XXX-XXXX-XXXX",
-    "email_address": "info@powernowauto.cn"
+    "email_address": "info@houlang-auto.com"
   },
   "footer": {
     "brands": "Popular Brands", "types": "Vehicle Types", "fuel": "Fuel Types", "quickLinks": "Quick Links", "contact": "Contact Info",
     "requestInfo": "Request Information",
-    "copyright": "© 2025 Changzhou PowerNowAuto Import & Export Co., Ltd. All rights reserved."
+    "copyright": "© 2025 Changzhou Changzhou Houlang NEV I/E Co., Ltd. Import & Export Co., Ltd. All rights reserved."
   }
 }
