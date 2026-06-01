@@ -1,0 +1,167 @@
+---
+export async function getStaticPaths() {
+  return [{ params: { lang: "zh" } }, { params: { lang: "en" } }];
+}
+
+import MainLayout from "../../layouts/MainLayout.astro";
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { getCollection } from "astro:content";
+
+const lang = getLangFromUrl(Astro.url);
+const { t } = useTranslations(lang);
+const isZh = lang === "zh";
+const baseUrl = lang === "zh" ? "" : "/en";
+
+const vehicles = await getCollection("vehicles");
+const brands = await getCollection("brands");
+const brandMap = new Map(brands.map((b) => [b.id, b.data]));
+
+const types = ["SEDAN", "SUV", "MPV", "MINI", "LCV", "SPORTS", "OFFROAD"] as const;
+const fuelTypes = ["electric", "plug_in_hybrid", "extended_range", "petrol"] as const;
+const years = [2026, 2025, 2024] as const;
+
+// Prepare vehicle data for client-side JS
+const vehiclesForJs = vehicles.map((v) => {
+  const bd = brandMap.get(v.data.brand);
+  return {
+    slug: v.data.slug,
+    name: isZh ? v.data.names.zh : v.data.names.en,
+    brandName: isZh ? (bd?.names.zh ?? v.data.brand) : (bd?.names.en ?? v.data.brand),
+    brand: v.data.brand,
+    type: v.data.type,
+    fuelType: v.data.fuelType,
+    year: v.data.year,
+    inStock: v.data.inStock,
+    isNew: v.data.isNew,
+    images: v.data.images,
+    specs: v.data.specs,
+  };
+});
+
+const title = isZh ? "产品中心 — PowerNowAuto" : "Products — PowerNowAuto";
+const description = isZh ? "浏览全系列车型。按品牌、类型、燃料和年份筛选。" : "Browse our full vehicle catalog. Filter by brand, type, fuel, and year.";
+---
+
+<MainLayout {title} {description}>
+  <section class="bg-primary text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-3xl md:text-4xl font-extrabold">{t("nav.products")}</h1>
+      <p class="text-blue-200 mt-2">{isZh ? "覆盖新能源与燃油车全品类，一站式浏览与咨询" : "Full range of NEV and fuel vehicles — browse and inquire"}</p>
+    </div>
+  </section>
+
+  <section class="section bg-white" x-data="productFilter">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Filters -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8 p-5 bg-gray-warm rounded-2xl">
+        <div>
+          <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-1.5">{t("product.filterBrand")}</label>
+          <select x-model="selectedBrand" @change="updateUrl()" class="w-full px-3 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary bg-white">
+            <option value="">{t("product.allBrands")}</option>
+            {brands.map((b) => (<option value={b.id}>{isZh ? b.data.names.zh : b.data.names.en}</option>))}
+          </select>
+        </div>
+        <div>
+          <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-1.5">{t("product.filterType")}</label>
+          <select x-model="selectedType" @change="updateUrl()" class="w-full px-3 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary bg-white">
+            <option value="">{t("product.allTypes")}</option>
+            {types.map((tp) => (<option value={tp}>{t(`filter.${tp.toLowerCase()}`)}</option>))}
+          </select>
+        </div>
+        <div>
+          <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-1.5">{t("product.filterFuel")}</label>
+          <select x-model="selectedFuel" @change="updateUrl()" class="w-full px-3 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary bg-white">
+            <option value="">{t("product.allFuel")}</option>
+            {fuelTypes.map((ft) => (<option value={ft}>{t(`filter.${ft}`)}</option>))}
+          </select>
+        </div>
+        <div>
+          <label class="block text-[10px] font-bold text-gray-500 uppercase tracking-wider mb-1.5">{t("product.filterYear")}</label>
+          <select x-model="selectedYear" @change="updateUrl()" class="w-full px-3 py-2.5 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary bg-white">
+            <option value="">{t("product.allYears")}</option>
+            {years.map((y) => (<option value={y}>{y}</option>))}
+          </select>
+        </div>
+      </div>
+
+      <p class="text-sm text-gray-400 mb-6" x-text="filteredVehicles.length + ' {lang === 'zh' ? '款车型' : 'vehicles'}'"></p>
+
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
+        <template x-for="v in filteredVehicles" :key="v.slug">
+          <a :href="`${baseUrl}/products/${v.slug}/`" class="card-hover group bg-white rounded-2xl border border-gray-100 overflow-hidden">
+            <div class="aspect-[4/3] bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center overflow-hidden relative">
+              <img :src="v.images[0]" :alt="v.name" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" onerror="this.style.display='none'" />
+              <div class="absolute top-3 left-3 flex gap-1.5">
+                <span x-show="v.inStock" class="badge-green text-[10px]">{t("product.inStock")}</span>
+                <span x-show="v.isNew" class="badge-blue text-[10px]">{t("product.new")}</span>
+              </div>
+            </div>
+            <div class="p-4">
+              <p class="text-[11px] text-gray-400 font-semibold uppercase tracking-widest" x-text="v.brandName"></p>
+              <h3 class="text-sm font-bold text-gray-900 mt-1 group-hover:text-primary transition-colors line-clamp-1" x-text="v.name"></h3>
+              <div class="flex items-center justify-between mt-3">
+                <div class="flex gap-1">
+                  <span class="badge-blue text-[10px]" x-text="$refs.filterTypeText(v.type)"></span>
+                  <span class="badge-amber text-[10px]" x-text="v.year"></span>
+                </div>
+                <svg class="w-4 h-4 text-gray-300 group-hover:text-accent group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+              </div>
+            </div>
+          </a>
+        </template>
+      </div>
+
+      <div x-show="filteredVehicles.length === 0" class="text-center py-16">
+        <p class="text-gray-400">{t("product.noResults")}</p>
+      </div>
+    </div>
+  </section>
+</MainLayout>
+
+<script is:inline>
+  const vehiclesData = [{vehiclesForJs.map(v => JSON.stringify(v)).join(",\n    ")}];
+  const typeLabels = {
+    SEDAN: "{lang === 'zh' ? '轿车' : 'Sedan'}",
+    SUV: "SUV",
+    MPV: "MPV",
+    MINI: "{lang === 'zh' ? '微型' : 'Mini'}",
+    LCV: "LCV",
+    SPORTS: "{lang === 'zh' ? '跑车' : 'Sports'}",
+    OFFROAD: "{lang === 'zh' ? '越野' : 'Off-road'}",
+  };
+
+  document.addEventListener("alpine:init", () => {
+    Alpine.data("productFilter", () => ({
+      vehicles: vehiclesData,
+      selectedBrand: "",
+      selectedType: "",
+      selectedFuel: "",
+      selectedYear: "",
+      init() {
+        const params = new URLSearchParams(window.location.search);
+        this.selectedBrand = params.get("brand") || "";
+        this.selectedType = params.get("type") || "";
+        this.selectedFuel = params.get("fuel") || "";
+        this.selectedYear = params.get("year") || "";
+      },
+      get filteredVehicles() {
+        return this.vehicles.filter((v) => {
+          if (this.selectedBrand && v.brand !== this.selectedBrand) return false;
+          if (this.selectedType && v.type !== this.selectedType) return false;
+          if (this.selectedFuel && v.fuelType !== this.selectedFuel) return false;
+          if (this.selectedYear && v.year !== parseInt(this.selectedYear)) return false;
+          return true;
+        });
+      },
+      updateUrl() {
+        const params = new URLSearchParams();
+        if (this.selectedBrand) params.set("brand", this.selectedBrand);
+        if (this.selectedType) params.set("type", this.selectedType);
+        if (this.selectedFuel) params.set("fuel", this.selectedFuel);
+        if (this.selectedYear) params.set("year", this.selectedYear);
+        const newUrl = `${window.location.pathname}${params.toString() ? "?" + params.toString() : ""}`;
+        window.history.replaceState({}, "", newUrl);
+      },
+    }));
+  });
+</script>

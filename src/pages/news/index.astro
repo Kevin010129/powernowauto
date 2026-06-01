@@ -1,0 +1,53 @@
+---
+export async function getStaticPaths() {
+  return [{ params: { lang: "zh" } }, { params: { lang: "en" } }];
+}
+
+import MainLayout from "../../layouts/MainLayout.astro";
+import { getLangFromUrl } from "../../i18n/utils";
+
+const lang = getLangFromUrl(Astro.url);
+const isZh = lang === "zh";
+const baseUrl = lang === "zh" ? "" : "/en";
+
+const articles = [
+  {slug:"xiaomi-yu7-launch",title:{en:"Xiaomi YU7 2026 Officially Launched",zh:"小米YU7 2026正式上市——760km续航SUV"},date:"2026-05-15",excerpt:{en:"Xiaomi's second EV model hits the market with class-leading specs.",zh:"小米第二款电动汽车以同级领先的规格进入市场。"}},
+  {slug:"byd-xia-mpv-2025",title:{en:"BYD Xia MPV — Redefining Family Mobility",zh:"比亚迪夏MPV——重新定义家庭出行"},date:"2025-12-20",excerpt:{en:"BYD's all-new MPV sets a new benchmark for family vehicles.",zh:"比亚迪全新MPV为家用车设立新标杆。"}},
+  {slug:"china-auto-export-record",title:{en:"China Auto Exports Hit Historic Record in 2025",zh:"2025中国汽车出口创历史新高"},date:"2025-11-08",excerpt:{en:"China becomes the world's largest vehicle exporter.",zh:"中国成为全球最大汽车出口国。"}},
+  {slug:"li-auto-mega-50000",title:{en:"Li Auto Mega Crosses 50,000 Deliveries",zh:"理想MEGA交付突破5万辆"},date:"2025-10-22",excerpt:{en:"The flagship electric MPV reaches a significant delivery milestone.",zh:"这款旗舰纯电MPV达成重要交付里程碑。"}},
+  {slug:"zeekr-global-expansion",title:{en:"Zeekr Accelerates Global Expansion to 30+ Markets",zh:"极氪加速全球扩张至30+市场"},date:"2025-09-14",excerpt:{en:"Zeekr plans to enter 30+ new international markets by end of 2025.",zh:"极氪计划2025年底前进入30+新国际市场。"}},
+  {slug:"byd-atlas-lfp-2025",title:{en:"BYD Launches 2nd-Gen Blade Battery with 1000km Range",zh:"比亚迪推出第二代刀片电池——1000公里续航"},date:"2025-08-05",excerpt:{en:"Revolutionary battery technology enables 1000km range at lower cost.",zh:"革命性电池技术以更低成本实现1000公里续航。"}},
+  {slug:"nio-battery-swap-network",title:{en:"NIO Battery Swap Network Hits 3000 Stations",zh:"蔚来换电网络突破3000座"},date:"2025-07-18",excerpt:{en:"NIO's global battery swap network reaches a major milestone.",zh:"蔚来全球换电网络达成重要里程碑。"}},
+  {slug:"xpeng-xngp-europe",title:{en:"XPeng XNGP Autonomous Driving Launches in Europe",zh:"小鹏XNGP自动驾驶在欧洲上线"},date:"2025-06-10",excerpt:{en:"XPeng becomes first Chinese brand to offer autonomous driving in Europe.",zh:"小鹏成为首个在欧洲提供自动驾驶的中国品牌。"}},
+];
+
+const title = isZh ? "新闻中心 — PowerNowAuto" : "News — PowerNowAuto";
+const description = isZh ? "中国及全球汽车行业最新动态。" : "Latest auto industry news from China and worldwide.";
+---
+
+<MainLayout {title} {description}>
+  <section class="bg-primary text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-3xl md:text-4xl font-extrabold">{isZh ? "新闻中心" : "News Center"}</h1>
+      <p class="text-blue-200 mt-2">{isZh ? "中国及全球汽车行业最新动态" : "Latest from China and global auto industry"}</p>
+    </div>
+  </section>
+  <section class="section bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {articles.map(a => (
+          <a href={`${baseUrl}/news/${a.slug}/`} class="card-hover group bg-white rounded-2xl border border-gray-100 overflow-hidden">
+            <div class="aspect-[16/9] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
+              <svg class="w-10 h-10 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2"/></svg>
+            </div>
+            <div class="p-5">
+              <p class="text-xs text-gray-400 mb-2">{a.date}</p>
+              <h3 class="text-base font-bold text-gray-900 group-hover:text-primary transition-colors line-clamp-2">{a.title[lang as keyof typeof a.title] || a.title.en}</h3>
+              <p class="text-sm text-gray-500 mt-2 line-clamp-2">{a.excerpt[lang as keyof typeof a.excerpt] || a.excerpt.en}</p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+</MainLayout>

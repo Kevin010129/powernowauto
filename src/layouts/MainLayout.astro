@@ -1,0 +1,37 @@
+---
+import Head from "../components/base/Head.astro";
+import Header from "../components/base/Header.astro";
+import Footer from "../components/base/Footer.astro";
+import { getLangFromUrl } from "../i18n/utils";
+
+interface Props { title: string; description: string; ogImage?: string; }
+
+const { title, description, ogImage } = Astro.props;
+const lang = getLangFromUrl(Astro.url);
+const baseUrl = lang === "zh" ? "" : "/en";
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <Head {title} {description} {lang} {ogImage} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  </head>
+  <body class="min-h-screen flex flex-col bg-white text-gray-900">
+    <Header />
+    <main class="flex-1"><slot /></main>
+    <Footer />
+    <a href={`${baseUrl}/contact/`} class="fixed bottom-6 right-6 z-40 bg-accent text-white px-6 py-4 rounded-2xl shadow-2xl shadow-accent/25 hover:bg-accent-hover hover:scale-105 transition-all duration-300 flex items-center gap-3 text-sm font-bold group" id="floating-cta">
+      <div class="relative">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/></svg>
+        <span class="absolute -top-1 -right-1 w-3 h-3 bg-emerald-400 rounded-full animate-pulse border-2 border-accent"></span>
+      </div>
+      <span class="hidden md:inline" id="floating-text">{lang === "zh" ? "立即咨询" : "Inquiry Now"}</span>
+    </a>
+  </body>
+</html>

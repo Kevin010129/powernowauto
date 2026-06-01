@@ -1,0 +1,20 @@
+---
+interface Props { title: string; description: string; lang: string; ogImage?: string; }
+
+const { title, description, lang, ogImage } = Astro.props;
+const altLang = lang === "en" ? "zh" : "en";
+
+// Canonical URL: zh is root, en is /en/
+const canonical = lang === "zh" ? (Astro.url.href.replace(/^(\/en)/, "") || Astro.url.origin) : Astro.url.href;
+const altHref = lang === "zh" ? `/en${Astro.url.pathname}` : Astro.url.pathname.replace(/^\/en/, "");
+---
+
+<title>{title}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonical} />
+<link rel="alternate" hreflang="zh" href={canonical} />
+<link rel="alternate" hreflang="en" href={`${Astro.url.origin}/en${Astro.url.pathname}`} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={ogImage || "/images/site/og-image.svg"} />
+<meta property="og:type" content="website" />

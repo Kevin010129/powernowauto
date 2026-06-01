@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #1a1a2e;
+  --color-primary-dark: #0f0f1a;
+  --color-primary-light: #16213e;
+  --color-accent: #e63946;
+  --color-accent-hover: #c1121f;
+  --color-accent-light: #fecaca;
+  --color-gold: #f59e0b;
+  --color-gold-light: #fef3c7;
+  --color-gray-warm: #f8f7f4;
+  --color-gray-cool: #f1f5f9;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--font-sans);
+  color: #1e293b;
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 10px; }
+
+.section { @apply py-20 md:py-28; }
+
+.section-heading { @apply text-3xl md:text-4xl lg:text-5xl font-extrabold text-center mb-4 tracking-tight; }
+
+.section-subheading { @apply text-gray-500 text-center max-w-2xl mx-auto mb-14 text-base md:text-lg; }
+
+.card-hover { @apply transition-all duration-300 ease-out; }
+.card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.1); }
+
+.btn-primary { @apply inline-flex items-center px-6 py-3.5 bg-accent hover:bg-accent-hover text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-accent/20 active:scale-95; }
+
+.btn-outline { @apply inline-flex items-center px-6 py-3.5 border-2 border-white/30 hover:border-white/70 hover:bg-white/10 text-white font-semibold rounded-xl transition-all duration-200 backdrop-blur-sm; }
+
+.gradient-text { @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-gold; }
+
+.glass { @apply bg-white/80 backdrop-blur-lg border border-white/20; }
+
+.badge-green { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700; }
+.badge-blue { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-700; }
+.badge-amber { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-700; }

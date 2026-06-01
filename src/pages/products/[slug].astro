@@ -1,0 +1,152 @@
+---
+import MainLayout from "../../layouts/MainLayout.astro";
+import { getLangFromUrl, useTranslations } from "../../i18n/utils";
+import { getCollection } from "astro:content";
+
+export async function getStaticPaths() {
+  const vehicles = await getCollection("vehicles");
+  return vehicles.flatMap((v) => [
+    { params: { lang: "zh", slug: v.data.slug } },
+    { params: { lang: "en", slug: v.data.slug } },
+  ]);
+}
+
+const { slug } = Astro.params;
+const lang = getLangFromUrl(Astro.url);
+const { t } = useTranslations(lang);
+const isZh = lang === "zh";
+const baseUrl = lang === "zh" ? "" : "/en";
+
+const vehicles = await getCollection("vehicles");
+const vehicle = vehicles.find((v) => v.data.slug === slug);
+if (!vehicle) return Astro.redirect(`${baseUrl}/products/`);
+
+const brands = await getCollection("brands");
+const brand = brands.find((b) => b.id === vehicle.data.brand);
+
+const v = vehicle.data;
+const name = isZh ? v.names.zh : v.names.en;
+const brandName = isZh ? (brand?.data.names.zh ?? v.brand) : (brand?.data.names.en ?? v.brand);
+const typeLabel = t(`filter.${v.type.toLowerCase()}`);
+const fuelLabel = t(`filter.${v.fuelType}`);
+
+const specItems = [
+  v.specs.range_km && { label: t("product.range"), value: `${v.specs.range_km} km`, icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+  v.specs.battery_kwh && { label: t("product.battery"), value: `${v.specs.battery_kwh} kWh`, icon: "M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2" },
+  v.specs.power_kw && { label: t("product.power"), value: `${v.specs.power_kw} kW`, icon: "M13 10V3L4 14h7v7l9-11h-7z" },
+  v.specs.top_speed_kmh && { label: t("product.topSpeed"), value: `${v.specs.top_speed_kmh} km/h`, icon: "M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" },
+  v.specs.seats && { label: t("product.seats"), value: `${v.specs.seats}`, icon: "M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" },
+  v.specs.drive && { label: t("product.drive"), value: v.specs.drive },
+  (v.specs.length_mm && v.specs.width_mm && v.specs.height_mm) && { label: t("product.dimensions"), value: `${v.specs.length_mm}×${v.specs.width_mm}×${v.specs.height_mm} mm` },
+  v.specs.charging_fast && { label: t("product.chargingFast"), value: v.specs.charging_fast },
+  v.specs.charging_slow && { label: t("product.chargingSlow"), value: v.specs.charging_slow },
+  v.specs.engine && { label: isZh ? "发动机" : "Engine", value: v.specs.engine },
+  v.specs.transmission && { label: isZh ? "变速箱" : "Transmission", value: v.specs.transmission },
+].filter(Boolean);
+---
+
+<MainLayout title={`${name} — PowerNowAuto`} description={v.description[lang as keyof typeof v.description]}>
+  <section class="section bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- Breadcrumb -->
+      <nav class="text-sm text-gray-400 mb-8">
+        <a href={`${baseUrl}/`} class="hover:text-primary">{t("nav.home")}</a>
+        <span class="mx-2">/</span>
+        <a href={`${baseUrl}/products/`} class="hover:text-primary">{t("nav.products")}</a>
+        <span class="mx-2">/</span>
+        <span class="text-gray-600">{name}</span>
+      </nav>
+
+      <div class="grid lg:grid-cols-2 gap-12">
+        <!-- Image Carousel -->
+        <div>
+          <div class="relative rounded-2xl overflow-hidden bg-gray-100" x-data="{ activeIndex: 0, images: {JSON.stringify(v.images)} }">
+            <!-- Main Image -->
+            <div class="aspect-[4/3] flex items-center justify-center overflow-hidden">
+              <template x-for="(img, idx) in images" :key="idx">
+                <img :src="img" :alt="`${name} - ${idx + 1}`" x-show="activeIndex === idx" class="w-full h-full object-contain" loading="lazy" />
+              </template>
+            </div>
+            <!-- Nav Arrows -->
+            <button @click="activeIndex = (activeIndex - 1 + images.length) % images.length" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full shadow-lg flex items-center justify-center hover:bg-white transition-colors">
+              <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            </button>
+            <button @click="activeIndex = (activeIndex + 1) % images.length" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 backdrop-blur-sm rounded-full shadow-lg flex items-center justify-center hover:bg-white transition-colors">
+              <svg class="w-5 h-5 text-gray-700" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            </button>
+            <!-- Thumbnails -->
+            <div class="flex gap-2 mt-3 justify-center">
+              <template x-for="(img, idx) in images" :key="'thumb-' + idx">
+                <button @click="activeIndex = idx" :class="activeIndex === idx ? 'ring-2 ring-accent scale-110' : 'opacity-60 hover:opacity-100'" class="w-16 h-12 rounded-lg overflow-hidden transition-all">
+                  <img :src="img" alt="" class="w-full h-full object-cover" loading="lazy" />
+                </button>
+              </template>
+            </div>
+            <!-- Dot indicators -->
+            <div class="flex gap-1.5 mt-3 justify-center">
+              <template x-for="(img, idx) in images" :key="'dot-' + idx">
+                <span @click="activeIndex = idx" :class="activeIndex === idx ? 'bg-accent w-6' : 'bg-gray-300 w-2'" class="h-2 rounded-full transition-all cursor-pointer"></span>
+              </template>
+            </div>
+          </div>
+        </div>
+
+        <!-- Details -->
+        <div>
+          <p class="text-sm text-accent font-semibold uppercase tracking-widest">{brandName}</p>
+          <h1 class="text-3xl md:text-4xl font-extrabold mt-2 mb-4">{name}</h1>
+          <p class="text-gray-500 leading-relaxed mb-6">{v.description[lang as keyof typeof v.description]}</p>
+
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="badge-blue">{typeLabel}</span>
+            <span class="badge-amber">{fuelLabel}</span>
+            {v.specs.drive && <span class="badge text-xs bg-violet-100 text-violet-700">{v.specs.drive}</span>}
+            <span class="badge text-xs bg-emerald-100 text-emerald-700">{t("product.year")}: {v.year}</span>
+            {v.inStock && <span class="badge-green">{t("product.inStock")}</span>}
+          </div>
+
+          <!-- Specs Grid -->
+          <div class="mb-8">
+            <h3 class="font-bold text-gray-900 text-lg mb-4">{t("product.specs")}</h3>
+            <div class="grid grid-cols-2 gap-3">
+              {specItems.map((s: any) => (
+                <div class="bg-gray-warm rounded-xl p-4">
+                  <p class="text-[10px] text-gray-400 font-bold uppercase tracking-wider mb-1">{s.label}</p>
+                  <p class="text-sm font-bold text-gray-900">{s.value}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <!-- CTA -->
+          <a href={`${baseUrl}/contact/`} class="btn-primary px-10 py-4 text-base">
+            {t("product.inquireNow")}
+            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related vehicles from same brand -->
+  <section class="section bg-gray-warm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="text-xl font-bold text-gray-900 mb-6">
+        {isZh ? `更多${brandName}车型` : `More from ${brandName}`}
+      </h2>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        {vehicles.filter((rv) => rv.data.brand === v.brand && rv.data.slug !== v.slug).slice(0, 4).map((rv) => {
+          const rn = isZh ? rv.data.names.zh : rv.data.names.en;
+          return (
+            <a href={`${baseUrl}/products/${rv.data.slug}/`} class="card-hover group bg-white rounded-xl border border-gray-100 overflow-hidden p-4">
+              <div class="aspect-[4/3] bg-gray-50 rounded-lg flex items-center justify-center overflow-hidden mb-3">
+                <img src={rv.data.images[0]} alt={rn} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+              </div>
+              <p class="text-xs text-gray-400">{isZh ? rv.data.names.zh : rv.data.names.en}</p>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+</MainLayout>

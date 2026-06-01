@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "names": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "zh": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "en",
+        "zh"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "logo": {
+      "default": "",
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "country": {
+      "default": "CN",
+      "type": "string"
+    },
+    "category": {
+      "default": "nev",
+      "type": "string",
+      "enum": [
+        "nev",
+        "fuel",
+        "joint"
+      ]
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "default": "",
+          "type": "string"
+        },
+        "zh": {
+          "default": "",
+          "type": "string"
+        }
+      }
+    },
+    "featured": {
+      "default": false,
+      "type": "boolean"
+    },
+    "order": {
+      "default": 0,
+      "type": "number"
+    },
+    "vehicleCount": {
+      "type": "number"
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "names",
+    "slug",
+    "description"
+  ]
+}

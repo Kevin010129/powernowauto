@@ -1,0 +1,148 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "names": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "zh": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "en",
+        "zh"
+      ]
+    },
+    "slug": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "SEDAN",
+        "SUV",
+        "MPV",
+        "MINI",
+        "LCV",
+        "SPORTS",
+        "OFFROAD"
+      ]
+    },
+    "fuelType": {
+      "type": "string",
+      "enum": [
+        "electric",
+        "plug_in_hybrid",
+        "extended_range",
+        "petrol"
+      ]
+    },
+    "year": {
+      "type": "number"
+    },
+    "images": {
+      "default": [],
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "specs": {
+      "type": "object",
+      "properties": {
+        "range_km": {
+          "type": "number"
+        },
+        "battery_kwh": {
+          "type": "number"
+        },
+        "power_kw": {
+          "type": "number"
+        },
+        "top_speed_kmh": {
+          "type": "number"
+        },
+        "seats": {
+          "type": "number"
+        },
+        "drive": {
+          "type": "string"
+        },
+        "length_mm": {
+          "type": "number"
+        },
+        "width_mm": {
+          "type": "number"
+        },
+        "height_mm": {
+          "type": "number"
+        },
+        "charging_fast": {
+          "type": "string"
+        },
+        "charging_slow": {
+          "type": "string"
+        },
+        "engine": {
+          "type": "string"
+        },
+        "transmission": {
+          "type": "string"
+        }
+      }
+    },
+    "featured": {
+      "default": false,
+      "type": "boolean"
+    },
+    "inStock": {
+      "default": true,
+      "type": "boolean"
+    },
+    "isNew": {
+      "default": false,
+      "type": "boolean"
+    },
+    "order": {
+      "default": 0,
+      "type": "number"
+    },
+    "description": {
+      "type": "object",
+      "properties": {
+        "en": {
+          "default": "",
+          "type": "string"
+        },
+        "zh": {
+          "default": "",
+          "type": "string"
+        }
+      }
+    },
+    "$schema": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "names",
+    "slug",
+    "brand",
+    "type",
+    "fuelType",
+    "year",
+    "specs",
+    "description"
+  ]
+}

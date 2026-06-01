@@ -1,0 +1,84 @@
+---
+export async function getStaticPaths() {
+  return [{ params: { lang: "zh" } }, { params: { lang: "en" } }];
+}
+
+import MainLayout from "../../layouts/MainLayout.astro";
+import { getLangFromUrl } from "../../i18n/utils";
+import { getCollection } from "astro:content";
+
+const lang = getLangFromUrl(Astro.url);
+const isZh = lang === "zh";
+const baseUrl = lang === "zh" ? "" : "/en";
+
+const brands = await getCollection("brands");
+const vehicles = await getCollection("vehicles");
+
+// Group by brand and count
+const brandStats = new Map();
+for (const v of vehicles) {
+  const count = brandStats.get(v.data.brand) || 0;
+  brandStats.set(v.data.brand, count + 1);
+}
+
+// Sort: CH brands first, then by vehicle count
+const sorted = brands.sort((a, b) => {
+  const aCat = a.data.category === "nev" ? 0 : 1;
+  const bCat = b.data.category === "nev" ? 0 : 1;
+  if (aCat !== bCat) return aCat - bCat;
+  const aCount = brandStats.get(a.id) || 0;
+  const bCount = brandStats.get(b.id) || 0;
+  return bCount - aCount;
+});
+
+const title = isZh ? "品牌专区 — PowerNowAuto" : "Brands — PowerNowAuto";
+const description = isZh ? "50+中国及海外汽车品牌，一站式浏览。" : "50+ Chinese and international auto brands.";
+---
+
+<MainLayout {title} {description}>
+  <section class="bg-primary text-white py-16">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h1 class="text-3xl md:text-4xl font-extrabold">{isZh ? "品牌专区" : "Brands"}</h1>
+      <p class="text-blue-200 mt-2">{isZh ? `${brands.length} 个品牌 · ${vehicles.length} 款车型` : `${brands.length} brands · ${vehicles.length} models`}</p>
+    </div>
+  </section>
+
+  <section class="section bg-white">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <!-- CH Brands -->
+      <h2 class="text-xl font-bold text-gray-900 mb-6">{isZh ? "中国品牌" : "Chinese Brands"}</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 mb-16">
+        {sorted.filter(b => b.data.category === "nev").map(b => {
+          const count = brandStats.get(b.id) || 0;
+          const name = isZh ? b.data.names.zh : b.data.names.en;
+          return (
+            <a href={`${baseUrl}/brands/${b.data.slug}/`} class="card-hover group bg-white rounded-2xl border border-gray-100 p-5 text-center">
+              <div class="w-14 h-14 mx-auto bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl flex items-center justify-center mb-3 group-hover:shadow-md transition-shadow">
+                <span class="text-sm font-extrabold text-primary">{name.substring(0, 2)}</span>
+              </div>
+              <p class="text-sm font-bold text-gray-900 group-hover:text-primary transition-colors">{name}</p>
+              <p class="text-xs text-gray-400 mt-1">{count} {isZh ? "款" : "models"}</p>
+            </a>
+          );
+        })}
+      </div>
+      <!-- International Brands -->
+      <h2 class="text-xl font-bold text-gray-900 mb-6">{isZh ? "海外品牌" : "International Brands"}</h2>
+      <div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
+        {sorted.filter(b => b.data.category === "fuel").map(b => {
+          const count = brandStats.get(b.id) || 0;
+          const name = isZh ? b.data.names.zh : b.data.names.en;
+          return (
+            <a href={`${baseUrl}/brands/${b.data.slug}/`} class="card-hover group bg-white rounded-2xl border border-gray-100 p-5 text-center">
+              <div class="w-14 h-14 mx-auto bg-gradient-to-br from-gray-50 to-gray-100 rounded-2xl flex items-center justify-center mb-3 group-hover:shadow-md transition-shadow">
+                <span class="text-sm font-extrabold text-primary">{name.substring(0, 2)}</span>
+              </div>
+              <p class="text-sm font-bold text-gray-900 group-hover:text-primary transition-colors">{name}</p>
+              <p class="text-xs text-gray-400 mt-1">{count} {isZh ? "款" : "models"}</p>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+</MainLayout>
