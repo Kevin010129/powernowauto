@@ -5,7 +5,7 @@ import sitemap from "@astrojs/sitemap";
 import alpinejs from "@astrojs/alpinejs";
 
 export default defineConfig({
-  site: "https://www.powernowauto.cn",
+  site: "https://powernowauto.pages.dev",
   integrations: [sitemap({
     i18n: {
       defaultLocale: "zh",
