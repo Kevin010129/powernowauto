@@ -85,7 +85,7 @@ const description = isZh ? "浏览全系列车型。" : "Browse our full vehicle
               <div class="aspect-[4/3] bg-slate-100 flex items-center justify-center overflow-hidden relative">
                 <img src={v.images[0]} alt={name} loading="lazy"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                  onerror="this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22400%22 height=%22300%22><rect fill=%22%23f1f5f9%22 width=%22400%22 height=%22300%22/><text x=%22200%22 y=%22150%22 text-anchor=%22middle%22 fill=%22%2394a3b8%22 font-size=%2216%22>' + encodeURIComponent(name) + '</text></svg>'"
+                  onerror="this.remove()"
                 />
                 <div class="absolute top-2 left-2 flex gap-1">
                   {v.inStock && <span class="text-[10px] bg-emerald-500 text-white px-1.5 py-0.5 rounded font-medium">{t("product.inStock")}</span>}
