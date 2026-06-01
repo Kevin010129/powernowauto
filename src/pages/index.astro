@@ -5,255 +5,121 @@ export async function getStaticPaths() {
 
 import MainLayout from "../layouts/MainLayout.astro";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
-import { getCollection } from "astro:content";
 
 const lang = getLangFromUrl(Astro.url);
 const { t } = useTranslations(lang);
 const isZh = lang === "zh";
-
-const vehicles = await getCollection("vehicles");
-const featuredVehicles = vehicles
-  .filter((v) => v.data.featured)
-  .sort((a, b) => a.data.order - b.data.order)
-  .slice(0, 8);
-
-const brands = await getCollection("brands");
-const brandMap = new Map(brands.map((b) => [b.id, b.data]));
-
-const newsItems = [
-  { slug: "xiaomi-yu7-2026-launch", title: { en: "Xiaomi YU7 2026 Officially Launched — 760km Range SUV", zh: "小米YU7 2026正式上市——760km续航SUV" }, date: "2026-05-15", excerpt: { en: "Xiaomi's second EV model enters the market with impressive specs.", zh: "小米第二款电动汽车以惊人配置进入市场。" } },
-  { slug: "byd-xia-mpv-2025", title: { en: "BYD Xia MPV — A New Era for Family Mobility", zh: "比亚迪夏MPV——家用出行新纪元" }, date: "2025-12-20", excerpt: { en: "BYD expands MPV lineup with the all-new Xia model.", zh: "比亚迪以全新夏车型扩展MPV产品线。" } },
-  { slug: "china-auto-export-surge", title: { en: "China Auto Exports Hit Record in 2025", zh: "2025年中国汽车出口创历史新高" }, date: "2025-11-08", excerpt: { en: "China surpasses all countries in global vehicle exports.", zh: "中国在全球汽车出口中超越所有国家。" } },
-  { slug: "li-auto-mega-sales", title: { en: "Li Auto Mega Surpasses 50,000 Deliveries", zh: "理想MEGA交付量突破50,000辆" }, date: "2025-10-22", excerpt: { en: "The flagship electric MPV reaches a major milestone.", zh: "这款旗舰纯电MPV达成重要里程碑。" } },
-];
+const baseUrl = lang === "zh" ? "" : "/en";
 
 const title = isZh
-  ? "PowerNowAuto — 中国新能源汽车出口专家 | 常州汽车进出口"
-  : "PowerNowAuto — China Auto Export Specialist | NEV & Fuel Vehicles";
+  ? "PowerNowAuto — 常州汽车进出口 | 新能源与燃油车出口专家"
+  : "PowerNowAuto — China Auto Export | NEV & Fuel Vehicles";
 
 const description = isZh
-  ? "PowerNowAuto 位于江苏常州，专业从事新能源车与燃油车出口。覆盖30+品牌、200+车型，提供一站式全球汽车采购与出口服务。"
-  : "PowerNowAuto based in Changzhou, China — professional export of NEV and fuel vehicles. 30+ brands, 200+ models, one-stop global auto sourcing and export.";
+  ? "PowerNowAuto 位于江苏常州，专业从事新能源车与燃油车出口。覆盖50+品牌、380+车型，提供一站式全球汽车采购与出口服务。"
+  : "PowerNowAuto based in Changzhou, China — professional export of NEV and fuel vehicles. 50+ brands, 380+ models, one-stop global auto export.";
 ---
 
 <MainLayout {title} {description}>
   <!-- HERO -->
-  <section class="relative bg-gradient-to-br from-primary via-slate-900 to-primary-dark text-white overflow-hidden">
+  <section class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 text-white overflow-hidden min-h-[90vh] flex items-center">
     <div class="absolute inset-0">
-      <div class="absolute top-20 right-10 w-96 h-96 bg-accent/20 rounded-full blur-[120px]"></div>
-      <div class="absolute bottom-0 left-10 w-80 h-80 bg-blue-500/20 rounded-full blur-[100px]"></div>
-      <div class="absolute inset-0 opacity-[0.03]" style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 40px 40px;"></div>
+      <div class="absolute top-20 right-10 w-[500px] h-[500px] bg-accent/20 rounded-full blur-[150px]"></div>
+      <div class="absolute bottom-20 left-10 w-[400px] h-[400px] bg-blue-500/15 rounded-full blur-[120px]"></div>
+      <div class="absolute inset-0 opacity-[0.02]" style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 50px 50px;"></div>
     </div>
-    <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-28 md:py-40">
+    <div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
       <div class="max-w-3xl">
         <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/10 mb-8">
           <span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-          <span class="text-sm text-blue-100">{t("home.badge")}</span>
+          <span class="text-sm text-slate-300">{t("home.badge")}</span>
         </div>
         <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 tracking-tight">
-          {t("home.heroTitle")}
+          {isZh ? "中国汽车出口" : "Your Gateway to"}
+          <br/>
+          <span class="bg-clip-text text-transparent bg-gradient-to-r from-accent to-amber-400">
+            {isZh ? "值得信赖的伙伴" : "China's Finest Vehicles"}
+          </span>
         </h1>
-        <p class="text-lg md:text-xl text-blue-100/80 mb-4 max-w-xl leading-relaxed">
+        <p class="text-lg md:text-xl text-slate-300/80 mb-4 max-w-xl leading-relaxed">
           {t("home.heroSubtitle")}
         </p>
         <div class="flex flex-wrap gap-4 mt-10">
-          <a href={`${lang === "zh" ? "" : "/en"}/products/`} class="btn-primary text-lg px-8 py-4">
+          <a href={`${baseUrl}/products/`} class="inline-flex items-center px-8 py-4 bg-accent hover:bg-accent-hover text-white font-bold rounded-xl transition-all duration-200 shadow-xl shadow-accent/25 text-lg">
             {t("home.heroCta")}
             <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
           </a>
-          <a href="#company" class="btn-outline text-lg px-8 py-4">{t("home.heroAbout")}</a>
+          <a href="#about" class="inline-flex items-center px-8 py-4 border-2 border-white/20 hover:border-white/50 hover:bg-white/5 text-white font-bold rounded-xl transition-all duration-200 text-lg">
+            {t("home.heroAbout")}
+          </a>
         </div>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-20">
-        {[{ num: "35+", label: t("home.stats_brands") },{ num: "200+", label: t("home.stats_models") },{ num: "50+", label: t("home.stats_countries") },{ num: "1000+", label: t("home.stats_clients") }].map((s) => (
+
+      <!-- Stats -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-20">
+        {[
+          { num: "50+", label: t("home.stats_brands") },
+          { num: "380+", label: t("home.stats_models") },
+          { num: "50+", label: t("home.stats_countries") },
+          { num: "1000+", label: t("home.stats_clients") },
+        ].map((s) => (
           <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
             <div class="text-3xl md:text-4xl font-bold text-white">{s.num}</div>
-            <div class="text-blue-200/60 text-sm mt-1">{s.label}</div>
+            <div class="text-slate-400 text-sm mt-1">{s.label}</div>
           </div>
         ))}
       </div>
     </div>
-    <div class="absolute bottom-0 left-0 right-0">
-      <svg viewBox="0 0 1440 80" fill="none" class="w-full"><path fill="white" d="M0 80L48 66.7C96 53 192 27 288 20C384 13 480 27 576 33.3C672 40 768 40 864 33.3C960 27 1056 13 1152 13.3C1248 13 1344 27 1392 33.3L1440 40V80H0z"/></svg>
-    </div>
   </section>
 
-  <!-- COMPANY INTRO -->
-  <section id="company" class="section bg-white">
+  <!-- ABOUT / COMPANY INTRO -->
+  <section id="about" class="py-24 md:py-32 bg-white">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-2 gap-16 items-center">
         <div>
           <div class="w-12 h-1 bg-accent rounded-full mb-6"></div>
-          <h2 class="text-3xl md:text-4xl font-extrabold text-gray-900 mb-6">{t("home.companyIntro")}</h2>
-          <p class="text-gray-500 leading-relaxed text-lg mb-6">{t("home.companyDesc")}</p>
-          <a href={`${lang === "zh" ? "" : "/en"}/contact/`} class="btn-primary">
-            {t("home.contactUs")}
+          <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">{t("home.companyIntro")}</h2>
+          <p class="text-slate-500 leading-relaxed text-lg mb-8">{t("home.companyDesc")}</p>
+          <a href={`${baseUrl}/products/`} class="inline-flex items-center px-6 py-3.5 bg-accent hover:bg-accent-hover text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-accent/20">
+            {t("home.heroCta")}
             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
           </a>
         </div>
         <div class="relative">
-          <div class="aspect-[4/3] bg-gradient-to-br from-primary/5 to-primary/10 rounded-2xl flex items-center justify-center overflow-hidden border border-gray-100">
+          <div class="aspect-[4/3] bg-gradient-to-br from-slate-50 to-slate-100 rounded-2xl flex items-center justify-center overflow-hidden border border-slate-200">
             <div class="text-center">
-              <svg class="w-24 h-24 text-primary/20 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" d="M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z M13 16V6a1 1 0 00-1-1H4a1 1 0 00-1 1v10a1 1 0 001 1h1m8-1a1 1 0 01-1 1H9m4-1V8a1 1 0 011-1h2.586a1 1 0 01.707.293l3.414 3.414a1 1 0 01.293.707V16a1 1 0 01-1 1h-1"/></svg>
-              <p class="text-gray-400 mt-4">{isZh ? "PowerNowAuto — 全球汽车出口服务" : "PowerNowAuto — Global Auto Export"}</p>
+              <svg class="w-24 h-24 text-slate-300 mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="0.5" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"/></svg>
+              <p class="text-slate-400 text-sm">{isZh ? "PowerNowAuto — 常州总部" : "PowerNowAuto — Changzhou HQ"}</p>
             </div>
           </div>
+          <!-- Decorative element -->
+          <div class="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/10 rounded-3xl -z-10"></div>
+          <div class="absolute -top-6 -left-6 w-24 h-24 bg-amber-400/10 rounded-3xl -z-10"></div>
         </div>
       </div>
     </div>
   </section>
 
   <!-- WHY CHOOSE US -->
-  <section class="section bg-gray-warm">
+  <section class="py-24 md:py-32 bg-slate-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="section-heading">{t("home.whyTitle")}</h2>
-      <p class="section-subheading">{isZh ? "以专业和诚信赢得全球客户信赖" : "Earning global trust through expertise and integrity"}</p>
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-4">{t("home.whyTitle")}</h2>
+      <p class="text-slate-500 text-center max-w-2xl mx-auto mb-16">{isZh ? "以专业和诚信赢得全球客户信赖" : "Earning global trust through expertise and integrity"}</p>
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
         {[
-          { key: "Pricing", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "bg-emerald-500", bg: "bg-emerald-50" },
-          { key: "Quality", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z", color: "bg-blue-500", bg: "bg-blue-50" },
-          { key: "Logistics", icon: "M9 17a2 2 0 11-4 0 2 2 0 014 0zM19 17a2 2 0 11-4 0 2 2 0 014 0z", color: "bg-violet-500", bg: "bg-violet-50" },
-          { key: "Support", icon: "M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0z", color: "bg-amber-500", bg: "bg-amber-50" },
+          { key: "Pricing", color: "bg-emerald-500", bg: "bg-emerald-50" },
+          { key: "Quality", color: "bg-blue-500", bg: "bg-blue-50" },
+          { key: "Logistics", color: "bg-violet-500", bg: "bg-violet-50" },
+          { key: "Support", color: "bg-amber-500", bg: "bg-amber-50" },
         ].map((f) => (
-          <div class="group p-8 rounded-2xl border border-gray-100 bg-white hover:shadow-xl transition-all duration-300">
+          <div class="group p-8 rounded-2xl border border-slate-200 bg-white hover:shadow-xl transition-all duration-300">
             <div class={`w-14 h-14 ${f.bg} rounded-xl flex items-center justify-center mb-5 group-hover:scale-110 transition-transform`}>
               <div class={`w-3 h-3 rounded-full ${f.color}`}></div>
             </div>
-            <h3 class="text-lg font-bold text-gray-900 mb-3">{t(`home.why${f.key}`)}</h3>
-            <p class="text-sm text-gray-500 leading-relaxed">{t(`home.why${f.key}Desc`)}</p>
+            <h3 class="text-lg font-bold text-slate-900 mb-3">{t(`home.why${f.key}`)}</h3>
+            <p class="text-sm text-slate-500 leading-relaxed">{t(`home.why${f.key}Desc`)}</p>
           </div>
         ))}
-      </div>
-    </div>
-  </section>
-
-  <!-- FEATURED MODELS -->
-  <section class="section bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-end justify-between mb-10">
-        <div>
-          <div class="w-12 h-1 bg-accent rounded-full mb-3"></div>
-          <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900">{t("home.featuredModels")}</h2>
-          <p class="text-gray-400 text-sm mt-1">{isZh ? "最新上市的热门车型" : "Hot new models just launched"}</p>
-        </div>
-        <a href={`${lang === "zh" ? "" : "/en"}/products/`} class="hidden md:inline-flex items-center gap-2 text-accent hover:text-accent-hover font-semibold text-sm transition-colors group">
-          {t("home.viewAll")}
-          <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
-        {featuredVehicles.map((vehicle) => {
-          const v = vehicle.data;
-          const bd = brandMap.get(v.brand);
-          const name = isZh ? v.names.zh : v.names.en;
-          const brandName = isZh ? (bd?.names.zh ?? v.brand) : (bd?.names.en ?? v.brand);
-          const prefix = lang === "zh" ? "" : "/en";
-          return (
-            <a href={`${prefix}/products/${v.slug}/`} class="card-hover group bg-white rounded-2xl border border-gray-100 overflow-hidden">
-              <div class="aspect-[4/3] bg-gradient-to-br from-gray-50 to-gray-100 flex items-center justify-center overflow-hidden relative">
-                {v.images[0] ? (
-                  <img src={v.images[0]} alt={name} class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
-                ) : (
-                  <div class="text-gray-400 text-sm">{name}</div>
-                )}
-                <div class="absolute top-3 left-3 flex gap-1.5">
-                  <span class="badge-green text-[10px]">{t("product.inStock")}</span>
-                  {v.isNew && <span class="badge-blue text-[10px]">{t("product.new")}</span>}
-                </div>
-              </div>
-              <div class="p-4">
-                <p class="text-[11px] text-gray-400 font-semibold uppercase tracking-widest">{brandName}</p>
-                <h3 class="text-sm font-bold text-gray-900 mt-1 group-hover:text-primary transition-colors line-clamp-1">{name}</h3>
-                <div class="flex items-center justify-between mt-3">
-                  <div class="flex gap-1">
-                    <span class="badge-blue text-[10px]">{t(`filter.${v.type.toLowerCase()}`)}</span>
-                    <span class="badge-amber text-[10px]">{v.year}</span>
-                  </div>
-                  <svg class="w-4 h-4 text-gray-300 group-hover:text-accent group-hover:translate-x-1 transition-all" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-                </div>
-              </div>
-            </a>
-          );
-        })}
-      </div>
-    </div>
-  </section>
-
-  <!-- NEWS -->
-  <section class="section bg-gray-warm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-end justify-between mb-10">
-        <div>
-          <div class="w-12 h-1 bg-accent rounded-full mb-3"></div>
-          <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900">{t("home.latestNews")}</h2>
-          <p class="text-gray-400 text-sm mt-1">{isZh ? "中国汽车行业最新动态" : "Latest from China's auto industry"}</p>
-        </div>
-        <a href={`${lang === "zh" ? "" : "/en"}/news/`} class="hidden md:inline-flex items-center gap-2 text-accent hover:text-accent-hover font-semibold text-sm transition-colors group">
-          {t("home.viewAll")}
-          <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
-        </a>
-      </div>
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {newsItems.map((item) => {
-          const prefix = lang === "zh" ? "" : "/en";
-          return (
-            <a href={`${prefix}/news/${item.slug}/`} class="card-hover group bg-white rounded-2xl border border-gray-100 overflow-hidden">
-              <div class="aspect-[16/9] bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
-                <svg class="w-10 h-10 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2"/></svg>
-              </div>
-              <div class="p-5">
-                <p class="text-xs text-gray-400 mb-2">{item.date}</p>
-                <h3 class="text-sm font-bold text-gray-900 group-hover:text-primary transition-colors line-clamp-2">{item.title[lang as keyof typeof item.title] || item.title.en}</h3>
-              </div>
-            </a>
-          );
-        })}
-      </div>
-    </div>
-  </section>
-
-  <!-- CONTACT FORM -->
-  <section class="section bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="section-heading">{t("home.contactUs")}</h2>
-      <p class="section-subheading">{t("contact.subheading")}</p>
-      <div class="max-w-xl mx-auto">
-        <form action="https://api.web3forms.com/submit" method="POST" class="bg-gray-warm rounded-2xl p-8 md:p-10 border border-gray-100">
-          <input type="hidden" name="access_key" value="YOUR_WEB3FORMS_KEY" />
-          <input type="hidden" name="subject" value={`PowerNowAuto inquiry (${lang})`} />
-          <input type="checkbox" name="botcheck" class="hidden" style="display:none" />
-          <div class="space-y-5">
-            <div class="grid md:grid-cols-2 gap-5">
-              <div>
-                <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">{t("contact.name")} *</label>
-                <input type="text" name="name" required class="w-full px-4 py-3 border-2 border-gray-100 rounded-xl focus:outline-none focus:border-primary/30 focus:ring-4 focus:ring-primary/5 text-sm bg-white" />
-              </div>
-              <div>
-                <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">{t("contact.email")} *</label>
-                <input type="email" name="email" required class="w-full px-4 py-3 border-2 border-gray-100 rounded-xl focus:outline-none focus:border-primary/30 focus:ring-4 focus:ring-primary/5 text-sm bg-white" />
-              </div>
-            </div>
-            <div class="grid md:grid-cols-2 gap-5">
-              <div>
-                <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">{t("contact.phone")}</label>
-                <input type="text" name="phone" class="w-full px-4 py-3 border-2 border-gray-100 rounded-xl focus:outline-none focus:border-primary/30 focus:ring-4 focus:ring-primary/5 text-sm bg-white" />
-              </div>
-              <div>
-                <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">{t("contact.company")}</label>
-                <input type="text" name="company" class="w-full px-4 py-3 border-2 border-gray-100 rounded-xl focus:outline-none focus:border-primary/30 focus:ring-4 focus:ring-primary/5 text-sm bg-white" />
-              </div>
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">{t("contact.vehicles")}</label>
-              <input type="text" name="vehicles" class="w-full px-4 py-3 border-2 border-gray-100 rounded-xl focus:outline-none focus:border-primary/30 focus:ring-4 focus:ring-primary/5 text-sm bg-white" />
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-gray-700 uppercase tracking-wider mb-2">{t("contact.message")} *</label>
-              <textarea name="message" rows="4" required class="w-full px-4 py-3 border-2 border-gray-100 rounded-xl focus:outline-none focus:border-primary/30 focus:ring-4 focus:ring-primary/5 text-sm bg-white resize-none"></textarea>
-            </div>
-            <button type="submit" class="btn-primary w-full justify-center py-4 text-base">{t("contact.send")}</button>
-          </div>
-        </form>
       </div>
     </div>
   </section>
