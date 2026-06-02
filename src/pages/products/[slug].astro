@@ -48,32 +48,32 @@ const relatedVehicles = vehicles.filter((rv) => rv.data.brand === v.brand && rv.
 ---
 
 <MainLayout title={`${name} — 常州后浪新能源汽车进出口有限公司`} description={v.description[lang as keyof typeof v.description]}>
-  <section class="py-12 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <nav class="text-sm text-slate-400 mb-6">
-        <a href={`${baseUrl}/`} class="hover:text-accent">{t("nav.home")}</a>
+  <section class="py-12 md:py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <nav class="text-sm text-apple-text-secondary mb-8">
+        <a href={`${baseUrl}/`} class="hover:text-apple-blue transition-colors">{t("nav.home")}</a>
         <span class="mx-2">/</span>
-        <a href={`${baseUrl}/products/`} class="hover:text-accent">{t("nav.products")}</a>
+        <a href={`${baseUrl}/products/`} class="hover:text-apple-blue transition-colors">{t("nav.products")}</a>
         <span class="mx-2">/</span>
-        <span class="text-slate-600">{name}</span>
+        <span class="text-apple-text">{name}</span>
       </nav>
 
-      <div class="grid lg:grid-cols-2 gap-10">
+      <div class="grid lg:grid-cols-2 gap-12 lg:gap-16">
         <!-- Image Carousel -->
         <div>
-          <div class="relative rounded-xl overflow-hidden bg-primary-light border border-white/5" id="carousel">
+          <div class="relative rounded-2xl overflow-hidden bg-apple-gray" id="carousel">
             <div class="aspect-[4/3] flex items-center justify-center overflow-hidden">
-              <img id="main-image" src={v.images[0]} alt={name} class="w-full h-full object-contain" />
+              <img id="main-image" src={v.images[0]} alt={name} class="w-full h-full object-cover" />
             </div>
-            <button onclick="prevImage()" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors border border-white/10">
-              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            <button onclick="prevImage()" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white transition-colors shadow-sm">
+              <svg class="w-4 h-4 text-apple-text" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
             </button>
-            <button onclick="nextImage()" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors border border-white/10">
-              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            <button onclick="nextImage()" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/80 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white transition-colors shadow-sm">
+              <svg class="w-4 h-4 text-apple-text" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </button>
             <div class="flex gap-2 mt-3 justify-center" id="thumbnails">
               {v.images.map((img, i) => (
-                <button onclick={`setImage(${i})`} class={`w-14 h-10 rounded-md overflow-hidden border-2 transition-all duration-200 ${i === 0 ? 'border-gold shadow-sm shadow-gold/20' : 'border-white/10 hover:border-white/30'}`}>
+                <button onclick={`setImage(${i})`} class={`w-12 h-9 rounded-md overflow-hidden border-2 transition-all duration-200 ${i === 0 ? 'border-apple-blue' : 'border-transparent hover:border-gray-300'}`}>
                   <img src={img} alt="" class="w-full h-full object-cover" loading="lazy" onerror="this.remove()" />
                 </button>
               ))}
@@ -83,36 +83,36 @@ const relatedVehicles = vehicles.filter((rv) => rv.data.brand === v.brand && rv.
 
         <!-- Details -->
         <div>
-          <p class="text-sm text-gold font-bold uppercase tracking-wide">{brandName}</p>
-          <h1 class="text-3xl font-extrabold mt-1 mb-3 text-white">{name}</h1>
-          <p class="text-gray-400 text-sm leading-relaxed mb-5">{v.description[lang as keyof typeof v.description]}</p>
+          <p class="text-sm text-apple-blue font-semibold uppercase tracking-wide">{brandName}</p>
+          <h1 class="text-3xl md:text-4xl font-extrabold mt-1 mb-3 text-apple-text">{name}</h1>
+          <p class="text-apple-text-secondary text-base leading-relaxed mb-5">{v.description[lang as keyof typeof v.description]}</p>
 
-          <div class="flex flex-wrap gap-1.5 mb-6">
-            <span class="text-xs bg-white/5 text-gray-300 px-2.5 py-1 rounded-full border border-white/5">{typeLabel}</span>
-            <span class="text-xs bg-white/5 text-gray-300 px-2.5 py-1 rounded-full border border-white/5">{fuelLabel}</span>
-            {v.specs.drive && <span class="text-xs bg-white/5 text-gray-300 px-2.5 py-1 rounded-full border border-white/5">{v.specs.drive}</span>}
-            <span class="text-xs bg-white/5 text-gray-300 px-2.5 py-1 rounded-full border border-white/5">{v.year}</span>
+          <div class="flex flex-wrap gap-2 mb-8">
+            <span class="badge-gray">{typeLabel}</span>
+            <span class="badge-gray">{fuelLabel}</span>
+            {v.specs.drive && <span class="badge-gray">{v.specs.drive}</span>}
+            <span class="badge-gray">{v.year}</span>
             {v.inStock && <span class="badge-green">{t("product.inStock")}</span>}
           </div>
 
           <!-- Specs -->
           {specItems.length > 0 && (
-            <div class="mb-6">
-              <h3 class="font-bold text-white mb-3">{t("product.specs")}</h3>
-              <div class="grid grid-cols-2 gap-2">
+            <div class="mb-8">
+              <h3 class="text-lg font-bold text-apple-text mb-4">{t("product.specs")}</h3>
+              <div class="grid grid-cols-2 gap-3">
                 {specItems.map((s: any) => (
-                  <div class="bg-primary-light border border-white/5 rounded-lg p-3">
-                    <p class="text-[10px] text-gray-500 font-semibold uppercase">{s.label}</p>
-                    <p class="text-sm font-bold text-white">{s.value}</p>
+                  <div class="bg-apple-gray rounded-xl p-4">
+                    <p class="text-xs text-apple-text-secondary font-medium uppercase tracking-wide">{s.label}</p>
+                    <p class="text-base font-bold text-apple-text mt-1">{s.value}</p>
                   </div>
                 ))}
               </div>
             </div>
           )}
 
-          <a href={`${baseUrl}/contact/`} class="btn-primary">
+          <a href={`${baseUrl}/contact/`} class="btn-primary text-base">
             {t("product.inquireNow")}
-            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
           </a>
         </div>
       </div>
@@ -121,18 +121,18 @@ const relatedVehicles = vehicles.filter((rv) => rv.data.brand === v.brand && rv.
 
   <!-- Related -->
   {relatedVehicles.length > 0 && (
-    <section class="py-12 bg-primary-dark">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-lg font-bold text-white mb-5">{isZh ? `更多${brandName}车型` : `More from ${brandName}`}</h2>
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+    <section class="py-16 md:py-20 bg-apple-gray">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="text-xl font-bold text-apple-text mb-8">{isZh ? `更多${brandName}车型` : `More from ${brandName}`}</h2>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
           {relatedVehicles.map((rv) => {
             const rn = isZh ? rv.data.names.zh : rv.data.names.en;
             return (
-              <a href={`${baseUrl}/products/${rv.data.slug}/`} class="group card card-hover">
-                <div class="aspect-[4/3] bg-primary-light flex items-center justify-center">
-                  <img src={rv.data.images[0]} alt={rn} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.remove()" />
+              <a href={`${baseUrl}/products/${rv.data.slug}/`} class="vehicle-card">
+                <div class="aspect-[4/3] bg-apple-gray flex items-center justify-center">
+                  <img src={rv.data.images[0]} alt={rn} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" onerror="this.remove()" />
                 </div>
-                <div class="p-3"><p class="text-xs font-medium text-gray-300 truncate">{rn}</p></div>
+                <div class="p-3"><p class="text-sm font-medium text-apple-text truncate">{rn}</p></div>
               </a>
             );
           })}
