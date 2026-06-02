@@ -1,49 +1,118 @@
 @import "tailwindcss";
 
+/* ═══════════════════════════════════════════
+   PowerNowAuto Design System v4 — Apple Style
+   极简 · 大留白 · 高对比度 · 微妙阴影
+   ═══════════════════════════════════════════ */
+
 @theme {
-  --color-primary: #1a1a2e;
-  --color-primary-dark: #0f0f1a;
-  --color-primary-light: #16213e;
-  --color-accent: #e63946;
-  --color-accent-hover: #c1121f;
-  --color-accent-light: #fecaca;
-  --color-gold: #f59e0b;
-  --color-gold-light: #fef3c7;
-  --color-gray-warm: #f8f7f4;
-  --color-gray-cool: #f1f5f9;
-  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --color-apple-blue: #0071e3;
+  --color-apple-blue-hover: #0077ed;
+  --color-apple-gray: #f5f5f7;
+  --color-apple-gray-dark: #e8e8ed;
+  --color-apple-text: #1d1d1f;
+  --color-apple-text-secondary: #86868b;
+  --color-apple-border: #d2d2d7;
+  --font-sans: "Inter", "SF Pro Display", "Noto Sans SC", system-ui, sans-serif;
 }
 
-html { scroll-behavior: smooth; }
-
-body {
-  font-family: var(--font-sans);
-  color: #1e293b;
-  background: #fff;
-  -webkit-font-smoothing: antialiased;
-}
-
-::-webkit-scrollbar { width: 6px; }
+/* ═══════ BASE ═══════ */
+html { scroll-behavior: smooth; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { font-family: var(--font-sans); color: var(--color-apple-text); background: #fff; }
+::selection { background: rgba(0,113,227,0.15); }
+::-webkit-scrollbar { width: 4px; }
 ::-webkit-scrollbar-track { background: transparent; }
-::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 10px; }
+::-webkit-scrollbar-thumb { background: #c7c7cc; border-radius: 10px; }
 
-.section { @apply py-20 md:py-28; }
+/* ═══════ GRADIENT TEXT (Apple Style Blue) ═══════ */
+.gradient-text {
+  background: linear-gradient(135deg, #0071e3 0%, #42a5f5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
-.section-heading { @apply text-3xl md:text-4xl lg:text-5xl font-extrabold text-center mb-4 tracking-tight; }
+/* ═══════ SECTION ═══════ */
+.section { @apply py-24 md:py-32; }
+.section-gray { @apply py-24 md:py-32 bg-apple-gray; }
+.section-white { @apply py-24 md:py-32 bg-white; }
 
-.section-subheading { @apply text-gray-500 text-center max-w-2xl mx-auto mb-14 text-base md:text-lg; }
+.section-heading {
+  @apply text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tight text-apple-text;
+}
 
-.card-hover { @apply transition-all duration-300 ease-out; }
-.card-hover:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -12px rgba(0, 0, 0, 0.1); }
+.section-subheading {
+  @apply text-apple-text-secondary max-w-2xl mb-16 text-lg md:text-xl leading-relaxed;
+}
 
-.btn-primary { @apply inline-flex items-center px-6 py-3.5 bg-accent hover:bg-accent-hover text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-accent/20 active:scale-95; }
+.section-label {
+  @apply text-sm tracking-[0.15em] uppercase font-semibold text-apple-blue mb-4;
+}
 
-.btn-outline { @apply inline-flex items-center px-6 py-3.5 border-2 border-white/30 hover:border-white/70 hover:bg-white/10 text-white font-semibold rounded-xl transition-all duration-200 backdrop-blur-sm; }
+/* ═══════ CARDS (Apple style) ═══════ */
+.card {
+  @apply bg-white rounded-2xl shadow-sm border border-gray-100 overflow-hidden transition-all duration-300;
+}
 
-.gradient-text { @apply bg-clip-text text-transparent bg-gradient-to-r from-accent to-gold; }
+.card-hover {
+  @apply transition-all duration-300 ease-out;
+}
+.card-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px -12px rgba(0,0,0,0.15);
+}
 
-.glass { @apply bg-white/80 backdrop-blur-lg border border-white/20; }
+.card-glass {
+  @apply bg-white/70 backdrop-blur-xl border border-white/60 rounded-2xl shadow-sm;
+}
 
-.badge-green { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-emerald-100 text-emerald-700; }
-.badge-blue { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-blue-100 text-blue-700; }
-.badge-amber { @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-amber-100 text-amber-700; }
+.vehicle-card {
+  @apply card card-hover;
+}
+
+/* ═══════ BUTTONS (Apple style) ═══════ */
+.btn-primary {
+  @apply inline-flex items-center gap-2 px-6 py-3 bg-apple-blue hover:bg-apple-blue-hover text-white font-semibold rounded-full transition-all duration-200 text-sm active:scale-[0.98];
+}
+
+.btn-outline {
+  @apply inline-flex items-center gap-2 px-6 py-3 border border-apple-border hover:border-apple-blue bg-white hover:bg-apple-blue/[0.04] text-apple-text font-medium rounded-full transition-all duration-200 text-sm;
+}
+
+.btn-ghost {
+  @apply inline-flex items-center gap-2 px-5 py-2.5 text-apple-blue hover:bg-apple-blue/[0.06] font-medium rounded-full transition-all duration-200 text-sm;
+}
+
+/* ═══════ BADGES (Apple style) ═══════ */
+.badge {
+  @apply inline-flex items-center px-2.5 py-1 rounded-full text-xs font-medium;
+}
+.badge-blue { @apply badge bg-apple-blue/8 text-apple-blue; }
+.badge-green { @apply badge bg-emerald-500/8 text-emerald-600; }
+.badge-gray { @apply badge bg-gray-100 text-gray-500; }
+
+/* ═══════ FORM ═══════ */
+input, textarea, select {
+  @apply bg-apple-gray border border-apple-border rounded-xl px-4 py-3 text-sm text-apple-text placeholder-apple-text-secondary/60 focus:outline-none focus:border-apple-blue focus:ring-4 focus:ring-apple-blue/5 transition-all duration-200;
+}
+
+/* ═══════ DIVIDER ═══════ */
+.divider { @apply h-px bg-gray-200; }
+
+/* ═══════ ANIMATIONS (Apple subtle) ═══════ */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.animate-fade-in-up { animation: fadeInUp 0.7s ease-out; }
+
+.stagger > * { opacity: 0; animation: fadeInUp 0.6s ease-out forwards; }
+.stagger > *:nth-child(1) { animation-delay: 0.06s; }
+.stagger > *:nth-child(2) { animation-delay: 0.12s; }
+.stagger > *:nth-child(3) { animation-delay: 0.18s; }
+.stagger > *:nth-child(4) { animation-delay: 0.24s; }
+.stagger > *:nth-child(5) { animation-delay: 0.30s; }
+.stagger > *:nth-child(6) { animation-delay: 0.36s; }
+.stagger > *:nth-child(7) { animation-delay: 0.42s; }
+.stagger > *:nth-child(8) { animation-delay: 0.48s; }

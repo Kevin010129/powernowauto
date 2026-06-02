@@ -20,55 +20,60 @@ const types = ["SEDAN", "SUV", "MPV", "MINI", "LCV", "SPORTS", "OFFROAD"] as con
 const fuelTypes = ["electric", "plug_in_hybrid", "extended_range", "petrol"] as const;
 const years = [2026, 2025, 2024] as const;
 
-const title = isZh ? "产品中心 — 常州后浪新能源汽车进出口有限公司" : "Products — 常州后浪新能源汽车进出口有限公司";
+const title = isZh ? "产品中心 — 常州后浪" : "Products — PowerNowAuto";
 const description = isZh ? "浏览全系列车型。" : "Browse our full vehicle catalog.";
 ---
 
 <MainLayout {title} {description}>
-  <section class="bg-gradient-to-r from-slate-900 to-slate-800 text-white py-12">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h1 class="text-3xl font-extrabold">{t("nav.products")}</h1>
-      <p class="text-slate-300 text-sm mt-1">{isZh ? `${vehicles.length} 款车型 — 新能源与燃油车全覆盖` : `${vehicles.length} models — NEV & fuel vehicles`}</p>
+
+  <!-- Header -->
+  <section class="section-gray">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 text-center">
+      <p class="section-label text-center">{t("nav.products")}</p>
+      <h1 class="text-4xl md:text-5xl font-extrabold text-apple-text mb-3">{t("nav.products")}</h1>
+      <p class="text-apple-text-secondary text-lg">{isZh ? `${vehicles.length} 款车型 — 新能源与燃油车全覆盖` : `${vehicles.length} models — NEV & fuel vehicles`}</p>
     </div>
   </section>
 
-  <section class="py-10 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <!-- Filters -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8 p-5 bg-slate-50 rounded-xl border border-slate-100">
+  <!-- Filters + Grid -->
+  <section class="py-12 bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+
+      <!-- Filters (Apple compact) -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 mb-10 p-6 bg-apple-gray rounded-2xl">
         <div>
-          <label class="block text-xs font-semibold text-slate-500 uppercase mb-1.5">{t("product.filterBrand")}</label>
-          <select id="filter-brand" class="w-full px-3 py-2.5 border border-slate-200 rounded-lg text-sm bg-white focus:ring-2 focus:ring-accent/20 focus:border-accent">
+          <label class="block text-xs font-semibold text-apple-text mb-1.5">{t("product.filterBrand")}</label>
+          <select id="filter-brand" class="w-full px-3 py-2.5 bg-white border border-gray-200 rounded-xl text-sm text-apple-text focus:outline-none focus:border-apple-blue focus:ring-2 focus:ring-apple-blue/5">
             <option value="">{t("product.allBrands")}</option>
             {brands.map((b) => (<option value={b.id}>{isZh ? b.data.names.zh : b.data.names.en}</option>))}
           </select>
         </div>
         <div>
-          <label class="block text-xs font-semibold text-slate-500 uppercase mb-1.5">{t("product.filterType")}</label>
-          <select id="filter-type" class="w-full px-3 py-2.5 border border-slate-200 rounded-lg text-sm bg-white focus:ring-2 focus:ring-accent/20 focus:border-accent">
+          <label class="block text-xs font-semibold text-apple-text mb-1.5">{t("product.filterType")}</label>
+          <select id="filter-type" class="w-full px-3 py-2.5 bg-white border border-gray-200 rounded-xl text-sm text-apple-text focus:outline-none focus:border-apple-blue focus:ring-2 focus:ring-apple-blue/5">
             <option value="">{t("product.allTypes")}</option>
             {types.map((tp) => (<option value={tp}>{t(`filter.${tp.toLowerCase()}`)}</option>))}
           </select>
         </div>
         <div>
-          <label class="block text-xs font-semibold text-slate-500 uppercase mb-1.5">{t("product.filterFuel")}</label>
-          <select id="filter-fuel" class="w-full px-3 py-2.5 border border-slate-200 rounded-lg text-sm bg-white focus:ring-2 focus:ring-accent/20 focus:border-accent">
+          <label class="block text-xs font-semibold text-apple-text mb-1.5">{t("product.filterFuel")}</label>
+          <select id="filter-fuel" class="w-full px-3 py-2.5 bg-white border border-gray-200 rounded-xl text-sm text-apple-text focus:outline-none focus:border-apple-blue focus:ring-2 focus:ring-apple-blue/5">
             <option value="">{t("product.allFuel")}</option>
             {fuelTypes.map((ft) => (<option value={ft}>{t(`filter.${ft}`)}</option>))}
           </select>
         </div>
         <div>
-          <label class="block text-xs font-semibold text-slate-500 uppercase mb-1.5">{t("product.filterYear")}</label>
-          <select id="filter-year" class="w-full px-3 py-2.5 border border-slate-200 rounded-lg text-sm bg-white focus:ring-2 focus:ring-accent/20 focus:border-accent">
+          <label class="block text-xs font-semibold text-apple-text mb-1.5">{t("product.filterYear")}</label>
+          <select id="filter-year" class="w-full px-3 py-2.5 bg-white border border-gray-200 rounded-xl text-sm text-apple-text focus:outline-none focus:border-apple-blue focus:ring-2 focus:ring-apple-blue/5">
             <option value="">{t("product.allYears")}</option>
             {years.map((y) => (<option value={y}>{y}</option>))}
           </select>
         </div>
       </div>
 
-      <p class="text-sm text-slate-400 mb-6" id="results-count">{vehicles.length} {isZh ? "款车型" : "vehicles"}</p>
+      <p class="text-sm text-apple-text-secondary mb-6" id="results-count">{vehicles.length} {isZh ? "款车型" : "vehicles"}</p>
 
-      <!-- Product Grid - all rendered at build time, filtered by JS -->
+      <!-- Product Grid -->
       <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6" id="product-grid">
         {vehicles.map((vehicle) => {
           const v = vehicle.data;
@@ -79,33 +84,33 @@ const description = isZh ? "浏览全系列车型。" : "Browse our full vehicle
           const typeLabel = isZh ? (v.type === 'SEDAN' ? '轿车' : v.type === 'SUV' ? 'SUV' : v.type === 'MPV' ? 'MPV' : v.type === 'MINI' ? '微型' : v.type) : v.type;
           return (
             <a href={`${baseUrl}/products/${v.slug}/`}
-              class="group bg-white rounded-xl border border-slate-100 overflow-hidden hover:shadow-lg hover:border-slate-200 transition-all duration-300"
+              class="vehicle-card"
               data-brand={v.brand} data-type={v.type} data-fuel={v.fuelType} data-year={String(v.year)}
             >
-              <div class="aspect-[4/3] bg-slate-100 flex items-center justify-center overflow-hidden relative">
+              <div class="aspect-[4/3] bg-apple-gray flex items-center justify-center overflow-hidden relative">
                 <img src={v.images[0]} alt={name} loading="lazy"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                   onerror="this.remove()"
                 />
                 <div class="absolute top-2 left-2 flex gap-1">
-                  {v.inStock && <span class="text-[10px] bg-emerald-500 text-white px-1.5 py-0.5 rounded font-medium">{t("product.inStock")}</span>}
-                  {v.isNew && <span class="text-[10px] bg-accent text-white px-1.5 py-0.5 rounded font-medium">{t("product.new")}</span>}
+                  {v.inStock && <span class="badge-green">{t("product.inStock")}</span>}
+                  {v.isNew && <span class="badge-blue">{t("product.new")}</span>}
                 </div>
               </div>
-              <div class="p-3">
-                <p class="text-[10px] text-slate-400 font-semibold uppercase tracking-wide">{brandName}</p>
-                <h3 class="text-sm font-bold text-slate-900 mt-0.5 group-hover:text-accent transition-colors truncate">{name}</h3>
-                <div class="flex flex-wrap gap-1 mt-2">
-                  <span class="text-[10px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded">{typeLabel}</span>
-                  <span class="text-[10px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded">{fuelLabel}</span>
-                  <span class="text-[10px] text-slate-400">{v.year}</span>
+              <div class="p-3.5">
+                <p class="text-xs text-apple-text-secondary font-medium uppercase tracking-wide">{brandName}</p>
+                <h3 class="text-sm font-bold text-apple-text mt-0.5 mb-2 group-hover:text-apple-blue transition-colors truncate">{name}</h3>
+                <div class="flex flex-wrap gap-1.5">
+                  <span class="badge-gray">{typeLabel}</span>
+                  <span class="badge-gray">{fuelLabel}</span>
+                  <span class="text-xs text-gray-400 ml-1">{v.year}</span>
                 </div>
               </div>
             </a>
           );
         })}
       </div>
-      <p id="no-results" class="text-center text-slate-400 py-16 hidden">{t("product.noResults")}</p>
+      <p id="no-results" class="text-center text-apple-text-secondary py-20 hidden text-lg">{t("product.noResults")}</p>
     </div>
   </section>
 </MainLayout>
@@ -138,7 +143,6 @@ const description = isZh ? "浏览全系列车型。" : "Browse our full vehicle
       noResults.classList.toggle('hidden', visible > 0);
       grid.classList.toggle('hidden', visible === 0);
 
-      // Update URL
       const params = new URLSearchParams();
       if (brand) params.set('brand', brand);
       if (type) params.set('type', type);
@@ -152,14 +156,10 @@ const description = isZh ? "浏览全系列车型。" : "Browse our full vehicle
       document.getElementById(id).addEventListener('change', filter);
     });
 
-    // Init from URL params
     const urlParams = new URLSearchParams(window.location.search);
     ['brand','type','fuel','year'].forEach(k => {
       const v = urlParams.get(k);
-      if (v) {
-        const el = document.getElementById('filter-' + k);
-        if (el) el.value = v;
-      }
+      if (v) { const el = document.getElementById('filter-' + k); if (el) el.value = v; }
     });
     filter();
   })();

@@ -2,7 +2,6 @@
 export async function getStaticPaths() {
   return [{ params: { lang: "zh" } }, { params: { lang: "en" } }];
 }
-
 import MainLayout from "../layouts/MainLayout.astro";
 import { getLangFromUrl, useTranslations } from "../i18n/utils";
 
@@ -12,120 +11,117 @@ const isZh = lang === "zh";
 const baseUrl = lang === "zh" ? "" : "/en";
 
 const title = isZh
-  ? "常州后浪新能源汽车进出口有限公司 — 常州汽车进出口 | 新能源与燃油车出口专家"
-  : "常州后浪新能源汽车进出口有限公司 — China Auto Export | NEV & Fuel Vehicles";
-
+  ? "常州后浪新能源汽车进出口有限公司 — 中国汽车出口"
+  : "PowerNowAuto — China Auto Export";
 const description = isZh
-  ? "常州后浪新能源汽车进出口有限公司 位于江苏常州，专业从事新能源车与燃油车出口。覆盖50+品牌、380+车型，提供一站式全球汽车采购与出口服务。"
-  : "常州后浪新能源汽车进出口有限公司 based in Changzhou, China — professional export of NEV and fuel vehicles. 50+ brands, 380+ models, one-stop global auto export.";
+  ? "专业从事新能源车与燃油车出口，覆盖50+品牌、300+车型，提供一站式全球汽车采购与出口服务。"
+  : "Professional NEV and fuel vehicle export. 50+ brands, 300+ models. One-stop global auto export.";
 ---
 
 <MainLayout {title} {description}>
-  <!-- HERO -->
-  <section class="relative bg-gradient-to-br from-slate-900 via-slate-800 to-slate-950 text-white overflow-hidden min-h-[90vh] flex items-center">
-    <div class="absolute inset-0">
-      <div class="absolute top-20 right-10 w-[500px] h-[500px] bg-accent/20 rounded-full blur-[150px]"></div>
-      <div class="absolute bottom-20 left-10 w-[400px] h-[400px] bg-blue-500/15 rounded-full blur-[120px]"></div>
-      <div class="absolute inset-0 opacity-[0.02]" style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 50px 50px;"></div>
+
+  <!-- ═══════════ HERO (Apple-style centered + big headline) ═══════════ -->
+  <section class="relative min-h-[80vh] flex items-center justify-center bg-white overflow-hidden">
+    <div class="absolute inset-0 pointer-events-none">
+      <div class="absolute top-0 right-0 w-[800px] h-[800px] bg-apple-blue/[0.02] rounded-full blur-[200px] -translate-y-1/3 translate-x-1/4"></div>
+      <div class="absolute bottom-0 left-0 w-[600px] h-[600px] bg-gray-200/20 rounded-full blur-[160px] translate-y-1/3 -translate-x-1/4"></div>
     </div>
-    <div class="relative w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28">
-      <div class="max-w-3xl">
-        <div class="inline-flex items-center gap-2 px-4 py-2 bg-white/10 backdrop-blur-sm rounded-full border border-white/10 mb-8">
-          <span class="w-2 h-2 bg-emerald-400 rounded-full animate-pulse"></span>
-          <span class="text-sm text-slate-300">{t("home.badge")}</span>
-        </div>
-        <h1 class="text-4xl md:text-6xl lg:text-7xl font-extrabold leading-tight mb-6 tracking-tight">
-          {isZh ? "中国汽车出口" : "Your Gateway to"}
-          <br/>
-          <span class="bg-clip-text text-transparent bg-gradient-to-r from-accent to-amber-400">
-            {isZh ? "值得信赖的伙伴" : "China's Finest Vehicles"}
-          </span>
-        </h1>
-        <p class="text-lg md:text-xl text-slate-300/80 mb-4 max-w-xl leading-relaxed">
-          {t("home.heroSubtitle")}
-        </p>
-        <div class="flex flex-wrap gap-4 mt-10">
-          <a href={`${baseUrl}/products/`} class="inline-flex items-center px-8 py-4 bg-accent hover:bg-accent-hover text-white font-bold rounded-xl transition-all duration-200 shadow-xl shadow-accent/25 text-lg">
-            {t("home.heroCta")}
-            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
-          </a>
-          <a href="#about" class="inline-flex items-center px-8 py-4 border-2 border-white/20 hover:border-white/50 hover:bg-white/5 text-white font-bold rounded-xl transition-all duration-200 text-lg">
-            {t("home.heroAbout")}
-          </a>
-        </div>
+
+    <div class="relative w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-24 md:py-32 text-center">
+      <p class="section-label text-center">{t("home.badge")}</p>
+
+      <h1 class="text-5xl md:text-6xl lg:text-7xl font-extrabold leading-[1.08] mb-6 tracking-tight text-apple-text">
+        {isZh ? "中国汽车出口" : "Your Gateway to"}
+        <br/>
+        <span class="gradient-text">{isZh ? "值得信赖的伙伴" : "China's Finest Vehicles"}</span>
+      </h1>
+
+      <p class="text-lg md:text-xl text-apple-text-secondary mb-4 max-w-xl mx-auto leading-relaxed">
+        {t("home.heroSubtitle")}
+      </p>
+
+      <div class="flex flex-wrap gap-4 justify-center mt-10">
+        <a href={`${baseUrl}/products/`} class="btn-primary text-base">
+          {t("home.heroCta")}
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+        </a>
+        <a href="#about" class="btn-outline text-base">
+          {t("home.heroAbout")}
+        </a>
       </div>
 
-      <!-- Stats -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-5 mt-20">
+      <!-- Stats (Apple style glass cards) -->
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-24 stagger">
         {[
           { num: "50+", label: t("home.stats_brands") },
-          { num: "380+", label: t("home.stats_models") },
+          { num: "300+", label: t("home.stats_models") },
           { num: "50+", label: t("home.stats_countries") },
           { num: "1000+", label: t("home.stats_clients") },
-        ].map((s) => (
-          <div class="bg-white/5 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
-            <div class="text-3xl md:text-4xl font-bold text-white">{s.num}</div>
-            <div class="text-slate-400 text-sm mt-1">{s.label}</div>
+        ].map(s => (
+          <div class="card-glass p-6 text-center">
+            <div class="text-3xl md:text-4xl font-bold text-apple-text mb-1">{s.num}</div>
+            <div class="text-sm text-apple-text-secondary">{s.label}</div>
           </div>
         ))}
       </div>
     </div>
   </section>
 
-  <!-- ABOUT / COMPANY INTRO -->
-  <section id="about" class="py-24 md:py-32 bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
+  <!-- ═══════════ ABOUT (Apple-style 2-col layout) ═══════════ -->
+  <section id="about" class="section-gray">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-2 gap-16 lg:gap-24 items-center">
         <div>
-          <div class="w-12 h-1 bg-accent rounded-full mb-6"></div>
-          <h2 class="text-3xl md:text-4xl font-extrabold text-slate-900 mb-6">{t("home.companyIntro")}</h2>
-          <p class="text-slate-500 leading-relaxed text-lg mb-8">{t("home.companyDesc")}</p>
-          <a href={`${baseUrl}/products/`} class="inline-flex items-center px-6 py-3.5 bg-accent hover:bg-accent-hover text-white font-semibold rounded-xl transition-all duration-200 shadow-lg shadow-accent/20">
+          <p class="section-label">{isZh ? "关于我们" : "About Us"}</p>
+          <h2 class="section-heading mb-6">{t("home.companyIntro")}</h2>
+          <p class="text-apple-text-secondary leading-relaxed text-lg mb-10">{t("home.companyDesc")}</p>
+          <a href={`${baseUrl}/products/`} class="btn-primary">
             {t("home.heroCta")}
-            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
           </a>
         </div>
-        <div class="relative">
-          <!-- Company image gallery -->
-          <div class="relative rounded-2xl overflow-hidden border border-slate-200 shadow-lg" id="company-gallery">
-            <div class="aspect-[4/3] bg-slate-100 overflow-hidden">
-              <img id="gallery-main" src="/images/site/company/photo-01.jpg" alt="常州后浪汽车展厅" class="w-full h-full object-cover" loading="lazy" />
-            </div>
-            <!-- Gallery thumbnails -->
-            <div class="flex gap-1 p-2 bg-white" id="gallery-thumbs">
-              {['01','02','03','04','05','06','07','08','09','10','11'].map((n, i) => (
-                <button onclick={`document.getElementById('gallery-main').src='/images/site/company/photo-${n}.jpg'`} class={`w-12 h-10 rounded overflow-hidden border-2 flex-shrink-0 ${i === 0 ? 'border-accent' : 'border-transparent'} hover:border-accent/50`}>
-                  <img src={`/images/site/company/photo-${n}.jpg`} alt="公司环境" class="w-full h-full object-cover" loading="lazy" />
-                </button>
-              ))}
-            </div>
+        <div class="rounded-3xl overflow-hidden shadow-md border border-gray-200/60" id="company-gallery">
+          <div class="aspect-[4/3] overflow-hidden">
+            <img id="gallery-main" src="/images/site/company/photo-01.jpg" alt={isZh ? "公司展厅" : "Showroom"} class="w-full h-full object-cover hover:scale-105 transition-transform duration-700" loading="lazy" />
+          </div>
+          <div class="flex gap-1 p-2 bg-white" id="gallery-thumbs">
+            {['01','02','03','04','05','06','07','08','09','10','11'].map((n,i) => (
+              <button onclick={`document.getElementById('gallery-main').src='/images/site/company/photo-${n}.jpg'`} class={`w-10 h-8 rounded-md overflow-hidden border-2 transition-all flex-shrink-0 ${i===0?'border-apple-blue':'border-transparent hover:border-gray-300'}`}>
+                <img src={`/images/site/company/photo-${n}.jpg`} alt="" class="w-full h-full object-cover" loading="lazy" />
+              </button>
+            ))}
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- WHY CHOOSE US -->
-  <section class="py-24 md:py-32 bg-slate-50">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-center mb-4">{t("home.whyTitle")}</h2>
-      <p class="text-slate-500 text-center max-w-2xl mx-auto mb-16">{isZh ? "以专业和诚信赢得全球客户信赖" : "Earning global trust through expertise and integrity"}</p>
-      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+  <!-- ═══════════ WHY CHOOSE US (Apple-style feature cards) ═══════════ -->
+  <section class="section-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-20">
+        <p class="section-label text-center">{isZh ? "为什么选择我们" : "Why Choose Us"}</p>
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-apple-text mb-4">{t("home.whyTitle")}</h2>
+        <p class="text-apple-text-secondary max-w-xl mx-auto text-lg">{isZh ? "专业诚信，赢得全球客户信赖" : "Earning global trust through expertise and integrity"}</p>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6 stagger">
         {[
-          { key: "Pricing", color: "bg-emerald-500", bg: "bg-emerald-50" },
-          { key: "Quality", color: "bg-blue-500", bg: "bg-blue-50" },
-          { key: "Logistics", color: "bg-violet-500", bg: "bg-violet-50" },
-          { key: "Support", color: "bg-amber-500", bg: "bg-amber-50" },
-        ].map((f) => (
-          <div class="group p-8 rounded-2xl border border-slate-200 bg-white hover:shadow-xl transition-all duration-300">
-            <div class="w-14 h-14 ${f.bg} rounded-xl flex items-center justify-center mb-5 group-hover:scale-105 transition-transform">
-              <svg class="w-6 h-6 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M12 2L2 7l10 5 10-5-10-5z"/></svg>
+          { key: "Pricing", color: "text-apple-blue", icon: "M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" },
+          { key: "Quality", color: "text-emerald-500", icon: "M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" },
+          { key: "Logistics", color: "text-purple-500", icon: "M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" },
+          { key: "Support", color: "text-amber-500", icon: "M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z" },
+        ].map(f => (
+          <div class="card p-8 text-center">
+            <div class="w-14 h-14 bg-apple-gray rounded-2xl flex items-center justify-center mx-auto mb-5">
+              <svg class={`w-6 h-6 ${f.color}`} fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d={f.icon}/></svg>
             </div>
-            <h3 class="text-lg font-bold text-slate-900 mb-3">{t(`home.why${f.key}`)}</h3>
-            <p class="text-sm text-slate-500 leading-relaxed">{t(`home.why${f.key}Desc`)}</p>
+            <h3 class="text-lg font-bold text-apple-text mb-3">{t(`home.why${f.key}`)}</h3>
+            <p class="text-sm text-apple-text-secondary leading-relaxed">{t(`home.why${f.key}Desc`)}</p>
           </div>
         ))}
       </div>
     </div>
   </section>
+
 </MainLayout>

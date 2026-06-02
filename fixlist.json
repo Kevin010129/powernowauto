@@ -1,0 +1,704 @@
+[
+  {
+    "brand": "aion",
+    "slug": "aion-aionlx",
+    "file": "aion-aionlx-02.webp",
+    "size": 12862
+  },
+  {
+    "brand": "aito",
+    "slug": "aito-m7",
+    "file": "aito-m7-02.webp",
+    "size": 13672
+  },
+  {
+    "brand": "aito",
+    "slug": "aito-m7",
+    "file": "aito-m7-04.webp",
+    "size": 13410
+  },
+  {
+    "brand": "aito",
+    "slug": "aito-s9",
+    "file": "aito-s9-02.webp",
+    "size": 13304
+  },
+  {
+    "brand": "audi_etron",
+    "slug": "audi-etron-rse-trongt",
+    "file": "audi-etron-rse-trongt-01.webp",
+    "size": 11312
+  },
+  {
+    "brand": "avatr",
+    "slug": "avatr-11-",
+    "file": "avatr-11--02.webp",
+    "size": 10546
+  },
+  {
+    "brand": "avatr",
+    "slug": "avatr-12",
+    "file": "avatr-12-02.webp",
+    "size": 10546
+  },
+  {
+    "brand": "avatr",
+    "slug": "avatr-12-",
+    "file": "avatr-12--02.webp",
+    "size": 10546
+  },
+  {
+    "brand": "avatr",
+    "slug": "avatr-e11",
+    "file": "avatr-e11-02.webp",
+    "size": 10546
+  },
+  {
+    "brand": "bmw_i",
+    "slug": "bmw-i-i7",
+    "file": "bmw-i-i7-02.webp",
+    "size": 13566
+  },
+  {
+    "brand": "byd",
+    "slug": "byd-ev",
+    "file": "byd-ev-01.webp",
+    "size": 6058
+  },
+  {
+    "brand": "denza",
+    "slug": "denza-n8",
+    "file": "denza-n8-01.webp",
+    "size": 11332
+  },
+  {
+    "brand": "denza",
+    "slug": "denza-n8-",
+    "file": "denza-n8--01.webp",
+    "size": 13604
+  },
+  {
+    "brand": "feifan",
+    "slug": "feifan-e5",
+    "file": "feifan-e5-03.webp",
+    "size": 12588
+  },
+  {
+    "brand": "feifan",
+    "slug": "feifan-f7",
+    "file": "feifan-f7-04.webp",
+    "size": 8186
+  },
+  {
+    "brand": "feifan",
+    "slug": "feifan-marvelr",
+    "file": "feifan-marvelr-04.webp",
+    "size": 11454
+  },
+  {
+    "brand": "ford_ev",
+    "slug": "ford-ev-mustangmach-e",
+    "file": "ford-ev-mustangmach-e-02.webp",
+    "size": 7190
+  },
+  {
+    "brand": "formula_leopard",
+    "slug": "formula-leopard-5-",
+    "file": "formula-leopard-5--04.webp",
+    "size": 13064
+  },
+  {
+    "brand": "formula_leopard",
+    "slug": "formula-leopard-8",
+    "file": "formula-leopard-8-02.webp",
+    "size": 12160
+  },
+  {
+    "brand": "formula_leopard",
+    "slug": "formula-leopard-8-",
+    "file": "formula-leopard-8--03.webp",
+    "size": 12160
+  },
+  {
+    "brand": "geely_galaxy",
+    "slug": "geely-galaxy-e5",
+    "file": "geely-galaxy-e5-03.webp",
+    "size": 12514
+  },
+  {
+    "brand": "geely_galaxy",
+    "slug": "geely-galaxy-l6",
+    "file": "geely-galaxy-l6-03.webp",
+    "size": 13596
+  },
+  {
+    "brand": "geely_galaxy",
+    "slug": "geely-galaxy-l6",
+    "file": "geely-galaxy-l6-04.webp",
+    "size": 11266
+  },
+  {
+    "brand": "geely_galaxy",
+    "slug": "geely-galaxy-m6",
+    "file": "geely-galaxy-m6-04.webp",
+    "size": 12782
+  },
+  {
+    "brand": "hechuang",
+    "slug": "hechuang-a06",
+    "file": "hechuang-a06-03.webp",
+    "size": 13788
+  },
+  {
+    "brand": "honda_ev",
+    "slug": "honda-ev-e-np1-1",
+    "file": "honda-ev-e-np1-1-03.webp",
+    "size": 12232
+  },
+  {
+    "brand": "honda_ev",
+    "slug": "honda-ev-e-np2",
+    "file": "honda-ev-e-np2-03.webp",
+    "size": 13878
+  },
+  {
+    "brand": "honda_ev",
+    "slug": "honda-ev-e-ns2",
+    "file": "honda-ev-e-ns2-03.webp",
+    "size": 11760
+  },
+  {
+    "brand": "hozon",
+    "slug": "hozon-gt",
+    "file": "hozon-gt-04.webp",
+    "size": 11880
+  },
+  {
+    "brand": "hozon",
+    "slug": "hozon-s",
+    "file": "hozon-s-04.webp",
+    "size": 11592
+  },
+  {
+    "brand": "jihu",
+    "slug": "jihu-s-hi-",
+    "file": "jihu-s-hi--04.webp",
+    "size": 9290
+  },
+  {
+    "brand": "leapmotor",
+    "slug": "leapmotor-c01",
+    "file": "leapmotor-c01-04.webp",
+    "size": 13856
+  },
+  {
+    "brand": "leapmotor",
+    "slug": "leapmotor-c01-",
+    "file": "leapmotor-c01--03.webp",
+    "size": 13476
+  },
+  {
+    "brand": "leapmotor",
+    "slug": "leapmotor-c11",
+    "file": "leapmotor-c11-01.webp",
+    "size": 10252
+  },
+  {
+    "brand": "leapmotor",
+    "slug": "leapmotor-c11-",
+    "file": "leapmotor-c11--01.webp",
+    "size": 10252
+  },
+  {
+    "brand": "leapmotor",
+    "slug": "leapmotor-c11-",
+    "file": "leapmotor-c11--03.webp",
+    "size": 11396
+  },
+  {
+    "brand": "leapmotor",
+    "slug": "leapmotor-s01",
+    "file": "leapmotor-s01-01.webp",
+    "size": 12650
+  },
+  {
+    "brand": "li_auto",
+    "slug": "li-auto-l6",
+    "file": "li-auto-l6-02.webp",
+    "size": 11178
+  },
+  {
+    "brand": "li_auto",
+    "slug": "li-auto-l9",
+    "file": "li-auto-l9-02.webp",
+    "size": 13626
+  },
+  {
+    "brand": "li_auto",
+    "slug": "li-auto-l9",
+    "file": "li-auto-l9-03.webp",
+    "size": 12654
+  },
+  {
+    "brand": "li_auto",
+    "slug": "li-auto-l9",
+    "file": "li-auto-l9-04.webp",
+    "size": 13322
+  },
+  {
+    "brand": "li_auto",
+    "slug": "li-auto-mega",
+    "file": "li-auto-mega-01.webp",
+    "size": 7878
+  },
+  {
+    "brand": "lotus",
+    "slug": "lotus-e11",
+    "file": "lotus-e11-01.webp",
+    "size": 13226
+  },
+  {
+    "brand": "lotus",
+    "slug": "lotus-e11",
+    "file": "lotus-e11-03.webp",
+    "size": 13618
+  },
+  {
+    "brand": "lotus",
+    "slug": "lotus-eletrer-",
+    "file": "lotus-eletrer--02.webp",
+    "size": 13226
+  },
+  {
+    "brand": "lotus",
+    "slug": "lotus-eletrer-",
+    "file": "lotus-eletrer--04.webp",
+    "size": 13618
+  },
+  {
+    "brand": "lotus",
+    "slug": "lotus-emirai4",
+    "file": "lotus-emirai4-01.webp",
+    "size": 11054
+  },
+  {
+    "brand": "lotus",
+    "slug": "lotus-s11",
+    "file": "lotus-s11-01.webp",
+    "size": 13226
+  },
+  {
+    "brand": "lotus",
+    "slug": "lotus-s11",
+    "file": "lotus-s11-03.webp",
+    "size": 13618
+  },
+  {
+    "brand": "lotus",
+    "slug": "lotus-type132",
+    "file": "lotus-type132-02.webp",
+    "size": 10044
+  },
+  {
+    "brand": "lynkco",
+    "slug": "lynkco-02em-p",
+    "file": "lynkco-02em-p-03.webp",
+    "size": 11796
+  },
+  {
+    "brand": "nio",
+    "slug": "nio-ec6",
+    "file": "nio-ec6-03.webp",
+    "size": 11966
+  },
+  {
+    "brand": "nio",
+    "slug": "nio-ec7",
+    "file": "nio-ec7-02.webp",
+    "size": 12752
+  },
+  {
+    "brand": "nio",
+    "slug": "nio-es8",
+    "file": "nio-es8-02.webp",
+    "size": 10134
+  },
+  {
+    "brand": "nio",
+    "slug": "nio-es8",
+    "file": "nio-es8-04.webp",
+    "size": 12396
+  },
+  {
+    "brand": "nio",
+    "slug": "nio-et5t",
+    "file": "nio-et5t-04.webp",
+    "size": 6826
+  },
+  {
+    "brand": "nio",
+    "slug": "nio-et7",
+    "file": "nio-et7-04.webp",
+    "size": 9050
+  },
+  {
+    "brand": "nissan_ev",
+    "slug": "nissan-ev-altimaev",
+    "file": "nissan-ev-altimaev-04.webp",
+    "size": 9670
+  },
+  {
+    "brand": "peugeot",
+    "slug": "peugeot-e-208",
+    "file": "peugeot-e-208-01.webp",
+    "size": 8352
+  },
+  {
+    "brand": "peugeot",
+    "slug": "peugeot-e-5008",
+    "file": "peugeot-e-5008-04.webp",
+    "size": 13178
+  },
+  {
+    "brand": "polestar",
+    "slug": "polestar-polestar2",
+    "file": "polestar-polestar2-02.webp",
+    "size": 11578
+  },
+  {
+    "brand": "polestar",
+    "slug": "polestar-polestar4-",
+    "file": "polestar-polestar4--02.webp",
+    "size": 9418
+  },
+  {
+    "brand": "polestar",
+    "slug": "polestar-polestar5",
+    "file": "polestar-polestar5-04.webp",
+    "size": 10796
+  },
+  {
+    "brand": "porsche",
+    "slug": "porsche-taycanturbos",
+    "file": "porsche-taycanturbos-02.webp",
+    "size": 12910
+  },
+  {
+    "brand": "porsche",
+    "slug": "porsche-taycanturbos",
+    "file": "porsche-taycanturbos-04.webp",
+    "size": 13860
+  },
+  {
+    "brand": "qichen",
+    "slug": "qichen-dd-i",
+    "file": "qichen-dd-i-04.webp",
+    "size": 13308
+  },
+  {
+    "brand": "qichen",
+    "slug": "qichen-e30",
+    "file": "qichen-e30-02.webp",
+    "size": 9092
+  },
+  {
+    "brand": "qichen",
+    "slug": "qichen-v-online",
+    "file": "qichen-v-online-01.webp",
+    "size": 12042
+  },
+  {
+    "brand": "qichen",
+    "slug": "qichen-v-online",
+    "file": "qichen-v-online-03.webp",
+    "size": 12568
+  },
+  {
+    "brand": "renault",
+    "slug": "renault-alpinea110ev",
+    "file": "renault-alpinea110ev-03.webp",
+    "size": 6698
+  },
+  {
+    "brand": "renault",
+    "slug": "renault-sc-nice-tech",
+    "file": "renault-sc-nice-tech-04.webp",
+    "size": 12384
+  },
+  {
+    "brand": "saic_maxus",
+    "slug": "saic-maxus-mifa7",
+    "file": "saic-maxus-mifa7-03.webp",
+    "size": 11356
+  },
+  {
+    "brand": "saic_maxus",
+    "slug": "saic-maxus-mifa9",
+    "file": "saic-maxus-mifa9-02.webp",
+    "size": 11564
+  },
+  {
+    "brand": "saic_maxus",
+    "slug": "saic-maxus-mifa9",
+    "file": "saic-maxus-mifa9-03.webp",
+    "size": 11564
+  },
+  {
+    "brand": "saic_maxus",
+    "slug": "saic-maxus-t90ev",
+    "file": "saic-maxus-t90ev-03.webp",
+    "size": 13062
+  },
+  {
+    "brand": "toyota_ev",
+    "slug": "toyota-ev-bz1",
+    "file": "toyota-ev-bz1-02.webp",
+    "size": 10976
+  },
+  {
+    "brand": "toyota_ev",
+    "slug": "toyota-ev-bz1",
+    "file": "toyota-ev-bz1-03.webp",
+    "size": 10954
+  },
+  {
+    "brand": "toyota_ev",
+    "slug": "toyota-ev-bz1",
+    "file": "toyota-ev-bz1-04.webp",
+    "size": 10976
+  },
+  {
+    "brand": "toyota_ev",
+    "slug": "toyota-ev-sportcrossphev",
+    "file": "toyota-ev-sportcrossphev-03.webp",
+    "size": 13772
+  },
+  {
+    "brand": "volvo",
+    "slug": "volvo-ex90",
+    "file": "volvo-ex90-02.webp",
+    "size": 13004
+  },
+  {
+    "brand": "volvo",
+    "slug": "volvo-s90recharge",
+    "file": "volvo-s90recharge-02.webp",
+    "size": 8860
+  },
+  {
+    "brand": "volvo",
+    "slug": "volvo-xc60recharge",
+    "file": "volvo-xc60recharge-04.webp",
+    "size": 11796
+  },
+  {
+    "brand": "volvo",
+    "slug": "volvo-xc90recharge",
+    "file": "volvo-xc90recharge-04.webp",
+    "size": 10226
+  },
+  {
+    "brand": "voyah",
+    "slug": "voyah-free",
+    "file": "voyah-free-02.webp",
+    "size": 12482
+  },
+  {
+    "brand": "voyah",
+    "slug": "voyah-h53",
+    "file": "voyah-h53-01.webp",
+    "size": 12482
+  },
+  {
+    "brand": "voyah",
+    "slug": "voyah-h53",
+    "file": "voyah-h53-04.webp",
+    "size": 13936
+  },
+  {
+    "brand": "vw_id",
+    "slug": "vw-id-id-2",
+    "file": "vw-id-id-2-02.webp",
+    "size": 12022
+  },
+  {
+    "brand": "vw_id",
+    "slug": "vw-id-id-buzz",
+    "file": "vw-id-id-buzz-03.webp",
+    "size": 11788
+  },
+  {
+    "brand": "xiaomi",
+    "slug": "xiaomi-su7",
+    "file": "xiaomi-su7-02.webp",
+    "size": 13368
+  },
+  {
+    "brand": "xiaomi",
+    "slug": "xiaomi-su7-",
+    "file": "xiaomi-su7--01.webp",
+    "size": 10258
+  },
+  {
+    "brand": "xiaomi",
+    "slug": "xiaomi-su7-",
+    "file": "xiaomi-su7--02.webp",
+    "size": 13054
+  },
+  {
+    "brand": "xiaomi",
+    "slug": "xiaomi-su7pro",
+    "file": "xiaomi-su7pro-04.webp",
+    "size": 12156
+  },
+  {
+    "brand": "xpeng",
+    "slug": "xpeng-g3i",
+    "file": "xpeng-g3i-02.webp",
+    "size": 10106
+  },
+  {
+    "brand": "xpeng",
+    "slug": "xpeng-g9",
+    "file": "xpeng-g9-04.webp",
+    "size": 13494
+  },
+  {
+    "brand": "xpeng",
+    "slug": "xpeng-p5",
+    "file": "xpeng-p5-04.webp",
+    "size": 9008
+  },
+  {
+    "brand": "xpeng",
+    "slug": "xpeng-p7i",
+    "file": "xpeng-p7i-03.webp",
+    "size": 11654
+  },
+  {
+    "brand": "yangwang",
+    "slug": "yangwang-u5",
+    "file": "yangwang-u5-02.webp",
+    "size": 13108
+  },
+  {
+    "brand": "yangwang",
+    "slug": "yangwang-u5",
+    "file": "yangwang-u5-04.webp",
+    "size": 11360
+  },
+  {
+    "brand": "yangwang",
+    "slug": "yangwang-u6",
+    "file": "yangwang-u6-02.webp",
+    "size": 12490
+  },
+  {
+    "brand": "yangwang",
+    "slug": "yangwang-u6",
+    "file": "yangwang-u6-03.webp",
+    "size": 9722
+  },
+  {
+    "brand": "yangwang",
+    "slug": "yangwang-u6",
+    "file": "yangwang-u6-04.webp",
+    "size": 12320
+  },
+  {
+    "brand": "yangwang",
+    "slug": "yangwang-u9-",
+    "file": "yangwang-u9--02.webp",
+    "size": 13934
+  },
+  {
+    "brand": "zeekr",
+    "slug": "zeekr-001",
+    "file": "zeekr-001-03.webp",
+    "size": 13242
+  },
+  {
+    "brand": "zeekr",
+    "slug": "zeekr-001fr",
+    "file": "zeekr-001fr-03.webp",
+    "size": 10140
+  },
+  {
+    "brand": "zeekr",
+    "slug": "zeekr-005",
+    "file": "zeekr-005-04.webp",
+    "size": 10426
+  },
+  {
+    "brand": "zeekr",
+    "slug": "zeekr-009",
+    "file": "zeekr-009-02.webp",
+    "size": 11198
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-imad",
+    "file": "zhiji-imad-01.webp",
+    "size": 10306
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-l5",
+    "file": "zhiji-l5-03.webp",
+    "size": 10284
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-l5",
+    "file": "zhiji-l5-04.webp",
+    "size": 10306
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-l6",
+    "file": "zhiji-l6-02.webp",
+    "size": 10902
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-l7",
+    "file": "zhiji-l7-01.webp",
+    "size": 10306
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-l7",
+    "file": "zhiji-l7-02.webp",
+    "size": 12264
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-l7-",
+    "file": "zhiji-l7--02.webp",
+    "size": 10306
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-l7-",
+    "file": "zhiji-l7--03.webp",
+    "size": 12264
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-ls6",
+    "file": "zhiji-ls6-01.webp",
+    "size": 9574
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-ls6",
+    "file": "zhiji-ls6-02.webp",
+    "size": 13144
+  },
+  {
+    "brand": "zhiji",
+    "slug": "zhiji-ls7",
+    "file": "zhiji-ls7-03.webp",
+    "size": 13836
+  }
+]

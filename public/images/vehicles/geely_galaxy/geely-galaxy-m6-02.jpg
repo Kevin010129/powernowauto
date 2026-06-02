@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- 页面meta -->
+    <meta charset="UTF-8">
+<meta name="renderer" content="webkit" />
+<meta name="force-rendering" content="webkit" />
+<meta name="format-detection" content="telephone=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, user-scalable=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="format-detection" content="telephone=no">
+<title>404</title>
+
+<meta name="keywords" content="404">
+<meta name="description" content="404">
+
+
+
+
+    <!-- 页面通用样式 -->
+    <!-- 公共样式应用 -->
+<script src="/assets/plugins/ie11CustomProperties.3.14.1/ie11CustomProperties.min.js"></script>
+<link rel="stylesheet" href="/assets/plugins/bootstrap-3.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" href="/assets/plugins/animate/animate.min.css">
+<link rel="stylesheet" href="/assets/plugins/swiper-4.5.3/css/swiper.min.css">
+
+<link rel="stylesheet" href="/assets/css/pages/basePage.css">
+<link rel="stylesheet" href="/assets/css/pages/components.css">
+
+<!-- 公共脚本 jquery等需要立即加载的脚本 -->
+<script src="/assets/js/configuration/env.js"></script>
+<script src="/assets/js/utils/rem.js"></script>
+<script src="/assets/plugins/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="/assets/plugins/jquery-cookie-1.4.1/jquery.cookie.js"></script>
+<script src="/assets/plugins/polyfill/polyfill.min.js"></script>
+<script src="/assets/plugins/jquery.mousewheel/jquery.mousewheel.js"></script>
+<!-- <script src="https://api.map.baidu.com/api?v=3.0&ak=4DDiSfn5cPDE8N232mTnTacQ4ZNeAW74" type="text/javascript"></script> -->
+<script type="text/javascript">
+    window._AMapSecurityConfig = {
+        securityJsCode: window.location.href.includes("galaxy") ? 'fee9e7b4b8f29e0673f9a78b9d2787a1' : '7a76496c4833d24d302496ad4e989a78',
+    }
+</script>
+<script src="https://webapi.amap.com/loader.js"></script>
+<!-- <script type="text/javascript" src="https://webapi.amap.com/maps?v=2.0&key=c781225f5f5640d82d26dbb5a3626c40"></script>  -->
+<!-- 通用脚本（例如全局配置） -->
+<script src="/assets/config/geely.config.js"></script>
+<script src="/assets/js/common/pageTrackingCode.js"></script>
+<script src="/assets/js/common/components.js"></script>
+<script src="/assets/js/api/request.js"></script>
+
+
+<script src="/assets/plugins/sa-sdk-javascript-1.23.3/sensorsdata.min.js"></script>
+<script src="/assets/js/utils/utils.js"></script>
+<script src="/assets/js/utils/md5.js"></script>
+<script charset="UTF-8">
+    var sensors = window['sensorsDataAnalytic201505'];
+    sensors.init({
+        show_log: window.IS_DEV,
+        server_url: window.IS_DEV ? 'http://ubpdata.test.geely.com/sa?project=geelyapp' : 'https://ubpdata.geely.com/sa?project=geelyapp',
+        is_track_single_page: false,
+        cross_subdomain: false,
+        use_client_time: true,
+        send_type: 'beacon',
+        heatmap: {
+            //是否开启点击图，default 表示开启，自动采集 $WebClick 事件，可以设置 'not_collect' 表示关闭。
+            clickmap: 'default',
+            //是否开启触达图，not_collect 表示关闭，不会自动采集 $WebStay 事件，可以设置 'default' 表示开启。
+            scroll_notice_map: 'default'
+        },
+    });
+
+    sensors.registerPage({
+        current_url: location.href,
+        referrer: document.referrer,
+        platform_type: 'Web',
+        AppName: '吉利官网'
+    });
+    sensors.quick('autoTrack');
+    /*sensors.track('Viewpage_GLWeb', {
+        source: '1',
+        source_url: '2',
+        car_name: '3',
+    });*/
+</script>
+
+    <!-- 页面样式 -->
+    <link href="/assets/css/pages/error.css" rel="stylesheet">
+
+    
+    
+</head>
+<body>
+
+    <!-- 处理跳转 -->
+    <script>
+    var redirectUrl = '' || '';
+
+    function pageRedirect() {
+        if (location.search.indexOf('?debug=1') >= 0) {
+            return;
+        }
+
+        try {
+            if (redirectUrl) {
+                if (redirectUrl.indexOf("http")===0) {
+                    redirectUrl = new URL(redirectUrl);
+                    if (redirectUrl.pathname !== location.pathname) {
+                        location.href = redirectUrl.pathname;
+                    }
+                } else if (redirectUrl.indexOf("/")===0) {
+                    if (redirectUrl !== location.pathname) {
+                        location.href = redirectUrl;
+                    }
+                }
+            }
+        }catch (e) {
+            console.log("redirect error", e);
+        }
+    }
+
+     pageRedirect();
+
+
+    </script>
+
+
+
+    <div class="page-wrapper" page-id="{8C4158EC-9DD2-41EA-89D9-0C20EA13D4CE}">
+        <!-- 头部引用 -->
+        <div class="header" id="header">
+    <!-- 首屏 默认样式  [class=''  白底黑字 class='menu-black-default']  [ 黑底白字 class="menu-white-default"]  -->
+    <!-- 首屏 滑动样式  [白底黑字 data-theme-class='menu-black']  [ 黑底白字 data-theme-class="menu-white"]  -->
+    <header data-theme-class="menu-black"
+            class="menu-black-default" style="display: block">
+        <nav class="menu-white">
+            <div class="nav-box" style="">
+                <!-- logo -->
+                <div class="nav-logo">
+                    <a href="https://www.geely.com/">
+                        
+                        <span class="iconfont icon-a-logo-b22x"></span>
+                    </a>
+                </div>
+
+                <!-- 导航 -->
+                <div class="nav-content">
+                    <div class="nav-icon-bar iconfont icon-a-mob-menu-icon-b2x"></div>
+                    <div class="close-nav icon iconfont icon-close"></div>
+                    <ul class="nav-level-one">
+                            <li class="car-model">
+                                <a href="javascript:;" >
+                                    <span>车型</span>
+                                </a>
+
+                                
+    <div class="model-menu">
+        <div class="model-menu-head">
+            <ul>
+                    <li class="">中国星</li>
+                    <li class="">星愿</li>
+                    <li class="">ICON</li>
+                    <li class="">牛仔</li>
+                    <li class="">帝豪</li>
+                    <li class="">缤系</li>
+                    <li class="">博系</li>
+                    <li class="">豪越</li>
+                    <li class="">雷达</li>
+                    <li class="">睿蓝</li>
+            </ul>
+        </div>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">星瑞</div>
+                                <div class="model-prize"><!--官方指导售价：￥113,700 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/xingrui/2025/0922/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://preface.geely.com/preface" target=_blank>
+                                        <div class="detail-name">
+                                            星瑞
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥113,700 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/xingrui/2025/0922/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">星越L</div>
+                                <div class="model-prize"><!--官方指导售价：￥137,200 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/xyL/2025/0923/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://xingyue.geely.com/xingyuel" target=_blank>
+                                        <div class="detail-name">
+                                            星越L
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥137,200 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/xyL/2025/0923/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">吉利星愿</div>
+                                <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/E22H/2026/0527/xiao1.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://xy.geely.com/jlxy" target=_blank>
+                                        <div class="detail-name">
+                                            吉利星愿
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥103,600 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/E22H/2026/0527/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">26款ICON巧克力</div>
+                                <div class="model-prize"><!--官方指导售价：￥109,900 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/icon/chocolate/2025/0710/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://icon.geely.com/icon" target=_blank>
+                                        <div class="detail-name">
+                                            26款ICON巧克力
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥109,900 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/icon/chocolate/2025/0710/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">吉利牛仔</div>
+                                <div class="model-prize"></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/niuzai/2026/0529/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://icon.geely.com/jlnz" target=_blank>
+                                        <div class="detail-name">
+                                            吉利牛仔
+                                        </div>
+                                        <div class="detail-prize">
+                                            
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/niuzai/2026/0529/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">第5代帝豪</div>
+                                <div class="model-prize"><!--官方指导售价：￥69,900 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/dh5/2025/0926/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://dh.geely.com/SS21" target=_blank>
+                                        <div class="detail-name">
+                                            第5代帝豪
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥69,900 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/dh5/2025/0926/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">帝豪 向上</div>
+                                <div class="model-prize"><!--官方指导售价：￥69,900 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/dh4/up/2026/0520/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://dh.geely.com/SS11A3XS" target=_blank>
+                                        <div class="detail-name">
+                                            帝豪 向上
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥69,900 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/dh4/up/2026/0520/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">第4代帝豪醇电混动</div>
+                                <div class="model-prize"><!--官方指导售价：￥129,800 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpai/chetu/dhchundian/xiao1.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://dh.geely.com/ss11m1" target=_blank>
+                                        <div class="detail-name">
+                                            第4代帝豪醇电混动
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥129,800 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpai/chetu/dhchundian/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">缤越L</div>
+                                <div class="model-prize"><!--官方指导售价：￥75,800 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/BinYueL/2025/1114/xiao1.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://binyue.geely.com/byl" target=_blank>
+                                        <div class="detail-name">
+                                            缤越L
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥75,800 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/BinYueL/2025/1114/30du1.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">缤越超能版</div>
+                                <div class="model-prize"><!--官方指导售价：￥75,800 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/BYCN/MAX/2025/0715/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://binyue.geely.com/bycn" target=_blank>
+                                        <div class="detail-name">
+                                            缤越超能版
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥75,800 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/BYCN/MAX/2025/0715/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">缤瑞COOL</div>
+                                <div class="model-prize"><!--官方指导售价：￥94,800 起--></div>
+                                <div class="model-img">
+                                    <img src="https://hs-geely-portal-prod-ntt-obs-02-new.tos-cn-shanghai.volces.com/GeelyPromotion/ANEW2/binruiCOOL/2024/0306/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://binrui.geely.com/binrui" target=_blank>
+                                        <div class="detail-name">
+                                            缤瑞COOL
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥94,800 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://hs-geely-portal-prod-ntt-obs-02-new.tos-cn-shanghai.volces.com/GeelyPromotion/ANEW2/binruiCOOL/2024/0306/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">博越REV</div>
+                                <div class="model-prize"><!--官方指导售价：￥131,800 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/boyueREV/2026/0316/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://boyue.geely.com/REV" target=_blank>
+                                        <div class="detail-name">
+                                            博越REV
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥131,800 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/boyueREV/2026/0316/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">全新博越</div>
+                                <div class="model-prize"><!--官方指导售价：￥131,800 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/xinboyue/newboyue/2025/0731/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://boyue.geely.com/quanxinboyue" target=_blank>
+                                        <div class="detail-name">
+                                            全新博越
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥131,800 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/xinboyue/newboyue/2025/0731/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">第四代博越L</div>
+                                <div class="model-prize"><!--官方指导售价：￥131,800 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/boyueL4/2025/0401/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://boyue.geely.com/disidaiboyuel" target=_blank>
+                                        <div class="detail-name">
+                                            第四代博越L
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥131,800 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/boyueL4/2025/0401/45du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">第三代豪越L</div>
+                                <div class="model-prize"></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/haoyueL3/2025/1120/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://haoyue.geely.com/hyl3" target=_blank>
+                                        <div class="detail-name">
+                                            第三代豪越L
+                                        </div>
+                                        <div class="detail-prize">
+                                            
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/haoyueL3/2025/1120/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">豪越L尊享款</div>
+                                <div class="model-prize"></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/haoyueL/zunxiang/zhengxiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://haoyue.geely.com/hyzx" target=_blank>
+                                        <div class="detail-name">
+                                            豪越L尊享款
+                                        </div>
+                                        <div class="detail-prize">
+                                            
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/haoyueL/zunxiang/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">2026款吉利雷达金刚EV</div>
+                                <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/ev/2026/0424/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://xy.geely.com/radarev" target=_blank>
+                                        <div class="detail-name">
+                                            2026款吉利雷达金刚EV
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥103,600 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/ev/2026/0424/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">2025款吉利雷达金刚EV</div>
+                                <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/2025/0605/xiao.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://xy.geely.com/radar" target=_blank>
+                                        <div class="detail-name">
+                                            2025款吉利雷达金刚EV
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥103,600 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/2025/0605/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">吉利雷达金刚PHEV</div>
+                                <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/emp/2025/0606/xiao1.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://xy.geely.com/radaremp" target=_blank>
+                                        <div class="detail-name">
+                                            吉利雷达金刚PHEV
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥103,600 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/emp/2025/0606/30du1.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">吉利雷达地平线PHEV</div>
+                                <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/emp/2025/0606/xiao1.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://xy.geely.com/radardpxphev" target=_blank>
+                                        <div class="detail-name">
+                                            吉利雷达地平线PHEV
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥103,600 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/dpxphev/2025/0929/30du1.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+            <section class="model-menu-section swiper-container">
+                <div class="car-list  swiper-wrapper">
+                            <div class="car-item swiper-slide">
+                                <div class="model-name">睿蓝蓝气球</div>
+                                <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                <div class="model-img">
+                                    <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/livan/2025/0929/xiao1.png" alt="">
+                                </div>
+
+                                <div class="car-model-detail">
+                                    <a href="https://xy.geely.com/livan" target=_blank>
+                                        <div class="detail-name">
+                                            睿蓝蓝气球
+                                        </div>
+                                        <div class="detail-prize">
+                                            <!--官方指导售价：￥103,600 起-->
+                                        </div>
+                                        <div class="detail-img">
+                                            <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/livan/2025/0929/30du.png" alt="">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                </div>
+            </section>
+    </div>
+
+                            </li>
+                            <li class="">
+                                <a href="https://www.geely.com/brandworld" target=_blank>
+                                    <span>品牌</span>
+                                </a>
+
+                                
+
+                            </li>
+                            <li class="">
+                                <a href="https://www.geely.com/news" target=_blank>
+                                    <span>资讯</span>
+                                </a>
+
+                                
+
+                            </li>
+                            <li class="">
+                                <a href="javascript:;" >
+                                    <span>售后</span>
+                                </a>
+
+                                
+                                        <ul class="nav-level-second">
+                                                <li>
+                                                    <a href="https://www.geely.com/service" target=_blank>售后服务</a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.geely.com/servicejoin" target=_blank>县域售后招商</a>
+                                                </li>
+                                        </ul>
+
+                            </li>
+                            <li class="">
+                                <a href="https://www.geely.com/technology/cma" target=_blank>
+                                    <span>CMA</span>
+                                </a>
+
+                                
+
+                            </li>
+                                                    <li class="">
+                                    <a class="button-drive geely--global--button line-white" href="#newTestDrive" >
+                                        <span>预约试驾</span>
+                                    </a>
+                                <a href="" target="_blank">
+                                    <span></span>
+                                </a>
+                            </li>
+                    </ul>
+
+                    <div class="nav-level-two">
+                        <ul class="nav-main">
+                                <li class="nav-item">
+车型                                        <i class="icon iconfont icon-arrow-bottom"></i>
+    <div class="car-type-section">
+            <div class="section-item ">
+                中国星
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://preface.geely.com/preface" target=_blank>
+                                    <div class="model-name">星瑞</div>
+                                    <div class="model-prize"><!--官方指导售价：￥113,700 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/xingrui/2025/0922/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://xingyue.geely.com/xingyuel" target=_blank>
+                                    <div class="model-name">星越L</div>
+                                    <div class="model-prize"><!--官方指导售价：￥137,200 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/xyL/2025/0923/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <div class="section-item ">
+                星愿
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://xy.geely.com/jlxy" target=_blank>
+                                    <div class="model-name">吉利星愿</div>
+                                    <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/E22H/2026/0527/xiao1.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <div class="section-item ">
+                ICON
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://icon.geely.com/icon" target=_blank>
+                                    <div class="model-name">26款ICON巧克力</div>
+                                    <div class="model-prize"><!--官方指导售价：￥109,900 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/icon/chocolate/2025/0710/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <div class="section-item ">
+                牛仔
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://icon.geely.com/jlnz" target=_blank>
+                                    <div class="model-name">吉利牛仔</div>
+                                    <div class="model-prize"></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/niuzai/2026/0529/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <div class="section-item ">
+                帝豪
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://dh.geely.com/SS21" target=_blank>
+                                    <div class="model-name">第5代帝豪</div>
+                                    <div class="model-prize"><!--官方指导售价：￥69,900 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/dh5/2025/0926/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://dh.geely.com/SS11A3XS" target=_blank>
+                                    <div class="model-name">帝豪 向上</div>
+                                    <div class="model-prize"><!--官方指导售价：￥69,900 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/dh4/up/2026/0520/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://dh.geely.com/ss11m1" target=_blank>
+                                    <div class="model-name">第4代帝豪醇电混动</div>
+                                    <div class="model-prize"><!--官方指导售价：￥129,800 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpai/chetu/dhchundian/xiao1.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <div class="section-item ">
+                缤系
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://binyue.geely.com/byl" target=_blank>
+                                    <div class="model-name">缤越L</div>
+                                    <div class="model-prize"><!--官方指导售价：￥75,800 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/BinYueL/2025/1114/xiao1.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://binyue.geely.com/bycn" target=_blank>
+                                    <div class="model-name">缤越超能版</div>
+                                    <div class="model-prize"><!--官方指导售价：￥75,800 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/BYCN/MAX/2025/0715/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://binrui.geely.com/binrui" target=_blank>
+                                    <div class="model-name">缤瑞COOL</div>
+                                    <div class="model-prize"><!--官方指导售价：￥94,800 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://hs-geely-portal-prod-ntt-obs-02-new.tos-cn-shanghai.volces.com/GeelyPromotion/ANEW2/binruiCOOL/2024/0306/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <div class="section-item ">
+                博系
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://boyue.geely.com/REV" target=_blank>
+                                    <div class="model-name">博越REV</div>
+                                    <div class="model-prize"><!--官方指导售价：￥131,800 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/boyueREV/2026/0316/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://boyue.geely.com/quanxinboyue" target=_blank>
+                                    <div class="model-name">全新博越</div>
+                                    <div class="model-prize"><!--官方指导售价：￥131,800 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/xinboyue/newboyue/2025/0731/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://boyue.geely.com/disidaiboyuel" target=_blank>
+                                    <div class="model-name">第四代博越L</div>
+                                    <div class="model-prize"><!--官方指导售价：￥131,800 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/boyueL4/2025/0401/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <div class="section-item ">
+                豪越
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://haoyue.geely.com/hyl3" target=_blank>
+                                    <div class="model-name">第三代豪越L</div>
+                                    <div class="model-prize"></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/haoyueL3/2025/1120/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://haoyue.geely.com/hyzx" target=_blank>
+                                    <div class="model-name">豪越L尊享款</div>
+                                    <div class="model-prize"></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/haoyueL/zunxiang/zhengxiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <div class="section-item ">
+                雷达
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://xy.geely.com/radarev" target=_blank>
+                                    <div class="model-name">2026款吉利雷达金刚EV</div>
+                                    <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/ev/2026/0424/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://xy.geely.com/radar" target=_blank>
+                                    <div class="model-name">2025款吉利雷达金刚EV</div>
+                                    <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/2025/0605/xiao.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://xy.geely.com/radaremp" target=_blank>
+                                    <div class="model-name">吉利雷达金刚PHEV</div>
+                                    <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/emp/2025/0606/xiao1.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="car-item ">
+                                <a href="https://xy.geely.com/radardpxphev" target=_blank>
+                                    <div class="model-name">吉利雷达地平线PHEV</div>
+                                    <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/radar/emp/2025/0606/xiao1.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+            <div class="section-item ">
+                睿蓝
+                <div class="car-list">
+                            <div class="car-item ">
+                                <a href="https://xy.geely.com/livan" target=_blank>
+                                    <div class="model-name">睿蓝蓝气球</div>
+                                    <div class="model-prize"><!--官方指导售价：￥103,600 起--></div>
+                                    <div class="model-img">
+                                        <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/livan/2025/0929/xiao1.png" alt="">
+                                    </div>
+                                </a>
+                            </div>
+                </div>
+            </div>
+    </div>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="https://www.geely.com/brandworld" target=_blank>品牌</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="https://www.geely.com/news" target=_blank>资讯</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="javascript:;" >售后</a>
+                                            <i class="icon iconfont icon-arrow-bottom"></i>
+                                                <a class="third-item block" href="https://www.geely.com/service" target=_blank>售后服务</a>
+                                                <a class="third-item block" href="https://www.geely.com/servicejoin" target=_blank>县域售后招商</a>
+                                </li>
+                                <li class="nav-item">
+                                        <a href="https://www.geely.com/technology/cma" target=_blank>CMA</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- 快速链接 -->
+                <div class="nav-right">
+                        <a class="geely--global--button line-white set-up-table block" href="#newTestDrive" >
+                            <span>预约试驾</span>
+                        </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- 内容 -->
+        <div class="page-container">
+            <div class="page-content">
+                <div class="module module-404">
+    <div class="module-bg-image">
+        <picture>
+            <source media="(max-width:750px)" srcset="/assets/images/pages/error/404bg-mob.jpg">
+            <img src="/assets/images/pages/error/404bg.jpg" alt="" srcset="">
+        </picture>
+    </div>
+
+    <div class="module-text-box">
+        <div class="text-title">很抱歉，您访问的页面不存在</div>
+        <div class="text-desc">请检查您输入的网址是否正确，或者点击连接继续浏览。</div>
+        <div class="text-btn">
+            <a href="/">返回首页</a>
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+
+        <!-- 侧边栏 -->
+        
+
+<style>
+    #sidebar .sidebar-list .sidebar-item{    align-items: center;}
+</style>
+<div class="sidebar" id="sidebar">
+<ul class="sidebar-list">
+    <!--<li>
+      <a class="sidebar-item" data-animate-img="/assets/images/sidebar/icon-testdrive-img.png" href="https://www.geely.com/activityall" target="_blank">
+        <span class="sidebar-item-icon">
+          <img alt="" class="default" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/ActivityAll/yuyueshijia.png" />
+          <img alt="" class="animate" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/ActivityAll/zhongguonian.png" />
+          <img alt="" class="active" src="/assets/images/sidebar/icon-testdrive-active.png" />
+        </span>
+        <span class="sidebar-item-text">福利领取</span>
+        
+        <div class="active-box">
+          <div class="wrap-box">
+            <img alt="" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/ActivityAll/huodongka.jpg" />
+            <p class="tit">新年就要“兔个”吉利</p>
+            <p class="desc">享至高50%购置税补贴</p>
+          </div>
+        </div>
+      
+    </a></li>-->
+    <li>
+    <a class="sidebar-item  test-drive" href="https://www.geely.com/#newTestDrive" target="_blank">
+    <span class="sidebar-item-icon">
+    <img alt="" class="default" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/ActivityAll/yuyueshijia.png" />
+    <img alt="" class="active" src="/assets/images/sidebar/icon-testdrive-active.png" />
+    </span>
+    <span class="sidebar-item-text">预约试驾</span>
+    </a>
+    </li>
+    <li>
+    <a class="sidebar-item" href="https://geely-h5.geely.com/csbot/?appId=20301001" target="_blank">
+    <span class="sidebar-item-icon">
+    <img alt="" class="default" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/ActivityAll/kefu.png" />
+    <img alt="" class="active" src="/assets/images/sidebar/icon-kefu-active.png" />
+    </span>
+    <span class="sidebar-item-text">我的客服</span>
+    </a>
+    </li>
+    <li>
+    <a class="sidebar-item" href="https://www.geely.com/dealer" target="_blank">
+    <span class="sidebar-item-icon">
+    <img alt="" class="default" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/ActivityAll/jingxiaoshang.png" />
+    <img alt="" class="active" src="/assets/images/sidebar/icon-dealer-search-active.png" />
+    </span>
+    <span class="sidebar-item-text">经销商查询</span>
+    </a>
+    </li>
+    <li class="set-top">
+    <a class="sidebar-item">
+    <span class="sidebar-item-icon">
+    <img alt="" class="default" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/ActivityAll/top.png" />
+    <img alt="" class="active" src="/assets/images/sidebar/icon-set-top-active.png" />
+    </span>
+    <span class="sidebar-item-text"></span>
+    </a>
+    </li>
+</ul>
+</div>
+
+
+        <!-- 尾部引用 -->
+        <div id="footer" class="footer">
+    <footer class="bottom-mobile">
+        <div class="footer-container">
+            <div class="container-left">
+                <nav>
+                        <a href="http://zgh.com/overview/" target=_blank>吉利控股集团</a>
+                        <a href="https://www.geely.com/businesscooperation" target=_blank>合作邀请</a>
+                        <a href="https://www.geely.com/policy" target=_blank>隐私政策</a>
+                        <a href="https://www.geely.com/dealer" target=_blank>经销商查询</a>
+                        <a href="https://www.geely.com/servicestationamap" target=_blank>服务站查询</a>
+                        <a href="https://www.geely.com/powersearch" target=_blank>动力电池回收网点查询</a>
+                </nav>
+            </div>
+            <div class="container-right">
+                <ul class="web-icon">
+                        <li>
+                            <a href="javascript:;" >
+                                <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpai/tubiao1.png" alt="" />
+                                    <div class="code-img"><img alt="" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpaimk/erweima/xiaochengxu.png"><span>扫描二维码添加</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://weibo.com/u/1691328753" target=_blank>
+                                <img src="/-/media/Images/Geely/Footer/weibo-icon.png" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" >
+                                <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpai/tubiao2.png" alt="" />
+                                    <div class="code-img"><img alt="" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpaimk/erweima/douyin.png"><span>扫描二维码添加</span></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" >
+                                <img src="/-/media/Images/Geely/Footer/wechat-icon.png" alt="" />
+                                    <div class="code-img"><img alt="" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpaimk/erweima/gongzhonghao.png"><span>扫描二维码添加</span></div>
+                            </a>
+                        </li>
+                </ul>
+                <div class="customer-phone">
+                    
+                    400-886-9888
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-policy">
+            <div class="footer-policy">
+<p>&copy; 浙江吉利控股集团有限公司 版权所有<a rel="noopener noreferrer" rel="noopener noreferrer" href="https://beian.miit.gov.cn" target="_blank"> 浙ICP备11045738号</a></p>
+<p><a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802006317" target="_blank"> 浙公网安备 33010802006317号</a></p>
+<p><a rel="noopener noreferrer" rel="noopener noreferrer" href=" " target="_blank">中国互联网诚信示范单位</a></p>
+<p><a rel="noopener noreferrer" rel="noopener noreferrer" class="item" href="https://www.geely.com/recordnumber" target="_blank">吉利车载应用备案信息</a></p>
+</div>
+        </div>
+    </footer>
+
+    <footer class="bottom-pc">
+        <nav class="bottom-nav">
+                <a href="http://zgh.com/overview/" target=_blank>吉利控股集团</a>
+                <a href="https://www.geely.com/businesscooperation" target=_blank>合作邀请</a>
+                <a href="https://www.geely.com/policy" target=_blank>隐私政策</a>
+                <a href="https://www.geely.com/dealer" target=_blank>经销商查询</a>
+                <a href="https://www.geely.com/servicestationamap" target=_blank>服务站查询</a>
+                <a href="https://www.geely.com/powersearch" target=_blank>动力电池回收网点查询</a>
+        </nav>
+        <div class="footer-container">
+            <div class="container-left">
+                <p>更多选购方式：查看您附近的吉利汽车经销商或者致电 400-886-9888. </p>
+            </div>
+            <div class="container-right">
+                <ul class="web-icon">
+                        <li>
+                            <a href="javascript:;" >
+                                <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpai/tubiao1.png" alt="" />
+                                    <div class="code-img"><img alt="" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpaimk/erweima/xiaochengxu.png"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://weibo.com/u/1691328753" target=_blank>
+                                <img src="/-/media/Images/Geely/Footer/weibo-icon.png" alt="" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" >
+                                <img src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpai/tubiao2.png" alt="" />
+                                    <div class="code-img"><img alt="" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpaimk/erweima/douyin.png"></div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:;" >
+                                <img src="/-/media/Images/Geely/Footer/wechat-icon.png" alt="" />
+                                    <div class="code-img"><img alt="" src="https://dm30webimages.geely.com/GeelyPromotion/ANEW2/pinpaimk/erweima/gongzhonghao.png"></div>
+                            </a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-policy-pc">
+            <p>&copy; 浙江吉利控股集团有限公司 版权所有 <a rel="noopener noreferrer" rel="noopener noreferrer" href="https://beian.miit.gov.cn" target="_blank">浙ICP备11045738号</a></p>
+<p>&nbsp;</p>
+<a rel="noopener noreferrer" rel="noopener noreferrer" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802006317" target="_blank"> 浙公网安备 33010802006317号</a>
+<p>&nbsp;</p>
+<p>中国互联网诚信示范单位</p>
+<p class="describe"><a rel="noopener noreferrer" rel="noopener noreferrer" class="item" href="https://www.geely.com/recordnumber" target="_blank">吉利车载应用备案信息</a></p>
+        </div>
+    </footer>
+</div>
+
+<div class="cookie-protocol hide">
+    <span class="cha icon iconfont icon-close"></span>
+    <div class="content">
+        我们使用 Cookie以使您获得最佳体验，提供网站流量分析功能和社交媒体功能。
+        我们的 Cookie 政策提供了有关我们如何使用 Cookie 的详细信息。
+        单击“同意”即表示您同意我们使用Cookie，并请参阅我们的<a href="https://www.geely.com/policy"
+                                         target="_blank">【隐私政策】</a>以获取更多信息
+    </div>
+    <div class="agree geely--global--button plane-black">同意</div>
+</div>
+
+
+
+    </div>
+    <!-- 通用脚本 -->
+    <!-- 公共脚本 -->
+<!-- 插件 -->
+<script src="/assets/plugins/swiper-4.5.3/js/swiper.min.js"></script>
+<script src="/assets/plugins/sprite-spin/spritespin.min.js"></script>
+<script src="/assets/plugins/jquery-cookie-1.4.1/jquery.cookie.js"></script>
+<!-- 高德地图 -->
+<script src="https://webapi.amap.com/loader.js"></script>
+
+<!-- 通用脚本 -->
+<script src="/assets/js/extend/jquery.extend.js"></script>
+<script src="/assets/js/utils/device.js"></script>
+<script src="/assets/js/api/api.js"></script>
+<script src="/assets/js/common/map.js"></script>
+<!-- <script src="../../js/common/baiduMap.js"></script> -->
+<script src="/assets/js/components/components.js"></script>
+<script src="/assets/js/pages/pageBase.js"></script>
+<script src="/assets/js/pages/components/header.js"></script>
+<script src="/assets/js/pages/components/footer.js"></script>
+<script src="/assets/js/common/modelMenu.js"></script>
+<script src="/assets/js/common/newCarMenu.js"></script>
+
+<!-- 移动端调试工具 -->
+<script src="/assets/plugins/vconsole/vconsole.min.js"></script>
+<script>
+    if (Utils.Device.isMobile() && window.IS_DEV) {
+        const vConsole = new window.VConsole();
+        console.log('vConsole', vConsole);
+    }
+</script>
+
+    <!-- 页面脚本 -->
+    
+
+</body>
+
+</html>

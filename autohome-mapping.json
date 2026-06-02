@@ -1,0 +1,6052 @@
+{
+  "_timestamp": 1780368646178,
+  "totalSeries": 1479,
+  "series": [
+    {
+      "seriesId": 3170,
+      "name": "奥迪A3"
+    },
+    {
+      "seriesId": 692,
+      "name": "奥迪A4L"
+    },
+    {
+      "seriesId": 7855,
+      "name": "奥迪A5L"
+    },
+    {
+      "seriesId": 18,
+      "name": "奥迪A6L"
+    },
+    {
+      "seriesId": 8105,
+      "name": "奥迪Q2L"
+    },
+    {
+      "seriesId": 2951,
+      "name": "奥迪Q3"
+    },
+    {
+      "seriesId": 7413,
+      "name": "奥迪Q5L"
+    },
+    {
+      "seriesId": 5912,
+      "name": "奥迪A7L"
+    },
+    {
+      "seriesId": 6336,
+      "name": "奥迪Q6"
+    },
+    {
+      "seriesId": 6163,
+      "name": "奥迪A4(进口)"
+    },
+    {
+      "seriesId": 538,
+      "name": "奥迪A5(进口)"
+    },
+    {
+      "seriesId": 2732,
+      "name": "奥迪S4"
+    },
+    {
+      "seriesId": 2734,
+      "name": "奥迪S5"
+    },
+    {
+      "seriesId": 472,
+      "name": "奥迪A6(进口)"
+    },
+    {
+      "seriesId": 2736,
+      "name": "奥迪S6"
+    },
+    {
+      "seriesId": 740,
+      "name": "奥迪A7"
+    },
+    {
+      "seriesId": 2738,
+      "name": "奥迪S7"
+    },
+    {
+      "seriesId": 146,
+      "name": "奥迪A8"
+    },
+    {
+      "seriesId": 2739,
+      "name": "奥迪S8"
+    },
+    {
+      "seriesId": 2841,
+      "name": "奥迪SQ5"
+    },
+    {
+      "seriesId": 6899,
+      "name": "奥迪Q7"
+    },
+    {
+      "seriesId": 4288,
+      "name": "奥迪Q8"
+    },
+    {
+      "seriesId": 3822,
+      "name": "奥迪SQ7"
+    },
+    {
+      "seriesId": 5355,
+      "name": "奥迪SQ8"
+    },
+    {
+      "seriesId": 7905,
+      "name": "奥迪RS 4"
+    },
+    {
+      "seriesId": 2735,
+      "name": "奥迪RS 5"
+    },
+    {
+      "seriesId": 2737,
+      "name": "奥迪RS 6"
+    },
+    {
+      "seriesId": 2994,
+      "name": "奥迪RS 7"
+    },
+    {
+      "seriesId": 5508,
+      "name": "奥迪RS Q8"
+    },
+    {
+      "seriesId": 2731,
+      "name": "AION N60"
+    },
+    {
+      "seriesId": 8422,
+      "name": "AION UT"
+    },
+    {
+      "seriesId": 7452,
+      "name": "AION RT"
+    },
+    {
+      "seriesId": 5026,
+      "name": "AION S"
+    },
+    {
+      "seriesId": 6619,
+      "name": "AION i60"
+    },
+    {
+      "seriesId": 5622,
+      "name": "AION V"
+    },
+    {
+      "seriesId": 5976,
+      "name": "AION Y"
+    },
+    {
+      "seriesId": 5262,
+      "name": "AION LX"
+    },
+    {
+      "seriesId": 6494,
+      "name": "Vanquish"
+    },
+    {
+      "seriesId": 5146,
+      "name": "Valhalla"
+    },
+    {
+      "seriesId": 7293,
+      "name": "Valiant"
+    },
+    {
+      "seriesId": 3891,
+      "name": "阿维塔07 L"
+    },
+    {
+      "seriesId": 7752,
+      "name": "阿维塔06"
+    },
+    {
+      "seriesId": 7126,
+      "name": "阿维塔12"
+    },
+    {
+      "seriesId": 7652,
+      "name": "阿维塔07"
+    },
+    {
+      "seriesId": 6354,
+      "name": "阿维塔11"
+    },
+    {
+      "seriesId": 8285,
+      "name": "傲旋"
+    },
+    {
+      "seriesId": 7515,
+      "name": "小傲旋"
+    },
+    {
+      "seriesId": 6392,
+      "name": "安凯快乐运"
+    },
+    {
+      "seriesId": 6816,
+      "name": "安凯Q5"
+    },
+    {
+      "seriesId": 2745,
+      "name": "问界M5"
+    },
+    {
+      "seriesId": 6643,
+      "name": "问界M7"
+    },
+    {
+      "seriesId": 8003,
+      "name": "问界M8"
+    },
+    {
+      "seriesId": 7207,
+      "name": "问界M9"
+    },
+    {
+      "seriesId": 7052,
+      "name": "埃尚"
+    },
+    {
+      "seriesId": 8449,
+      "name": "奥迪E7X"
+    },
+    {
+      "seriesId": 7925,
+      "name": "阿娜亚依维柯"
+    },
+    {
+      "seriesId": 8317,
+      "name": "挑战者系列"
+    },
+    {
+      "seriesId": 7253,
+      "name": "征服者系列"
+    },
+    {
+      "seriesId": 7277,
+      "name": "先锋官"
+    },
+    {
+      "seriesId": 7265,
+      "name": "锐行者"
+    },
+    {
+      "seriesId": 7538,
+      "name": "元UP"
+    },
+    {
+      "seriesId": 8485,
+      "name": "海豹08"
+    },
+    {
+      "seriesId": 8102,
+      "name": "大唐"
+    },
+    {
+      "seriesId": 6762,
+      "name": "海鸥"
+    },
+    {
+      "seriesId": 6139,
+      "name": "海豚"
+    },
+    {
+      "seriesId": 5238,
+      "name": "比亚迪e2"
+    },
+    {
+      "seriesId": 5371,
+      "name": "比亚迪e3"
+    },
+    {
+      "seriesId": 7981,
+      "name": "秦PLUS"
+    },
+    {
+      "seriesId": 2761,
+      "name": "秦新能源"
+    },
+    {
+      "seriesId": 6337,
+      "name": "驱逐舰05"
+    },
+    {
+      "seriesId": 8015,
+      "name": "比亚迪e7"
+    },
+    {
+      "seriesId": 6394,
+      "name": "海豹"
+    },
+    {
+      "seriesId": 7588,
+      "name": "海豹06"
+    },
+    {
+      "seriesId": 8201,
+      "name": "海豹06GT"
+    },
+    {
+      "seriesId": 7822,
+      "name": "秦L"
+    },
+    {
+      "seriesId": 5955,
+      "name": "比亚迪e9"
+    },
+    {
+      "seriesId": 5499,
+      "name": "汉"
+    },
+    {
+      "seriesId": 7257,
+      "name": "汉L"
+    },
+    {
+      "seriesId": 7807,
+      "name": "海狮05 EV"
+    },
+    {
+      "seriesId": 5279,
+      "name": "宋Pro新能源"
+    },
+    {
+      "seriesId": 6298,
+      "name": "元PLUS"
+    },
+    {
+      "seriesId": 8087,
+      "name": "海狮06"
+    },
+    {
+      "seriesId": 6851,
+      "name": "海狮07 EV"
+    },
+    {
+      "seriesId": 7815,
+      "name": "宋L DM-i"
+    },
+    {
+      "seriesId": 7220,
+      "name": "宋L EV"
+    },
+    {
+      "seriesId": 8511,
+      "name": "宋Ultra"
+    },
+    {
+      "seriesId": 3430,
+      "name": "唐新能源"
+    },
+    {
+      "seriesId": 7977,
+      "name": "唐L"
+    },
+    {
+      "seriesId": 5825,
+      "name": "比亚迪D1"
+    },
+    {
+      "seriesId": 831,
+      "name": "比亚迪e6"
+    },
+    {
+      "seriesId": 8184,
+      "name": "比亚迪M9"
+    },
+    {
+      "seriesId": 7851,
+      "name": "夏"
+    },
+    {
+      "seriesId": 6671,
+      "name": "护卫舰07"
+    },
+    {
+      "seriesId": 8101,
+      "name": "奔驰GLE"
+    },
+    {
+      "seriesId": 4764,
+      "name": "奔驰A级"
+    },
+    {
+      "seriesId": 5217,
+      "name": "奔驰A级AMG"
+    },
+    {
+      "seriesId": 8084,
+      "name": "奔驰CLA新能源"
+    },
+    {
+      "seriesId": 588,
+      "name": "奔驰C级"
+    },
+    {
+      "seriesId": 4349,
+      "name": "奔驰C级新能源"
+    },
+    {
+      "seriesId": 6640,
+      "name": "奔驰EQE"
+    },
+    {
+      "seriesId": 197,
+      "name": "奔驰E级"
+    },
+    {
+      "seriesId": 4768,
+      "name": "奔驰E级新能源"
+    },
+    {
+      "seriesId": 6149,
+      "name": "奔驰EQA"
+    },
+    {
+      "seriesId": 6150,
+      "name": "奔驰EQB"
+    },
+    {
+      "seriesId": 3248,
+      "name": "奔驰GLA"
+    },
+    {
+      "seriesId": 5348,
+      "name": "奔驰GLB"
+    },
+    {
+      "seriesId": 3862,
+      "name": "奔驰GLC"
+    },
+    {
+      "seriesId": 7737,
+      "name": "奔驰GLC新能源"
+    },
+    {
+      "seriesId": 6975,
+      "name": "奔驰E级(进口)"
+    },
+    {
+      "seriesId": 59,
+      "name": "奔驰S级"
+    },
+    {
+      "seriesId": 4344,
+      "name": "奔驰S级新能源"
+    },
+    {
+      "seriesId": 3339,
+      "name": "奔驰GLC轿跑"
+    },
+    {
+      "seriesId": 3683,
+      "name": "奔驰GLE轿跑"
+    },
+    {
+      "seriesId": 4346,
+      "name": "奔驰GLE新能源"
+    },
+    {
+      "seriesId": 60,
+      "name": "奔驰G级"
+    },
+    {
+      "seriesId": 3688,
+      "name": "奔驰GLS"
+    },
+    {
+      "seriesId": 6916,
+      "name": "奔驰CLE"
+    },
+    {
+      "seriesId": 4874,
+      "name": "奔驰V级"
+    },
+    {
+      "seriesId": 2084,
+      "name": "威霆"
+    },
+    {
+      "seriesId": 2034,
+      "name": "奔驰C级AMG"
+    },
+    {
+      "seriesId": 7454,
+      "name": "奔驰G级AMG"
+    },
+    {
+      "seriesId": 3901,
+      "name": "奔驰SL级AMG"
+    },
+    {
+      "seriesId": 3451,
+      "name": "AMG GT"
+    },
+    {
+      "seriesId": 6366,
+      "name": "奔驰EQS"
+    },
+    {
+      "seriesId": 6374,
+      "name": "奔驰G级新能源"
+    },
+    {
+      "seriesId": 6637,
+      "name": "迈巴赫VLS"
+    },
+    {
+      "seriesId": 3665,
+      "name": "迈巴赫S级"
+    },
+    {
+      "seriesId": 7143,
+      "name": "迈巴赫S级新能源"
+    },
+    {
+      "seriesId": 6376,
+      "name": "迈巴赫GLS"
+    },
+    {
+      "seriesId": 6755,
+      "name": "LIFE"
+    },
+    {
+      "seriesId": 135,
+      "name": "思域"
+    },
+    {
+      "seriesId": 4809,
+      "name": "英仕派"
+    },
+    {
+      "seriesId": 7178,
+      "name": "英仕派新能源"
+    },
+    {
+      "seriesId": 3582,
+      "name": "本田XR-V"
+    },
+    {
+      "seriesId": 314,
+      "name": "本田CR-V"
+    },
+    {
+      "seriesId": 5892,
+      "name": "本田HR-V"
+    },
+    {
+      "seriesId": 7244,
+      "name": "猎光e:NS2"
+    },
+    {
+      "seriesId": 4304,
+      "name": "本田UR-V"
+    },
+    {
+      "seriesId": 7676,
+      "name": "东风本田S7"
+    },
+    {
+      "seriesId": 2565,
+      "name": "艾力绅"
+    },
+    {
+      "seriesId": 8122,
+      "name": "型格"
+    },
+    {
+      "seriesId": 78,
+      "name": "雅阁"
+    },
+    {
+      "seriesId": 7127,
+      "name": "雅阁新能源"
+    },
+    {
+      "seriesId": 3460,
+      "name": "缤智"
+    },
+    {
+      "seriesId": 5393,
+      "name": "皓影"
+    },
+    {
+      "seriesId": 5994,
+      "name": "皓影新能源"
+    },
+    {
+      "seriesId": 4102,
+      "name": "冠道"
+    },
+    {
+      "seriesId": 7677,
+      "name": "广汽本田P7"
+    },
+    {
+      "seriesId": 880,
+      "name": "奥德赛"
+    },
+    {
+      "seriesId": 8121,
+      "name": "思域(进口)"
+    },
+    {
+      "seriesId": 2238,
+      "name": "宝马i5"
+    },
+    {
+      "seriesId": 5758,
+      "name": "宝马iX3"
+    },
+    {
+      "seriesId": 7827,
+      "name": "宝马2系"
+    },
+    {
+      "seriesId": 66,
+      "name": "宝马3系"
+    },
+    {
+      "seriesId": 6544,
+      "name": "宝马i3"
+    },
+    {
+      "seriesId": 65,
+      "name": "宝马5系"
+    },
+    {
+      "seriesId": 7223,
+      "name": "宝马iX1"
+    },
+    {
+      "seriesId": 2561,
+      "name": "宝马X1"
+    },
+    {
+      "seriesId": 4658,
+      "name": "宝马X3"
+    },
+    {
+      "seriesId": 6548,
+      "name": "宝马X5"
+    },
+    {
+      "seriesId": 4171,
+      "name": "宝马M235L"
+    },
+    {
+      "seriesId": 7944,
+      "name": "宝马2系(进口)"
+    },
+    {
+      "seriesId": 2968,
+      "name": "宝马4系"
+    },
+    {
+      "seriesId": 5480,
+      "name": "宝马i4"
+    },
+    {
+      "seriesId": 202,
+      "name": "宝马5系(进口)"
+    },
+    {
+      "seriesId": 153,
+      "name": "宝马7系"
+    },
+    {
+      "seriesId": 3464,
+      "name": "宝马8系"
+    },
+    {
+      "seriesId": 6427,
+      "name": "宝马i7"
+    },
+    {
+      "seriesId": 3386,
+      "name": "宝马X2(进口)"
+    },
+    {
+      "seriesId": 4942,
+      "name": "宝马iX"
+    },
+    {
+      "seriesId": 587,
+      "name": "宝马X6"
+    },
+    {
+      "seriesId": 7370,
+      "name": "宝马X7"
+    },
+    {
+      "seriesId": 8648,
+      "name": "宝马M240i"
+    },
+    {
+      "seriesId": 7947,
+      "name": "宝马i4 M"
+    },
+    {
+      "seriesId": 2196,
+      "name": "宝马M3"
+    },
+    {
+      "seriesId": 3189,
+      "name": "宝马M4"
+    },
+    {
+      "seriesId": 7948,
+      "name": "宝马i5 M60"
+    },
+    {
+      "seriesId": 7787,
+      "name": "宝马M5新能源"
+    },
+    {
+      "seriesId": 7949,
+      "name": "宝马M760Le"
+    },
+    {
+      "seriesId": 7952,
+      "name": "宝马X3 M"
+    },
+    {
+      "seriesId": 8028,
+      "name": "宝马X3 M50"
+    },
+    {
+      "seriesId": 4929,
+      "name": "宝马X4 M"
+    },
+    {
+      "seriesId": 7954,
+      "name": "宝马iX M60"
+    },
+    {
+      "seriesId": 2728,
+      "name": "宝马X5 M"
+    },
+    {
+      "seriesId": 2729,
+      "name": "宝马X6 M"
+    },
+    {
+      "seriesId": 7955,
+      "name": "宝马XM"
+    },
+    {
+      "seriesId": 3357,
+      "name": "宝马M2"
+    },
+    {
+      "seriesId": 6959,
+      "name": "威朗"
+    },
+    {
+      "seriesId": 4776,
+      "name": "微蓝6"
+    },
+    {
+      "seriesId": 164,
+      "name": "君威"
+    },
+    {
+      "seriesId": 8510,
+      "name": "别克至境E7"
+    },
+    {
+      "seriesId": 834,
+      "name": "君越"
+    },
+    {
+      "seriesId": 8100,
+      "name": "别克至境L7"
+    },
+    {
+      "seriesId": 3554,
+      "name": "昂科威Plus"
+    },
+    {
+      "seriesId": 8038,
+      "name": "昂科威S"
+    },
+    {
+      "seriesId": 7043,
+      "name": "别克E5"
+    },
+    {
+      "seriesId": 166,
+      "name": "别克GL8"
+    },
+    {
+      "seriesId": 7658,
+      "name": "别克GL8新能源"
+    },
+    {
+      "seriesId": 7873,
+      "name": "别克至境世家"
+    },
+    {
+      "seriesId": 7010,
+      "name": "世纪"
+    },
+    {
+      "seriesId": 7699,
+      "name": "北京BJ81"
+    },
+    {
+      "seriesId": 5771,
+      "name": "北京越野BJ30"
+    },
+    {
+      "seriesId": 623,
+      "name": "北京越野BJ40"
+    },
+    {
+      "seriesId": 7696,
+      "name": "北京越野BJ60"
+    },
+    {
+      "seriesId": 8603,
+      "name": "Taycan"
+    },
+    {
+      "seriesId": 703,
+      "name": "Panamera"
+    },
+    {
+      "seriesId": 7299,
+      "name": "Macan"
+    },
+    {
+      "seriesId": 7036,
+      "name": "Macan新能源"
+    },
+    {
+      "seriesId": 172,
+      "name": "Cayenne"
+    },
+    {
+      "seriesId": 4324,
+      "name": "保时捷718"
+    },
+    {
+      "seriesId": 162,
+      "name": "保时捷911"
+    },
+    {
+      "seriesId": 3401,
+      "name": "标致408"
+    },
+    {
+      "seriesId": 6785,
+      "name": "标致408X"
+    },
+    {
+      "seriesId": 2299,
+      "name": "标致508"
+    },
+    {
+      "seriesId": 4167,
+      "name": "标致4008"
+    },
+    {
+      "seriesId": 4271,
+      "name": "标致5008"
+    },
+    {
+      "seriesId": 8639,
+      "name": "北京EU7"
+    },
+    {
+      "seriesId": 8314,
+      "name": "北京EU8"
+    },
+    {
+      "seriesId": 6478,
+      "name": "魔方"
+    },
+    {
+      "seriesId": 5624,
+      "name": "北京X7"
+    },
+    {
+      "seriesId": 6873,
+      "name": "212经典"
+    },
+    {
+      "seriesId": 622,
+      "name": "勇士"
+    },
+    {
+      "seriesId": 7592,
+      "name": "vala pro"
+    },
+    {
+      "seriesId": 8214,
+      "name": "锐胜M8新能源"
+    },
+    {
+      "seriesId": 6701,
+      "name": "锐胜王牌M7"
+    },
+    {
+      "seriesId": 6702,
+      "name": "北汽小河马"
+    },
+    {
+      "seriesId": 6623,
+      "name": "鲸卡T6"
+    },
+    {
+      "seriesId": 6575,
+      "name": "鲸卡T7"
+    },
+    {
+      "seriesId": 7172,
+      "name": "鲸卡T7EV"
+    },
+    {
+      "seriesId": 6803,
+      "name": "卡路里"
+    },
+    {
+      "seriesId": 4586,
+      "name": "勇士皮卡"
+    },
+    {
+      "seriesId": 6621,
+      "name": "元宝"
+    },
+    {
+      "seriesId": 2915,
+      "name": "锐铃"
+    },
+    {
+      "seriesId": 8319,
+      "name": "飞驰插电混动"
+    },
+    {
+      "seriesId": 2685,
+      "name": "添越"
+    },
+    {
+      "seriesId": 4714,
+      "name": "添越插电混动"
+    },
+    {
+      "seriesId": 7753,
+      "name": "欧陆插电混动"
+    },
+    {
+      "seriesId": 8202,
+      "name": "悦意08"
+    },
+    {
+      "seriesId": 7231,
+      "name": "奔腾小马"
+    },
+    {
+      "seriesId": 466,
+      "name": "奔腾B70"
+    },
+    {
+      "seriesId": 7899,
+      "name": "悦意03"
+    },
+    {
+      "seriesId": 7978,
+      "name": "悦意07"
+    },
+    {
+      "seriesId": 6008,
+      "name": "奔腾NAT"
+    },
+    {
+      "seriesId": 5804,
+      "name": "宝骏云朵"
+    },
+    {
+      "seriesId": 6155,
+      "name": "宝骏享境"
+    },
+    {
+      "seriesId": 6936,
+      "name": "宝骏悦也"
+    },
+    {
+      "seriesId": 7574,
+      "name": "宝骏悦也Plus"
+    },
+    {
+      "seriesId": 8279,
+      "name": "宝骏E6"
+    },
+    {
+      "seriesId": 7741,
+      "name": "宝骏云海"
+    },
+    {
+      "seriesId": 5982,
+      "name": "北汽泰普致境"
+    },
+    {
+      "seriesId": 7872,
+      "name": "北汽泰普致享"
+    },
+    {
+      "seriesId": 7622,
+      "name": "瀚海苍穹"
+    },
+    {
+      "seriesId": 7624,
+      "name": "蓝鲸"
+    },
+    {
+      "seriesId": 7620,
+      "name": "摩登部落"
+    },
+    {
+      "seriesId": 7623,
+      "name": "致锋"
+    },
+    {
+      "seriesId": 7621,
+      "name": "致臻"
+    },
+    {
+      "seriesId": 7486,
+      "name": "巴菲特600"
+    },
+    {
+      "seriesId": 7485,
+      "name": "巴菲特S"
+    },
+    {
+      "seriesId": 8164,
+      "name": "巴菲特9"
+    },
+    {
+      "seriesId": 8526,
+      "name": "比克兴熠"
+    },
+    {
+      "seriesId": 5408,
+      "name": "铂驰VC系列"
+    },
+    {
+      "seriesId": 5470,
+      "name": "昌河北斗星"
+    },
+    {
+      "seriesId": 5740,
+      "name": "昌河北斗星X5"
+    },
+    {
+      "seriesId": 76,
+      "name": "博速 G级"
+    },
+    {
+      "seriesId": 5649,
+      "name": "博速 V级"
+    },
+    {
+      "seriesId": 5144,
+      "name": "帅骐"
+    },
+    {
+      "seriesId": 7512,
+      "name": "长安F70蓝鲸"
+    },
+    {
+      "seriesId": 7434,
+      "name": "长安猎手"
+    },
+    {
+      "seriesId": 2429,
+      "name": "逸动"
+    },
+    {
+      "seriesId": 6335,
+      "name": "长安UNI-V"
+    },
+    {
+      "seriesId": 6735,
+      "name": "锐程PLUS"
+    },
+    {
+      "seriesId": 6976,
+      "name": "逸达"
+    },
+    {
+      "seriesId": 8062,
+      "name": "逸动PHEV"
+    },
+    {
+      "seriesId": 4976,
+      "name": "长安CS75"
+    },
+    {
+      "seriesId": 5179,
+      "name": "长安UNI-T"
+    },
+    {
+      "seriesId": 7821,
+      "name": "长安UNI-Z"
+    },
+    {
+      "seriesId": 7552,
+      "name": "长安UNI-K"
+    },
+    {
+      "seriesId": 6264,
+      "name": "长安CS95"
+    },
+    {
+      "seriesId": 6860,
+      "name": "长安览拓者"
+    },
+    {
+      "seriesId": 7239,
+      "name": "长安览拓者新能源"
+    },
+    {
+      "seriesId": 6835,
+      "name": "峰景房车"
+    },
+    {
+      "seriesId": 4343,
+      "name": "逸动新能源"
+    },
+    {
+      "seriesId": 7100,
+      "name": "奔奔E-Star"
+    },
+    {
+      "seriesId": 7895,
+      "name": "长安欧尚520"
+    },
+    {
+      "seriesId": 8657,
+      "name": "长安欧尚530"
+    },
+    {
+      "seriesId": 6476,
+      "name": "长安欧尚Z6"
+    },
+    {
+      "seriesId": 6670,
+      "name": "风骏5"
+    },
+    {
+      "seriesId": 4889,
+      "name": "风骏7"
+    },
+    {
+      "seriesId": 6687,
+      "name": "金刚炮"
+    },
+    {
+      "seriesId": 5202,
+      "name": "炮"
+    },
+    {
+      "seriesId": 5241,
+      "name": "炮新能源"
+    },
+    {
+      "seriesId": 6901,
+      "name": "山海炮"
+    },
+    {
+      "seriesId": 7229,
+      "name": "长安睿行EM60"
+    },
+    {
+      "seriesId": 5218,
+      "name": "长安睿行M60"
+    },
+    {
+      "seriesId": 5552,
+      "name": "长安之星5"
+    },
+    {
+      "seriesId": 4917,
+      "name": "长安之星9EV"
+    },
+    {
+      "seriesId": 2566,
+      "name": "欧诺S"
+    },
+    {
+      "seriesId": 6741,
+      "name": "长安神骐PLUS"
+    },
+    {
+      "seriesId": 5483,
+      "name": "长安神骐T30"
+    },
+    {
+      "seriesId": 3155,
+      "name": "长安星卡"
+    },
+    {
+      "seriesId": 4918,
+      "name": "长安星卡EV"
+    },
+    {
+      "seriesId": 6648,
+      "name": "长安星卡PLUS"
+    },
+    {
+      "seriesId": 7718,
+      "name": "长安凯程V919"
+    },
+    {
+      "seriesId": 4892,
+      "name": "长安睿行EM80"
+    },
+    {
+      "seriesId": 3227,
+      "name": "长安睿行M80"
+    },
+    {
+      "seriesId": 4011,
+      "name": "长安睿行M90"
+    },
+    {
+      "seriesId": 6696,
+      "name": "长安凯程F300"
+    },
+    {
+      "seriesId": 5343,
+      "name": "创维D10"
+    },
+    {
+      "seriesId": 7518,
+      "name": "创维磐石"
+    },
+    {
+      "seriesId": 6188,
+      "name": "创维EV6"
+    },
+    {
+      "seriesId": 6686,
+      "name": "创维HT-i"
+    },
+    {
+      "seriesId": 7831,
+      "name": "创维K10L"
+    },
+    {
+      "seriesId": 7830,
+      "name": "创维D11"
+    },
+    {
+      "seriesId": 8580,
+      "name": "创维鸿途"
+    },
+    {
+      "seriesId": 7891,
+      "name": "曹操60"
+    },
+    {
+      "seriesId": 7494,
+      "name": "跨越王X7"
+    },
+    {
+      "seriesId": 6489,
+      "name": "跨越星V3"
+    },
+    {
+      "seriesId": 6082,
+      "name": "跨越星V5"
+    },
+    {
+      "seriesId": 6340,
+      "name": "跨越星V5 EV"
+    },
+    {
+      "seriesId": 6599,
+      "name": "跨越星V7"
+    },
+    {
+      "seriesId": 6868,
+      "name": "跨越星V7 EV"
+    },
+    {
+      "seriesId": 8233,
+      "name": "跨越星光 EV"
+    },
+    {
+      "seriesId": 5433,
+      "name": "跨越王X1"
+    },
+    {
+      "seriesId": 6277,
+      "name": "跨越王X1 EV"
+    },
+    {
+      "seriesId": 5436,
+      "name": "跨越王X3"
+    },
+    {
+      "seriesId": 7011,
+      "name": "跨越王X3 EV"
+    },
+    {
+      "seriesId": 8029,
+      "name": "跨越者D1"
+    },
+    {
+      "seriesId": 8030,
+      "name": "跨越者D3"
+    },
+    {
+      "seriesId": 5444,
+      "name": "跨越者D5"
+    },
+    {
+      "seriesId": 7155,
+      "name": "新豹T1"
+    },
+    {
+      "seriesId": 5143,
+      "name": "新豹T3"
+    },
+    {
+      "seriesId": 7734,
+      "name": "新豹T3 EV"
+    },
+    {
+      "seriesId": 6463,
+      "name": "新豹T5"
+    },
+    {
+      "seriesId": 8303,
+      "name": "星塔"
+    },
+    {
+      "seriesId": 8308,
+      "name": "星塔EV"
+    },
+    {
+      "seriesId": 5443,
+      "name": "橙仕X7"
+    },
+    {
+      "seriesId": 6310,
+      "name": "橙仕01"
+    },
+    {
+      "seriesId": 6646,
+      "name": "橙仕X2"
+    },
+    {
+      "seriesId": 7794,
+      "name": "橙仕X5"
+    },
+    {
+      "seriesId": 7875,
+      "name": "橙仕X6"
+    },
+    {
+      "seriesId": 7371,
+      "name": "角马"
+    },
+    {
+      "seriesId": 6966,
+      "name": "骆驼"
+    },
+    {
+      "seriesId": 6542,
+      "name": "斑马"
+    },
+    {
+      "seriesId": 7096,
+      "name": "骆驼微卡"
+    },
+    {
+      "seriesId": 8193,
+      "name": "星马T3E"
+    },
+    {
+      "seriesId": 3875,
+      "name": "车驰Vito"
+    },
+    {
+      "seriesId": 5177,
+      "name": "车驰V系列"
+    },
+    {
+      "seriesId": 5328,
+      "name": "车驰Daily"
+    },
+    {
+      "seriesId": 5327,
+      "name": "共创坦克300"
+    },
+    {
+      "seriesId": 7266,
+      "name": "长安启源A05"
+    },
+    {
+      "seriesId": 7351,
+      "name": "长安启源Q06"
+    },
+    {
+      "seriesId": 8140,
+      "name": "长安启源A06"
+    },
+    {
+      "seriesId": 7209,
+      "name": "长安启源A07"
+    },
+    {
+      "seriesId": 8241,
+      "name": "长安启源Q05"
+    },
+    {
+      "seriesId": 7975,
+      "name": "长安启源Q07"
+    },
+    {
+      "seriesId": 7575,
+      "name": "长安启源E07"
+    },
+    {
+      "seriesId": 8124,
+      "name": "长安猎手 K50"
+    },
+    {
+      "seriesId": 6674,
+      "name": "长安Lumin"
+    },
+    {
+      "seriesId": 4093,
+      "name": "拾光福祉车"
+    },
+    {
+      "seriesId": 8429,
+      "name": "与众08"
+    },
+    {
+      "seriesId": 8312,
+      "name": "与众07"
+    },
+    {
+      "seriesId": 7628,
+      "name": "与众06"
+    },
+    {
+      "seriesId": 8608,
+      "name": "途锐"
+    },
+    {
+      "seriesId": 4330,
+      "name": "朗逸"
+    },
+    {
+      "seriesId": 6265,
+      "name": "大众ID.3"
+    },
+    {
+      "seriesId": 3457,
+      "name": "凌渡"
+    },
+    {
+      "seriesId": 528,
+      "name": "帕萨特"
+    },
+    {
+      "seriesId": 4904,
+      "name": "帕萨特插电混动"
+    },
+    {
+      "seriesId": 5511,
+      "name": "ID.4 X"
+    },
+    {
+      "seriesId": 4745,
+      "name": "途岳"
+    },
+    {
+      "seriesId": 4274,
+      "name": "途观L"
+    },
+    {
+      "seriesId": 4746,
+      "name": "途观L插电混动"
+    },
+    {
+      "seriesId": 6035,
+      "name": "ID.6 X"
+    },
+    {
+      "seriesId": 4232,
+      "name": "途昂"
+    },
+    {
+      "seriesId": 8092,
+      "name": "途安"
+    },
+    {
+      "seriesId": 5445,
+      "name": "威然"
+    },
+    {
+      "seriesId": 7233,
+      "name": "迈腾 PHEV"
+    },
+    {
+      "seriesId": 8584,
+      "name": "宝来"
+    },
+    {
+      "seriesId": 871,
+      "name": "高尔夫"
+    },
+    {
+      "seriesId": 442,
+      "name": "速腾"
+    },
+    {
+      "seriesId": 7829,
+      "name": "高尔夫GTI"
+    },
+    {
+      "seriesId": 7208,
+      "name": "迈腾"
+    },
+    {
+      "seriesId": 905,
+      "name": "一汽-大众CC"
+    },
+    {
+      "seriesId": 5785,
+      "name": "T-ROC探歌"
+    },
+    {
+      "seriesId": 4744,
+      "name": "探岳"
+    },
+    {
+      "seriesId": 5061,
+      "name": "探岳 PHEV"
+    },
+    {
+      "seriesId": 5246,
+      "name": "探岳X"
+    },
+    {
+      "seriesId": 5245,
+      "name": "揽境"
+    },
+    {
+      "seriesId": 6738,
+      "name": "揽巡"
+    },
+    {
+      "seriesId": 8090,
+      "name": "大拿M1"
+    },
+    {
+      "seriesId": 6830,
+      "name": "领地"
+    },
+    {
+      "seriesId": 8226,
+      "name": "星际X SUV"
+    },
+    {
+      "seriesId": 4686,
+      "name": "大通G50"
+    },
+    {
+      "seriesId": 7924,
+      "name": "大家7"
+    },
+    {
+      "seriesId": 6148,
+      "name": "大家9"
+    },
+    {
+      "seriesId": 3064,
+      "name": "大通G10"
+    },
+    {
+      "seriesId": 6479,
+      "name": "大通G90"
+    },
+    {
+      "seriesId": 8324,
+      "name": "大拿V1L"
+    },
+    {
+      "seriesId": 6447,
+      "name": "新途EV80"
+    },
+    {
+      "seriesId": 5882,
+      "name": "新途EV90"
+    },
+    {
+      "seriesId": 2608,
+      "name": "新途V80"
+    },
+    {
+      "seriesId": 5192,
+      "name": "新途V90"
+    },
+    {
+      "seriesId": 8222,
+      "name": "新途远界"
+    },
+    {
+      "seriesId": 4241,
+      "name": "大通T60"
+    },
+    {
+      "seriesId": 7636,
+      "name": "探索家星际H"
+    },
+    {
+      "seriesId": 7808,
+      "name": "星际X"
+    },
+    {
+      "seriesId": 7809,
+      "name": "星际X新能源"
+    },
+    {
+      "seriesId": 7228,
+      "name": "大通G70"
+    },
+    {
+      "seriesId": 7276,
+      "name": "大拿V1"
+    },
+    {
+      "seriesId": 7406,
+      "name": "大拿T1"
+    },
+    {
+      "seriesId": 7421,
+      "name": "新途EV70"
+    },
+    {
+      "seriesId": 7312,
+      "name": "星际"
+    },
+    {
+      "seriesId": 7315,
+      "name": "星际EV"
+    },
+    {
+      "seriesId": 8445,
+      "name": "御风EM27"
+    },
+    {
+      "seriesId": 8493,
+      "name": "福小瑞"
+    },
+    {
+      "seriesId": 8494,
+      "name": "小霸王W16"
+    },
+    {
+      "seriesId": 8539,
+      "name": "睿立达V6E"
+    },
+    {
+      "seriesId": 8576,
+      "name": "东风福瑞通"
+    },
+    {
+      "seriesId": 8067,
+      "name": "睿立达V5"
+    },
+    {
+      "seriesId": 8037,
+      "name": "睿立达V7"
+    },
+    {
+      "seriesId": 8315,
+      "name": "睿立达V8E"
+    },
+    {
+      "seriesId": 8652,
+      "name": "途逸T5E"
+    },
+    {
+      "seriesId": 8036,
+      "name": "途逸T7"
+    },
+    {
+      "seriesId": 8653,
+      "name": "途逸T9E"
+    },
+    {
+      "seriesId": 8577,
+      "name": "东风福瑞通V10"
+    },
+    {
+      "seriesId": 6290,
+      "name": "猛士M50"
+    },
+    {
+      "seriesId": 4486,
+      "name": "御风P16"
+    },
+    {
+      "seriesId": 7132,
+      "name": "帕拉索新能源"
+    },
+    {
+      "seriesId": 5879,
+      "name": "帕拉索"
+    },
+    {
+      "seriesId": 2510,
+      "name": "锐骐"
+    },
+    {
+      "seriesId": 7834,
+      "name": "锐骐6 pro"
+    },
+    {
+      "seriesId": 5312,
+      "name": "锐骐6新能源"
+    },
+    {
+      "seriesId": 6663,
+      "name": "锐骐7"
+    },
+    {
+      "seriesId": 7627,
+      "name": "锐骐7新能源"
+    },
+    {
+      "seriesId": 7861,
+      "name": "郑州日产Z9"
+    },
+    {
+      "seriesId": 8016,
+      "name": "风行游艇新能源"
+    },
+    {
+      "seriesId": 7400,
+      "name": "星海V9"
+    },
+    {
+      "seriesId": 7384,
+      "name": "星海V6"
+    },
+    {
+      "seriesId": 4614,
+      "name": "风行S50EV"
+    },
+    {
+      "seriesId": 6488,
+      "name": "风行S60EV"
+    },
+    {
+      "seriesId": 7629,
+      "name": "星海S7"
+    },
+    {
+      "seriesId": 4767,
+      "name": "风行T5"
+    },
+    {
+      "seriesId": 5835,
+      "name": "风行T5 EVO"
+    },
+    {
+      "seriesId": 6633,
+      "name": "风行雷霆"
+    },
+    {
+      "seriesId": 8277,
+      "name": "星海X5"
+    },
+    {
+      "seriesId": 6429,
+      "name": "风行游艇"
+    },
+    {
+      "seriesId": 2540,
+      "name": "菱智"
+    },
+    {
+      "seriesId": 4418,
+      "name": "菱智新能源"
+    },
+    {
+      "seriesId": 4805,
+      "name": "风行M7"
+    },
+    {
+      "seriesId": 5950,
+      "name": "菱智PLUS"
+    },
+    {
+      "seriesId": 5928,
+      "name": "东风风神L7"
+    },
+    {
+      "seriesId": 4421,
+      "name": "东风风神E70"
+    },
+    {
+      "seriesId": 5103,
+      "name": "奕炫"
+    },
+    {
+      "seriesId": 7247,
+      "name": "SKY EV01"
+    },
+    {
+      "seriesId": 8236,
+      "name": "东风风神L7X"
+    },
+    {
+      "seriesId": 8149,
+      "name": "东风风神L8"
+    },
+    {
+      "seriesId": 7136,
+      "name": "皓瀚"
+    },
+    {
+      "seriesId": 6583,
+      "name": "皓极"
+    },
+    {
+      "seriesId": 5696,
+      "name": "奕炫GS"
+    },
+    {
+      "seriesId": 6169,
+      "name": "风光MINIEV"
+    },
+    {
+      "seriesId": 5871,
+      "name": "风光500"
+    },
+    {
+      "seriesId": 4468,
+      "name": "风光S560"
+    },
+    {
+      "seriesId": 4023,
+      "name": "风光580"
+    },
+    {
+      "seriesId": 4759,
+      "name": "风光ix5"
+    },
+    {
+      "seriesId": 7644,
+      "name": "风光S580"
+    },
+    {
+      "seriesId": 6581,
+      "name": "风光380"
+    },
+    {
+      "seriesId": 6391,
+      "name": "风光E380"
+    },
+    {
+      "seriesId": 3829,
+      "name": "风光330"
+    },
+    {
+      "seriesId": 6137,
+      "name": "悦虎"
+    },
+    {
+      "seriesId": 5764,
+      "name": "远志M1"
+    },
+    {
+      "seriesId": 5744,
+      "name": "大运皮卡"
+    },
+    {
+      "seriesId": 7854,
+      "name": "御风EM26"
+    },
+    {
+      "seriesId": 2839,
+      "name": "御风"
+    },
+    {
+      "seriesId": 4278,
+      "name": "御风EV"
+    },
+    {
+      "seriesId": 5429,
+      "name": "御风房车"
+    },
+    {
+      "seriesId": 7401,
+      "name": "大力牛魔王D02"
+    },
+    {
+      "seriesId": 7447,
+      "name": "大力牛魔王D05"
+    },
+    {
+      "seriesId": 7059,
+      "name": "大力牛魔王D01"
+    },
+    {
+      "seriesId": 574,
+      "name": "e爱丽舍"
+    },
+    {
+      "seriesId": 5001,
+      "name": "东风小康C35"
+    },
+    {
+      "seriesId": 3502,
+      "name": "东风小康C36"
+    },
+    {
+      "seriesId": 7626,
+      "name": "东风小康C37"
+    },
+    {
+      "seriesId": 5862,
+      "name": "东风小康C56"
+    },
+    {
+      "seriesId": 4461,
+      "name": "东风小康EC36"
+    },
+    {
+      "seriesId": 4299,
+      "name": "东风小康K05S"
+    },
+    {
+      "seriesId": 3697,
+      "name": "东风小康K07S"
+    },
+    {
+      "seriesId": 7619,
+      "name": "创富牛卡"
+    },
+    {
+      "seriesId": 3698,
+      "name": "东风小康C31"
+    },
+    {
+      "seriesId": 3699,
+      "name": "东风小康C32"
+    },
+    {
+      "seriesId": 5581,
+      "name": "东风小康C51"
+    },
+    {
+      "seriesId": 5582,
+      "name": "东风小康C52"
+    },
+    {
+      "seriesId": 5034,
+      "name": "东风小康D51"
+    },
+    {
+      "seriesId": 5067,
+      "name": "东风小康D52"
+    },
+    {
+      "seriesId": 6985,
+      "name": "东风小康D71"
+    },
+    {
+      "seriesId": 6579,
+      "name": "东风小康D72"
+    },
+    {
+      "seriesId": 6580,
+      "name": "东风小康K01"
+    },
+    {
+      "seriesId": 2497,
+      "name": "东风小康K02"
+    },
+    {
+      "seriesId": 5778,
+      "name": "东南DX8S"
+    },
+    {
+      "seriesId": 6550,
+      "name": "帕拉丁"
+    },
+    {
+      "seriesId": 4306,
+      "name": "悦01"
+    },
+    {
+      "seriesId": 6341,
+      "name": "YOUNG光小新"
+    },
+    {
+      "seriesId": 7404,
+      "name": "纳米01"
+    },
+    {
+      "seriesId": 7398,
+      "name": "eπ007"
+    },
+    {
+      "seriesId": 7456,
+      "name": "eπ008"
+    },
+    {
+      "seriesId": 8609,
+      "name": "奕派M8"
+    },
+    {
+      "seriesId": 8026,
+      "name": "纳米06"
+    },
+    {
+      "seriesId": 7714,
+      "name": "TAHOE太浩"
+    },
+    {
+      "seriesId": 947,
+      "name": "YUKON育空"
+    },
+    {
+      "seriesId": 8441,
+      "name": "探境者01"
+    },
+    {
+      "seriesId": 8461,
+      "name": "212 T10"
+    },
+    {
+      "seriesId": 7798,
+      "name": "212 T01"
+    },
+    {
+      "seriesId": 7520,
+      "name": "铂智4X"
+    },
+    {
+      "seriesId": 3462,
+      "name": "雷凌"
+    },
+    {
+      "seriesId": 110,
+      "name": "凯美瑞"
+    },
+    {
+      "seriesId": 7724,
+      "name": "铂智7"
+    },
+    {
+      "seriesId": 7712,
+      "name": "铂智3X"
+    },
+    {
+      "seriesId": 6414,
+      "name": "锋兰达"
+    },
+    {
+      "seriesId": 5472,
+      "name": "威兰达"
+    },
+    {
+      "seriesId": 5977,
+      "name": "威兰达新能源"
+    },
+    {
+      "seriesId": 771,
+      "name": "汉兰达"
+    },
+    {
+      "seriesId": 6385,
+      "name": "威飒"
+    },
+    {
+      "seriesId": 6272,
+      "name": "赛那SIENNA"
+    },
+    {
+      "seriesId": 5963,
+      "name": "凌尚"
+    },
+    {
+      "seriesId": 6505,
+      "name": "GR YARIS"
+    },
+    {
+      "seriesId": 3682,
+      "name": "Mirai"
+    },
+    {
+      "seriesId": 2614,
+      "name": "皇冠(进口)"
+    },
+    {
+      "seriesId": 2107,
+      "name": "埃尔法"
+    },
+    {
+      "seriesId": 3718,
+      "name": "威尔法"
+    },
+    {
+      "seriesId": 2617,
+      "name": "SUPRA"
+    },
+    {
+      "seriesId": 748,
+      "name": "卡罗拉"
+    },
+    {
+      "seriesId": 6903,
+      "name": "丰田bZ3"
+    },
+    {
+      "seriesId": 4962,
+      "name": "亚洲龙"
+    },
+    {
+      "seriesId": 770,
+      "name": "RAV4荣放"
+    },
+    {
+      "seriesId": 5967,
+      "name": "卡罗拉锐放"
+    },
+    {
+      "seriesId": 7713,
+      "name": "丰田bZ5"
+    },
+    {
+      "seriesId": 6030,
+      "name": "皇冠陆放"
+    },
+    {
+      "seriesId": 46,
+      "name": "普拉多"
+    },
+    {
+      "seriesId": 6672,
+      "name": "格瑞维亚"
+    },
+    {
+      "seriesId": 2527,
+      "name": "柯斯达"
+    },
+    {
+      "seriesId": 5952,
+      "name": "全顺T8"
+    },
+    {
+      "seriesId": 7224,
+      "name": "福特烈马"
+    },
+    {
+      "seriesId": 6430,
+      "name": "领睿"
+    },
+    {
+      "seriesId": 7744,
+      "name": "领睿新能源"
+    },
+    {
+      "seriesId": 8213,
+      "name": "福特智趣烈马"
+    },
+    {
+      "seriesId": 5910,
+      "name": "领裕"
+    },
+    {
+      "seriesId": 7743,
+      "name": "领裕新能源"
+    },
+    {
+      "seriesId": 3814,
+      "name": "途睿欧"
+    },
+    {
+      "seriesId": 7159,
+      "name": "E全顺"
+    },
+    {
+      "seriesId": 4192,
+      "name": "全顺"
+    },
+    {
+      "seriesId": 6931,
+      "name": "Mustang"
+    },
+    {
+      "seriesId": 2353,
+      "name": "蒙迪欧"
+    },
+    {
+      "seriesId": 5211,
+      "name": "锐际"
+    },
+    {
+      "seriesId": 5759,
+      "name": "锐际新能源"
+    },
+    {
+      "seriesId": 6029,
+      "name": "福特电马"
+    },
+    {
+      "seriesId": 3615,
+      "name": "锐界"
+    },
+    {
+      "seriesId": 5556,
+      "name": "探险者"
+    },
+    {
+      "seriesId": 659,
+      "name": "法拉利F80"
+    },
+    {
+      "seriesId": 8547,
+      "name": "法拉利Luce"
+    },
+    {
+      "seriesId": 6642,
+      "name": "Amalfi"
+    },
+    {
+      "seriesId": 7729,
+      "name": "法拉利296"
+    },
+    {
+      "seriesId": 8289,
+      "name": "法拉利849"
+    },
+    {
+      "seriesId": 5517,
+      "name": "Roma"
+    },
+    {
+      "seriesId": 6509,
+      "name": "时代EV6"
+    },
+    {
+      "seriesId": 7369,
+      "name": "祥菱Q EV"
+    },
+    {
+      "seriesId": 7259,
+      "name": "祥菱V1 EV"
+    },
+    {
+      "seriesId": 7354,
+      "name": "图雅诺大麦"
+    },
+    {
+      "seriesId": 8229,
+      "name": "风景T7"
+    },
+    {
+      "seriesId": 6712,
+      "name": "大将军G9SUV"
+    },
+    {
+      "seriesId": 6711,
+      "name": "将军F9SUV"
+    },
+    {
+      "seriesId": 5018,
+      "name": "祥菱S"
+    },
+    {
+      "seriesId": 8227,
+      "name": "祥菱U7"
+    },
+    {
+      "seriesId": 8573,
+      "name": "祥菱U8"
+    },
+    {
+      "seriesId": 4893,
+      "name": "祥菱M"
+    },
+    {
+      "seriesId": 6749,
+      "name": "祥菱M新能源"
+    },
+    {
+      "seriesId": 4165,
+      "name": "祥菱V"
+    },
+    {
+      "seriesId": 5362,
+      "name": "风景G5"
+    },
+    {
+      "seriesId": 3440,
+      "name": "风景G7"
+    },
+    {
+      "seriesId": 4035,
+      "name": "风景G9"
+    },
+    {
+      "seriesId": 7940,
+      "name": "风景i"
+    },
+    {
+      "seriesId": 7164,
+      "name": "钱多多"
+    },
+    {
+      "seriesId": 3735,
+      "name": "图雅诺"
+    },
+    {
+      "seriesId": 8248,
+      "name": "图雅诺X5"
+    },
+    {
+      "seriesId": 8075,
+      "name": "图雅诺X5新能源"
+    },
+    {
+      "seriesId": 8249,
+      "name": "图雅诺X6"
+    },
+    {
+      "seriesId": 8267,
+      "name": "图雅诺X7"
+    },
+    {
+      "seriesId": 8674,
+      "name": "图雅诺X8"
+    },
+    {
+      "seriesId": 8247,
+      "name": "图雅诺X8新能源"
+    },
+    {
+      "seriesId": 7561,
+      "name": "图雅诺大V"
+    },
+    {
+      "seriesId": 4612,
+      "name": "图雅诺智蓝新能源"
+    },
+    {
+      "seriesId": 6704,
+      "name": "智蓝精灵E7"
+    },
+    {
+      "seriesId": 5075,
+      "name": "大将军EV"
+    },
+    {
+      "seriesId": 6604,
+      "name": "大将军G7"
+    },
+    {
+      "seriesId": 5781,
+      "name": "大将军G9"
+    },
+    {
+      "seriesId": 7160,
+      "name": "福田火星"
+    },
+    {
+      "seriesId": 8646,
+      "name": "将军F9"
+    },
+    {
+      "seriesId": 8300,
+      "name": "将军F9新能源"
+    },
+    {
+      "seriesId": 7558,
+      "name": "图雅诺大V新能源"
+    },
+    {
+      "seriesId": 6705,
+      "name": "智蓝精灵E5"
+    },
+    {
+      "seriesId": 6680,
+      "name": "福田征服者7"
+    },
+    {
+      "seriesId": 7557,
+      "name": "飞碟EW5"
+    },
+    {
+      "seriesId": 7747,
+      "name": "飞碟HV5"
+    },
+    {
+      "seriesId": 7733,
+      "name": "飞碟HV6"
+    },
+    {
+      "seriesId": 7748,
+      "name": "飞碟U5"
+    },
+    {
+      "seriesId": 7732,
+      "name": "飞碟U6"
+    },
+    {
+      "seriesId": 6967,
+      "name": "飞碟EF3"
+    },
+    {
+      "seriesId": 7750,
+      "name": "飞碟HW5"
+    },
+    {
+      "seriesId": 5894,
+      "name": "飞碟Q2T"
+    },
+    {
+      "seriesId": 5893,
+      "name": "FF 91"
+    },
+    {
+      "seriesId": 3995,
+      "name": "神行者8"
+    },
+    {
+      "seriesId": 5389,
+      "name": "Summer"
+    },
+    {
+      "seriesId": 8129,
+      "name": "Rocket"
+    },
+    {
+      "seriesId": 2977,
+      "name": "钛3"
+    },
+    {
+      "seriesId": 7353,
+      "name": "豹8"
+    },
+    {
+      "seriesId": 7177,
+      "name": "豹5"
+    },
+    {
+      "seriesId": 8171,
+      "name": "钛7"
+    },
+    {
+      "seriesId": 8596,
+      "name": "卡文乐途"
+    },
+    {
+      "seriesId": 8228,
+      "name": "乐迪"
+    },
+    {
+      "seriesId": 7998,
+      "name": "乐福"
+    },
+    {
+      "seriesId": 7331,
+      "name": "传祺ES9"
+    },
+    {
+      "seriesId": 8627,
+      "name": "传祺越7"
+    },
+    {
+      "seriesId": 5944,
+      "name": "影豹"
+    },
+    {
+      "seriesId": 3495,
+      "name": "传祺GS3"
+    },
+    {
+      "seriesId": 3691,
+      "name": "传祺GS4"
+    },
+    {
+      "seriesId": 4094,
+      "name": "传祺GS8"
+    },
+    {
+      "seriesId": 7329,
+      "name": "传祺向往S7"
+    },
+    {
+      "seriesId": 8083,
+      "name": "传祺向往S9"
+    },
+    {
+      "seriesId": 4662,
+      "name": "传祺M6"
+    },
+    {
+      "seriesId": 7796,
+      "name": "传祺E8"
+    },
+    {
+      "seriesId": 6869,
+      "name": "传祺E9"
+    },
+    {
+      "seriesId": 4174,
+      "name": "传祺M8"
+    },
+    {
+      "seriesId": 8039,
+      "name": "传祺向往M8"
+    },
+    {
+      "seriesId": 7876,
+      "name": "大象G30"
+    },
+    {
+      "seriesId": 7083,
+      "name": "大象G40"
+    },
+    {
+      "seriesId": 7792,
+      "name": "昊铂HT"
+    },
+    {
+      "seriesId": 8246,
+      "name": "昊铂A800"
+    },
+    {
+      "seriesId": 7084,
+      "name": "昊铂GT"
+    },
+    {
+      "seriesId": 7929,
+      "name": "昊铂HL"
+    },
+    {
+      "seriesId": 6934,
+      "name": "昊铂SSR"
+    },
+    {
+      "seriesId": 7298,
+      "name": "哈弗猛龙新能源"
+    },
+    {
+      "seriesId": 8586,
+      "name": "长城H10"
+    },
+    {
+      "seriesId": 2123,
+      "name": "哈弗H6"
+    },
+    {
+      "seriesId": 5770,
+      "name": "哈弗大狗"
+    },
+    {
+      "seriesId": 7746,
+      "name": "哈弗猛龙燃油"
+    },
+    {
+      "seriesId": 8545,
+      "name": "哈弗H6L"
+    },
+    {
+      "seriesId": 6926,
+      "name": "哈弗枭龙MAX"
+    },
+    {
+      "seriesId": 3298,
+      "name": "哈弗H9"
+    },
+    {
+      "seriesId": 7092,
+      "name": "哈弗H5"
+    },
+    {
+      "seriesId": 3808,
+      "name": "红旗H7新能源"
+    },
+    {
+      "seriesId": 7175,
+      "name": "红旗S9"
+    },
+    {
+      "seriesId": 6002,
+      "name": "红旗E-QM5"
+    },
+    {
+      "seriesId": 4410,
+      "name": "红旗H5"
+    },
+    {
+      "seriesId": 5275,
+      "name": "红旗H6"
+    },
+    {
+      "seriesId": 7705,
+      "name": "红旗天工05"
+    },
+    {
+      "seriesId": 7245,
+      "name": "红旗EH7"
+    },
+    {
+      "seriesId": 5566,
+      "name": "红旗H9"
+    },
+    {
+      "seriesId": 3108,
+      "name": "红旗金葵花国礼"
+    },
+    {
+      "seriesId": 7672,
+      "name": "红旗金葵花国雅"
+    },
+    {
+      "seriesId": 7130,
+      "name": "红旗HS3"
+    },
+    {
+      "seriesId": 7673,
+      "name": "红旗HS5"
+    },
+    {
+      "seriesId": 7704,
+      "name": "红旗天工06"
+    },
+    {
+      "seriesId": 8203,
+      "name": "红旗HS7"
+    },
+    {
+      "seriesId": 7590,
+      "name": "红旗天工08"
+    },
+    {
+      "seriesId": 5425,
+      "name": "红旗E-HS9"
+    },
+    {
+      "seriesId": 6461,
+      "name": "红旗金葵花国耀"
+    },
+    {
+      "seriesId": 6726,
+      "name": "红旗HQ9"
+    },
+    {
+      "seriesId": 7156,
+      "name": "红旗金葵花国悦"
+    },
+    {
+      "seriesId": 8066,
+      "name": "华境S"
+    },
+    {
+      "seriesId": 2164,
+      "name": "海马7X"
+    },
+    {
+      "seriesId": 6743,
+      "name": "海马7X新能源"
+    },
+    {
+      "seriesId": 7867,
+      "name": "欧麦加"
+    },
+    {
+      "seriesId": 7681,
+      "name": "华梓凌特"
+    },
+    {
+      "seriesId": 6458,
+      "name": "恒天L4600"
+    },
+    {
+      "seriesId": 3208,
+      "name": "华东牌商务车"
+    },
+    {
+      "seriesId": 4989,
+      "name": "华凯新能源"
+    },
+    {
+      "seriesId": 6941,
+      "name": "华凯VB06"
+    },
+    {
+      "seriesId": 6942,
+      "name": "宏运高顶格瑞维亚"
+    },
+    {
+      "seriesId": 6001,
+      "name": "宏远EM60"
+    },
+    {
+      "seriesId": 7436,
+      "name": "恒信致远V级"
+    },
+    {
+      "seriesId": 7999,
+      "name": "恒信致远威霆"
+    },
+    {
+      "seriesId": 6973,
+      "name": "汇天陆地航母"
+    },
+    {
+      "seriesId": 7803,
+      "name": "海格H6C"
+    },
+    {
+      "seriesId": 4131,
+      "name": "多拉小货"
+    },
+    {
+      "seriesId": 8240,
+      "name": "赫菲特途睿欧"
+    },
+    {
+      "seriesId": 8238,
+      "name": "赫菲特高顶赛那"
+    },
+    {
+      "seriesId": 8276,
+      "name": "沃尔法海狮"
+    },
+    {
+      "seriesId": 3915,
+      "name": "黄海蛟龙"
+    },
+    {
+      "seriesId": 8070,
+      "name": "黄海蛟龙新能源"
+    },
+    {
+      "seriesId": 5334,
+      "name": "黄海威龙"
+    },
+    {
+      "seriesId": 3455,
+      "name": "黄海翔龙"
+    },
+    {
+      "seriesId": 6099,
+      "name": "黄海·大牛"
+    },
+    {
+      "seriesId": 6105,
+      "name": "黄海·野牛"
+    },
+    {
+      "seriesId": 7473,
+      "name": "iCAR V27"
+    },
+    {
+      "seriesId": 7440,
+      "name": "豪越PRO"
+    },
+    {
+      "seriesId": 8544,
+      "name": "博越REV"
+    },
+    {
+      "seriesId": 4702,
+      "name": "缤瑞"
+    },
+    {
+      "seriesId": 3556,
+      "name": "帝豪"
+    },
+    {
+      "seriesId": 5273,
+      "name": "星瑞"
+    },
+    {
+      "seriesId": 4701,
+      "name": "缤越"
+    },
+    {
+      "seriesId": 4813,
+      "name": "吉利ICON"
+    },
+    {
+      "seriesId": 7903,
+      "name": "吉利牛仔"
+    },
+    {
+      "seriesId": 3788,
+      "name": "博越"
+    },
+    {
+      "seriesId": 6814,
+      "name": "博越L"
+    },
+    {
+      "seriesId": 6004,
+      "name": "星越L"
+    },
+    {
+      "seriesId": 6978,
+      "name": "豪越L"
+    },
+    {
+      "seriesId": 6255,
+      "name": "翼真L380"
+    },
+    {
+      "seriesId": 8466,
+      "name": "银河M7"
+    },
+    {
+      "seriesId": 8658,
+      "name": "银河TT"
+    },
+    {
+      "seriesId": 8131,
+      "name": "银河战舰700"
+    },
+    {
+      "seriesId": 6924,
+      "name": "熊猫"
+    },
+    {
+      "seriesId": 7806,
+      "name": "星愿"
+    },
+    {
+      "seriesId": 7167,
+      "name": "银河L6"
+    },
+    {
+      "seriesId": 8211,
+      "name": "银河星耀6"
+    },
+    {
+      "seriesId": 8158,
+      "name": "银河A7 EM"
+    },
+    {
+      "seriesId": 8666,
+      "name": "银河A7 EV"
+    },
+    {
+      "seriesId": 8313,
+      "name": "银河星耀7"
+    },
+    {
+      "seriesId": 7170,
+      "name": "银河E8"
+    },
+    {
+      "seriesId": 8042,
+      "name": "银河星耀8"
+    },
+    {
+      "seriesId": 7650,
+      "name": "银河E5"
+    },
+    {
+      "seriesId": 7158,
+      "name": "银河L7"
+    },
+    {
+      "seriesId": 7864,
+      "name": "银河星舰7"
+    },
+    {
+      "seriesId": 7165,
+      "name": "银河M9"
+    },
+    {
+      "seriesId": 7168,
+      "name": "极氪007"
+    },
+    {
+      "seriesId": 8010,
+      "name": "极氪007GT"
+    },
+    {
+      "seriesId": 6091,
+      "name": "极氪001"
+    },
+    {
+      "seriesId": 7698,
+      "name": "极氪001 FR"
+    },
+    {
+      "seriesId": 7028,
+      "name": "极氪X"
+    },
+    {
+      "seriesId": 7777,
+      "name": "极氪7X"
+    },
+    {
+      "seriesId": 8148,
+      "name": "极氪8X"
+    },
+    {
+      "seriesId": 7835,
+      "name": "极氪9X"
+    },
+    {
+      "seriesId": 7631,
+      "name": "极氪MIX"
+    },
+    {
+      "seriesId": 6846,
+      "name": "极氪009"
+    },
+    {
+      "seriesId": 6589,
+      "name": "极狐 阿尔法S5"
+    },
+    {
+      "seriesId": 8440,
+      "name": "极狐问道V9"
+    },
+    {
+      "seriesId": 8086,
+      "name": "极狐T1"
+    },
+    {
+      "seriesId": 8190,
+      "name": "极狐贝塔S3"
+    },
+    {
+      "seriesId": 8053,
+      "name": "极狐 阿尔法S6"
+    },
+    {
+      "seriesId": 7797,
+      "name": "极狐 考拉S"
+    },
+    {
+      "seriesId": 7125,
+      "name": "极狐 阿尔法T5"
+    },
+    {
+      "seriesId": 8056,
+      "name": "极狐 阿尔法T6"
+    },
+    {
+      "seriesId": 7120,
+      "name": "极狐 考拉"
+    },
+    {
+      "seriesId": 5824,
+      "name": "极狐 阿尔法S"
+    },
+    {
+      "seriesId": 5590,
+      "name": "极狐 阿尔法T"
+    },
+    {
+      "seriesId": 8634,
+      "name": "捷途大圣"
+    },
+    {
+      "seriesId": 6606,
+      "name": "捷途旅行者"
+    },
+    {
+      "seriesId": 7828,
+      "name": "捷途自由者"
+    },
+    {
+      "seriesId": 4683,
+      "name": "捷途X70"
+    },
+    {
+      "seriesId": 5941,
+      "name": "捷途X70L"
+    },
+    {
+      "seriesId": 4797,
+      "name": "捷途X90"
+    },
+    {
+      "seriesId": 8073,
+      "name": "捷途X95"
+    },
+    {
+      "seriesId": 8095,
+      "name": "捷达VA3"
+    },
+    {
+      "seriesId": 7890,
+      "name": "捷达VA7"
+    },
+    {
+      "seriesId": 5138,
+      "name": "捷达VS5"
+    },
+    {
+      "seriesId": 5193,
+      "name": "捷达VS7"
+    },
+    {
+      "seriesId": 8160,
+      "name": "捷达VS8"
+    },
+    {
+      "seriesId": 8618,
+      "name": "捷豹XFL"
+    },
+    {
+      "seriesId": 4663,
+      "name": "捷豹E-PACE"
+    },
+    {
+      "seriesId": 4462,
+      "name": "凯锐EV"
+    },
+    {
+      "seriesId": 7324,
+      "name": "乐行E路达"
+    },
+    {
+      "seriesId": 7367,
+      "name": "顺达EV"
+    },
+    {
+      "seriesId": 6694,
+      "name": "域虎9多功能车"
+    },
+    {
+      "seriesId": 7933,
+      "name": "E顺达"
+    },
+    {
+      "seriesId": 8561,
+      "name": "江铃凯运"
+    },
+    {
+      "seriesId": 8150,
+      "name": "顺达"
+    },
+    {
+      "seriesId": 8007,
+      "name": "E福顺小卡"
+    },
+    {
+      "seriesId": 7934,
+      "name": "E福顺"
+    },
+    {
+      "seriesId": 7641,
+      "name": "E路顺V6"
+    },
+    {
+      "seriesId": 6838,
+      "name": "江铃福顺"
+    },
+    {
+      "seriesId": 2514,
+      "name": "宝典"
+    },
+    {
+      "seriesId": 7195,
+      "name": "大道"
+    },
+    {
+      "seriesId": 7240,
+      "name": "大道新能源"
+    },
+    {
+      "seriesId": 8151,
+      "name": "域虎"
+    },
+    {
+      "seriesId": 2860,
+      "name": "域虎7"
+    },
+    {
+      "seriesId": 5260,
+      "name": "域虎9"
+    },
+    {
+      "seriesId": 4995,
+      "name": "域虎EV"
+    },
+    {
+      "seriesId": 4922,
+      "name": "吉利几何A"
+    },
+    {
+      "seriesId": 6863,
+      "name": "吉利几何G6"
+    },
+    {
+      "seriesId": 6639,
+      "name": "吉利几何E萤火虫"
+    },
+    {
+      "seriesId": 6862,
+      "name": "吉利几何M6"
+    },
+    {
+      "seriesId": 5786,
+      "name": "捷途山海T1"
+    },
+    {
+      "seriesId": 7397,
+      "name": "捷途山海L9"
+    },
+    {
+      "seriesId": 7345,
+      "name": "捷途山海L6"
+    },
+    {
+      "seriesId": 7711,
+      "name": "捷途山海L7"
+    },
+    {
+      "seriesId": 8106,
+      "name": "牧马人"
+    },
+    {
+      "seriesId": 5574,
+      "name": "牧马人新能源"
+    },
+    {
+      "seriesId": 6293,
+      "name": "角斗士"
+    },
+    {
+      "seriesId": 6656,
+      "name": "捷尼赛思G80"
+    },
+    {
+      "seriesId": 3982,
+      "name": "捷尼赛思G90"
+    },
+    {
+      "seriesId": 5475,
+      "name": "捷尼赛思GV70"
+    },
+    {
+      "seriesId": 4397,
+      "name": "捷尼赛思GV80"
+    },
+    {
+      "seriesId": 6090,
+      "name": "吉利雷达地平线"
+    },
+    {
+      "seriesId": 7963,
+      "name": "吉利雷达金刚"
+    },
+    {
+      "seriesId": 7435,
+      "name": "江淮X8 E家"
+    },
+    {
+      "seriesId": 7710,
+      "name": "极石01"
+    },
+    {
+      "seriesId": 7399,
+      "name": "易至EV3"
+    },
+    {
+      "seriesId": 8017,
+      "name": "羿驰05"
+    },
+    {
+      "seriesId": 8218,
+      "name": "羿驰05S"
+    },
+    {
+      "seriesId": 6955,
+      "name": "羿驰01"
+    },
+    {
+      "seriesId": 3681,
+      "name": "易至EV2"
+    },
+    {
+      "seriesId": 6005,
+      "name": "羿"
+    },
+    {
+      "seriesId": 5099,
+      "name": "钧天勇猛者"
+    },
+    {
+      "seriesId": 8142,
+      "name": "钧天格瑞维亚"
+    },
+    {
+      "seriesId": 7768,
+      "name": "钧天纵横家"
+    },
+    {
+      "seriesId": 8001,
+      "name": "大道 沐光"
+    },
+    {
+      "seriesId": 7079,
+      "name": "钧天霸界"
+    },
+    {
+      "seriesId": 7350,
+      "name": "瑞风E4"
+    },
+    {
+      "seriesId": 7441,
+      "name": "瑞风RF8"
+    },
+    {
+      "seriesId": 6506,
+      "name": "瑞风E3"
+    },
+    {
+      "seriesId": 3351,
+      "name": "瑞风M3"
+    },
+    {
+      "seriesId": 7930,
+      "name": "瑞风M4"
+    },
+    {
+      "seriesId": 7221,
+      "name": "吉祥AIR"
+    },
+    {
+      "seriesId": 7103,
+      "name": "恺达EX6"
+    },
+    {
+      "seriesId": 7505,
+      "name": "悍途新能源"
+    },
+    {
+      "seriesId": 7499,
+      "name": "江淮T6 EV"
+    },
+    {
+      "seriesId": 7523,
+      "name": "江淮iEV7"
+    },
+    {
+      "seriesId": 4628,
+      "name": "江淮iEVA50"
+    },
+    {
+      "seriesId": 7765,
+      "name": "Van宝路"
+    },
+    {
+      "seriesId": 7144,
+      "name": "蓝猫"
+    },
+    {
+      "seriesId": 7549,
+      "name": "多米EV1"
+    },
+    {
+      "seriesId": 7585,
+      "name": "江淮卡拉"
+    },
+    {
+      "seriesId": 7596,
+      "name": "江淮征程EV"
+    },
+    {
+      "seriesId": 7996,
+      "name": "恺达U7"
+    },
+    {
+      "seriesId": 2569,
+      "name": "星锐"
+    },
+    {
+      "seriesId": 7582,
+      "name": "星锐EV"
+    },
+    {
+      "seriesId": 5829,
+      "name": "悍途"
+    },
+    {
+      "seriesId": 3546,
+      "name": "江淮T6"
+    },
+    {
+      "seriesId": 4847,
+      "name": "江淮T8"
+    },
+    {
+      "seriesId": 4710,
+      "name": "江淮V7"
+    },
+    {
+      "seriesId": 4815,
+      "name": "钇为花仙子"
+    },
+    {
+      "seriesId": 7186,
+      "name": "钇为3"
+    },
+    {
+      "seriesId": 7573,
+      "name": "爱跑"
+    },
+    {
+      "seriesId": 7451,
+      "name": "E路福"
+    },
+    {
+      "seriesId": 7823,
+      "name": "福运"
+    },
+    {
+      "seriesId": 7163,
+      "name": "福运新能源"
+    },
+    {
+      "seriesId": 7720,
+      "name": "九龙EM3"
+    },
+    {
+      "seriesId": 3628,
+      "name": "九龙A4"
+    },
+    {
+      "seriesId": 2573,
+      "name": "九龙A5"
+    },
+    {
+      "seriesId": 2576,
+      "name": "九龙A6"
+    },
+    {
+      "seriesId": 4860,
+      "name": "九龙C6"
+    },
+    {
+      "seriesId": 6315,
+      "name": "九龙EW5"
+    },
+    {
+      "seriesId": 6314,
+      "name": "九龙W5"
+    },
+    {
+      "seriesId": 5017,
+      "name": "途瑞欧雅典纳"
+    },
+    {
+      "seriesId": 8296,
+      "name": "景飞牌GT670"
+    },
+    {
+      "seriesId": 8295,
+      "name": "景飞牌M50"
+    },
+    {
+      "seriesId": 8197,
+      "name": "F-150旅居车"
+    },
+    {
+      "seriesId": 8198,
+      "name": "江南U2"
+    },
+    {
+      "seriesId": 8388,
+      "name": "金冠V级"
+    },
+    {
+      "seriesId": 7206,
+      "name": "宾歌T10"
+    },
+    {
+      "seriesId": 6968,
+      "name": "海狮Z系列"
+    },
+    {
+      "seriesId": 3886,
+      "name": "金旅大海狮"
+    },
+    {
+      "seriesId": 2976,
+      "name": "金旅海狮"
+    },
+    {
+      "seriesId": 4601,
+      "name": "金旅海狮新能源"
+    },
+    {
+      "seriesId": 5296,
+      "name": "领特"
+    },
+    {
+      "seriesId": 5836,
+      "name": "领特新能源"
+    },
+    {
+      "seriesId": 3885,
+      "name": "金杯海狮王EV"
+    },
+    {
+      "seriesId": 7972,
+      "name": "吉运E6"
+    },
+    {
+      "seriesId": 8299,
+      "name": "海狮王"
+    },
+    {
+      "seriesId": 7973,
+      "name": "吉运E9"
+    },
+    {
+      "seriesId": 2810,
+      "name": "金杯海狮"
+    },
+    {
+      "seriesId": 8329,
+      "name": "金杯海狮EV"
+    },
+    {
+      "seriesId": 4237,
+      "name": "金杯快运"
+    },
+    {
+      "seriesId": 5877,
+      "name": "新海豚EV"
+    },
+    {
+      "seriesId": 3136,
+      "name": "小海狮X30"
+    },
+    {
+      "seriesId": 6283,
+      "name": "新海狮EV"
+    },
+    {
+      "seriesId": 3955,
+      "name": "新海狮X30L"
+    },
+    {
+      "seriesId": 4758,
+      "name": "金杯T3"
+    },
+    {
+      "seriesId": 4311,
+      "name": "金杯T5"
+    },
+    {
+      "seriesId": 7182,
+      "name": "金杯金卡S2"
+    },
+    {
+      "seriesId": 6455,
+      "name": "金杯金卡S3"
+    },
+    {
+      "seriesId": 7184,
+      "name": "金杯金卡S6"
+    },
+    {
+      "seriesId": 7612,
+      "name": "金琥ET50"
+    },
+    {
+      "seriesId": 7060,
+      "name": "金琥EV48"
+    },
+    {
+      "seriesId": 8040,
+      "name": "金琥EV70"
+    },
+    {
+      "seriesId": 7307,
+      "name": "龙耀5"
+    },
+    {
+      "seriesId": 7455,
+      "name": "龙耀6S"
+    },
+    {
+      "seriesId": 8575,
+      "name": "金龙V8"
+    },
+    {
+      "seriesId": 6625,
+      "name": "龙耀6"
+    },
+    {
+      "seriesId": 2986,
+      "name": "金威"
+    },
+    {
+      "seriesId": 2985,
+      "name": "凯歌"
+    },
+    {
+      "seriesId": 7914,
+      "name": "凯歌新能源"
+    },
+    {
+      "seriesId": 4850,
+      "name": "凯锐浩克"
+    },
+    {
+      "seriesId": 5767,
+      "name": "龙耀8"
+    },
+    {
+      "seriesId": 6824,
+      "name": "龙耀8L"
+    },
+    {
+      "seriesId": 7559,
+      "name": "龙耀8S"
+    },
+    {
+      "seriesId": 6848,
+      "name": "迈凯宾 量子方舟"
+    },
+    {
+      "seriesId": 7964,
+      "name": "骏驰EA"
+    },
+    {
+      "seriesId": 7965,
+      "name": "骏驰EK"
+    },
+    {
+      "seriesId": 7966,
+      "name": "骏驰ET"
+    },
+    {
+      "seriesId": 7332,
+      "name": "IQ傲歌"
+    },
+    {
+      "seriesId": 8471,
+      "name": "凯威德"
+    },
+    {
+      "seriesId": 8664,
+      "name": "凯迪拉克CT4"
+    },
+    {
+      "seriesId": 5349,
+      "name": "凯迪拉克CT5"
+    },
+    {
+      "seriesId": 3802,
+      "name": "凯迪拉克CT6"
+    },
+    {
+      "seriesId": 6774,
+      "name": "凯迪拉克GT4"
+    },
+    {
+      "seriesId": 4856,
+      "name": "凯迪拉克XT4"
+    },
+    {
+      "seriesId": 3989,
+      "name": "凯迪拉克XT5"
+    },
+    {
+      "seriesId": 6404,
+      "name": "IQ锐歌"
+    },
+    {
+      "seriesId": 5102,
+      "name": "凯迪拉克XT6"
+    },
+    {
+      "seriesId": 3207,
+      "name": "凯翼拾月"
+    },
+    {
+      "seriesId": 6116,
+      "name": "轩度"
+    },
+    {
+      "seriesId": 6844,
+      "name": "轩度EV"
+    },
+    {
+      "seriesId": 5540,
+      "name": "炫界"
+    },
+    {
+      "seriesId": 6396,
+      "name": "炫界Pro"
+    },
+    {
+      "seriesId": 6413,
+      "name": "炫界Pro EV"
+    },
+    {
+      "seriesId": 6841,
+      "name": "凯翼昆仑"
+    },
+    {
+      "seriesId": 8274,
+      "name": "凯翼昆仑L8"
+    },
+    {
+      "seriesId": 7077,
+      "name": "凯翼昆仑新能源"
+    },
+    {
+      "seriesId": 8144,
+      "name": "凯翼江豚E5"
+    },
+    {
+      "seriesId": 8145,
+      "name": "凯翼江豚E7"
+    },
+    {
+      "seriesId": 6843,
+      "name": "克蒂怪兽SV7"
+    },
+    {
+      "seriesId": 6857,
+      "name": "克蒂WALD"
+    },
+    {
+      "seriesId": 6713,
+      "name": "克蒂巴赫"
+    },
+    {
+      "seriesId": 6772,
+      "name": "克蒂帝亚"
+    },
+    {
+      "seriesId": 8272,
+      "name": "克蒂昆仑"
+    },
+    {
+      "seriesId": 7884,
+      "name": "克蒂山川"
+    },
+    {
+      "seriesId": 7883,
+      "name": "克蒂山河"
+    },
+    {
+      "seriesId": 6469,
+      "name": "克蒂圣姆峰"
+    },
+    {
+      "seriesId": 6859,
+      "name": "克蒂翔翼"
+    },
+    {
+      "seriesId": 6587,
+      "name": "克蒂雪堆白"
+    },
+    {
+      "seriesId": 8654,
+      "name": "克蒂怪兽SV3"
+    },
+    {
+      "seriesId": 7250,
+      "name": "克慕勒GLS"
+    },
+    {
+      "seriesId": 7795,
+      "name": "X-BOW"
+    },
+    {
+      "seriesId": 566,
+      "name": "骏航EV"
+    },
+    {
+      "seriesId": 7526,
+      "name": "凯马锐腾"
+    },
+    {
+      "seriesId": 7524,
+      "name": "锐航"
+    },
+    {
+      "seriesId": 7525,
+      "name": "锐菱"
+    },
+    {
+      "seriesId": 7152,
+      "name": "骏航ES"
+    },
+    {
+      "seriesId": 7151,
+      "name": "锐捷"
+    },
+    {
+      "seriesId": 4448,
+      "name": "卡升威霆"
+    },
+    {
+      "seriesId": 3656,
+      "name": "莎尔法"
+    },
+    {
+      "seriesId": 8570,
+      "name": "海豚EV"
+    },
+    {
+      "seriesId": 6667,
+      "name": "江豚"
+    },
+    {
+      "seriesId": 7735,
+      "name": "江豚E5"
+    },
+    {
+      "seriesId": 7736,
+      "name": "江豚E6"
+    },
+    {
+      "seriesId": 7726,
+      "name": "江豚E7"
+    },
+    {
+      "seriesId": 6631,
+      "name": "开瑞X6"
+    },
+    {
+      "seriesId": 7118,
+      "name": "小象EV"
+    },
+    {
+      "seriesId": 7613,
+      "name": "小象S卡EV"
+    },
+    {
+      "seriesId": 7783,
+      "name": "小象X3"
+    },
+    {
+      "seriesId": 7762,
+      "name": "小象X5"
+    },
+    {
+      "seriesId": 7763,
+      "name": "小象X7"
+    },
+    {
+      "seriesId": 4854,
+      "name": "优劲EV"
+    },
+    {
+      "seriesId": 5981,
+      "name": "优劲T5"
+    },
+    {
+      "seriesId": 2496,
+      "name": "宸辉VL900"
+    },
+    {
+      "seriesId": 6733,
+      "name": "焜驰威霆"
+    },
+    {
+      "seriesId": 5684,
+      "name": "睿吉馬Vito"
+    },
+    {
+      "seriesId": 7820,
+      "name": "睿吉馬V级"
+    },
+    {
+      "seriesId": 7472,
+      "name": "雷克萨斯ES"
+    },
+    {
+      "seriesId": 341,
+      "name": "雷克萨斯LS"
+    },
+    {
+      "seriesId": 3442,
+      "name": "雷克萨斯NX"
+    },
+    {
+      "seriesId": 6261,
+      "name": "雷克萨斯RZ"
+    },
+    {
+      "seriesId": 112,
+      "name": "雷克萨斯GX"
+    },
+    {
+      "seriesId": 3934,
+      "name": "雷克萨斯RX"
+    },
+    {
+      "seriesId": 6767,
+      "name": "雷克萨斯LX"
+    },
+    {
+      "seriesId": 5220,
+      "name": "雷克萨斯LM"
+    },
+    {
+      "seriesId": 2623,
+      "name": "雷克萨斯LC"
+    },
+    {
+      "seriesId": 4197,
+      "name": "雷克萨斯UX"
+    },
+    {
+      "seriesId": 6559,
+      "name": "揽胜星脉"
+    },
+    {
+      "seriesId": 802,
+      "name": "发现"
+    },
+    {
+      "seriesId": 850,
+      "name": "揽胜运动"
+    },
+    {
+      "seriesId": 69,
+      "name": "揽胜"
+    },
+    {
+      "seriesId": 256,
+      "name": "路虎卫士"
+    },
+    {
+      "seriesId": 5537,
+      "name": "揽胜极光"
+    },
+    {
+      "seriesId": 3871,
+      "name": "领克07GT"
+    },
+    {
+      "seriesId": 8669,
+      "name": "领克20"
+    },
+    {
+      "seriesId": 4402,
+      "name": "领克03"
+    },
+    {
+      "seriesId": 5576,
+      "name": "领克10"
+    },
+    {
+      "seriesId": 5555,
+      "name": "领克06"
+    },
+    {
+      "seriesId": 5557,
+      "name": "领克01"
+    },
+    {
+      "seriesId": 5194,
+      "name": "领克05"
+    },
+    {
+      "seriesId": 7812,
+      "name": "领克Z20"
+    },
+    {
+      "seriesId": 7243,
+      "name": "领克09"
+    },
+    {
+      "seriesId": 6334,
+      "name": "领克900"
+    },
+    {
+      "seriesId": 6773,
+      "name": "林肯Z"
+    },
+    {
+      "seriesId": 5385,
+      "name": "冒险家"
+    },
+    {
+      "seriesId": 5757,
+      "name": "航海家"
+    },
+    {
+      "seriesId": 5554,
+      "name": "飞行家"
+    },
+    {
+      "seriesId": 5386,
+      "name": "领航员"
+    },
+    {
+      "seriesId": 6165,
+      "name": "理想i6"
+    },
+    {
+      "seriesId": 7727,
+      "name": "理想i8"
+    },
+    {
+      "seriesId": 6950,
+      "name": "理想L6"
+    },
+    {
+      "seriesId": 6949,
+      "name": "理想L7"
+    },
+    {
+      "seriesId": 6910,
+      "name": "理想L8"
+    },
+    {
+      "seriesId": 6576,
+      "name": "理想L9"
+    },
+    {
+      "seriesId": 6939,
+      "name": "理想MEGA"
+    },
+    {
+      "seriesId": 8195,
+      "name": "零跑C10"
+    },
+    {
+      "seriesId": 8433,
+      "name": "零跑A10"
+    },
+    {
+      "seriesId": 8569,
+      "name": "零跑A05"
+    },
+    {
+      "seriesId": 8298,
+      "name": "零跑D99"
+    },
+    {
+      "seriesId": 5515,
+      "name": "零跑T03"
+    },
+    {
+      "seriesId": 8006,
+      "name": "零跑B01"
+    },
+    {
+      "seriesId": 8278,
+      "name": "零跑Lafa5"
+    },
+    {
+      "seriesId": 7877,
+      "name": "零跑B10"
+    },
+    {
+      "seriesId": 5205,
+      "name": "零跑C11"
+    },
+    {
+      "seriesId": 7674,
+      "name": "零跑C16"
+    },
+    {
+      "seriesId": 8273,
+      "name": "零跑D19"
+    },
+    {
+      "seriesId": 6161,
+      "name": "零跑C01"
+    },
+    {
+      "seriesId": 4677,
+      "name": "岚图泰山X8"
+    },
+    {
+      "seriesId": 8534,
+      "name": "岚图追光"
+    },
+    {
+      "seriesId": 8259,
+      "name": "岚图追光 L"
+    },
+    {
+      "seriesId": 7728,
+      "name": "岚图知音"
+    },
+    {
+      "seriesId": 5924,
+      "name": "岚图FREE"
+    },
+    {
+      "seriesId": 8291,
+      "name": "岚图泰山"
+    },
+    {
+      "seriesId": 6459,
+      "name": "岚图梦想家"
+    },
+    {
+      "seriesId": 7242,
+      "name": "幻影"
+    },
+    {
+      "seriesId": 836,
+      "name": "古思特"
+    },
+    {
+      "seriesId": 3778,
+      "name": "库里南"
+    },
+    {
+      "seriesId": 6421,
+      "name": "闪灵"
+    },
+    {
+      "seriesId": 8594,
+      "name": "Urus"
+    },
+    {
+      "seriesId": 7141,
+      "name": "Urus SE"
+    },
+    {
+      "seriesId": 3277,
+      "name": "Huracán"
+    },
+    {
+      "seriesId": 7176,
+      "name": "Revuelto"
+    },
+    {
+      "seriesId": 7139,
+      "name": "EMEYA"
+    },
+    {
+      "seriesId": 8464,
+      "name": "FOR ME"
+    },
+    {
+      "seriesId": 6649,
+      "name": "ELETRE"
+    },
+    {
+      "seriesId": 6028,
+      "name": "EMIRA"
+    },
+    {
+      "seriesId": 5331,
+      "name": "EVIJA"
+    },
+    {
+      "seriesId": 6043,
+      "name": "雷丁芒果Pro"
+    },
+    {
+      "seriesId": 3561,
+      "name": "凌宝BOX"
+    },
+    {
+      "seriesId": 6115,
+      "name": "凌宝COCO"
+    },
+    {
+      "seriesId": 6436,
+      "name": "凌宝uni"
+    },
+    {
+      "seriesId": 7135,
+      "name": "蓝电E3"
+    },
+    {
+      "seriesId": 7832,
+      "name": "蓝电E5"
+    },
+    {
+      "seriesId": 5939,
+      "name": "LEVC TX"
+    },
+    {
+      "seriesId": 5916,
+      "name": "龙程众骄VITO"
+    },
+    {
+      "seriesId": 7256,
+      "name": "凌际威途系列"
+    },
+    {
+      "seriesId": 7825,
+      "name": "凌际卫士见山系列"
+    },
+    {
+      "seriesId": 6638,
+      "name": "凌际星云系列"
+    },
+    {
+      "seriesId": 6452,
+      "name": "莱茵旅行者"
+    },
+    {
+      "seriesId": 7368,
+      "name": "缤纷"
+    },
+    {
+      "seriesId": 7846,
+      "name": "领途E-M8"
+    },
+    {
+      "seriesId": 7892,
+      "name": "领途M8"
+    },
+    {
+      "seriesId": 8293,
+      "name": "乐道L80"
+    },
+    {
+      "seriesId": 8045,
+      "name": "乐道L90"
+    },
+    {
+      "seriesId": 7687,
+      "name": "乐道L60"
+    },
+    {
+      "seriesId": 7688,
+      "name": "拉帝"
+    },
+    {
+      "seriesId": 5728,
+      "name": "灵悉L"
+    },
+    {
+      "seriesId": 6679,
+      "name": "珑致G20金骑士"
+    },
+    {
+      "seriesId": 7663,
+      "name": "礼骊汽车V级"
+    },
+    {
+      "seriesId": 7845,
+      "name": "礼骊汽车威霆"
+    },
+    {
+      "seriesId": 4667,
+      "name": "菱势黄金仓"
+    },
+    {
+      "seriesId": 7300,
+      "name": "菱势黄金卡"
+    },
+    {
+      "seriesId": 7408,
+      "name": "菱势EV50"
+    },
+    {
+      "seriesId": 7856,
+      "name": "予风EV50"
+    },
+    {
+      "seriesId": 7756,
+      "name": "菱势电卡"
+    },
+    {
+      "seriesId": 7912,
+      "name": "菱势黄金小卡"
+    },
+    {
+      "seriesId": 7283,
+      "name": "凌R"
+    },
+    {
+      "seriesId": 7282,
+      "name": "悦ER"
+    },
+    {
+      "seriesId": 7261,
+      "name": "雷驰·仁T10"
+    },
+    {
+      "seriesId": 7342,
+      "name": "雷驰·仁T30"
+    },
+    {
+      "seriesId": 7871,
+      "name": "雷驰·信V70"
+    },
+    {
+      "seriesId": 7465,
+      "name": "马自达EZ-6"
+    },
+    {
+      "seriesId": 5586,
+      "name": "马自达CX-30"
+    },
+    {
+      "seriesId": 2987,
+      "name": "马自达CX-5"
+    },
+    {
+      "seriesId": 7082,
+      "name": "马自达EZ-60"
+    },
+    {
+      "seriesId": 433,
+      "name": "MG 07"
+    },
+    {
+      "seriesId": 6651,
+      "name": "MG4"
+    },
+    {
+      "seriesId": 532,
+      "name": "MG5"
+    },
+    {
+      "seriesId": 835,
+      "name": "MG6"
+    },
+    {
+      "seriesId": 531,
+      "name": "MG7"
+    },
+    {
+      "seriesId": 8564,
+      "name": "MG 4X"
+    },
+    {
+      "seriesId": 7805,
+      "name": "MG ES5"
+    },
+    {
+      "seriesId": 5755,
+      "name": "MINI"
+    },
+    {
+      "seriesId": 4529,
+      "name": "MINI JCW"
+    },
+    {
+      "seriesId": 3181,
+      "name": "猛士M800"
+    },
+    {
+      "seriesId": 7668,
+      "name": "猛士917"
+    },
+    {
+      "seriesId": 8091,
+      "name": "猛士M817"
+    },
+    {
+      "seriesId": 8204,
+      "name": "Mcpura"
+    },
+    {
+      "seriesId": 5890,
+      "name": "Levante"
+    },
+    {
+      "seriesId": 551,
+      "name": "玛莎拉蒂MC20"
+    },
+    {
+      "seriesId": 7675,
+      "name": "Artura"
+    },
+    {
+      "seriesId": 5305,
+      "name": "迈凯伦GT"
+    },
+    {
+      "seriesId": 2902,
+      "name": "迈莎锐烈马"
+    },
+    {
+      "seriesId": 5837,
+      "name": "迈莎锐G级"
+    },
+    {
+      "seriesId": 5690,
+      "name": "迈莎锐添越"
+    },
+    {
+      "seriesId": 7218,
+      "name": "迈莎锐GLS"
+    },
+    {
+      "seriesId": 5688,
+      "name": "迈莎锐库里南"
+    },
+    {
+      "seriesId": 6136,
+      "name": "迈莎锐V级"
+    },
+    {
+      "seriesId": 7909,
+      "name": "迈莎锐国悦"
+    },
+    {
+      "seriesId": 5691,
+      "name": "iMAX8全家版"
+    },
+    {
+      "seriesId": 8543,
+      "name": "欧拉5"
+    },
+    {
+      "seriesId": 5823,
+      "name": "欧拉好猫"
+    },
+    {
+      "seriesId": 6322,
+      "name": "欧拉好猫GT"
+    },
+    {
+      "seriesId": 6345,
+      "name": "欧拉芭蕾猫"
+    },
+    {
+      "seriesId": 6124,
+      "name": "欧拉闪电猫"
+    },
+    {
+      "seriesId": 8290,
+      "name": "欧拉5 EV"
+    },
+    {
+      "seriesId": 6131,
+      "name": "活越神童01"
+    },
+    {
+      "seriesId": 6051,
+      "name": "天玑系列"
+    },
+    {
+      "seriesId": 8081,
+      "name": "天枢系列"
+    },
+    {
+      "seriesId": 8080,
+      "name": "星曜系列"
+    },
+    {
+      "seriesId": 7285,
+      "name": "艾瑞泽5"
+    },
+    {
+      "seriesId": 6821,
+      "name": "艾瑞泽5 GT"
+    },
+    {
+      "seriesId": 5959,
+      "name": "艾瑞泽8"
+    },
+    {
+      "seriesId": 8041,
+      "name": "艾瑞泽8 PRO"
+    },
+    {
+      "seriesId": 4099,
+      "name": "瑞虎3x"
+    },
+    {
+      "seriesId": 4531,
+      "name": "瑞虎5x"
+    },
+    {
+      "seriesId": 6227,
+      "name": "欧萌达"
+    },
+    {
+      "seriesId": 3195,
+      "name": "瑞虎5"
+    },
+    {
+      "seriesId": 3766,
+      "name": "瑞虎7"
+    },
+    {
+      "seriesId": 6288,
+      "name": "瑞虎7 PLUS"
+    },
+    {
+      "seriesId": 6861,
+      "name": "瑞虎8"
+    },
+    {
+      "seriesId": 5884,
+      "name": "瑞虎8 PLUS"
+    },
+    {
+      "seriesId": 7858,
+      "name": "瑞虎8 PRO"
+    },
+    {
+      "seriesId": 6707,
+      "name": "瑞虎8L"
+    },
+    {
+      "seriesId": 7072,
+      "name": "瑞虎9"
+    },
+    {
+      "seriesId": 7214,
+      "name": "瑞虎9 C-DM"
+    },
+    {
+      "seriesId": 8630,
+      "name": "风云T11"
+    },
+    {
+      "seriesId": 7442,
+      "name": "风云T9"
+    },
+    {
+      "seriesId": 7853,
+      "name": "风云A9"
+    },
+    {
+      "seriesId": 8660,
+      "name": "风云T7"
+    },
+    {
+      "seriesId": 8212,
+      "name": "风云T8L"
+    },
+    {
+      "seriesId": 7154,
+      "name": "风云A8"
+    },
+    {
+      "seriesId": 7863,
+      "name": "风云A8L"
+    },
+    {
+      "seriesId": 7225,
+      "name": "风云A9L"
+    },
+    {
+      "seriesId": 7216,
+      "name": "风云T6"
+    },
+    {
+      "seriesId": 8209,
+      "name": "风云X3"
+    },
+    {
+      "seriesId": 8089,
+      "name": "风云X3L"
+    },
+    {
+      "seriesId": 7898,
+      "name": "风云T8"
+    },
+    {
+      "seriesId": 7633,
+      "name": "风云T10"
+    },
+    {
+      "seriesId": 7719,
+      "name": "索奈"
+    },
+    {
+      "seriesId": 7352,
+      "name": "起亚EV5"
+    },
+    {
+      "seriesId": 4387,
+      "name": "焕驰"
+    },
+    {
+      "seriesId": 2886,
+      "name": "起亚K3"
+    },
+    {
+      "seriesId": 2246,
+      "name": "起亚K5"
+    },
+    {
+      "seriesId": 4824,
+      "name": "奕跑"
+    },
+    {
+      "seriesId": 7201,
+      "name": "赛图斯"
+    },
+    {
+      "seriesId": 6853,
+      "name": "狮铂拓界"
+    },
+    {
+      "seriesId": 2137,
+      "name": "智跑"
+    },
+    {
+      "seriesId": 284,
+      "name": "嘉华"
+    },
+    {
+      "seriesId": 4505,
+      "name": "起亚EV6"
+    },
+    {
+      "seriesId": 2032,
+      "name": "艾瑞泽e"
+    },
+    {
+      "seriesId": 7088,
+      "name": "奇瑞舒享家"
+    },
+    {
+      "seriesId": 4627,
+      "name": "QQ3 EV"
+    },
+    {
+      "seriesId": 6309,
+      "name": "QQ冰淇淋"
+    },
+    {
+      "seriesId": 4218,
+      "name": "小蚂蚁"
+    },
+    {
+      "seriesId": 8058,
+      "name": "多米"
+    },
+    {
+      "seriesId": 8424,
+      "name": "启境GT7"
+    },
+    {
+      "seriesId": 8677,
+      "name": "启辰大V氢境"
+    },
+    {
+      "seriesId": 4490,
+      "name": "启辰D60"
+    },
+    {
+      "seriesId": 5183,
+      "name": "启辰D60EV"
+    },
+    {
+      "seriesId": 4887,
+      "name": "启辰T60"
+    },
+    {
+      "seriesId": 5224,
+      "name": "启辰T60EV"
+    },
+    {
+      "seriesId": 6216,
+      "name": "启辰大V"
+    },
+    {
+      "seriesId": 7104,
+      "name": "启辰星"
+    },
+    {
+      "seriesId": 7099,
+      "name": "启辰VX6"
+    },
+    {
+      "seriesId": 3114,
+      "name": "骐蔚熊猫宏图"
+    },
+    {
+      "seriesId": 7939,
+      "name": "长江9号"
+    },
+    {
+      "seriesId": 7771,
+      "name": "长江7号"
+    },
+    {
+      "seriesId": 8231,
+      "name": "骐蔚EV7"
+    },
+    {
+      "seriesId": 7770,
+      "name": "长江6号"
+    },
+    {
+      "seriesId": 7396,
+      "name": "探陆"
+    },
+    {
+      "seriesId": 8459,
+      "name": "骐达TIIDA"
+    },
+    {
+      "seriesId": 448,
+      "name": "轩逸"
+    },
+    {
+      "seriesId": 8243,
+      "name": "日产N6"
+    },
+    {
+      "seriesId": 634,
+      "name": "天籁"
+    },
+    {
+      "seriesId": 7935,
+      "name": "日产N7"
+    },
+    {
+      "seriesId": 4305,
+      "name": "劲客"
+    },
+    {
+      "seriesId": 564,
+      "name": "逍客"
+    },
+    {
+      "seriesId": 656,
+      "name": "奇骏"
+    },
+    {
+      "seriesId": 6714,
+      "name": "ARIYA艾睿雅"
+    },
+    {
+      "seriesId": 2086,
+      "name": "纳瓦拉"
+    },
+    {
+      "seriesId": 8316,
+      "name": "荣威D7"
+    },
+    {
+      "seriesId": 7394,
+      "name": "荣威D6"
+    },
+    {
+      "seriesId": 8225,
+      "name": "荣威E6"
+    },
+    {
+      "seriesId": 4869,
+      "name": "荣威i5"
+    },
+    {
+      "seriesId": 5801,
+      "name": "荣威M7 DMH"
+    },
+    {
+      "seriesId": 4240,
+      "name": "荣威RX5新能源"
+    },
+    {
+      "seriesId": 5071,
+      "name": "荣威RX9"
+    },
+    {
+      "seriesId": 5753,
+      "name": "荣威iMAX8"
+    },
+    {
+      "seriesId": 6641,
+      "name": "荣威RX5"
+    },
+    {
+      "seriesId": 8132,
+      "name": "飞凡F7"
+    },
+    {
+      "seriesId": 6072,
+      "name": "飞凡R7"
+    },
+    {
+      "seriesId": 7742,
+      "name": "瑞驰R5"
+    },
+    {
+      "seriesId": 4479,
+      "name": "瑞驰C3"
+    },
+    {
+      "seriesId": 8281,
+      "name": "瑞驰C5"
+    },
+    {
+      "seriesId": 5004,
+      "name": "瑞一卡德加"
+    },
+    {
+      "seriesId": 8191,
+      "name": "睿蓝蓝气球"
+    },
+    {
+      "seriesId": 6215,
+      "name": "枫叶60s"
+    },
+    {
+      "seriesId": 6947,
+      "name": "睿蓝7"
+    },
+    {
+      "seriesId": 6792,
+      "name": "睿蓝9"
+    },
+    {
+      "seriesId": 5861,
+      "name": "枫叶80v"
+    },
+    {
+      "seriesId": 7779,
+      "name": "枫叶80v L"
+    },
+    {
+      "seriesId": 6951,
+      "name": "睿蓝8"
+    },
+    {
+      "seriesId": 7153,
+      "name": "博歌赛那"
+    },
+    {
+      "seriesId": 6893,
+      "name": "迈乔"
+    },
+    {
+      "seriesId": 4878,
+      "name": "迈图"
+    },
+    {
+      "seriesId": 7340,
+      "name": "明锐"
+    },
+    {
+      "seriesId": 3171,
+      "name": "速派"
+    },
+    {
+      "seriesId": 4690,
+      "name": "柯米克"
+    },
+    {
+      "seriesId": 4453,
+      "name": "柯珞克"
+    },
+    {
+      "seriesId": 4217,
+      "name": "柯迪亚克"
+    },
+    {
+      "seriesId": 4986,
+      "name": "柯迪亚克GT"
+    },
+    {
+      "seriesId": 382,
+      "name": "斯巴鲁WRX"
+    },
+    {
+      "seriesId": 285,
+      "name": "森林人"
+    },
+    {
+      "seriesId": 6933,
+      "name": "旭豹"
+    },
+    {
+      "seriesId": 2557,
+      "name": "斯巴鲁BRZ"
+    },
+    {
+      "seriesId": 283,
+      "name": "深蓝L06"
+    },
+    {
+      "seriesId": 7738,
+      "name": "深蓝L07"
+    },
+    {
+      "seriesId": 6353,
+      "name": "深蓝SL03"
+    },
+    {
+      "seriesId": 7740,
+      "name": "深蓝S05"
+    },
+    {
+      "seriesId": 6817,
+      "name": "深蓝S07"
+    },
+    {
+      "seriesId": 7569,
+      "name": "深蓝G318"
+    },
+    {
+      "seriesId": 7979,
+      "name": "深蓝S09"
+    },
+    {
+      "seriesId": 4795,
+      "name": "花仙子"
+    },
+    {
+      "seriesId": 5914,
+      "name": "思皓A5"
+    },
+    {
+      "seriesId": 5833,
+      "name": "思皓E50A"
+    },
+    {
+      "seriesId": 5832,
+      "name": "思皓E40X"
+    },
+    {
+      "seriesId": 6897,
+      "name": "SWM斯威G05"
+    },
+    {
+      "seriesId": 6592,
+      "name": "SWM斯威大虎"
+    },
+    {
+      "seriesId": 7119,
+      "name": "SWM斯威X3"
+    },
+    {
+      "seriesId": 4151,
+      "name": "SWM斯威X7"
+    },
+    {
+      "seriesId": 6127,
+      "name": "雷斯特"
+    },
+    {
+      "seriesId": 5821,
+      "name": "DST神州5号"
+    },
+    {
+      "seriesId": 5822,
+      "name": "航天金龙"
+    },
+    {
+      "seriesId": 506,
+      "name": "上喆浩达威霆"
+    },
+    {
+      "seriesId": 654,
+      "name": "机甲龙"
+    },
+    {
+      "seriesId": 2635,
+      "name": "世极"
+    },
+    {
+      "seriesId": 8205,
+      "name": "尚界H5"
+    },
+    {
+      "seriesId": 3675,
+      "name": "申龙V6"
+    },
+    {
+      "seriesId": 6854,
+      "name": "申龙地上铁510"
+    },
+    {
+      "seriesId": 8043,
+      "name": "示界06"
+    },
+    {
+      "seriesId": 5346,
+      "name": "Model 3"
+    },
+    {
+      "seriesId": 5769,
+      "name": "Model Y"
+    },
+    {
+      "seriesId": 8251,
+      "name": "赛博越野旅行车"
+    },
+    {
+      "seriesId": 2357,
+      "name": "Model S"
+    },
+    {
+      "seriesId": 2664,
+      "name": "Model X"
+    },
+    {
+      "seriesId": 7887,
+      "name": "坦克700新能源"
+    },
+    {
+      "seriesId": 5810,
+      "name": "坦克300"
+    },
+    {
+      "seriesId": 7210,
+      "name": "坦克300新能源"
+    },
+    {
+      "seriesId": 6359,
+      "name": "坦克400"
+    },
+    {
+      "seriesId": 7213,
+      "name": "坦克400新能源"
+    },
+    {
+      "seriesId": 6284,
+      "name": "坦克500"
+    },
+    {
+      "seriesId": 6653,
+      "name": "坦克500新能源"
+    },
+    {
+      "seriesId": 6160,
+      "name": "腾势Z"
+    },
+    {
+      "seriesId": 7838,
+      "name": "腾势Z9"
+    },
+    {
+      "seriesId": 7659,
+      "name": "腾势Z9GT"
+    },
+    {
+      "seriesId": 6898,
+      "name": "腾势N7"
+    },
+    {
+      "seriesId": 8159,
+      "name": "腾势N8L"
+    },
+    {
+      "seriesId": 7839,
+      "name": "腾势N9"
+    },
+    {
+      "seriesId": 6669,
+      "name": "腾势D9"
+    },
+    {
+      "seriesId": 2805,
+      "name": "拓锐斯特威霆"
+    },
+    {
+      "seriesId": 7349,
+      "name": "五菱星光"
+    },
+    {
+      "seriesId": 7272,
+      "name": "五菱星云"
+    },
+    {
+      "seriesId": 7402,
+      "name": "五菱荣光新卡EV"
+    },
+    {
+      "seriesId": 8167,
+      "name": "宏光MINIEV"
+    },
+    {
+      "seriesId": 6719,
+      "name": "五菱NanoEV"
+    },
+    {
+      "seriesId": 8585,
+      "name": "缤果Pro"
+    },
+    {
+      "seriesId": 8189,
+      "name": "缤果S"
+    },
+    {
+      "seriesId": 7045,
+      "name": "五菱缤果"
+    },
+    {
+      "seriesId": 7723,
+      "name": "五菱E5"
+    },
+    {
+      "seriesId": 7572,
+      "name": "五菱缤果PLUS"
+    },
+    {
+      "seriesId": 6777,
+      "name": "五菱星驰"
+    },
+    {
+      "seriesId": 6117,
+      "name": "五菱星辰"
+    },
+    {
+      "seriesId": 7671,
+      "name": "五菱星光S"
+    },
+    {
+      "seriesId": 8217,
+      "name": "星光560"
+    },
+    {
+      "seriesId": 8216,
+      "name": "星光560新能源"
+    },
+    {
+      "seriesId": 4408,
+      "name": "五菱宏光S3"
+    },
+    {
+      "seriesId": 5450,
+      "name": "五菱宏光PLUS"
+    },
+    {
+      "seriesId": 6650,
+      "name": "五菱佳辰"
+    },
+    {
+      "seriesId": 5772,
+      "name": "五菱凯捷"
+    },
+    {
+      "seriesId": 8188,
+      "name": "星光730"
+    },
+    {
+      "seriesId": 8187,
+      "name": "星光730新能源"
+    },
+    {
+      "seriesId": 6039,
+      "name": "五菱征程"
+    },
+    {
+      "seriesId": 6778,
+      "name": "五菱征程新能源"
+    },
+    {
+      "seriesId": 2139,
+      "name": "五菱宏光"
+    },
+    {
+      "seriesId": 5174,
+      "name": "五菱宏光V"
+    },
+    {
+      "seriesId": 7781,
+      "name": "五菱宏光新能源"
+    },
+    {
+      "seriesId": 2451,
+      "name": "五菱荣光"
+    },
+    {
+      "seriesId": 5715,
+      "name": "五菱荣光EV"
+    },
+    {
+      "seriesId": 6218,
+      "name": "五菱荣光S"
+    },
+    {
+      "seriesId": 3657,
+      "name": "五菱荣光V"
+    },
+    {
+      "seriesId": 2456,
+      "name": "五菱之光"
+    },
+    {
+      "seriesId": 7897,
+      "name": "五菱之光新能源"
+    },
+    {
+      "seriesId": 6647,
+      "name": "五菱E10"
+    },
+    {
+      "seriesId": 7199,
+      "name": "五菱龙卡"
+    },
+    {
+      "seriesId": 2855,
+      "name": "五菱荣光小卡"
+    },
+    {
+      "seriesId": 6866,
+      "name": "五菱荣光小卡EV"
+    },
+    {
+      "seriesId": 4884,
+      "name": "五菱荣光新卡"
+    },
+    {
+      "seriesId": 7920,
+      "name": "五菱扬光电卡"
+    },
+    {
+      "seriesId": 3946,
+      "name": "五菱之光小卡"
+    },
+    {
+      "seriesId": 7563,
+      "name": "五菱扬光"
+    },
+    {
+      "seriesId": 5881,
+      "name": "五菱征途"
+    },
+    {
+      "seriesId": 7874,
+      "name": "五菱荣光新卡房车"
+    },
+    {
+      "seriesId": 6553,
+      "name": "五菱微旅车"
+    },
+    {
+      "seriesId": 5708,
+      "name": "五菱EV50"
+    },
+    {
+      "seriesId": 6204,
+      "name": "五菱电卡"
+    },
+    {
+      "seriesId": 5774,
+      "name": "五菱EV80"
+    },
+    {
+      "seriesId": 7275,
+      "name": "沃尔沃EX30"
+    },
+    {
+      "seriesId": 7365,
+      "name": "沃尔沃EM90"
+    },
+    {
+      "seriesId": 3158,
+      "name": "沃尔沃S60"
+    },
+    {
+      "seriesId": 8050,
+      "name": "沃尔沃ES90"
+    },
+    {
+      "seriesId": 4206,
+      "name": "沃尔沃S90"
+    },
+    {
+      "seriesId": 4864,
+      "name": "沃尔沃XC40"
+    },
+    {
+      "seriesId": 3411,
+      "name": "沃尔沃XC60"
+    },
+    {
+      "seriesId": 4609,
+      "name": "沃尔沃EX90"
+    },
+    {
+      "seriesId": 8138,
+      "name": "沃尔沃V60"
+    },
+    {
+      "seriesId": 4029,
+      "name": "沃尔沃V90"
+    },
+    {
+      "seriesId": 177,
+      "name": "沃尔沃XC90"
+    },
+    {
+      "seriesId": 4337,
+      "name": "蔚来ET5T"
+    },
+    {
+      "seriesId": 7546,
+      "name": "蔚来ET9"
+    },
+    {
+      "seriesId": 6453,
+      "name": "蔚来ET5"
+    },
+    {
+      "seriesId": 5264,
+      "name": "蔚来ET7"
+    },
+    {
+      "seriesId": 5569,
+      "name": "蔚来EC6"
+    },
+    {
+      "seriesId": 4881,
+      "name": "蔚来ES6"
+    },
+    {
+      "seriesId": 6994,
+      "name": "蔚来EC7"
+    },
+    {
+      "seriesId": 4427,
+      "name": "蔚来ES8"
+    },
+    {
+      "seriesId": 4373,
+      "name": "魏牌 V8X"
+    },
+    {
+      "seriesId": 6011,
+      "name": "魏牌 摩卡新能源"
+    },
+    {
+      "seriesId": 6979,
+      "name": "魏牌 蓝山"
+    },
+    {
+      "seriesId": 7076,
+      "name": "魏牌 高山"
+    },
+    {
+      "seriesId": 6355,
+      "name": "魏牌 V9X"
+    },
+    {
+      "seriesId": 7527,
+      "name": "庆铃五十铃T30"
+    },
+    {
+      "seriesId": 8174,
+      "name": "庆铃五十铃轻卡"
+    },
+    {
+      "seriesId": 4656,
+      "name": "TAGA达咖"
+    },
+    {
+      "seriesId": 6022,
+      "name": "TAGA达咖H"
+    },
+    {
+      "seriesId": 7778,
+      "name": "TAGA达咖纯电"
+    },
+    {
+      "seriesId": 8175,
+      "name": "庆铃T28"
+    },
+    {
+      "seriesId": 5307,
+      "name": "庆铃五十铃T17"
+    },
+    {
+      "seriesId": 4198,
+      "name": "mu-X牧游侠"
+    },
+    {
+      "seriesId": 7137,
+      "name": "翼放"
+    },
+    {
+      "seriesId": 7138,
+      "name": "翼放EV"
+    },
+    {
+      "seriesId": 3562,
+      "name": "D-MAX"
+    },
+    {
+      "seriesId": 3935,
+      "name": "铃拓"
+    },
+    {
+      "seriesId": 5019,
+      "name": "万象T02"
+    },
+    {
+      "seriesId": 6867,
+      "name": "万象T01"
+    },
+    {
+      "seriesId": 6855,
+      "name": "万象K01"
+    },
+    {
+      "seriesId": 6692,
+      "name": "瑞擎V6"
+    },
+    {
+      "seriesId": 6518,
+      "name": "卡漠兹V级"
+    },
+    {
+      "seriesId": 8046,
+      "name": "塞里雅兰V级"
+    },
+    {
+      "seriesId": 6729,
+      "name": "威麟R08"
+    },
+    {
+      "seriesId": 8271,
+      "name": "威麟R08 EV"
+    },
+    {
+      "seriesId": 8592,
+      "name": "捷想者"
+    },
+    {
+      "seriesId": 8269,
+      "name": "未奥BOMA"
+    },
+    {
+      "seriesId": 2670,
+      "name": "沃森威尔路咖啡"
+    },
+    {
+      "seriesId": 4657,
+      "name": "维努斯"
+    },
+    {
+      "seriesId": 7269,
+      "name": "Nexo"
+    },
+    {
+      "seriesId": 5003,
+      "name": "帕里斯帝"
+    },
+    {
+      "seriesId": 995,
+      "name": "菲斯塔"
+    },
+    {
+      "seriesId": 51,
+      "name": "伊兰特"
+    },
+    {
+      "seriesId": 2649,
+      "name": "索纳塔"
+    },
+    {
+      "seriesId": 358,
+      "name": "途胜"
+    },
+    {
+      "seriesId": 1007,
+      "name": "北京现代ix35"
+    },
+    {
+      "seriesId": 8103,
+      "name": "EO 羿欧"
+    },
+    {
+      "seriesId": 2927,
+      "name": "胜达"
+    },
+    {
+      "seriesId": 6118,
+      "name": "库斯途"
+    },
+    {
+      "seriesId": 5915,
+      "name": "小鹏G9L"
+    },
+    {
+      "seriesId": 6998,
+      "name": "小鹏P7"
+    },
+    {
+      "seriesId": 7554,
+      "name": "小鹏P7+"
+    },
+    {
+      "seriesId": 7162,
+      "name": "小鹏G6"
+    },
+    {
+      "seriesId": 8014,
+      "name": "小鹏G7"
+    },
+    {
+      "seriesId": 6492,
+      "name": "小鹏G9"
+    },
+    {
+      "seriesId": 8224,
+      "name": "小鹏GX"
+    },
+    {
+      "seriesId": 7067,
+      "name": "小鹏X9"
+    },
+    {
+      "seriesId": 6752,
+      "name": "小米SU7"
+    },
+    {
+      "seriesId": 7915,
+      "name": "小米YU7"
+    },
+    {
+      "seriesId": 8194,
+      "name": "凡尔赛C5 X"
+    },
+    {
+      "seriesId": 4370,
+      "name": "星纪元 ES"
+    },
+    {
+      "seriesId": 4822,
+      "name": "星途追风"
+    },
+    {
+      "seriesId": 6593,
+      "name": "星途追风C-DM"
+    },
+    {
+      "seriesId": 8210,
+      "name": "星途ET5"
+    },
+    {
+      "seriesId": 5942,
+      "name": "星途凌云"
+    },
+    {
+      "seriesId": 6170,
+      "name": "星途瑶光"
+    },
+    {
+      "seriesId": 7215,
+      "name": "瑶光C-DM"
+    },
+    {
+      "seriesId": 7174,
+      "name": "星纪元 ET"
+    },
+    {
+      "seriesId": 5306,
+      "name": "星途揽月"
+    },
+    {
+      "seriesId": 7227,
+      "name": "星途揽月C-DM"
+    },
+    {
+      "seriesId": 6756,
+      "name": "TRAVERSE"
+    },
+    {
+      "seriesId": 7393,
+      "name": "探界者Plus"
+    },
+    {
+      "seriesId": 5396,
+      "name": "畅巡"
+    },
+    {
+      "seriesId": 5008,
+      "name": "科鲁泽"
+    },
+    {
+      "seriesId": 4031,
+      "name": "迈锐宝XL"
+    },
+    {
+      "seriesId": 3335,
+      "name": "创酷"
+    },
+    {
+      "seriesId": 6718,
+      "name": "星迈罗"
+    },
+    {
+      "seriesId": 4235,
+      "name": "探界者"
+    },
+    {
+      "seriesId": 5476,
+      "name": "开拓者"
+    },
+    {
+      "seriesId": 7695,
+      "name": "享界S9"
+    },
+    {
+      "seriesId": 8207,
+      "name": "享界S9T"
+    },
+    {
+      "seriesId": 3090,
+      "name": "鑫源T1L EV"
+    },
+    {
+      "seriesId": 7255,
+      "name": "鑫源T3L EV"
+    },
+    {
+      "seriesId": 7377,
+      "name": "豪运"
+    },
+    {
+      "seriesId": 7112,
+      "name": "好运"
+    },
+    {
+      "seriesId": 7579,
+      "name": "鑫源E3"
+    },
+    {
+      "seriesId": 7580,
+      "name": "鑫源E3L"
+    },
+    {
+      "seriesId": 7204,
+      "name": "鑫源T5L EV"
+    },
+    {
+      "seriesId": 4567,
+      "name": "鑫源向上V6"
+    },
+    {
+      "seriesId": 8583,
+      "name": "金海狮"
+    },
+    {
+      "seriesId": 7842,
+      "name": "金海狮M"
+    },
+    {
+      "seriesId": 7617,
+      "name": "鑫源小海狮X30"
+    },
+    {
+      "seriesId": 7618,
+      "name": "鑫源T3"
+    },
+    {
+      "seriesId": 7608,
+      "name": "鑫源金卡S1"
+    },
+    {
+      "seriesId": 5956,
+      "name": "晓澳VITO"
+    },
+    {
+      "seriesId": 6996,
+      "name": "小虎EV"
+    },
+    {
+      "seriesId": 7289,
+      "name": "吉奥睿征"
+    },
+    {
+      "seriesId": 7291,
+      "name": "吉奥睿征L"
+    },
+    {
+      "seriesId": 7274,
+      "name": "吉奥帅豹"
+    },
+    {
+      "seriesId": 6730,
+      "name": "吉奥帅凌"
+    },
+    {
+      "seriesId": 6818,
+      "name": "吉奥奥腾"
+    },
+    {
+      "seriesId": 6819,
+      "name": "启腾M70"
+    },
+    {
+      "seriesId": 4530,
+      "name": "启腾M70EV"
+    },
+    {
+      "seriesId": 6103,
+      "name": "启腾N30"
+    },
+    {
+      "seriesId": 6102,
+      "name": "启腾N50"
+    },
+    {
+      "seriesId": 5934,
+      "name": "启腾N50EV"
+    },
+    {
+      "seriesId": 6107,
+      "name": "启腾N60"
+    },
+    {
+      "seriesId": 6106,
+      "name": "龙7"
+    },
+    {
+      "seriesId": 5966,
+      "name": "快运王"
+    },
+    {
+      "seriesId": 7844,
+      "name": "快运王EV1"
+    },
+    {
+      "seriesId": 7843,
+      "name": "快运王V2"
+    },
+    {
+      "seriesId": 7497,
+      "name": "依维柯聚星新能源"
+    },
+    {
+      "seriesId": 7852,
+      "name": "意路达"
+    },
+    {
+      "seriesId": 2532,
+      "name": "依维柯得意"
+    },
+    {
+      "seriesId": 7192,
+      "name": "依维柯聚星"
+    },
+    {
+      "seriesId": 4266,
+      "name": "依维柯欧霸"
+    },
+    {
+      "seriesId": 6706,
+      "name": "依维柯欧风"
+    },
+    {
+      "seriesId": 4580,
+      "name": "依维柯欧胜"
+    },
+    {
+      "seriesId": 5289,
+      "name": "依维柯欧胜新能源"
+    },
+    {
+      "seriesId": 2531,
+      "name": "仰望U7"
+    },
+    {
+      "seriesId": 7507,
+      "name": "仰望U8"
+    },
+    {
+      "seriesId": 8266,
+      "name": "仰望U8 L"
+    },
+    {
+      "seriesId": 7116,
+      "name": "仰望U9"
+    },
+    {
+      "seriesId": 8649,
+      "name": "越界房车R6"
+    },
+    {
+      "seriesId": 7422,
+      "name": "泰坦S6"
+    },
+    {
+      "seriesId": 7987,
+      "name": "盖亚350"
+    },
+    {
+      "seriesId": 7986,
+      "name": "越界A6"
+    },
+    {
+      "seriesId": 6964,
+      "name": "越界露营大师G7"
+    },
+    {
+      "seriesId": 7985,
+      "name": "一汽蓝舰H6"
+    },
+    {
+      "seriesId": 3824,
+      "name": "森雅R7"
+    },
+    {
+      "seriesId": 4945,
+      "name": "英力士掷弹兵"
+    },
+    {
+      "seriesId": 7267,
+      "name": "远程星智"
+    },
+    {
+      "seriesId": 7495,
+      "name": "远程锋锐V5M"
+    },
+    {
+      "seriesId": 7296,
+      "name": "远程星享F1E"
+    },
+    {
+      "seriesId": 7751,
+      "name": "吉利幸福号"
+    },
+    {
+      "seriesId": 6626,
+      "name": "远程星享V"
+    },
+    {
+      "seriesId": 6420,
+      "name": "远程锋锐"
+    },
+    {
+      "seriesId": 8153,
+      "name": "远程星智F5E"
+    },
+    {
+      "seriesId": 7018,
+      "name": "远程超级VAN"
+    },
+    {
+      "seriesId": 5378,
+      "name": "远程星享E6"
+    },
+    {
+      "seriesId": 5789,
+      "name": "远程FX"
+    },
+    {
+      "seriesId": 5377,
+      "name": "宇通T7"
+    },
+    {
+      "seriesId": 5790,
+      "name": "宇通T7新能源"
+    },
+    {
+      "seriesId": 7782,
+      "name": "宇通天骏"
+    },
+    {
+      "seriesId": 8250,
+      "name": "宇通天骏V6E"
+    },
+    {
+      "seriesId": 4909,
+      "name": "英菲尼迪QX80"
+    },
+    {
+      "seriesId": 2992,
+      "name": "英菲尼迪QX50"
+    },
+    {
+      "seriesId": 6342,
+      "name": "英菲尼迪QX60"
+    },
+    {
+      "seriesId": 3553,
+      "name": "雅升VITO"
+    },
+    {
+      "seriesId": 5855,
+      "name": "予风黄金仓"
+    },
+    {
+      "seriesId": 4320,
+      "name": "云度π1"
+    },
+    {
+      "seriesId": 7124,
+      "name": "云兔"
+    },
+    {
+      "seriesId": 7080,
+      "name": "威迈E"
+    },
+    {
+      "seriesId": 8364,
+      "name": "骏迈M"
+    },
+    {
+      "seriesId": 8365,
+      "name": "战马"
+    },
+    {
+      "seriesId": 7514,
+      "name": "智己L6"
+    },
+    {
+      "seriesId": 7305,
+      "name": "智己LS6"
+    },
+    {
+      "seriesId": 6012,
+      "name": "智己L7"
+    },
+    {
+      "seriesId": 6013,
+      "name": "智己LS7"
+    },
+    {
+      "seriesId": 8215,
+      "name": "智己LS9"
+    },
+    {
+      "seriesId": 6167,
+      "name": "智界S7"
+    },
+    {
+      "seriesId": 7730,
+      "name": "智界R7"
+    },
+    {
+      "seriesId": 7824,
+      "name": "智界V9"
+    },
+    {
+      "seriesId": 8661,
+      "name": "尊界V800"
+    },
+    {
+      "seriesId": 7927,
+      "name": "尊界S800"
+    },
+    {
+      "seriesId": 4038,
+      "name": "搏胜"
+    },
+    {
+      "seriesId": 7767,
+      "name": "先锋官V"
+    },
+    {
+      "seriesId": 8034,
+      "name": "先锋官V EV"
+    },
+    {
+      "seriesId": 8023,
+      "name": "纵横G700"
+    },
+    {
+      "seriesId": 8125,
+      "name": "中兴1949房车"
+    },
+    {
+      "seriesId": 4178,
+      "name": "领主"
+    },
+    {
+      "seriesId": 2519,
+      "name": "威虎"
+    },
+    {
+      "seriesId": 3881,
+      "name": "小老虎"
+    },
+    {
+      "seriesId": 6112,
+      "name": "中兴1949"
+    },
+    {
+      "seriesId": 6423,
+      "name": "中兴1986"
+    },
+    {
+      "seriesId": 6113,
+      "name": "VGV U70"
+    },
+    {
+      "seriesId": 6709,
+      "name": "VGV U75"
+    },
+    {
+      "seriesId": 6582,
+      "name": "VGV VX7"
+    },
+    {
+      "seriesId": 5699,
+      "name": "轻骑兵"
+    },
+    {
+      "seriesId": 8559,
+      "name": "中通T7"
+    },
+    {
+      "seriesId": 3816,
+      "name": "OBBIN星海"
+    },
+    {
+      "seriesId": 6697,
+      "name": "OBBIN星河"
+    },
+    {
+      "seriesId": 8139,
+      "name": "欧尔法"
+    },
+    {
+      "seriesId": 4725,
+      "name": "知豆彩虹"
+    }
+  ],
+  "matches": 254,
+  "unmatched": [
+    "A6 e-tron",
+    "A8 e-tron",
+    "e-tron Sportback",
+    "Q4 e-tron",
+    "Q5 e-tron",
+    "Q8 e-tron",
+    "RS e-tron GT",
+    "EQE SUV",
+    "EQS SUV",
+    "iX5 Hydrogen",
+    "CT5-V Blackwing EV",
+    "ESCALADE IQ",
+    "OPTIQ",
+    "ë-Berlingo",
+    "ë-C4 X",
+    "Dispatch EV",
+    "ë-SpaceTourer",
+    "腾势 N8 越野版",
+    "腾势 X 混动版",
+    "飞凡 MARVEL R",
+    "Bronco EV",
+    "E-Transit",
+    "Edge EV",
+    "Escape PHEV",
+    "Explorer PHEV",
+    "F-150 Lightning",
+    "合创 007 纯电版",
+    "合创 E01",
+    "合创 V09 商务版",
+    "合创 V09",
+    "合创 Z03 潮酷版",
+    "合创 Z03",
+    "Accord e:PHEV",
+    "Civic EV",
+    "CR-V e:PHEV",
+    "e:NP1 极湃 1",
+    "e:NP2",
+    "Casper Electric",
+    "Kona Electric",
+    "Santa Fe PHEV",
+    "Tucson PHEV",
+    "FX EV",
+    "JX EV",
+    "Q50 EV",
+    "Q60 EV",
+    "QX55 EV",
+    "Niro EV",
+    "Sorento PHEV",
+    "Soul EV",
+    "Sportage PHEV",
+    "Stinger EV",
+    "路特斯 E11",
+    "路特斯 Eletre",
+    "路特斯 Eletre R+",
+    "路特斯 Emira",
+    "路特斯 Emira i4",
+    "路特斯 Evija",
+    "路特斯 S11",
+    "路特斯 Type 132",
+    "领克 02 EM-P",
+    "领克 07 EM-P",
+    "领克 08 EM-P",
+    "ASX EV",
+    "Eclipse Cross PHEV",
+    "i-MiEV",
+    "L200 EV",
+    "Mirage EV",
+    "Outlander PHEV",
+    "Pajero EV",
+    "Xpander EV",
+    "Altima EV",
+    "Ariya",
+    "Leaf",
+    "Maxima EV",
+    "Note e-Power",
+    "Qashqai e-Power",
+    "Rogue EV",
+    "X-Trail e-Power",
+    "欧拉 iQ",
+    "2008 PHEV",
+    "3008 PHEV",
+    "308 PHEV",
+    "e-2008",
+    "e-208",
+    "e-308",
+    "e-5008",
+    "Polestar 2 长续航版",
+    "Polestar 3 高性能版",
+    "Polestar 4 双电机版",
+    "911 Turbo S E-Hybrid",
+    "启辰 Ariya",
+    "启辰 V-Online",
+    "Alpine A110 EV",
+    "Captur E-Tech PHEV",
+    "Clio E-Tech",
+    "Kangoo E-Tech",
+    "Master E-Tech",
+    "Megane E-Tech",
+    "Scénic E-Tech",
+    "Zoe",
+    "大通 D90 Pro EV",
+    "大通 EV30",
+    "大通 MIFA 6",
+    "大通 MIFA 7",
+    "大通 MIFA 9",
+    "大通 T90 EV",
+    "Ascent EV",
+    "BRZ EV",
+    "Crosstrek Hybrid",
+    "Forester Hybrid",
+    "Impreza EV",
+    "Outback Hybrid",
+    "Solterra",
+    "WRX EV",
+    "RAV4 双擎 E+",
+    "C40 Recharge",
+    "S60 Recharge",
+    "S90 Recharge",
+    "XC40 Recharge",
+    "XC60 Recharge",
+    "XC90 Recharge",
+    "岚图 H53",
+    "ID. Buzz",
+    "魏牌玛奇朵 DHT-PHEV",
+    "小米 YU9 旗舰版",
+    "P5",
+    "智己 IM AD"
+  ]
+}

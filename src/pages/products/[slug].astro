@@ -61,19 +61,19 @@ const relatedVehicles = vehicles.filter((rv) => rv.data.brand === v.brand && rv.
       <div class="grid lg:grid-cols-2 gap-10">
         <!-- Image Carousel -->
         <div>
-          <div class="relative rounded-xl overflow-hidden bg-slate-100" id="carousel">
-            <div class="aspect-[4/3] flex items-center justify-center overflow-hidden bg-slate-50">
+          <div class="relative rounded-xl overflow-hidden bg-primary-light border border-white/5" id="carousel">
+            <div class="aspect-[4/3] flex items-center justify-center overflow-hidden">
               <img id="main-image" src={v.images[0]} alt={name} class="w-full h-full object-contain" />
             </div>
-            <button onclick="prevImage()" class="absolute left-2 top-1/2 -translate-y-1/2 w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-slate-50">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+            <button onclick="prevImage()" class="absolute left-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors border border-white/10">
+              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
             </button>
-            <button onclick="nextImage()" class="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 bg-white rounded-full shadow flex items-center justify-center hover:bg-slate-50">
-              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+            <button onclick="nextImage()" class="absolute right-3 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/10 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-white/20 transition-colors border border-white/10">
+              <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
             </button>
             <div class="flex gap-2 mt-3 justify-center" id="thumbnails">
               {v.images.map((img, i) => (
-                <button onclick={`setImage(${i})`} class={`w-14 h-10 rounded overflow-hidden border-2 ${i === 0 ? 'border-accent' : 'border-transparent'} hover:border-accent/50`}>
+                <button onclick={`setImage(${i})`} class={`w-14 h-10 rounded-md overflow-hidden border-2 transition-all duration-200 ${i === 0 ? 'border-gold shadow-sm shadow-gold/20' : 'border-white/10 hover:border-white/30'}`}>
                   <img src={img} alt="" class="w-full h-full object-cover" loading="lazy" onerror="this.remove()" />
                 </button>
               ))}
@@ -83,34 +83,34 @@ const relatedVehicles = vehicles.filter((rv) => rv.data.brand === v.brand && rv.
 
         <!-- Details -->
         <div>
-          <p class="text-sm text-accent font-bold uppercase tracking-wide">{brandName}</p>
-          <h1 class="text-3xl font-extrabold mt-1 mb-3">{name}</h1>
-          <p class="text-slate-500 text-sm leading-relaxed mb-5">{v.description[lang as keyof typeof v.description]}</p>
+          <p class="text-sm text-gold font-bold uppercase tracking-wide">{brandName}</p>
+          <h1 class="text-3xl font-extrabold mt-1 mb-3 text-white">{name}</h1>
+          <p class="text-gray-400 text-sm leading-relaxed mb-5">{v.description[lang as keyof typeof v.description]}</p>
 
           <div class="flex flex-wrap gap-1.5 mb-6">
-            <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-full">{typeLabel}</span>
-            <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-full">{fuelLabel}</span>
-            {v.specs.drive && <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-full">{v.specs.drive}</span>}
-            <span class="text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-full">{v.year}</span>
-            {v.inStock && <span class="text-xs bg-emerald-100 text-emerald-700 px-2.5 py-1 rounded-full font-medium">{t("product.inStock")}</span>}
+            <span class="text-xs bg-white/5 text-gray-300 px-2.5 py-1 rounded-full border border-white/5">{typeLabel}</span>
+            <span class="text-xs bg-white/5 text-gray-300 px-2.5 py-1 rounded-full border border-white/5">{fuelLabel}</span>
+            {v.specs.drive && <span class="text-xs bg-white/5 text-gray-300 px-2.5 py-1 rounded-full border border-white/5">{v.specs.drive}</span>}
+            <span class="text-xs bg-white/5 text-gray-300 px-2.5 py-1 rounded-full border border-white/5">{v.year}</span>
+            {v.inStock && <span class="badge-green">{t("product.inStock")}</span>}
           </div>
 
           <!-- Specs -->
           {specItems.length > 0 && (
             <div class="mb-6">
-              <h3 class="font-bold text-slate-900 mb-3">{t("product.specs")}</h3>
+              <h3 class="font-bold text-white mb-3">{t("product.specs")}</h3>
               <div class="grid grid-cols-2 gap-2">
                 {specItems.map((s: any) => (
-                  <div class="bg-slate-50 rounded-lg p-3">
-                    <p class="text-[10px] text-slate-400 font-semibold uppercase">{s.label}</p>
-                    <p class="text-sm font-bold text-slate-900">{s.value}</p>
+                  <div class="bg-primary-light border border-white/5 rounded-lg p-3">
+                    <p class="text-[10px] text-gray-500 font-semibold uppercase">{s.label}</p>
+                    <p class="text-sm font-bold text-white">{s.value}</p>
                   </div>
                 ))}
               </div>
             </div>
           )}
 
-          <a href={`${baseUrl}/contact/`} class="inline-flex items-center px-8 py-3 bg-accent hover:bg-accent-hover text-white font-semibold rounded-lg transition-colors text-sm">
+          <a href={`${baseUrl}/contact/`} class="btn-primary">
             {t("product.inquireNow")}
             <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
           </a>
@@ -121,18 +121,18 @@ const relatedVehicles = vehicles.filter((rv) => rv.data.brand === v.brand && rv.
 
   <!-- Related -->
   {relatedVehicles.length > 0 && (
-    <section class="py-12 bg-slate-50">
+    <section class="py-12 bg-primary-dark">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 class="text-lg font-bold text-slate-900 mb-5">{isZh ? `更多${brandName}车型` : `More from ${brandName}`}</h2>
+        <h2 class="text-lg font-bold text-white mb-5">{isZh ? `更多${brandName}车型` : `More from ${brandName}`}</h2>
         <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
           {relatedVehicles.map((rv) => {
             const rn = isZh ? rv.data.names.zh : rv.data.names.en;
             return (
-              <a href={`${baseUrl}/products/${rv.data.slug}/`} class="group bg-white rounded-xl border border-slate-100 overflow-hidden hover:shadow-md transition-all">
-                <div class="aspect-[4/3] bg-slate-100 flex items-center justify-center">
+              <a href={`${baseUrl}/products/${rv.data.slug}/`} class="group card card-hover">
+                <div class="aspect-[4/3] bg-primary-light flex items-center justify-center">
                   <img src={rv.data.images[0]} alt={rn} class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" onerror="this.remove()" />
                 </div>
-                <div class="p-3"><p class="text-xs font-medium text-slate-700 truncate">{rn}</p></div>
+                <div class="p-3"><p class="text-xs font-medium text-gray-300 truncate">{rn}</p></div>
               </a>
             );
           })}

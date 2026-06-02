@@ -1,0 +1,2617 @@
+{
+  "matched": [
+    {
+      "slug": "aion-aionlx",
+      "brand": "aion",
+      "zhName": "AION LX",
+      "enName": "AION LX",
+      "seriesId": 5262,
+      "matchName": "AION LX [精确中文]"
+    },
+    {
+      "slug": "aion-aions",
+      "brand": "aion",
+      "zhName": "AION S",
+      "enName": "AION S",
+      "seriesId": 5026,
+      "matchName": "AION S [精确中文]"
+    },
+    {
+      "slug": "aion-aionsmax",
+      "brand": "aion",
+      "zhName": "AION S Max",
+      "enName": "AION S Max",
+      "seriesId": 5026,
+      "matchName": "AION S Max → AION S [模糊:8.0]"
+    },
+    {
+      "slug": "aion-aionut",
+      "brand": "aion",
+      "zhName": "AION UT",
+      "enName": "AION UT",
+      "seriesId": 8422,
+      "matchName": "AION UT [精确中文]"
+    },
+    {
+      "slug": "aion-aionv",
+      "brand": "aion",
+      "zhName": "AION V",
+      "enName": "AION V",
+      "seriesId": 5622,
+      "matchName": "AION V [精确中文]"
+    },
+    {
+      "slug": "aion-aionvplus",
+      "brand": "aion",
+      "zhName": "AION V Plus",
+      "enName": "AION V Plus",
+      "seriesId": 5622,
+      "matchName": "AION V Plus → AION V [模糊:8.0]"
+    },
+    {
+      "slug": "aion-aiony",
+      "brand": "aion",
+      "zhName": "AION Y",
+      "enName": "AION Y",
+      "seriesId": 5976,
+      "matchName": "AION Y [精确中文]"
+    },
+    {
+      "slug": "aion-aionyplus",
+      "brand": "aion",
+      "zhName": "AION Y Plus",
+      "enName": "AION Y Plus",
+      "seriesId": 5976,
+      "matchName": "AION Y Plus → AION Y [模糊:8.0]"
+    },
+    {
+      "slug": "aito-m5-",
+      "brand": "aito",
+      "zhName": "问界 M5 增程",
+      "enName": "问界 M5 增程",
+      "seriesId": 2745,
+      "matchName": "问界 M5 增程 → 问界M5 [模糊:8.0]"
+    },
+    {
+      "slug": "aito-m5",
+      "brand": "aito",
+      "zhName": "问界 M5",
+      "enName": "问界 M5",
+      "seriesId": 2745,
+      "matchName": "问界 M5 [清洗中文]"
+    },
+    {
+      "slug": "aito-m5ev",
+      "brand": "aito",
+      "zhName": "问界 M5 EV",
+      "enName": "问界 M5 EV",
+      "seriesId": 2745,
+      "matchName": "问界 M5 EV → 问界M5 [模糊:8.0]"
+    },
+    {
+      "slug": "aito-m7",
+      "brand": "aito",
+      "zhName": "问界 M7",
+      "enName": "问界 M7",
+      "seriesId": 6643,
+      "matchName": "问界 M7 [清洗中文]"
+    },
+    {
+      "slug": "aito-m8",
+      "brand": "aito",
+      "zhName": "问界 M8",
+      "enName": "问界 M8",
+      "seriesId": 8003,
+      "matchName": "问界 M8 [清洗中文]"
+    },
+    {
+      "slug": "aito-m9-",
+      "brand": "aito",
+      "zhName": "问界 M9 纯电",
+      "enName": "问界 M9 纯电",
+      "seriesId": 7207,
+      "matchName": "问界 M9 纯电 → 问界M9 [模糊:8.0]"
+    },
+    {
+      "slug": "aito-m9",
+      "brand": "aito",
+      "zhName": "问界 M9",
+      "enName": "问界 M9",
+      "seriesId": 7207,
+      "matchName": "问界 M9 [清洗中文]"
+    },
+    {
+      "slug": "avatr-06",
+      "brand": "avatr",
+      "zhName": "阿维塔 06",
+      "enName": "阿维塔 06",
+      "seriesId": 7752,
+      "matchName": "阿维塔 06 [清洗中文]"
+    },
+    {
+      "slug": "avatr-07",
+      "brand": "avatr",
+      "zhName": "阿维塔 07",
+      "enName": "阿维塔 07",
+      "seriesId": 7652,
+      "matchName": "阿维塔 07 [清洗中文]"
+    },
+    {
+      "slug": "avatr-11-",
+      "brand": "avatr",
+      "zhName": "阿维塔 11 鸿蒙版",
+      "enName": "阿维塔 11 鸿蒙版",
+      "seriesId": 6354,
+      "matchName": "阿维塔 11 鸿蒙版 → 阿维塔11 [模糊:8.0]"
+    },
+    {
+      "slug": "avatr-11",
+      "brand": "avatr",
+      "zhName": "阿维塔 11",
+      "enName": "阿维塔 11",
+      "seriesId": 6354,
+      "matchName": "阿维塔 11 [清洗中文]"
+    },
+    {
+      "slug": "avatr-12-",
+      "brand": "avatr",
+      "zhName": "阿维塔 12 长续航版",
+      "enName": "阿维塔 12 长续航版",
+      "seriesId": 7126,
+      "matchName": "阿维塔 12 长续航版 → 阿维塔12 [模糊:8.0]"
+    },
+    {
+      "slug": "avatr-12",
+      "brand": "avatr",
+      "zhName": "阿维塔 12",
+      "enName": "阿维塔 12",
+      "seriesId": 7126,
+      "matchName": "阿维塔 12 [清洗中文]"
+    },
+    {
+      "slug": "benz-eq-eqa",
+      "brand": "benz_eq",
+      "zhName": "EQA",
+      "enName": "EQA",
+      "seriesId": 6149,
+      "matchName": "EQA → 奔驰EQA [模糊:8.0]"
+    },
+    {
+      "slug": "benz-eq-eqb",
+      "brand": "benz_eq",
+      "zhName": "EQB",
+      "enName": "EQB",
+      "seriesId": 6150,
+      "matchName": "EQB → 奔驰EQB [模糊:8.0]"
+    },
+    {
+      "slug": "benz-eq-eqe",
+      "brand": "benz_eq",
+      "zhName": "EQE",
+      "enName": "EQE",
+      "seriesId": 6640,
+      "matchName": "EQE → 奔驰EQE [模糊:8.0]"
+    },
+    {
+      "slug": "benz-eq-eqs",
+      "brand": "benz_eq",
+      "zhName": "EQS",
+      "enName": "EQS",
+      "seriesId": 6366,
+      "matchName": "EQS → 奔驰EQS [模糊:8.0]"
+    },
+    {
+      "slug": "bmw-i-i3",
+      "brand": "bmw_i",
+      "zhName": "i3",
+      "enName": "i3",
+      "seriesId": 6544,
+      "matchName": "i3 → 宝马i3 [模糊:8.0]"
+    },
+    {
+      "slug": "bmw-i-i4",
+      "brand": "bmw_i",
+      "zhName": "i4",
+      "enName": "i4",
+      "seriesId": 5480,
+      "matchName": "i4 → 宝马i4 [模糊:8.0]"
+    },
+    {
+      "slug": "bmw-i-i7",
+      "brand": "bmw_i",
+      "zhName": "i7",
+      "enName": "i7",
+      "seriesId": 6427,
+      "matchName": "i7 → 宝马i7 [模糊:8.0]"
+    },
+    {
+      "slug": "bmw-i-i8",
+      "brand": "bmw_i",
+      "zhName": "i8",
+      "enName": "i8",
+      "seriesId": 7727,
+      "matchName": "i8 → 理想i8 [模糊:8.0]"
+    },
+    {
+      "slug": "bmw-i-ix",
+      "brand": "bmw_i",
+      "zhName": "iX",
+      "enName": "iX",
+      "seriesId": 5758,
+      "matchName": "iX → 宝马iX3 [模糊:8.0]"
+    },
+    {
+      "slug": "bmw-i-ix1",
+      "brand": "bmw_i",
+      "zhName": "iX1",
+      "enName": "iX1",
+      "seriesId": 7223,
+      "matchName": "iX1 → 宝马iX1 [模糊:8.0]"
+    },
+    {
+      "slug": "bmw-i-ix3",
+      "brand": "bmw_i",
+      "zhName": "iX3",
+      "enName": "iX3",
+      "seriesId": 5758,
+      "matchName": "iX3 → 宝马iX3 [模糊:8.0]"
+    },
+    {
+      "slug": "byd-",
+      "brand": "byd",
+      "zhName": "海豹",
+      "enName": "海豹",
+      "seriesId": 6394,
+      "matchName": "海豹 [精确中文]"
+    },
+    {
+      "slug": "byd-d9",
+      "brand": "byd",
+      "zhName": "腾势 D9",
+      "enName": "腾势 D9",
+      "seriesId": 6669,
+      "matchName": "腾势 D9 [清洗中文]"
+    },
+    {
+      "slug": "byd-plus",
+      "brand": "byd",
+      "zhName": "元 PLUS",
+      "enName": "元 PLUS",
+      "seriesId": 6298,
+      "matchName": "元 PLUS [清洗中文]"
+    },
+    {
+      "slug": "byd-u8",
+      "brand": "byd",
+      "zhName": "仰望 U8",
+      "enName": "仰望 U8",
+      "seriesId": 7507,
+      "matchName": "仰望 U8 [清洗中文]"
+    },
+    {
+      "slug": "cadillac-lyriq-",
+      "brand": "cadillac",
+      "zhName": "LYRIQ 锐歌",
+      "enName": "LYRIQ 锐歌",
+      "seriesId": 6404,
+      "matchName": "LYRIQ 锐歌 → IQ锐歌 [模糊:8.0]"
+    },
+    {
+      "slug": "chery-fengyun-a8",
+      "brand": "chery_fengyun",
+      "zhName": "风云 A8",
+      "enName": "风云 A8",
+      "seriesId": 7154,
+      "matchName": "风云 A8 [清洗中文]"
+    },
+    {
+      "slug": "chery-fengyun-t7",
+      "brand": "chery_fengyun",
+      "zhName": "风云 T7",
+      "enName": "风云 T7",
+      "seriesId": 8660,
+      "matchName": "风云 T7 [清洗中文]"
+    },
+    {
+      "slug": "chery-fengyun-t8",
+      "brand": "chery_fengyun",
+      "zhName": "风云 T8",
+      "enName": "风云 T8",
+      "seriesId": 7898,
+      "matchName": "风云 T8 [清洗中文]"
+    },
+    {
+      "slug": "chery-fengyun-t9",
+      "brand": "chery_fengyun",
+      "zhName": "风云 T9",
+      "enName": "风云 T9",
+      "seriesId": 7442,
+      "matchName": "风云 T9 [清洗中文]"
+    },
+    {
+      "slug": "deepal-g318",
+      "brand": "deepal",
+      "zhName": "深蓝 G318",
+      "enName": "深蓝 G318",
+      "seriesId": 7569,
+      "matchName": "深蓝 G318 [清洗中文]"
+    },
+    {
+      "slug": "deepal-sl03",
+      "brand": "deepal",
+      "zhName": "深蓝 SL03",
+      "enName": "深蓝 SL03",
+      "seriesId": 6353,
+      "matchName": "深蓝 SL03 [清洗中文]"
+    },
+    {
+      "slug": "deepal-sl03i",
+      "brand": "deepal",
+      "zhName": "深蓝 SL03i",
+      "enName": "深蓝 SL03i",
+      "seriesId": 6353,
+      "matchName": "深蓝 SL03i → 深蓝SL03 [模糊:8.0]"
+    },
+    {
+      "slug": "denza-d9-",
+      "brand": "denza",
+      "zhName": "腾势 D9 商务版",
+      "enName": "腾势 D9 商务版",
+      "seriesId": 6669,
+      "matchName": "腾势 D9 商务版 → 腾势D9 [模糊:8.0]"
+    },
+    {
+      "slug": "denza-d9",
+      "brand": "denza",
+      "zhName": "腾势 D9",
+      "enName": "腾势 D9",
+      "seriesId": 6669,
+      "matchName": "腾势 D9 [清洗中文]"
+    },
+    {
+      "slug": "denza-n7-",
+      "brand": "denza",
+      "zhName": "腾势 N7 长续航版",
+      "enName": "腾势 N7 长续航版",
+      "seriesId": 6898,
+      "matchName": "腾势 N7 长续航版 → 腾势N7 [模糊:8.0]"
+    },
+    {
+      "slug": "denza-n7",
+      "brand": "denza",
+      "zhName": "腾势 N7",
+      "enName": "腾势 N7",
+      "seriesId": 6898,
+      "matchName": "腾势 N7 [清洗中文]"
+    },
+    {
+      "slug": "denza-n8",
+      "brand": "denza",
+      "zhName": "腾势 N8",
+      "enName": "腾势 N8",
+      "seriesId": 8159,
+      "matchName": "腾势 N8 → 腾势N8L [模糊:8.0]"
+    },
+    {
+      "slug": "feifan-f7-",
+      "brand": "feifan",
+      "zhName": "飞凡 F7 都市版",
+      "enName": "飞凡 F7 都市版",
+      "seriesId": 8132,
+      "matchName": "飞凡 F7 都市版 → 飞凡F7 [模糊:8.0]"
+    },
+    {
+      "slug": "feifan-f7",
+      "brand": "feifan",
+      "zhName": "飞凡 F7",
+      "enName": "飞凡 F7",
+      "seriesId": 8132,
+      "matchName": "飞凡 F7 [清洗中文]"
+    },
+    {
+      "slug": "feifan-r7-",
+      "brand": "feifan",
+      "zhName": "飞凡 R7 旗舰版",
+      "enName": "飞凡 R7 旗舰版",
+      "seriesId": 6072,
+      "matchName": "飞凡 R7 旗舰版 → 飞凡R7 [模糊:8.0]"
+    },
+    {
+      "slug": "feifan-r7",
+      "brand": "feifan",
+      "zhName": "飞凡 R7",
+      "enName": "飞凡 R7",
+      "seriesId": 6072,
+      "matchName": "飞凡 R7 [清洗中文]"
+    },
+    {
+      "slug": "ford-ev-mustangdarkhorseev",
+      "brand": "ford_ev",
+      "zhName": "Mustang Dark Horse EV",
+      "enName": "Mustang Dark Horse EV",
+      "seriesId": 6931,
+      "matchName": "Mustang Dark Horse EV → Mustang [模糊:8.0]"
+    },
+    {
+      "slug": "ford-ev-mustangmach-e",
+      "brand": "ford_ev",
+      "zhName": "Mustang Mach-E",
+      "enName": "Mustang Mach-E",
+      "seriesId": 6931,
+      "matchName": "Mustang Mach-E → Mustang [模糊:8.0]"
+    },
+    {
+      "slug": "formula-leopard-5-",
+      "brand": "formula_leopard",
+      "zhName": "方程豹 5 越野版",
+      "enName": "方程豹 5 越野版",
+      "seriesId": 7177,
+      "matchName": "方程豹 5 越野版 → 豹5 [模糊:8.0]"
+    },
+    {
+      "slug": "formula-leopard-5",
+      "brand": "formula_leopard",
+      "zhName": "方程豹 5",
+      "enName": "方程豹 5",
+      "seriesId": 7177,
+      "matchName": "方程豹 5 → 豹5 [模糊:8.0]"
+    },
+    {
+      "slug": "formula-leopard-8-",
+      "brand": "formula_leopard",
+      "zhName": "方程豹 8 豪华版",
+      "enName": "方程豹 8 豪华版",
+      "seriesId": 7353,
+      "matchName": "方程豹 8 豪华版 → 豹8 [模糊:8.0]"
+    },
+    {
+      "slug": "formula-leopard-8",
+      "brand": "formula_leopard",
+      "zhName": "方程豹 8",
+      "enName": "方程豹 8",
+      "seriesId": 7353,
+      "matchName": "方程豹 8 → 豹8 [模糊:8.0]"
+    },
+    {
+      "slug": "geely-galaxy-e5",
+      "brand": "geely_galaxy",
+      "zhName": "银河 E5",
+      "enName": "银河 E5",
+      "seriesId": 7650,
+      "matchName": "银河 E5 [清洗中文]"
+    },
+    {
+      "slug": "geely-galaxy-e8",
+      "brand": "geely_galaxy",
+      "zhName": "银河 E8",
+      "enName": "银河 E8",
+      "seriesId": 7170,
+      "matchName": "银河 E8 [清洗中文]"
+    },
+    {
+      "slug": "geely-galaxy-l6",
+      "brand": "geely_galaxy",
+      "zhName": "银河 L6",
+      "enName": "银河 L6",
+      "seriesId": 7167,
+      "matchName": "银河 L6 [清洗中文]"
+    },
+    {
+      "slug": "geely-galaxy-l7",
+      "brand": "geely_galaxy",
+      "zhName": "银河 L7",
+      "enName": "银河 L7",
+      "seriesId": 7158,
+      "matchName": "银河 L7 [清洗中文]"
+    },
+    {
+      "slug": "honda-ev-e-ns2",
+      "brand": "honda_ev",
+      "zhName": "e:NS2",
+      "enName": "e:NS2",
+      "seriesId": 7244,
+      "matchName": "e:NS2 → 猎光e:NS2 [模糊:8.0]"
+    },
+    {
+      "slug": "hyundai-nexo",
+      "brand": "hyundai",
+      "zhName": "Nexo",
+      "enName": "Nexo",
+      "seriesId": 7269,
+      "matchName": "Nexo [精确中文]"
+    },
+    {
+      "slug": "jetour-edm",
+      "brand": "jetour",
+      "zhName": "捷途旅行者 EDM",
+      "enName": "捷途旅行者 EDM",
+      "seriesId": 6606,
+      "matchName": "捷途旅行者 EDM → 捷途旅行者 [模糊:8.0]"
+    },
+    {
+      "slug": "jetour-i-dm",
+      "brand": "jetour",
+      "zhName": "捷途大圣 i-DM",
+      "enName": "捷途大圣 i-DM",
+      "seriesId": 8634,
+      "matchName": "捷途大圣 i-DM → 捷途大圣 [模糊:8.0]"
+    },
+    {
+      "slug": "jetour-l9",
+      "brand": "jetour",
+      "zhName": "捷途山海 L9",
+      "enName": "捷途山海 L9",
+      "seriesId": 7397,
+      "matchName": "捷途山海 L9 [清洗中文]"
+    },
+    {
+      "slug": "jetour-x70ev",
+      "brand": "jetour",
+      "zhName": "捷途 X70 EV",
+      "enName": "捷途 X70 EV",
+      "seriesId": 4683,
+      "matchName": "捷途 X70 EV → 捷途X70 [模糊:8.0]"
+    },
+    {
+      "slug": "jetour-x70se",
+      "brand": "jetour",
+      "zhName": "捷途 X70 SE",
+      "enName": "捷途 X70 SE",
+      "seriesId": 4683,
+      "matchName": "捷途 X70 SE → 捷途X70 [模糊:8.0]"
+    },
+    {
+      "slug": "jetour-x90phev",
+      "brand": "jetour",
+      "zhName": "捷途 X90 PHEV",
+      "enName": "捷途 X90 PHEV",
+      "seriesId": 4797,
+      "matchName": "捷途 X90 PHEV → 捷途X90 [模糊:8.0]"
+    },
+    {
+      "slug": "jihu-",
+      "brand": "jihu",
+      "zhName": "极狐考拉",
+      "enName": "极狐考拉",
+      "seriesId": 7120,
+      "matchName": "极狐考拉 [清洗中文]"
+    },
+    {
+      "slug": "jihu-s-hi-",
+      "brand": "jihu",
+      "zhName": "极狐阿尔法 S 华为 HI 版",
+      "enName": "极狐阿尔法 S 华为 HI 版",
+      "seriesId": 5824,
+      "matchName": "极狐阿尔法 S 华为 HI 版 → 极狐 阿尔法S [模糊:8.0]"
+    },
+    {
+      "slug": "jihu-s",
+      "brand": "jihu",
+      "zhName": "极狐阿尔法 S",
+      "enName": "极狐阿尔法 S",
+      "seriesId": 5824,
+      "matchName": "极狐阿尔法 S [清洗中文]"
+    },
+    {
+      "slug": "jihu-s5",
+      "brand": "jihu",
+      "zhName": "极狐阿尔法 S5",
+      "enName": "极狐阿尔法 S5",
+      "seriesId": 6589,
+      "matchName": "极狐阿尔法 S5 [清洗中文]"
+    },
+    {
+      "slug": "jihu-t-",
+      "brand": "jihu",
+      "zhName": "极狐阿尔法 T 森林版",
+      "enName": "极狐阿尔法 T 森林版",
+      "seriesId": 5590,
+      "matchName": "极狐阿尔法 T 森林版 → 极狐 阿尔法T [模糊:8.0]"
+    },
+    {
+      "slug": "jihu-t",
+      "brand": "jihu",
+      "zhName": "极狐阿尔法 T",
+      "enName": "极狐阿尔法 T",
+      "seriesId": 5590,
+      "matchName": "极狐阿尔法 T [清洗中文]"
+    },
+    {
+      "slug": "jihu-t5",
+      "brand": "jihu",
+      "zhName": "极狐阿尔法 T5",
+      "enName": "极狐阿尔法 T5",
+      "seriesId": 7125,
+      "matchName": "极狐阿尔法 T5 [清洗中文]"
+    },
+    {
+      "slug": "kia-ev5",
+      "brand": "kia",
+      "zhName": "EV5",
+      "enName": "EV5",
+      "seriesId": 7352,
+      "matchName": "EV5 → 起亚EV5 [模糊:8.0]"
+    },
+    {
+      "slug": "kia-ev6",
+      "brand": "kia",
+      "zhName": "EV6",
+      "enName": "EV6",
+      "seriesId": 4505,
+      "matchName": "EV6 → 起亚EV6 [模糊:8.0]"
+    },
+    {
+      "slug": "leapmotor-c01-",
+      "brand": "leapmotor",
+      "zhName": "零跑 C01 高性能版",
+      "enName": "零跑 C01 高性能版",
+      "seriesId": 6161,
+      "matchName": "零跑 C01 高性能版 → 零跑C01 [模糊:8.0]"
+    },
+    {
+      "slug": "leapmotor-c01",
+      "brand": "leapmotor",
+      "zhName": "零跑 C01",
+      "enName": "零跑 C01",
+      "seriesId": 6161,
+      "matchName": "零跑 C01 [清洗中文]"
+    },
+    {
+      "slug": "leapmotor-c10",
+      "brand": "leapmotor",
+      "zhName": "零跑 C10",
+      "enName": "零跑 C10",
+      "seriesId": 8195,
+      "matchName": "零跑 C10 [清洗中文]"
+    },
+    {
+      "slug": "leapmotor-c11-",
+      "brand": "leapmotor",
+      "zhName": "零跑 C11 增程",
+      "enName": "零跑 C11 增程",
+      "seriesId": 5205,
+      "matchName": "零跑 C11 增程 → 零跑C11 [模糊:8.0]"
+    },
+    {
+      "slug": "leapmotor-c11",
+      "brand": "leapmotor",
+      "zhName": "零跑 C11",
+      "enName": "零跑 C11",
+      "seriesId": 5205,
+      "matchName": "零跑 C11 [清洗中文]"
+    },
+    {
+      "slug": "leapmotor-t03-",
+      "brand": "leapmotor",
+      "zhName": "零跑 T03 豪华版",
+      "enName": "零跑 T03 豪华版",
+      "seriesId": 5515,
+      "matchName": "零跑 T03 豪华版 → 零跑T03 [模糊:8.0]"
+    },
+    {
+      "slug": "leapmotor-t03",
+      "brand": "leapmotor",
+      "zhName": "零跑 T03",
+      "enName": "零跑 T03",
+      "seriesId": 5515,
+      "matchName": "零跑 T03 [清洗中文]"
+    },
+    {
+      "slug": "li-auto-l6",
+      "brand": "li_auto",
+      "zhName": "理想 L6",
+      "enName": "理想 L6",
+      "seriesId": 6950,
+      "matchName": "理想 L6 [清洗中文]"
+    },
+    {
+      "slug": "li-auto-l7",
+      "brand": "li_auto",
+      "zhName": "理想 L7",
+      "enName": "理想 L7",
+      "seriesId": 6949,
+      "matchName": "理想 L7 [清洗中文]"
+    },
+    {
+      "slug": "li-auto-l8",
+      "brand": "li_auto",
+      "zhName": "理想 L8",
+      "enName": "理想 L8",
+      "seriesId": 6910,
+      "matchName": "理想 L8 [清洗中文]"
+    },
+    {
+      "slug": "li-auto-l9",
+      "brand": "li_auto",
+      "zhName": "理想 L9",
+      "enName": "理想 L9",
+      "seriesId": 6576,
+      "matchName": "理想 L9 [清洗中文]"
+    },
+    {
+      "slug": "li-auto-mega",
+      "brand": "li_auto",
+      "zhName": "理想 MEGA",
+      "enName": "理想 MEGA",
+      "seriesId": 6939,
+      "matchName": "理想 MEGA [清洗中文]"
+    },
+    {
+      "slug": "lotus-eletre",
+      "brand": "lotus",
+      "zhName": "路特斯 Eletre",
+      "enName": "路特斯 Eletre",
+      "seriesId": 6649,
+      "matchName": "路特斯 Eletre → Eletre [核心名]"
+    },
+    {
+      "slug": "lotus-eletrer-",
+      "brand": "lotus",
+      "zhName": "路特斯 Eletre R+",
+      "enName": "路特斯 Eletre R+",
+      "seriesId": 6649,
+      "matchName": "路特斯 Eletre R+ → ELETRE [模糊:8.0]"
+    },
+    {
+      "slug": "lotus-emira",
+      "brand": "lotus",
+      "zhName": "路特斯 Emira",
+      "enName": "路特斯 Emira",
+      "seriesId": 6028,
+      "matchName": "路特斯 Emira → Emira [核心名]"
+    },
+    {
+      "slug": "lotus-emirai4",
+      "brand": "lotus",
+      "zhName": "路特斯 Emira i4",
+      "enName": "路特斯 Emira i4",
+      "seriesId": 6028,
+      "matchName": "路特斯 Emira i4 → EMIRA [模糊:8.0]"
+    },
+    {
+      "slug": "lotus-evija",
+      "brand": "lotus",
+      "zhName": "路特斯 Evija",
+      "enName": "路特斯 Evija",
+      "seriesId": 5331,
+      "matchName": "路特斯 Evija → EVIJA [模糊:8.0]"
+    },
+    {
+      "slug": "lynkco-03em-p",
+      "brand": "lynkco",
+      "zhName": "领克 03 EM-P",
+      "enName": "领克 03 EM-P",
+      "seriesId": 4402,
+      "matchName": "领克 03 EM-P → 领克03 [模糊:8.0]"
+    },
+    {
+      "slug": "lynkco-05em-p",
+      "brand": "lynkco",
+      "zhName": "领克 05 EM-P",
+      "enName": "领克 05 EM-P",
+      "seriesId": 5194,
+      "matchName": "领克 05 EM-P → 领克05 [模糊:8.0]"
+    },
+    {
+      "slug": "lynkco-06em-p",
+      "brand": "lynkco",
+      "zhName": "领克 06 EM-P",
+      "enName": "领克 06 EM-P",
+      "seriesId": 5555,
+      "matchName": "领克 06 EM-P → 领克06 [模糊:8.0]"
+    },
+    {
+      "slug": "lynkco-09em-p",
+      "brand": "lynkco",
+      "zhName": "领克 09 EM-P",
+      "enName": "领克 09 EM-P",
+      "seriesId": 7243,
+      "matchName": "领克 09 EM-P → 领克09 [模糊:8.0]"
+    },
+    {
+      "slug": "lynkco-10-",
+      "brand": "lynkco",
+      "zhName": "领克 10 纯电",
+      "enName": "领克 10 纯电",
+      "seriesId": 5576,
+      "matchName": "领克 10 纯电 → 领克10 [模糊:8.0]"
+    },
+    {
+      "slug": "nio-ec6",
+      "brand": "nio",
+      "zhName": "EC6",
+      "enName": "EC6",
+      "seriesId": 5569,
+      "matchName": "EC6 → 蔚来EC6 [模糊:8.0]"
+    },
+    {
+      "slug": "nio-ec7",
+      "brand": "nio",
+      "zhName": "EC7",
+      "enName": "EC7",
+      "seriesId": 6994,
+      "matchName": "EC7 → 蔚来EC7 [模糊:8.0]"
+    },
+    {
+      "slug": "nio-es6",
+      "brand": "nio",
+      "zhName": "ES6",
+      "enName": "ES6",
+      "seriesId": 4881,
+      "matchName": "ES6 → 蔚来ES6 [模糊:8.0]"
+    },
+    {
+      "slug": "nio-es8",
+      "brand": "nio",
+      "zhName": "ES8",
+      "enName": "ES8",
+      "seriesId": 4427,
+      "matchName": "ES8 → 蔚来ES8 [模糊:8.0]"
+    },
+    {
+      "slug": "nio-et5",
+      "brand": "nio",
+      "zhName": "ET5",
+      "enName": "ET5",
+      "seriesId": 7612,
+      "matchName": "ET5 → 金琥ET50 [模糊:8.0]"
+    },
+    {
+      "slug": "nio-et5t",
+      "brand": "nio",
+      "zhName": "ET5T",
+      "enName": "ET5T",
+      "seriesId": 4337,
+      "matchName": "ET5T → 蔚来ET5T [模糊:8.0]"
+    },
+    {
+      "slug": "nio-et7",
+      "brand": "nio",
+      "zhName": "ET7",
+      "enName": "ET7",
+      "seriesId": 5264,
+      "matchName": "ET7 → 蔚来ET7 [模糊:8.0]"
+    },
+    {
+      "slug": "nio-et9",
+      "brand": "nio",
+      "zhName": "ET9",
+      "enName": "ET9",
+      "seriesId": 7546,
+      "matchName": "ET9 → 蔚来ET9 [模糊:8.0]"
+    },
+    {
+      "slug": "nissan-ev-ariya",
+      "brand": "nissan_ev",
+      "zhName": "Ariya",
+      "enName": "Ariya",
+      "seriesId": 6714,
+      "matchName": "Ariya → ARIYA艾睿雅 [模糊:8.0]"
+    },
+    {
+      "slug": "porsche-cayennee-hybrid",
+      "brand": "porsche",
+      "zhName": "Cayenne E-Hybrid",
+      "enName": "Cayenne E-Hybrid",
+      "seriesId": 172,
+      "matchName": "Cayenne E-Hybrid → Cayenne [模糊:8.0]"
+    },
+    {
+      "slug": "porsche-macanev",
+      "brand": "porsche",
+      "zhName": "Macan EV",
+      "enName": "Macan EV",
+      "seriesId": 7299,
+      "matchName": "Macan EV → Macan [模糊:8.0]"
+    },
+    {
+      "slug": "porsche-panamerae-hybrid",
+      "brand": "porsche",
+      "zhName": "Panamera E-Hybrid",
+      "enName": "Panamera E-Hybrid",
+      "seriesId": 703,
+      "matchName": "Panamera E-Hybrid → Panamera [模糊:8.0]"
+    },
+    {
+      "slug": "porsche-taycan",
+      "brand": "porsche",
+      "zhName": "Taycan",
+      "enName": "Taycan",
+      "seriesId": 8603,
+      "matchName": "Taycan [精确中文]"
+    },
+    {
+      "slug": "porsche-taycancrossturismo",
+      "brand": "porsche",
+      "zhName": "Taycan Cross Turismo",
+      "enName": "Taycan Cross Turismo",
+      "seriesId": 8603,
+      "matchName": "Taycan Cross Turismo → Taycan [模糊:8.0]"
+    },
+    {
+      "slug": "porsche-taycangts",
+      "brand": "porsche",
+      "zhName": "Taycan GTS",
+      "enName": "Taycan GTS",
+      "seriesId": 8603,
+      "matchName": "Taycan GTS → Taycan [模糊:8.0]"
+    },
+    {
+      "slug": "porsche-taycanturbos",
+      "brand": "porsche",
+      "zhName": "Taycan Turbo S",
+      "enName": "Taycan Turbo S",
+      "seriesId": 8603,
+      "matchName": "Taycan Turbo S → Taycan [模糊:8.0]"
+    },
+    {
+      "slug": "qichen-d60ev",
+      "brand": "qichen",
+      "zhName": "启辰 D60 EV",
+      "enName": "启辰 D60 EV",
+      "seriesId": 5183,
+      "matchName": "启辰 D60 EV [清洗中文]"
+    },
+    {
+      "slug": "qichen-dd-i",
+      "brand": "qichen",
+      "zhName": "启辰星 DD-i",
+      "enName": "启辰星 DD-i",
+      "seriesId": 7104,
+      "matchName": "启辰星 DD-i → 启辰星 [模糊:8.0]"
+    },
+    {
+      "slug": "qichen-t60ev",
+      "brand": "qichen",
+      "zhName": "启辰 T60 EV",
+      "enName": "启辰 T60 EV",
+      "seriesId": 5224,
+      "matchName": "启辰 T60 EV [清洗中文]"
+    },
+    {
+      "slug": "qichen-vdd-i",
+      "brand": "qichen",
+      "zhName": "启辰大 V DD-i",
+      "enName": "启辰大 V DD-i",
+      "seriesId": 6216,
+      "matchName": "启辰大 V DD-i → 启辰大V [模糊:8.0]"
+    },
+    {
+      "slug": "saic-maxus-g90ev",
+      "brand": "saic_maxus",
+      "zhName": "大通 G90 EV",
+      "enName": "大通 G90 EV",
+      "seriesId": 6479,
+      "matchName": "大通 G90 EV → 大通G90 [模糊:8.0]"
+    },
+    {
+      "slug": "toyota-ev-bz3",
+      "brand": "toyota_ev",
+      "zhName": "bZ3",
+      "enName": "bZ3",
+      "seriesId": 6903,
+      "matchName": "bZ3 → 丰田bZ3 [模糊:8.0]"
+    },
+    {
+      "slug": "toyota-ev-sportcrossphev",
+      "brand": "toyota_ev",
+      "zhName": "皇冠 SportCross PHEV",
+      "enName": "皇冠 SportCross PHEV",
+      "seriesId": 2614,
+      "matchName": "皇冠 SportCross PHEV → 皇冠(进口) [模糊:8.0]"
+    },
+    {
+      "slug": "volvo-ex30",
+      "brand": "volvo",
+      "zhName": "EX30",
+      "enName": "EX30",
+      "seriesId": 7275,
+      "matchName": "EX30 → 沃尔沃EX30 [模糊:8.0]"
+    },
+    {
+      "slug": "volvo-ex90",
+      "brand": "volvo",
+      "zhName": "EX90",
+      "enName": "EX90",
+      "seriesId": 4609,
+      "matchName": "EX90 → 沃尔沃EX90 [模糊:8.0]"
+    },
+    {
+      "slug": "voyah-",
+      "brand": "voyah",
+      "zhName": "岚图追光长续航版",
+      "enName": "岚图追光长续航版",
+      "seriesId": 8534,
+      "matchName": "岚图追光长续航版 → 岚图追光 [模糊:8.0]"
+    },
+    {
+      "slug": "voyah-free-",
+      "brand": "voyah",
+      "zhName": "岚图 FREE 增程版",
+      "enName": "岚图 FREE 增程版",
+      "seriesId": 5924,
+      "matchName": "岚图 FREE 增程版 → 岚图FREE [模糊:8.0]"
+    },
+    {
+      "slug": "voyah-free",
+      "brand": "voyah",
+      "zhName": "岚图 FREE",
+      "enName": "岚图 FREE",
+      "seriesId": 5924,
+      "matchName": "岚图 FREE [清洗中文]"
+    },
+    {
+      "slug": "vw-id-id-3",
+      "brand": "vw_id",
+      "zhName": "ID.3",
+      "enName": "ID.3",
+      "seriesId": 6265,
+      "matchName": "ID.3 → 大众ID.3 [模糊:8.0]"
+    },
+    {
+      "slug": "vw-id-id-4x",
+      "brand": "vw_id",
+      "zhName": "ID.4 X",
+      "enName": "ID.4 X",
+      "seriesId": 5511,
+      "matchName": "ID.4 X [精确中文]"
+    },
+    {
+      "slug": "vw-id-id-6x",
+      "brand": "vw_id",
+      "zhName": "ID.6 X",
+      "enName": "ID.6 X",
+      "seriesId": 6035,
+      "matchName": "ID.6 X [精确中文]"
+    },
+    {
+      "slug": "xiaomi-su7-",
+      "brand": "xiaomi",
+      "zhName": "小米 SU7 标准版",
+      "enName": "小米 SU7 标准版",
+      "seriesId": 6752,
+      "matchName": "小米 SU7 标准版 → 小米SU7 [模糊:8.0]"
+    },
+    {
+      "slug": "xiaomi-su7",
+      "brand": "xiaomi",
+      "zhName": "小米 SU7",
+      "enName": "小米 SU7",
+      "seriesId": 6752,
+      "matchName": "小米 SU7 [清洗中文]"
+    },
+    {
+      "slug": "xiaomi-su7max",
+      "brand": "xiaomi",
+      "zhName": "小米 SU7 Max",
+      "enName": "小米 SU7 Max",
+      "seriesId": 6752,
+      "matchName": "小米 SU7 Max → 小米SU7 [模糊:8.0]"
+    },
+    {
+      "slug": "xiaomi-su7pro",
+      "brand": "xiaomi",
+      "zhName": "小米 SU7 Pro",
+      "enName": "小米 SU7 Pro",
+      "seriesId": 6752,
+      "matchName": "小米 SU7 Pro → 小米SU7 [模糊:8.0]"
+    },
+    {
+      "slug": "xiaomi-su7ultra",
+      "brand": "xiaomi",
+      "zhName": "小米 SU7 Ultra",
+      "enName": "小米 SU7 Ultra",
+      "seriesId": 6752,
+      "matchName": "小米 SU7 Ultra → 小米SU7 [模糊:8.0]"
+    },
+    {
+      "slug": "xiaomi-yu7",
+      "brand": "xiaomi",
+      "zhName": "小米 YU7",
+      "enName": "小米 YU7",
+      "seriesId": 7915,
+      "matchName": "小米 YU7 [清洗中文]"
+    },
+    {
+      "slug": "xpeng-g6",
+      "brand": "xpeng",
+      "zhName": "G6",
+      "enName": "G6",
+      "seriesId": 6863,
+      "matchName": "G6 → 吉利几何G6 [模糊:8.0]"
+    },
+    {
+      "slug": "xpeng-g7",
+      "brand": "xpeng",
+      "zhName": "G7",
+      "enName": "G7",
+      "seriesId": 7228,
+      "matchName": "G7 → 大通G70 [模糊:8.0]"
+    },
+    {
+      "slug": "xpeng-g9",
+      "brand": "xpeng",
+      "zhName": "G9",
+      "enName": "G9",
+      "seriesId": 6479,
+      "matchName": "G9 → 大通G90 [模糊:8.0]"
+    },
+    {
+      "slug": "xpeng-p7",
+      "brand": "xpeng",
+      "zhName": "P7",
+      "enName": "P7",
+      "seriesId": 7677,
+      "matchName": "P7 → 广汽本田P7 [模糊:8.0]"
+    },
+    {
+      "slug": "xpeng-x9",
+      "brand": "xpeng",
+      "zhName": "X9",
+      "enName": "X9",
+      "seriesId": 4797,
+      "matchName": "X9 → 捷途X90 [模糊:8.0]"
+    },
+    {
+      "slug": "yangwang-u7",
+      "brand": "yangwang",
+      "zhName": "仰望 U7",
+      "enName": "仰望 U7",
+      "seriesId": 2531,
+      "matchName": "仰望 U7 [清洗中文]"
+    },
+    {
+      "slug": "yangwang-u8-",
+      "brand": "yangwang",
+      "zhName": "仰望 U8 豪华版",
+      "enName": "仰望 U8 豪华版",
+      "seriesId": 7507,
+      "matchName": "仰望 U8 豪华版 → 仰望U8 [模糊:8.0]"
+    },
+    {
+      "slug": "yangwang-u8",
+      "brand": "yangwang",
+      "zhName": "仰望 U8",
+      "enName": "仰望 U8",
+      "seriesId": 7507,
+      "matchName": "仰望 U8 [清洗中文]"
+    },
+    {
+      "slug": "yangwang-u9-",
+      "brand": "yangwang",
+      "zhName": "仰望 U9 超跑",
+      "enName": "仰望 U9 超跑",
+      "seriesId": 7116,
+      "matchName": "仰望 U9 超跑 → 仰望U9 [模糊:8.0]"
+    },
+    {
+      "slug": "yangwang-u9",
+      "brand": "yangwang",
+      "zhName": "仰望 U9",
+      "enName": "仰望 U9",
+      "seriesId": 7116,
+      "matchName": "仰望 U9 [清洗中文]"
+    },
+    {
+      "slug": "zeekr-001",
+      "brand": "zeekr",
+      "zhName": "极氪 001",
+      "enName": "极氪 001",
+      "seriesId": 6091,
+      "matchName": "极氪 001 [清洗中文]"
+    },
+    {
+      "slug": "zeekr-001fr",
+      "brand": "zeekr",
+      "zhName": "极氪 001 FR",
+      "enName": "极氪 001 FR",
+      "seriesId": 7698,
+      "matchName": "极氪 001 FR [清洗中文]"
+    },
+    {
+      "slug": "zeekr-007",
+      "brand": "zeekr",
+      "zhName": "极氪 007",
+      "enName": "极氪 007",
+      "seriesId": 7168,
+      "matchName": "极氪 007 [清洗中文]"
+    },
+    {
+      "slug": "zeekr-009-",
+      "brand": "zeekr",
+      "zhName": "极氪 009 光辉版",
+      "enName": "极氪 009 光辉版",
+      "seriesId": 6846,
+      "matchName": "极氪 009 光辉版 → 极氪009 [模糊:8.0]"
+    },
+    {
+      "slug": "zeekr-009",
+      "brand": "zeekr",
+      "zhName": "极氪 009",
+      "enName": "极氪 009",
+      "seriesId": 6846,
+      "matchName": "极氪 009 [清洗中文]"
+    },
+    {
+      "slug": "zeekr-x-",
+      "brand": "zeekr",
+      "zhName": "极氪 X 四驱版",
+      "enName": "极氪 X 四驱版",
+      "seriesId": 7028,
+      "matchName": "极氪 X 四驱版 → 极氪X [模糊:8.0]"
+    },
+    {
+      "slug": "zeekr-x",
+      "brand": "zeekr",
+      "zhName": "极氪 X",
+      "enName": "极氪 X",
+      "seriesId": 7028,
+      "matchName": "极氪 X [清洗中文]"
+    },
+    {
+      "slug": "zhiji-l6",
+      "brand": "zhiji",
+      "zhName": "智己 L6",
+      "enName": "智己 L6",
+      "seriesId": 7514,
+      "matchName": "智己 L6 [清洗中文]"
+    },
+    {
+      "slug": "zhiji-l7-",
+      "brand": "zhiji",
+      "zhName": "智己 L7 四驱版",
+      "enName": "智己 L7 四驱版",
+      "seriesId": 6012,
+      "matchName": "智己 L7 四驱版 → 智己L7 [模糊:8.0]"
+    },
+    {
+      "slug": "zhiji-l7",
+      "brand": "zhiji",
+      "zhName": "智己 L7",
+      "enName": "智己 L7",
+      "seriesId": 6012,
+      "matchName": "智己 L7 [清洗中文]"
+    },
+    {
+      "slug": "zhiji-ls6",
+      "brand": "zhiji",
+      "zhName": "智己 LS6",
+      "enName": "智己 LS6",
+      "seriesId": 7305,
+      "matchName": "智己 LS6 [清洗中文]"
+    },
+    {
+      "slug": "zhiji-ls7-",
+      "brand": "zhiji",
+      "zhName": "智己 LS7 超长续航版",
+      "enName": "智己 LS7 超长续航版",
+      "seriesId": 6013,
+      "matchName": "智己 LS7 超长续航版 → 智己LS7 [模糊:8.0]"
+    },
+    {
+      "slug": "zhiji-ls7",
+      "brand": "zhiji",
+      "zhName": "智己 LS7",
+      "enName": "智己 LS7",
+      "seriesId": 6013,
+      "matchName": "智己 LS7 [清洗中文]"
+    }
+  ],
+  "unmatched": [
+    {
+      "slug": "aito-s9",
+      "brand": "aito",
+      "zhName": "问界 S9",
+      "enName": "问界 S9"
+    },
+    {
+      "slug": "audi-etron-a6e-tron",
+      "brand": "audi_etron",
+      "zhName": "A6 e-tron",
+      "enName": "A6 e-tron"
+    },
+    {
+      "slug": "audi-etron-a8e-tron",
+      "brand": "audi_etron",
+      "zhName": "A8 e-tron",
+      "enName": "A8 e-tron"
+    },
+    {
+      "slug": "audi-etron-e-trongt",
+      "brand": "audi_etron",
+      "zhName": "e-tron GT",
+      "enName": "e-tron GT"
+    },
+    {
+      "slug": "audi-etron-e-tronsportback",
+      "brand": "audi_etron",
+      "zhName": "e-tron Sportback",
+      "enName": "e-tron Sportback"
+    },
+    {
+      "slug": "audi-etron-q4e-tron",
+      "brand": "audi_etron",
+      "zhName": "Q4 e-tron",
+      "enName": "Q4 e-tron"
+    },
+    {
+      "slug": "audi-etron-q5e-tron",
+      "brand": "audi_etron",
+      "zhName": "Q5 e-tron",
+      "enName": "Q5 e-tron"
+    },
+    {
+      "slug": "audi-etron-q8e-tron",
+      "brand": "audi_etron",
+      "zhName": "Q8 e-tron",
+      "enName": "Q8 e-tron"
+    },
+    {
+      "slug": "audi-etron-rse-trongt",
+      "brand": "audi_etron",
+      "zhName": "RS e-tron GT",
+      "enName": "RS e-tron GT"
+    },
+    {
+      "slug": "avatr-011",
+      "brand": "avatr",
+      "zhName": "阿维塔 011",
+      "enName": "阿维塔 011"
+    },
+    {
+      "slug": "avatr-e11",
+      "brand": "avatr",
+      "zhName": "阿维塔 E11",
+      "enName": "阿维塔 E11"
+    },
+    {
+      "slug": "benz-eq-eqc",
+      "brand": "benz_eq",
+      "zhName": "EQC",
+      "enName": "EQC"
+    },
+    {
+      "slug": "benz-eq-eqesuv",
+      "brand": "benz_eq",
+      "zhName": "EQE SUV",
+      "enName": "EQE SUV"
+    },
+    {
+      "slug": "benz-eq-eqssuv",
+      "brand": "benz_eq",
+      "zhName": "EQS SUV",
+      "enName": "EQS SUV"
+    },
+    {
+      "slug": "benz-eq-eqv",
+      "brand": "benz_eq",
+      "zhName": "EQV",
+      "enName": "EQV"
+    },
+    {
+      "slug": "bmw-i-ix5hydrogen",
+      "brand": "bmw_i",
+      "zhName": "iX5 Hydrogen",
+      "enName": "iX5 Hydrogen"
+    },
+    {
+      "slug": "byd-ev",
+      "brand": "byd",
+      "zhName": "唐 EV",
+      "enName": "唐 EV"
+    },
+    {
+      "slug": "byd-plusdm-i",
+      "brand": "byd",
+      "zhName": "宋 PLUS DM-i",
+      "enName": "宋 PLUS DM-i"
+    },
+    {
+      "slug": "cadillac-ct5-vblackwingev",
+      "brand": "cadillac",
+      "zhName": "CT5-V Blackwing EV",
+      "enName": "CT5-V Blackwing EV"
+    },
+    {
+      "slug": "cadillac-ct6ev",
+      "brand": "cadillac",
+      "zhName": "CT6 EV",
+      "enName": "CT6 EV"
+    },
+    {
+      "slug": "cadillac-escaladeiq",
+      "brand": "cadillac",
+      "zhName": "ESCALADE IQ",
+      "enName": "ESCALADE IQ"
+    },
+    {
+      "slug": "cadillac-gt4ev",
+      "brand": "cadillac",
+      "zhName": "GT4 EV",
+      "enName": "GT4 EV"
+    },
+    {
+      "slug": "cadillac-optiq",
+      "brand": "cadillac",
+      "zhName": "OPTIQ",
+      "enName": "OPTIQ"
+    },
+    {
+      "slug": "cadillac-xt4ev",
+      "brand": "cadillac",
+      "zhName": "XT4 EV",
+      "enName": "XT4 EV"
+    },
+    {
+      "slug": "cadillac-xt5ev",
+      "brand": "cadillac",
+      "zhName": "XT5 EV",
+      "enName": "XT5 EV"
+    },
+    {
+      "slug": "chery-fengyun-a7",
+      "brand": "chery_fengyun",
+      "zhName": "风云 A7",
+      "enName": "风云 A7"
+    },
+    {
+      "slug": "chery-fengyun-e5",
+      "brand": "chery_fengyun",
+      "zhName": "风云 E5",
+      "enName": "风云 E5"
+    },
+    {
+      "slug": "chery-fengyun-l6",
+      "brand": "chery_fengyun",
+      "zhName": "风云 L6",
+      "enName": "风云 L6"
+    },
+    {
+      "slug": "chery-fengyun-s7",
+      "brand": "chery_fengyun",
+      "zhName": "风云 S7",
+      "enName": "风云 S7"
+    },
+    {
+      "slug": "citroen-berlingo",
+      "brand": "citroen",
+      "zhName": "ë-Berlingo",
+      "enName": "ë-Berlingo"
+    },
+    {
+      "slug": "citroen-c4",
+      "brand": "citroen",
+      "zhName": "ë-C4",
+      "enName": "ë-C4"
+    },
+    {
+      "slug": "citroen-c4phev",
+      "brand": "citroen",
+      "zhName": "C4 PHEV",
+      "enName": "C4 PHEV"
+    },
+    {
+      "slug": "citroen-c4x",
+      "brand": "citroen",
+      "zhName": "ë-C4 X",
+      "enName": "ë-C4 X"
+    },
+    {
+      "slug": "citroen-c5xphev",
+      "brand": "citroen",
+      "zhName": "C5 X PHEV",
+      "enName": "C5 X PHEV"
+    },
+    {
+      "slug": "citroen-c6phev",
+      "brand": "citroen",
+      "zhName": "C6 PHEV",
+      "enName": "C6 PHEV"
+    },
+    {
+      "slug": "citroen-dispatchev",
+      "brand": "citroen",
+      "zhName": "Dispatch EV",
+      "enName": "Dispatch EV"
+    },
+    {
+      "slug": "citroen-spacetourer",
+      "brand": "citroen",
+      "zhName": "ë-SpaceTourer",
+      "enName": "ë-SpaceTourer"
+    },
+    {
+      "slug": "deepal-e7",
+      "brand": "deepal",
+      "zhName": "深蓝 E7",
+      "enName": "深蓝 E7"
+    },
+    {
+      "slug": "deepal-l7",
+      "brand": "deepal",
+      "zhName": "深蓝 L7",
+      "enName": "深蓝 L7"
+    },
+    {
+      "slug": "deepal-s7",
+      "brand": "deepal",
+      "zhName": "深蓝 S7",
+      "enName": "深蓝 S7"
+    },
+    {
+      "slug": "deepal-s7i",
+      "brand": "deepal",
+      "zhName": "深蓝 S7i",
+      "enName": "深蓝 S7i"
+    },
+    {
+      "slug": "deepal-x7",
+      "brand": "deepal",
+      "zhName": "深蓝 X7",
+      "enName": "深蓝 X7"
+    },
+    {
+      "slug": "denza-n8-",
+      "brand": "denza",
+      "zhName": "腾势 N8 越野版",
+      "enName": "腾势 N8 越野版"
+    },
+    {
+      "slug": "denza-x-",
+      "brand": "denza",
+      "zhName": "腾势 X 混动版",
+      "enName": "腾势 X 混动版"
+    },
+    {
+      "slug": "denza-x",
+      "brand": "denza",
+      "zhName": "腾势 X",
+      "enName": "腾势 X"
+    },
+    {
+      "slug": "feifan-e5",
+      "brand": "feifan",
+      "zhName": "飞凡 E5",
+      "enName": "飞凡 E5"
+    },
+    {
+      "slug": "feifan-er6",
+      "brand": "feifan",
+      "zhName": "飞凡 ER6",
+      "enName": "飞凡 ER6"
+    },
+    {
+      "slug": "feifan-g7",
+      "brand": "feifan",
+      "zhName": "飞凡 G7",
+      "enName": "飞凡 G7"
+    },
+    {
+      "slug": "feifan-marvelr",
+      "brand": "feifan",
+      "zhName": "飞凡 MARVEL R",
+      "enName": "飞凡 MARVEL R"
+    },
+    {
+      "slug": "ford-ev-broncoev",
+      "brand": "ford_ev",
+      "zhName": "Bronco EV",
+      "enName": "Bronco EV"
+    },
+    {
+      "slug": "ford-ev-e-transit",
+      "brand": "ford_ev",
+      "zhName": "E-Transit",
+      "enName": "E-Transit"
+    },
+    {
+      "slug": "ford-ev-edgeev",
+      "brand": "ford_ev",
+      "zhName": "Edge EV",
+      "enName": "Edge EV"
+    },
+    {
+      "slug": "ford-ev-escapephev",
+      "brand": "ford_ev",
+      "zhName": "Escape PHEV",
+      "enName": "Escape PHEV"
+    },
+    {
+      "slug": "ford-ev-explorerphev",
+      "brand": "ford_ev",
+      "zhName": "Explorer PHEV",
+      "enName": "Explorer PHEV"
+    },
+    {
+      "slug": "ford-ev-f-150lightning",
+      "brand": "ford_ev",
+      "zhName": "F-150 Lightning",
+      "enName": "F-150 Lightning"
+    },
+    {
+      "slug": "formula-leopard-3",
+      "brand": "formula_leopard",
+      "zhName": "方程豹 3",
+      "enName": "方程豹 3"
+    },
+    {
+      "slug": "formula-leopard-6",
+      "brand": "formula_leopard",
+      "zhName": "方程豹 6",
+      "enName": "方程豹 6"
+    },
+    {
+      "slug": "formula-leopard-7",
+      "brand": "formula_leopard",
+      "zhName": "方程豹 7",
+      "enName": "方程豹 7"
+    },
+    {
+      "slug": "formula-leopard-9",
+      "brand": "formula_leopard",
+      "zhName": "方程豹 9",
+      "enName": "方程豹 9"
+    },
+    {
+      "slug": "geely-galaxy-ex2",
+      "brand": "geely_galaxy",
+      "zhName": "银河星愿 EX2",
+      "enName": "银河星愿 EX2"
+    },
+    {
+      "slug": "geely-galaxy-g6",
+      "brand": "geely_galaxy",
+      "zhName": "银河 G6",
+      "enName": "银河 G6"
+    },
+    {
+      "slug": "geely-galaxy-l9",
+      "brand": "geely_galaxy",
+      "zhName": "银河 L9",
+      "enName": "银河 L9"
+    },
+    {
+      "slug": "geely-galaxy-m6",
+      "brand": "geely_galaxy",
+      "zhName": "银河 M6",
+      "enName": "银河 M6"
+    },
+    {
+      "slug": "hechuang-007-",
+      "brand": "hechuang",
+      "zhName": "合创 007 纯电版",
+      "enName": "合创 007 纯电版"
+    },
+    {
+      "slug": "hechuang-007",
+      "brand": "hechuang",
+      "zhName": "合创 007",
+      "enName": "合创 007"
+    },
+    {
+      "slug": "hechuang-a06",
+      "brand": "hechuang",
+      "zhName": "合创 A06",
+      "enName": "合创 A06"
+    },
+    {
+      "slug": "hechuang-e01",
+      "brand": "hechuang",
+      "zhName": "合创 E01",
+      "enName": "合创 E01"
+    },
+    {
+      "slug": "hechuang-v09-",
+      "brand": "hechuang",
+      "zhName": "合创 V09 商务版",
+      "enName": "合创 V09 商务版"
+    },
+    {
+      "slug": "hechuang-v09",
+      "brand": "hechuang",
+      "zhName": "合创 V09",
+      "enName": "合创 V09"
+    },
+    {
+      "slug": "hechuang-z03-",
+      "brand": "hechuang",
+      "zhName": "合创 Z03 潮酷版",
+      "enName": "合创 Z03 潮酷版"
+    },
+    {
+      "slug": "hechuang-z03",
+      "brand": "hechuang",
+      "zhName": "合创 Z03",
+      "enName": "合创 Z03"
+    },
+    {
+      "slug": "honda-ev-accorde-phev",
+      "brand": "honda_ev",
+      "zhName": "Accord e:PHEV",
+      "enName": "Accord e:PHEV"
+    },
+    {
+      "slug": "honda-ev-civicev",
+      "brand": "honda_ev",
+      "zhName": "Civic EV",
+      "enName": "Civic EV"
+    },
+    {
+      "slug": "honda-ev-cr-ve-phev",
+      "brand": "honda_ev",
+      "zhName": "CR-V e:PHEV",
+      "enName": "CR-V e:PHEV"
+    },
+    {
+      "slug": "honda-ev-e-np1-1",
+      "brand": "honda_ev",
+      "zhName": "e:NP1 极湃 1",
+      "enName": "e:NP1 极湃 1"
+    },
+    {
+      "slug": "honda-ev-e-np2",
+      "brand": "honda_ev",
+      "zhName": "e:NP2",
+      "enName": "e:NP2"
+    },
+    {
+      "slug": "honda-ev-e-ns1",
+      "brand": "honda_ev",
+      "zhName": "e:NS1",
+      "enName": "e:NS1"
+    },
+    {
+      "slug": "honda-ev-hr-vev",
+      "brand": "honda_ev",
+      "zhName": "HR-V EV",
+      "enName": "HR-V EV"
+    },
+    {
+      "slug": "hozon-01",
+      "brand": "hozon",
+      "zhName": "哪吒 01",
+      "enName": "哪吒 01"
+    },
+    {
+      "slug": "hozon-c01",
+      "brand": "hozon",
+      "zhName": "哪吒 C01",
+      "enName": "哪吒 C01"
+    },
+    {
+      "slug": "hozon-gt",
+      "brand": "hozon",
+      "zhName": "哪吒 GT",
+      "enName": "哪吒 GT"
+    },
+    {
+      "slug": "hozon-l",
+      "brand": "hozon",
+      "zhName": "哪吒 L",
+      "enName": "哪吒 L"
+    },
+    {
+      "slug": "hozon-s",
+      "brand": "hozon",
+      "zhName": "哪吒 S",
+      "enName": "哪吒 S"
+    },
+    {
+      "slug": "hozon-t03",
+      "brand": "hozon",
+      "zhName": "哪吒 T03",
+      "enName": "哪吒 T03"
+    },
+    {
+      "slug": "hozon-u",
+      "brand": "hozon",
+      "zhName": "哪吒 U",
+      "enName": "哪吒 U"
+    },
+    {
+      "slug": "hozon-v",
+      "brand": "hozon",
+      "zhName": "哪吒 V",
+      "enName": "哪吒 V"
+    },
+    {
+      "slug": "hyundai-casperelectric",
+      "brand": "hyundai",
+      "zhName": "Casper Electric",
+      "enName": "Casper Electric"
+    },
+    {
+      "slug": "hyundai-ioniq5",
+      "brand": "hyundai",
+      "zhName": "IONIQ 5",
+      "enName": "IONIQ 5"
+    },
+    {
+      "slug": "hyundai-ioniq6",
+      "brand": "hyundai",
+      "zhName": "IONIQ 6",
+      "enName": "IONIQ 6"
+    },
+    {
+      "slug": "hyundai-ioniq7",
+      "brand": "hyundai",
+      "zhName": "IONIQ 7",
+      "enName": "IONIQ 7"
+    },
+    {
+      "slug": "hyundai-konaelectric",
+      "brand": "hyundai",
+      "zhName": "Kona Electric",
+      "enName": "Kona Electric"
+    },
+    {
+      "slug": "hyundai-santafephev",
+      "brand": "hyundai",
+      "zhName": "Santa Fe PHEV",
+      "enName": "Santa Fe PHEV"
+    },
+    {
+      "slug": "hyundai-tucsonphev",
+      "brand": "hyundai",
+      "zhName": "Tucson PHEV",
+      "enName": "Tucson PHEV"
+    },
+    {
+      "slug": "infiniti-ev-fxev",
+      "brand": "infiniti_ev",
+      "zhName": "FX EV",
+      "enName": "FX EV"
+    },
+    {
+      "slug": "infiniti-ev-gev",
+      "brand": "infiniti_ev",
+      "zhName": "G EV",
+      "enName": "G EV"
+    },
+    {
+      "slug": "infiniti-ev-jxev",
+      "brand": "infiniti_ev",
+      "zhName": "JX EV",
+      "enName": "JX EV"
+    },
+    {
+      "slug": "infiniti-ev-mev",
+      "brand": "infiniti_ev",
+      "zhName": "M EV",
+      "enName": "M EV"
+    },
+    {
+      "slug": "infiniti-ev-q50ev",
+      "brand": "infiniti_ev",
+      "zhName": "Q50 EV",
+      "enName": "Q50 EV"
+    },
+    {
+      "slug": "infiniti-ev-q60ev",
+      "brand": "infiniti_ev",
+      "zhName": "Q60 EV",
+      "enName": "Q60 EV"
+    },
+    {
+      "slug": "infiniti-ev-qx55ev",
+      "brand": "infiniti_ev",
+      "zhName": "QX55 EV",
+      "enName": "QX55 EV"
+    },
+    {
+      "slug": "infiniti-ev-qx60ev",
+      "brand": "infiniti_ev",
+      "zhName": "QX60 EV",
+      "enName": "QX60 EV"
+    },
+    {
+      "slug": "jetour-e70",
+      "brand": "jetour",
+      "zhName": "捷途 E70",
+      "enName": "捷途 E70"
+    },
+    {
+      "slug": "jetour-t2",
+      "brand": "jetour",
+      "zhName": "捷途山海 T2",
+      "enName": "捷途山海 T2"
+    },
+    {
+      "slug": "jihu-e10",
+      "brand": "jihu",
+      "zhName": "极狐 E10",
+      "enName": "极狐 E10"
+    },
+    {
+      "slug": "kia-ev9",
+      "brand": "kia",
+      "zhName": "EV9",
+      "enName": "EV9"
+    },
+    {
+      "slug": "kia-niroev",
+      "brand": "kia",
+      "zhName": "Niro EV",
+      "enName": "Niro EV"
+    },
+    {
+      "slug": "kia-sorentophev",
+      "brand": "kia",
+      "zhName": "Sorento PHEV",
+      "enName": "Sorento PHEV"
+    },
+    {
+      "slug": "kia-soulev",
+      "brand": "kia",
+      "zhName": "Soul EV",
+      "enName": "Soul EV"
+    },
+    {
+      "slug": "kia-sportagephev",
+      "brand": "kia",
+      "zhName": "Sportage PHEV",
+      "enName": "Sportage PHEV"
+    },
+    {
+      "slug": "kia-stingerev",
+      "brand": "kia",
+      "zhName": "Stinger EV",
+      "enName": "Stinger EV"
+    },
+    {
+      "slug": "leapmotor-s01",
+      "brand": "leapmotor",
+      "zhName": "零跑 S01",
+      "enName": "零跑 S01"
+    },
+    {
+      "slug": "li-auto-i9",
+      "brand": "li_auto",
+      "zhName": "理想 i9",
+      "enName": "理想 i9"
+    },
+    {
+      "slug": "li-auto-l4",
+      "brand": "li_auto",
+      "zhName": "理想 L4",
+      "enName": "理想 L4"
+    },
+    {
+      "slug": "li-auto-l5",
+      "brand": "li_auto",
+      "zhName": "理想 L5",
+      "enName": "理想 L5"
+    },
+    {
+      "slug": "lotus-e11",
+      "brand": "lotus",
+      "zhName": "路特斯 E11",
+      "enName": "路特斯 E11"
+    },
+    {
+      "slug": "lotus-s11",
+      "brand": "lotus",
+      "zhName": "路特斯 S11",
+      "enName": "路特斯 S11"
+    },
+    {
+      "slug": "lotus-type132",
+      "brand": "lotus",
+      "zhName": "路特斯 Type 132",
+      "enName": "路特斯 Type 132"
+    },
+    {
+      "slug": "lynkco-02em-p",
+      "brand": "lynkco",
+      "zhName": "领克 02 EM-P",
+      "enName": "领克 02 EM-P"
+    },
+    {
+      "slug": "lynkco-07em-p",
+      "brand": "lynkco",
+      "zhName": "领克 07 EM-P",
+      "enName": "领克 07 EM-P"
+    },
+    {
+      "slug": "lynkco-08em-p",
+      "brand": "lynkco",
+      "zhName": "领克 08 EM-P",
+      "enName": "领克 08 EM-P"
+    },
+    {
+      "slug": "mazda-cx-30ev",
+      "brand": "mazda",
+      "zhName": "CX-30 EV",
+      "enName": "CX-30 EV"
+    },
+    {
+      "slug": "mazda-cx-50ev",
+      "brand": "mazda",
+      "zhName": "CX-50 EV",
+      "enName": "CX-50 EV"
+    },
+    {
+      "slug": "mazda-cx-60phev",
+      "brand": "mazda",
+      "zhName": "CX-60 PHEV",
+      "enName": "CX-60 PHEV"
+    },
+    {
+      "slug": "mazda-cx-90phev",
+      "brand": "mazda",
+      "zhName": "CX-90 PHEV",
+      "enName": "CX-90 PHEV"
+    },
+    {
+      "slug": "mazda-mazda3ev",
+      "brand": "mazda",
+      "zhName": "Mazda3 EV",
+      "enName": "Mazda3 EV"
+    },
+    {
+      "slug": "mazda-mazda6ev",
+      "brand": "mazda",
+      "zhName": "Mazda6 EV",
+      "enName": "Mazda6 EV"
+    },
+    {
+      "slug": "mazda-mx-30",
+      "brand": "mazda",
+      "zhName": "MX-30",
+      "enName": "MX-30"
+    },
+    {
+      "slug": "mazda-mx-5ev",
+      "brand": "mazda",
+      "zhName": "MX-5 EV",
+      "enName": "MX-5 EV"
+    },
+    {
+      "slug": "mitsubishi-asxev",
+      "brand": "mitsubishi",
+      "zhName": "ASX EV",
+      "enName": "ASX EV"
+    },
+    {
+      "slug": "mitsubishi-eclipsecrossphev",
+      "brand": "mitsubishi",
+      "zhName": "Eclipse Cross PHEV",
+      "enName": "Eclipse Cross PHEV"
+    },
+    {
+      "slug": "mitsubishi-i-miev",
+      "brand": "mitsubishi",
+      "zhName": "i-MiEV",
+      "enName": "i-MiEV"
+    },
+    {
+      "slug": "mitsubishi-l200ev",
+      "brand": "mitsubishi",
+      "zhName": "L200 EV",
+      "enName": "L200 EV"
+    },
+    {
+      "slug": "mitsubishi-mirageev",
+      "brand": "mitsubishi",
+      "zhName": "Mirage EV",
+      "enName": "Mirage EV"
+    },
+    {
+      "slug": "mitsubishi-outlanderphev",
+      "brand": "mitsubishi",
+      "zhName": "Outlander PHEV",
+      "enName": "Outlander PHEV"
+    },
+    {
+      "slug": "mitsubishi-pajeroev",
+      "brand": "mitsubishi",
+      "zhName": "Pajero EV",
+      "enName": "Pajero EV"
+    },
+    {
+      "slug": "mitsubishi-xpanderev",
+      "brand": "mitsubishi",
+      "zhName": "Xpander EV",
+      "enName": "Xpander EV"
+    },
+    {
+      "slug": "nissan-ev-altimaev",
+      "brand": "nissan_ev",
+      "zhName": "Altima EV",
+      "enName": "Altima EV"
+    },
+    {
+      "slug": "nissan-ev-leaf",
+      "brand": "nissan_ev",
+      "zhName": "Leaf",
+      "enName": "Leaf"
+    },
+    {
+      "slug": "nissan-ev-maximaev",
+      "brand": "nissan_ev",
+      "zhName": "Maxima EV",
+      "enName": "Maxima EV"
+    },
+    {
+      "slug": "nissan-ev-notee-power",
+      "brand": "nissan_ev",
+      "zhName": "Note e-Power",
+      "enName": "Note e-Power"
+    },
+    {
+      "slug": "nissan-ev-qashqaie-power",
+      "brand": "nissan_ev",
+      "zhName": "Qashqai e-Power",
+      "enName": "Qashqai e-Power"
+    },
+    {
+      "slug": "nissan-ev-rogueev",
+      "brand": "nissan_ev",
+      "zhName": "Rogue EV",
+      "enName": "Rogue EV"
+    },
+    {
+      "slug": "nissan-ev-x-traile-power",
+      "brand": "nissan_ev",
+      "zhName": "X-Trail e-Power",
+      "enName": "X-Trail e-Power"
+    },
+    {
+      "slug": "ora-",
+      "brand": "ora",
+      "zhName": "欧拉樱桃猫",
+      "enName": "欧拉樱桃猫"
+    },
+    {
+      "slug": "ora-iq",
+      "brand": "ora",
+      "zhName": "欧拉 iQ",
+      "enName": "欧拉 iQ"
+    },
+    {
+      "slug": "peugeot-2008phev",
+      "brand": "peugeot",
+      "zhName": "2008 PHEV",
+      "enName": "2008 PHEV"
+    },
+    {
+      "slug": "peugeot-3008phev",
+      "brand": "peugeot",
+      "zhName": "3008 PHEV",
+      "enName": "3008 PHEV"
+    },
+    {
+      "slug": "peugeot-308phev",
+      "brand": "peugeot",
+      "zhName": "308 PHEV",
+      "enName": "308 PHEV"
+    },
+    {
+      "slug": "peugeot-508phev",
+      "brand": "peugeot",
+      "zhName": "508 PHEV",
+      "enName": "508 PHEV"
+    },
+    {
+      "slug": "peugeot-e-2008",
+      "brand": "peugeot",
+      "zhName": "e-2008",
+      "enName": "e-2008"
+    },
+    {
+      "slug": "peugeot-e-208",
+      "brand": "peugeot",
+      "zhName": "e-208",
+      "enName": "e-208"
+    },
+    {
+      "slug": "peugeot-e-308",
+      "brand": "peugeot",
+      "zhName": "e-308",
+      "enName": "e-308"
+    },
+    {
+      "slug": "peugeot-e-5008",
+      "brand": "peugeot",
+      "zhName": "e-5008",
+      "enName": "e-5008"
+    },
+    {
+      "slug": "polestar-polestar1",
+      "brand": "polestar",
+      "zhName": "Polestar 1",
+      "enName": "Polestar 1"
+    },
+    {
+      "slug": "polestar-polestar2-",
+      "brand": "polestar",
+      "zhName": "Polestar 2 长续航版",
+      "enName": "Polestar 2 长续航版"
+    },
+    {
+      "slug": "polestar-polestar2",
+      "brand": "polestar",
+      "zhName": "Polestar 2",
+      "enName": "Polestar 2"
+    },
+    {
+      "slug": "polestar-polestar3-",
+      "brand": "polestar",
+      "zhName": "Polestar 3 高性能版",
+      "enName": "Polestar 3 高性能版"
+    },
+    {
+      "slug": "polestar-polestar3",
+      "brand": "polestar",
+      "zhName": "Polestar 3",
+      "enName": "Polestar 3"
+    },
+    {
+      "slug": "polestar-polestar4-",
+      "brand": "polestar",
+      "zhName": "Polestar 4 双电机版",
+      "enName": "Polestar 4 双电机版"
+    },
+    {
+      "slug": "polestar-polestar4",
+      "brand": "polestar",
+      "zhName": "Polestar 4",
+      "enName": "Polestar 4"
+    },
+    {
+      "slug": "polestar-polestar5",
+      "brand": "polestar",
+      "zhName": "Polestar 5",
+      "enName": "Polestar 5"
+    },
+    {
+      "slug": "porsche-911turbose-hybrid",
+      "brand": "porsche",
+      "zhName": "911 Turbo S E-Hybrid",
+      "enName": "911 Turbo S E-Hybrid"
+    },
+    {
+      "slug": "qichen-ariya",
+      "brand": "qichen",
+      "zhName": "启辰 Ariya",
+      "enName": "启辰 Ariya"
+    },
+    {
+      "slug": "qichen-e30",
+      "brand": "qichen",
+      "zhName": "启辰 e30",
+      "enName": "启辰 e30"
+    },
+    {
+      "slug": "qichen-t70phev",
+      "brand": "qichen",
+      "zhName": "启辰 T70 PHEV",
+      "enName": "启辰 T70 PHEV"
+    },
+    {
+      "slug": "qichen-v-online",
+      "brand": "qichen",
+      "zhName": "启辰 V-Online",
+      "enName": "启辰 V-Online"
+    },
+    {
+      "slug": "renault-alpinea110ev",
+      "brand": "renault",
+      "zhName": "Alpine A110 EV",
+      "enName": "Alpine A110 EV"
+    },
+    {
+      "slug": "renault-capture-techphev",
+      "brand": "renault",
+      "zhName": "Captur E-Tech PHEV",
+      "enName": "Captur E-Tech PHEV"
+    },
+    {
+      "slug": "renault-clioe-tech",
+      "brand": "renault",
+      "zhName": "Clio E-Tech",
+      "enName": "Clio E-Tech"
+    },
+    {
+      "slug": "renault-kangooe-tech",
+      "brand": "renault",
+      "zhName": "Kangoo E-Tech",
+      "enName": "Kangoo E-Tech"
+    },
+    {
+      "slug": "renault-mastere-tech",
+      "brand": "renault",
+      "zhName": "Master E-Tech",
+      "enName": "Master E-Tech"
+    },
+    {
+      "slug": "renault-meganee-tech",
+      "brand": "renault",
+      "zhName": "Megane E-Tech",
+      "enName": "Megane E-Tech"
+    },
+    {
+      "slug": "renault-sc-nice-tech",
+      "brand": "renault",
+      "zhName": "Scénic E-Tech",
+      "enName": "Scénic E-Tech"
+    },
+    {
+      "slug": "renault-zoe",
+      "brand": "renault",
+      "zhName": "Zoe",
+      "enName": "Zoe"
+    },
+    {
+      "slug": "saic-maxus-d90proev",
+      "brand": "saic_maxus",
+      "zhName": "大通 D90 Pro EV",
+      "enName": "大通 D90 Pro EV"
+    },
+    {
+      "slug": "saic-maxus-eg10",
+      "brand": "saic_maxus",
+      "zhName": "大通 EG10",
+      "enName": "大通 EG10"
+    },
+    {
+      "slug": "saic-maxus-ev30",
+      "brand": "saic_maxus",
+      "zhName": "大通 EV30",
+      "enName": "大通 EV30"
+    },
+    {
+      "slug": "saic-maxus-mifa6",
+      "brand": "saic_maxus",
+      "zhName": "大通 MIFA 6",
+      "enName": "大通 MIFA 6"
+    },
+    {
+      "slug": "saic-maxus-mifa7",
+      "brand": "saic_maxus",
+      "zhName": "大通 MIFA 7",
+      "enName": "大通 MIFA 7"
+    },
+    {
+      "slug": "saic-maxus-mifa9",
+      "brand": "saic_maxus",
+      "zhName": "大通 MIFA 9",
+      "enName": "大通 MIFA 9"
+    },
+    {
+      "slug": "saic-maxus-t90ev",
+      "brand": "saic_maxus",
+      "zhName": "大通 T90 EV",
+      "enName": "大通 T90 EV"
+    },
+    {
+      "slug": "subaru-ascentev",
+      "brand": "subaru",
+      "zhName": "Ascent EV",
+      "enName": "Ascent EV"
+    },
+    {
+      "slug": "subaru-brzev",
+      "brand": "subaru",
+      "zhName": "BRZ EV",
+      "enName": "BRZ EV"
+    },
+    {
+      "slug": "subaru-crosstrekhybrid",
+      "brand": "subaru",
+      "zhName": "Crosstrek Hybrid",
+      "enName": "Crosstrek Hybrid"
+    },
+    {
+      "slug": "subaru-foresterhybrid",
+      "brand": "subaru",
+      "zhName": "Forester Hybrid",
+      "enName": "Forester Hybrid"
+    },
+    {
+      "slug": "subaru-imprezaev",
+      "brand": "subaru",
+      "zhName": "Impreza EV",
+      "enName": "Impreza EV"
+    },
+    {
+      "slug": "subaru-outbackhybrid",
+      "brand": "subaru",
+      "zhName": "Outback Hybrid",
+      "enName": "Outback Hybrid"
+    },
+    {
+      "slug": "subaru-solterra",
+      "brand": "subaru",
+      "zhName": "Solterra",
+      "enName": "Solterra"
+    },
+    {
+      "slug": "subaru-wrxev",
+      "brand": "subaru",
+      "zhName": "WRX EV",
+      "enName": "WRX EV"
+    },
+    {
+      "slug": "toyota-ev-bz1",
+      "brand": "toyota_ev",
+      "zhName": "bZ1",
+      "enName": "bZ1"
+    },
+    {
+      "slug": "toyota-ev-bz4x",
+      "brand": "toyota_ev",
+      "zhName": "bZ4X",
+      "enName": "bZ4X"
+    },
+    {
+      "slug": "toyota-ev-bz5x",
+      "brand": "toyota_ev",
+      "zhName": "bZ5X",
+      "enName": "bZ5X"
+    },
+    {
+      "slug": "toyota-ev-e-",
+      "brand": "toyota_ev",
+      "zhName": "卡罗拉双擎 E+",
+      "enName": "卡罗拉双擎 E+"
+    },
+    {
+      "slug": "toyota-ev-rav4-e-",
+      "brand": "toyota_ev",
+      "zhName": "RAV4 双擎 E+",
+      "enName": "RAV4 双擎 E+"
+    },
+    {
+      "slug": "volvo-c40recharge",
+      "brand": "volvo",
+      "zhName": "C40 Recharge",
+      "enName": "C40 Recharge"
+    },
+    {
+      "slug": "volvo-s60recharge",
+      "brand": "volvo",
+      "zhName": "S60 Recharge",
+      "enName": "S60 Recharge"
+    },
+    {
+      "slug": "volvo-s90recharge",
+      "brand": "volvo",
+      "zhName": "S90 Recharge",
+      "enName": "S90 Recharge"
+    },
+    {
+      "slug": "volvo-xc40recharge",
+      "brand": "volvo",
+      "zhName": "XC40 Recharge",
+      "enName": "XC40 Recharge"
+    },
+    {
+      "slug": "volvo-xc60recharge",
+      "brand": "volvo",
+      "zhName": "XC60 Recharge",
+      "enName": "XC60 Recharge"
+    },
+    {
+      "slug": "volvo-xc90recharge",
+      "brand": "volvo",
+      "zhName": "XC90 Recharge",
+      "enName": "XC90 Recharge"
+    },
+    {
+      "slug": "voyah-h53",
+      "brand": "voyah",
+      "zhName": "岚图 H53",
+      "enName": "岚图 H53"
+    },
+    {
+      "slug": "vw-id-id-2",
+      "brand": "vw_id",
+      "zhName": "ID.2",
+      "enName": "ID.2"
+    },
+    {
+      "slug": "vw-id-id-5",
+      "brand": "vw_id",
+      "zhName": "ID.5",
+      "enName": "ID.5"
+    },
+    {
+      "slug": "vw-id-id-7",
+      "brand": "vw_id",
+      "zhName": "ID.7",
+      "enName": "ID.7"
+    },
+    {
+      "slug": "vw-id-id-8",
+      "brand": "vw_id",
+      "zhName": "ID.8",
+      "enName": "ID.8"
+    },
+    {
+      "slug": "vw-id-id-buzz",
+      "brand": "vw_id",
+      "zhName": "ID. Buzz",
+      "enName": "ID. Buzz"
+    },
+    {
+      "slug": "wey-",
+      "brand": "wey",
+      "zhName": "魏牌欧拉",
+      "enName": "魏牌欧拉"
+    },
+    {
+      "slug": "wey-dht-phev",
+      "brand": "wey",
+      "zhName": "魏牌玛奇朵 DHT-PHEV",
+      "enName": "魏牌玛奇朵 DHT-PHEV"
+    },
+    {
+      "slug": "wey-p8",
+      "brand": "wey",
+      "zhName": "魏牌 P8",
+      "enName": "魏牌 P8"
+    },
+    {
+      "slug": "xiaomi-yu9-",
+      "brand": "xiaomi",
+      "zhName": "小米 YU9 旗舰版",
+      "enName": "小米 YU9 旗舰版"
+    },
+    {
+      "slug": "xiaomi-yu9",
+      "brand": "xiaomi",
+      "zhName": "小米 YU9",
+      "enName": "小米 YU9"
+    },
+    {
+      "slug": "xpeng-g3i",
+      "brand": "xpeng",
+      "zhName": "G3i",
+      "enName": "G3i"
+    },
+    {
+      "slug": "xpeng-p5",
+      "brand": "xpeng",
+      "zhName": "P5",
+      "enName": "P5"
+    },
+    {
+      "slug": "xpeng-p7i",
+      "brand": "xpeng",
+      "zhName": "P7i",
+      "enName": "P7i"
+    },
+    {
+      "slug": "yangwang-u5",
+      "brand": "yangwang",
+      "zhName": "仰望 U5",
+      "enName": "仰望 U5"
+    },
+    {
+      "slug": "yangwang-u6",
+      "brand": "yangwang",
+      "zhName": "仰望 U6",
+      "enName": "仰望 U6"
+    },
+    {
+      "slug": "zeekr-005",
+      "brand": "zeekr",
+      "zhName": "极氪 005",
+      "enName": "极氪 005"
+    },
+    {
+      "slug": "zhiji-imad",
+      "brand": "zhiji",
+      "zhName": "智己 IM AD",
+      "enName": "智己 IM AD"
+    },
+    {
+      "slug": "zhiji-l5",
+      "brand": "zhiji",
+      "zhName": "智己 L5",
+      "enName": "智己 L5"
+    }
+  ],
+  "_timestamp": 1780369568053
+}

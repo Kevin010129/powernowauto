@@ -1,0 +1,3125 @@
+{
+  "real": [
+    {
+      "file": "aion-aionlx.json",
+      "brand": "aion",
+      "zh": "AION LX",
+      "en": "AION LX",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aion-aions.json",
+      "brand": "aion",
+      "zh": "AION S",
+      "en": "AION S",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aion-aionsmax.json",
+      "brand": "aion",
+      "zh": "AION S Max",
+      "en": "AION S Max",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aion-aionut.json",
+      "brand": "aion",
+      "zh": "AION UT",
+      "en": "AION UT",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aion-aionv.json",
+      "brand": "aion",
+      "zh": "AION V",
+      "en": "AION V",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aion-aionvplus.json",
+      "brand": "aion",
+      "zh": "AION V Plus",
+      "en": "AION V Plus",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aion-aiony.json",
+      "brand": "aion",
+      "zh": "AION Y",
+      "en": "AION Y",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aion-aionyplus.json",
+      "brand": "aion",
+      "zh": "AION Y Plus",
+      "en": "AION Y Plus",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aito-m5-.json",
+      "brand": "aito",
+      "zh": "问界 M5 增程",
+      "en": "问界 M5 增程",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aito-m5.json",
+      "brand": "aito",
+      "zh": "问界 M5",
+      "en": "问界 M5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aito-m5ev.json",
+      "brand": "aito",
+      "zh": "问界 M5 EV",
+      "en": "问界 M5 EV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "aito-m7.json",
+      "brand": "aito",
+      "zh": "问界 M7",
+      "en": "问界 M7",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "aito-m8.json",
+      "brand": "aito",
+      "zh": "问界 M8",
+      "en": "问界 M8",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "aito-m9-.json",
+      "brand": "aito",
+      "zh": "问界 M9 纯电",
+      "en": "问界 M9 纯电",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "aito-m9.json",
+      "brand": "aito",
+      "zh": "问界 M9",
+      "en": "问界 M9",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "audi-etron-e-trongt.json",
+      "brand": "audi_etron",
+      "zh": "e-tron GT",
+      "en": "e-tron GT",
+      "year": 2026,
+      "type": "SUV"
+    },
+    {
+      "file": "audi-etron-q4e-tron.json",
+      "brand": "audi_etron",
+      "zh": "Q4 e-tron",
+      "en": "Q4 e-tron",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "audi-etron-q5e-tron.json",
+      "brand": "audi_etron",
+      "zh": "Q5 e-tron",
+      "en": "Q5 e-tron",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "audi-etron-q8e-tron.json",
+      "brand": "audi_etron",
+      "zh": "Q8 e-tron",
+      "en": "Q8 e-tron",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "audi-etron-rse-trongt.json",
+      "brand": "audi_etron",
+      "zh": "RS e-tron GT",
+      "en": "RS e-tron GT",
+      "year": 2026,
+      "type": "SUV"
+    },
+    {
+      "file": "avatr-011.json",
+      "brand": "avatr",
+      "zh": "阿维塔 011",
+      "en": "阿维塔 011",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "avatr-06.json",
+      "brand": "avatr",
+      "zh": "阿维塔 06",
+      "en": "阿维塔 06",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "avatr-07.json",
+      "brand": "avatr",
+      "zh": "阿维塔 07",
+      "en": "阿维塔 07",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "avatr-11-.json",
+      "brand": "avatr",
+      "zh": "阿维塔 11 鸿蒙版",
+      "en": "阿维塔 11 鸿蒙版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "avatr-11.json",
+      "brand": "avatr",
+      "zh": "阿维塔 11",
+      "en": "阿维塔 11",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "avatr-12-.json",
+      "brand": "avatr",
+      "zh": "阿维塔 12 长续航版",
+      "en": "阿维塔 12 长续航版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "avatr-12.json",
+      "brand": "avatr",
+      "zh": "阿维塔 12",
+      "en": "阿维塔 12",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "avatr-e11.json",
+      "brand": "avatr",
+      "zh": "阿维塔 E11",
+      "en": "阿维塔 E11",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "benz-eq-eqa.json",
+      "brand": "benz_eq",
+      "zh": "EQA",
+      "en": "EQA",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "benz-eq-eqb.json",
+      "brand": "benz_eq",
+      "zh": "EQB",
+      "en": "EQB",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "benz-eq-eqc.json",
+      "brand": "benz_eq",
+      "zh": "EQC",
+      "en": "EQC",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "benz-eq-eqe.json",
+      "brand": "benz_eq",
+      "zh": "EQE",
+      "en": "EQE",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "benz-eq-eqesuv.json",
+      "brand": "benz_eq",
+      "zh": "EQE SUV",
+      "en": "EQE SUV",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "benz-eq-eqs.json",
+      "brand": "benz_eq",
+      "zh": "EQS",
+      "en": "EQS",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "benz-eq-eqssuv.json",
+      "brand": "benz_eq",
+      "zh": "EQS SUV",
+      "en": "EQS SUV",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "benz-eq-eqv.json",
+      "brand": "benz_eq",
+      "zh": "EQV",
+      "en": "EQV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "bmw-i-i3.json",
+      "brand": "bmw_i",
+      "zh": "i3",
+      "en": "i3",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "bmw-i-i4.json",
+      "brand": "bmw_i",
+      "zh": "i4",
+      "en": "i4",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "bmw-i-i7.json",
+      "brand": "bmw_i",
+      "zh": "i7",
+      "en": "i7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "bmw-i-ix.json",
+      "brand": "bmw_i",
+      "zh": "iX",
+      "en": "iX",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "bmw-i-ix1.json",
+      "brand": "bmw_i",
+      "zh": "iX1",
+      "en": "iX1",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "bmw-i-ix3.json",
+      "brand": "bmw_i",
+      "zh": "iX3",
+      "en": "iX3",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "bmw-i-ix5hydrogen.json",
+      "brand": "bmw_i",
+      "zh": "iX5 Hydrogen",
+      "en": "iX5 Hydrogen",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "byd-.json",
+      "brand": "byd",
+      "zh": "海豹",
+      "en": "海豹",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "cadillac-escaladeiq.json",
+      "brand": "cadillac",
+      "zh": "ESCALADE IQ",
+      "en": "ESCALADE IQ",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "cadillac-lyriq-.json",
+      "brand": "cadillac",
+      "zh": "LYRIQ 锐歌",
+      "en": "LYRIQ 锐歌",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "cadillac-optiq.json",
+      "brand": "cadillac",
+      "zh": "OPTIQ",
+      "en": "OPTIQ",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "cadillac-xt4ev.json",
+      "brand": "cadillac",
+      "zh": "XT4 EV",
+      "en": "XT4 EV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "cadillac-xt5ev.json",
+      "brand": "cadillac",
+      "zh": "XT5 EV",
+      "en": "XT5 EV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "chery-fengyun-a8.json",
+      "brand": "chery_fengyun",
+      "zh": "风云 A8",
+      "en": "风云 A8",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "chery-fengyun-t7.json",
+      "brand": "chery_fengyun",
+      "zh": "风云 T7",
+      "en": "风云 T7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "chery-fengyun-t8.json",
+      "brand": "chery_fengyun",
+      "zh": "风云 T8",
+      "en": "风云 T8",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "chery-fengyun-t9.json",
+      "brand": "chery_fengyun",
+      "zh": "风云 T9",
+      "en": "风云 T9",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "citroen-berlingo.json",
+      "brand": "citroen",
+      "zh": "ë-Berlingo",
+      "en": "ë-Berlingo",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "citroen-c4.json",
+      "brand": "citroen",
+      "zh": "ë-C4",
+      "en": "ë-C4",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "citroen-c4x.json",
+      "brand": "citroen",
+      "zh": "ë-C4 X",
+      "en": "ë-C4 X",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "citroen-spacetourer.json",
+      "brand": "citroen",
+      "zh": "ë-SpaceTourer",
+      "en": "ë-SpaceTourer",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "deepal-g318.json",
+      "brand": "deepal",
+      "zh": "深蓝 G318",
+      "en": "深蓝 G318",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "deepal-sl03.json",
+      "brand": "deepal",
+      "zh": "深蓝 SL03",
+      "en": "深蓝 SL03",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "deepal-sl03i.json",
+      "brand": "deepal",
+      "zh": "深蓝 SL03i",
+      "en": "深蓝 SL03i",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "denza-d9-.json",
+      "brand": "denza",
+      "zh": "腾势 D9 商务版",
+      "en": "腾势 D9 商务版",
+      "year": 2025,
+      "type": "MPV"
+    },
+    {
+      "file": "denza-d9.json",
+      "brand": "denza",
+      "zh": "腾势 D9",
+      "en": "腾势 D9",
+      "year": 2025,
+      "type": "MPV"
+    },
+    {
+      "file": "denza-n7-.json",
+      "brand": "denza",
+      "zh": "腾势 N7 长续航版",
+      "en": "腾势 N7 长续航版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "denza-n7.json",
+      "brand": "denza",
+      "zh": "腾势 N7",
+      "en": "腾势 N7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "denza-n8-.json",
+      "brand": "denza",
+      "zh": "腾势 N8 越野版",
+      "en": "腾势 N8 越野版",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "denza-n8.json",
+      "brand": "denza",
+      "zh": "腾势 N8",
+      "en": "腾势 N8",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "feifan-f7-.json",
+      "brand": "feifan",
+      "zh": "飞凡 F7 都市版",
+      "en": "飞凡 F7 都市版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "feifan-f7.json",
+      "brand": "feifan",
+      "zh": "飞凡 F7",
+      "en": "飞凡 F7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "feifan-r7-.json",
+      "brand": "feifan",
+      "zh": "飞凡 R7 旗舰版",
+      "en": "飞凡 R7 旗舰版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "feifan-r7.json",
+      "brand": "feifan",
+      "zh": "飞凡 R7",
+      "en": "飞凡 R7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "ford-ev-e-transit.json",
+      "brand": "ford_ev",
+      "zh": "E-Transit",
+      "en": "E-Transit",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "ford-ev-f-150lightning.json",
+      "brand": "ford_ev",
+      "zh": "F-150 Lightning",
+      "en": "F-150 Lightning",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "ford-ev-mustangmach-e.json",
+      "brand": "ford_ev",
+      "zh": "Mustang Mach-E",
+      "en": "Mustang Mach-E",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "formula-leopard-3.json",
+      "brand": "formula_leopard",
+      "zh": "方程豹 3",
+      "en": "方程豹 3",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "formula-leopard-5-.json",
+      "brand": "formula_leopard",
+      "zh": "方程豹 5 越野版",
+      "en": "方程豹 5 越野版",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "formula-leopard-5.json",
+      "brand": "formula_leopard",
+      "zh": "方程豹 5",
+      "en": "方程豹 5",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "formula-leopard-6.json",
+      "brand": "formula_leopard",
+      "zh": "方程豹 6",
+      "en": "方程豹 6",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "formula-leopard-7.json",
+      "brand": "formula_leopard",
+      "zh": "方程豹 7",
+      "en": "方程豹 7",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "formula-leopard-8-.json",
+      "brand": "formula_leopard",
+      "zh": "方程豹 8 豪华版",
+      "en": "方程豹 8 豪华版",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "formula-leopard-8.json",
+      "brand": "formula_leopard",
+      "zh": "方程豹 8",
+      "en": "方程豹 8",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "formula-leopard-9.json",
+      "brand": "formula_leopard",
+      "zh": "方程豹 9",
+      "en": "方程豹 9",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "geely-galaxy-e5.json",
+      "brand": "geely_galaxy",
+      "zh": "银河 E5",
+      "en": "银河 E5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "geely-galaxy-e8.json",
+      "brand": "geely_galaxy",
+      "zh": "银河 E8",
+      "en": "银河 E8",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "geely-galaxy-l6.json",
+      "brand": "geely_galaxy",
+      "zh": "银河 L6",
+      "en": "银河 L6",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "geely-galaxy-l7.json",
+      "brand": "geely_galaxy",
+      "zh": "银河 L7",
+      "en": "银河 L7",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "hechuang-007-.json",
+      "brand": "hechuang",
+      "zh": "合创 007 纯电版",
+      "en": "合创 007 纯电版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hechuang-007.json",
+      "brand": "hechuang",
+      "zh": "合创 007",
+      "en": "合创 007",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hechuang-a06.json",
+      "brand": "hechuang",
+      "zh": "合创 A06",
+      "en": "合创 A06",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hechuang-v09-.json",
+      "brand": "hechuang",
+      "zh": "合创 V09 商务版",
+      "en": "合创 V09 商务版",
+      "year": 2025,
+      "type": "MPV"
+    },
+    {
+      "file": "hechuang-v09.json",
+      "brand": "hechuang",
+      "zh": "合创 V09",
+      "en": "合创 V09",
+      "year": 2025,
+      "type": "MPV"
+    },
+    {
+      "file": "hechuang-z03-.json",
+      "brand": "hechuang",
+      "zh": "合创 Z03 潮酷版",
+      "en": "合创 Z03 潮酷版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hechuang-z03.json",
+      "brand": "hechuang",
+      "zh": "合创 Z03",
+      "en": "合创 Z03",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "honda-ev-cr-ve-phev.json",
+      "brand": "honda_ev",
+      "zh": "CR-V e:PHEV",
+      "en": "CR-V e:PHEV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "honda-ev-e-np1-1.json",
+      "brand": "honda_ev",
+      "zh": "e:NP1 极湃 1",
+      "en": "e:NP1 极湃 1",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "honda-ev-e-np2.json",
+      "brand": "honda_ev",
+      "zh": "e:NP2",
+      "en": "e:NP2",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "honda-ev-e-ns1.json",
+      "brand": "honda_ev",
+      "zh": "e:NS1",
+      "en": "e:NS1",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "honda-ev-e-ns2.json",
+      "brand": "honda_ev",
+      "zh": "e:NS2",
+      "en": "e:NS2",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hozon-gt.json",
+      "brand": "hozon",
+      "zh": "哪吒 GT",
+      "en": "哪吒 GT",
+      "year": 2025,
+      "type": "SPORTS"
+    },
+    {
+      "file": "hozon-l.json",
+      "brand": "hozon",
+      "zh": "哪吒 L",
+      "en": "哪吒 L",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hozon-s.json",
+      "brand": "hozon",
+      "zh": "哪吒 S",
+      "en": "哪吒 S",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hozon-u.json",
+      "brand": "hozon",
+      "zh": "哪吒 U",
+      "en": "哪吒 U",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hozon-v.json",
+      "brand": "hozon",
+      "zh": "哪吒 V",
+      "en": "哪吒 V",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hyundai-ioniq5.json",
+      "brand": "hyundai",
+      "zh": "IONIQ 5",
+      "en": "IONIQ 5",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "hyundai-ioniq6.json",
+      "brand": "hyundai",
+      "zh": "IONIQ 6",
+      "en": "IONIQ 6",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "hyundai-ioniq7.json",
+      "brand": "hyundai",
+      "zh": "IONIQ 7",
+      "en": "IONIQ 7",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "infiniti-ev-qx60ev.json",
+      "brand": "infiniti_ev",
+      "zh": "QX60 EV",
+      "en": "QX60 EV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jetour-edm.json",
+      "brand": "jetour",
+      "zh": "捷途旅行者 EDM",
+      "en": "捷途旅行者 EDM",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jetour-i-dm.json",
+      "brand": "jetour",
+      "zh": "捷途大圣 i-DM",
+      "en": "捷途大圣 i-DM",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jihu-.json",
+      "brand": "jihu",
+      "zh": "极狐考拉",
+      "en": "极狐考拉",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "kia-ev5.json",
+      "brand": "kia",
+      "zh": "EV5",
+      "en": "EV5",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "kia-ev6.json",
+      "brand": "kia",
+      "zh": "EV6",
+      "en": "EV6",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "kia-ev9.json",
+      "brand": "kia",
+      "zh": "EV9",
+      "en": "EV9",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "kia-niroev.json",
+      "brand": "kia",
+      "zh": "Niro EV",
+      "en": "Niro EV",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "leapmotor-c01-.json",
+      "brand": "leapmotor",
+      "zh": "零跑 C01 高性能版",
+      "en": "零跑 C01 高性能版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "leapmotor-c01.json",
+      "brand": "leapmotor",
+      "zh": "零跑 C01",
+      "en": "零跑 C01",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "leapmotor-c10.json",
+      "brand": "leapmotor",
+      "zh": "零跑 C10",
+      "en": "零跑 C10",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "leapmotor-c11-.json",
+      "brand": "leapmotor",
+      "zh": "零跑 C11 增程",
+      "en": "零跑 C11 增程",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "leapmotor-c11.json",
+      "brand": "leapmotor",
+      "zh": "零跑 C11",
+      "en": "零跑 C11",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "leapmotor-t03-.json",
+      "brand": "leapmotor",
+      "zh": "零跑 T03 豪华版",
+      "en": "零跑 T03 豪华版",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "leapmotor-t03.json",
+      "brand": "leapmotor",
+      "zh": "零跑 T03",
+      "en": "零跑 T03",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "li-auto-l6.json",
+      "brand": "li_auto",
+      "zh": "理想 L6",
+      "en": "理想 L6",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "li-auto-l7.json",
+      "brand": "li_auto",
+      "zh": "理想 L7",
+      "en": "理想 L7",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "li-auto-l8.json",
+      "brand": "li_auto",
+      "zh": "理想 L8",
+      "en": "理想 L8",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "li-auto-l9.json",
+      "brand": "li_auto",
+      "zh": "理想 L9",
+      "en": "理想 L9",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "li-auto-mega.json",
+      "brand": "li_auto",
+      "zh": "理想 MEGA",
+      "en": "理想 MEGA",
+      "year": 2025,
+      "type": "MPV"
+    },
+    {
+      "file": "lotus-eletre.json",
+      "brand": "lotus",
+      "zh": "路特斯 Eletre",
+      "en": "路特斯 Eletre",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lotus-eletrer-.json",
+      "brand": "lotus",
+      "zh": "路特斯 Eletre R+",
+      "en": "路特斯 Eletre R+",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lotus-emira.json",
+      "brand": "lotus",
+      "zh": "路特斯 Emira",
+      "en": "路特斯 Emira",
+      "year": 2025,
+      "type": "SPORTS"
+    },
+    {
+      "file": "lotus-emirai4.json",
+      "brand": "lotus",
+      "zh": "路特斯 Emira i4",
+      "en": "路特斯 Emira i4",
+      "year": 2025,
+      "type": "SPORTS"
+    },
+    {
+      "file": "lotus-evija.json",
+      "brand": "lotus",
+      "zh": "路特斯 Evija",
+      "en": "路特斯 Evija",
+      "year": 2025,
+      "type": "SPORTS"
+    },
+    {
+      "file": "lynkco-05em-p.json",
+      "brand": "lynkco",
+      "zh": "领克 05 EM-P",
+      "en": "领克 05 EM-P",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lynkco-06em-p.json",
+      "brand": "lynkco",
+      "zh": "领克 06 EM-P",
+      "en": "领克 06 EM-P",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lynkco-07em-p.json",
+      "brand": "lynkco",
+      "zh": "领克 07 EM-P",
+      "en": "领克 07 EM-P",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lynkco-08em-p.json",
+      "brand": "lynkco",
+      "zh": "领克 08 EM-P",
+      "en": "领克 08 EM-P",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lynkco-09em-p.json",
+      "brand": "lynkco",
+      "zh": "领克 09 EM-P",
+      "en": "领克 09 EM-P",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "mazda-cx-60phev.json",
+      "brand": "mazda",
+      "zh": "CX-60 PHEV",
+      "en": "CX-60 PHEV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "mazda-cx-90phev.json",
+      "brand": "mazda",
+      "zh": "CX-90 PHEV",
+      "en": "CX-90 PHEV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "mazda-mx-30.json",
+      "brand": "mazda",
+      "zh": "MX-30",
+      "en": "MX-30",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "mitsubishi-eclipsecrossphev.json",
+      "brand": "mitsubishi",
+      "zh": "Eclipse Cross PHEV",
+      "en": "Eclipse Cross PHEV",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "mitsubishi-outlanderphev.json",
+      "brand": "mitsubishi",
+      "zh": "Outlander PHEV",
+      "en": "Outlander PHEV",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "nio-ec6.json",
+      "brand": "nio",
+      "zh": "EC6",
+      "en": "EC6",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nio-ec7.json",
+      "brand": "nio",
+      "zh": "EC7",
+      "en": "EC7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nio-es6.json",
+      "brand": "nio",
+      "zh": "ES6",
+      "en": "ES6",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nio-es8.json",
+      "brand": "nio",
+      "zh": "ES8",
+      "en": "ES8",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nio-et5.json",
+      "brand": "nio",
+      "zh": "ET5",
+      "en": "ET5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nio-et5t.json",
+      "brand": "nio",
+      "zh": "ET5T",
+      "en": "ET5T",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nio-et7.json",
+      "brand": "nio",
+      "zh": "ET7",
+      "en": "ET7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nio-et9.json",
+      "brand": "nio",
+      "zh": "ET9",
+      "en": "ET9",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nissan-ev-ariya.json",
+      "brand": "nissan_ev",
+      "zh": "Ariya",
+      "en": "Ariya",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nissan-ev-leaf.json",
+      "brand": "nissan_ev",
+      "zh": "Leaf",
+      "en": "Leaf",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nissan-ev-notee-power.json",
+      "brand": "nissan_ev",
+      "zh": "Note e-Power",
+      "en": "Note e-Power",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "nissan-ev-qashqaie-power.json",
+      "brand": "nissan_ev",
+      "zh": "Qashqai e-Power",
+      "en": "Qashqai e-Power",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "nissan-ev-x-traile-power.json",
+      "brand": "nissan_ev",
+      "zh": "X-Trail e-Power",
+      "en": "X-Trail e-Power",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "peugeot-3008phev.json",
+      "brand": "peugeot",
+      "zh": "3008 PHEV",
+      "en": "3008 PHEV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "peugeot-508phev.json",
+      "brand": "peugeot",
+      "zh": "508 PHEV",
+      "en": "508 PHEV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "peugeot-e-2008.json",
+      "brand": "peugeot",
+      "zh": "e-2008",
+      "en": "e-2008",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "peugeot-e-208.json",
+      "brand": "peugeot",
+      "zh": "e-208",
+      "en": "e-208",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "peugeot-e-308.json",
+      "brand": "peugeot",
+      "zh": "e-308",
+      "en": "e-308",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "peugeot-e-5008.json",
+      "brand": "peugeot",
+      "zh": "e-5008",
+      "en": "e-5008",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "polestar-polestar2-.json",
+      "brand": "polestar",
+      "zh": "Polestar 2 长续航版",
+      "en": "Polestar 2 长续航版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "polestar-polestar2.json",
+      "brand": "polestar",
+      "zh": "Polestar 2",
+      "en": "Polestar 2",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "polestar-polestar3-.json",
+      "brand": "polestar",
+      "zh": "Polestar 3 高性能版",
+      "en": "Polestar 3 高性能版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "polestar-polestar3.json",
+      "brand": "polestar",
+      "zh": "Polestar 3",
+      "en": "Polestar 3",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "polestar-polestar4-.json",
+      "brand": "polestar",
+      "zh": "Polestar 4 双电机版",
+      "en": "Polestar 4 双电机版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "polestar-polestar4.json",
+      "brand": "polestar",
+      "zh": "Polestar 4",
+      "en": "Polestar 4",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "polestar-polestar5.json",
+      "brand": "polestar",
+      "zh": "Polestar 5",
+      "en": "Polestar 5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "porsche-cayennee-hybrid.json",
+      "brand": "porsche",
+      "zh": "Cayenne E-Hybrid",
+      "en": "Cayenne E-Hybrid",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "porsche-macanev.json",
+      "brand": "porsche",
+      "zh": "Macan EV",
+      "en": "Macan EV",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "porsche-taycan.json",
+      "brand": "porsche",
+      "zh": "Taycan",
+      "en": "Taycan",
+      "year": 2025,
+      "type": "SPORTS"
+    },
+    {
+      "file": "porsche-taycancrossturismo.json",
+      "brand": "porsche",
+      "zh": "Taycan Cross Turismo",
+      "en": "Taycan Cross Turismo",
+      "year": 2025,
+      "type": "SPORTS"
+    },
+    {
+      "file": "porsche-taycangts.json",
+      "brand": "porsche",
+      "zh": "Taycan GTS",
+      "en": "Taycan GTS",
+      "year": 2025,
+      "type": "SPORTS"
+    },
+    {
+      "file": "porsche-taycanturbos.json",
+      "brand": "porsche",
+      "zh": "Taycan Turbo S",
+      "en": "Taycan Turbo S",
+      "year": 2025,
+      "type": "SPORTS"
+    },
+    {
+      "file": "qichen-d60ev.json",
+      "brand": "qichen",
+      "zh": "启辰 D60 EV",
+      "en": "启辰 D60 EV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "qichen-t60ev.json",
+      "brand": "qichen",
+      "zh": "启辰 T60 EV",
+      "en": "启辰 T60 EV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "renault-capture-techphev.json",
+      "brand": "renault",
+      "zh": "Captur E-Tech PHEV",
+      "en": "Captur E-Tech PHEV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "renault-meganee-tech.json",
+      "brand": "renault",
+      "zh": "Megane E-Tech",
+      "en": "Megane E-Tech",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "renault-sc-nice-tech.json",
+      "brand": "renault",
+      "zh": "Scénic E-Tech",
+      "en": "Scénic E-Tech",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "renault-zoe.json",
+      "brand": "renault",
+      "zh": "Zoe",
+      "en": "Zoe",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "saic-maxus-eg10.json",
+      "brand": "saic_maxus",
+      "zh": "大通 EG10",
+      "en": "大通 EG10",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "saic-maxus-ev30.json",
+      "brand": "saic_maxus",
+      "zh": "大通 EV30",
+      "en": "大通 EV30",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "saic-maxus-mifa6.json",
+      "brand": "saic_maxus",
+      "zh": "大通 MIFA 6",
+      "en": "大通 MIFA 6",
+      "year": 2025,
+      "type": "MPV"
+    },
+    {
+      "file": "saic-maxus-mifa7.json",
+      "brand": "saic_maxus",
+      "zh": "大通 MIFA 7",
+      "en": "大通 MIFA 7",
+      "year": 2025,
+      "type": "MPV"
+    },
+    {
+      "file": "saic-maxus-mifa9.json",
+      "brand": "saic_maxus",
+      "zh": "大通 MIFA 9",
+      "en": "大通 MIFA 9",
+      "year": 2025,
+      "type": "MPV"
+    },
+    {
+      "file": "subaru-solterra.json",
+      "brand": "subaru",
+      "zh": "Solterra",
+      "en": "Solterra",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "toyota-ev-bz3.json",
+      "brand": "toyota_ev",
+      "zh": "bZ3",
+      "en": "bZ3",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "toyota-ev-bz4x.json",
+      "brand": "toyota_ev",
+      "zh": "bZ4X",
+      "en": "bZ4X",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "toyota-ev-rav4-e-.json",
+      "brand": "toyota_ev",
+      "zh": "RAV4 双擎 E+",
+      "en": "RAV4 双擎 E+",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "toyota-ev-sportcrossphev.json",
+      "brand": "toyota_ev",
+      "zh": "皇冠 SportCross PHEV",
+      "en": "皇冠 SportCross PHEV",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "volvo-c40recharge.json",
+      "brand": "volvo",
+      "zh": "C40 Recharge",
+      "en": "C40 Recharge",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "volvo-ex30.json",
+      "brand": "volvo",
+      "zh": "EX30",
+      "en": "EX30",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "volvo-ex90.json",
+      "brand": "volvo",
+      "zh": "EX90",
+      "en": "EX90",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "volvo-xc40recharge.json",
+      "brand": "volvo",
+      "zh": "XC40 Recharge",
+      "en": "XC40 Recharge",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "volvo-xc60recharge.json",
+      "brand": "volvo",
+      "zh": "XC60 Recharge",
+      "en": "XC60 Recharge",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "volvo-xc90recharge.json",
+      "brand": "volvo",
+      "zh": "XC90 Recharge",
+      "en": "XC90 Recharge",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "voyah-.json",
+      "brand": "voyah",
+      "zh": "岚图追光长续航版",
+      "en": "岚图追光长续航版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "voyah-free-.json",
+      "brand": "voyah",
+      "zh": "岚图 FREE 增程版",
+      "en": "岚图 FREE 增程版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "voyah-free.json",
+      "brand": "voyah",
+      "zh": "岚图 FREE",
+      "en": "岚图 FREE",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "vw-id-id-3.json",
+      "brand": "vw_id",
+      "zh": "ID.3",
+      "en": "ID.3",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "vw-id-id-4x.json",
+      "brand": "vw_id",
+      "zh": "ID.4 X",
+      "en": "ID.4 X",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "vw-id-id-5.json",
+      "brand": "vw_id",
+      "zh": "ID.5",
+      "en": "ID.5",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "vw-id-id-6x.json",
+      "brand": "vw_id",
+      "zh": "ID.6 X",
+      "en": "ID.6 X",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "vw-id-id-7.json",
+      "brand": "vw_id",
+      "zh": "ID.7",
+      "en": "ID.7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "vw-id-id-buzz.json",
+      "brand": "vw_id",
+      "zh": "ID. Buzz",
+      "en": "ID. Buzz",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "xiaomi-su7-.json",
+      "brand": "xiaomi",
+      "zh": "小米 SU7 标准版",
+      "en": "小米 SU7 标准版",
+      "year": 2026,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "xiaomi-su7.json",
+      "brand": "xiaomi",
+      "zh": "小米 SU7",
+      "en": "小米 SU7",
+      "year": 2026,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "xiaomi-su7max.json",
+      "brand": "xiaomi",
+      "zh": "小米 SU7 Max",
+      "en": "小米 SU7 Max",
+      "year": 2026,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "xiaomi-su7pro.json",
+      "brand": "xiaomi",
+      "zh": "小米 SU7 Pro",
+      "en": "小米 SU7 Pro",
+      "year": 2026,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "xiaomi-su7ultra.json",
+      "brand": "xiaomi",
+      "zh": "小米 SU7 Ultra",
+      "en": "小米 SU7 Ultra",
+      "year": 2026,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "xiaomi-yu7.json",
+      "brand": "xiaomi",
+      "zh": "小米 YU7",
+      "en": "小米 YU7",
+      "year": 2026,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "xiaomi-yu9-.json",
+      "brand": "xiaomi",
+      "zh": "小米 YU9 旗舰版",
+      "en": "小米 YU9 旗舰版",
+      "year": 2026,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "xiaomi-yu9.json",
+      "brand": "xiaomi",
+      "zh": "小米 YU9",
+      "en": "小米 YU9",
+      "year": 2026,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "xpeng-g3i.json",
+      "brand": "xpeng",
+      "zh": "G3i",
+      "en": "G3i",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "xpeng-g6.json",
+      "brand": "xpeng",
+      "zh": "G6",
+      "en": "G6",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "xpeng-g7.json",
+      "brand": "xpeng",
+      "zh": "G7",
+      "en": "G7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "xpeng-g9.json",
+      "brand": "xpeng",
+      "zh": "G9",
+      "en": "G9",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "xpeng-p5.json",
+      "brand": "xpeng",
+      "zh": "P5",
+      "en": "P5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "xpeng-p7.json",
+      "brand": "xpeng",
+      "zh": "P7",
+      "en": "P7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "xpeng-p7i.json",
+      "brand": "xpeng",
+      "zh": "P7i",
+      "en": "P7i",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "xpeng-x9.json",
+      "brand": "xpeng",
+      "zh": "X9",
+      "en": "X9",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "yangwang-u5.json",
+      "brand": "yangwang",
+      "zh": "仰望 U5",
+      "en": "仰望 U5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "yangwang-u6.json",
+      "brand": "yangwang",
+      "zh": "仰望 U6",
+      "en": "仰望 U6",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "yangwang-u7.json",
+      "brand": "yangwang",
+      "zh": "仰望 U7",
+      "en": "仰望 U7",
+      "year": 2026,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "yangwang-u8-.json",
+      "brand": "yangwang",
+      "zh": "仰望 U8 豪华版",
+      "en": "仰望 U8 豪华版",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "yangwang-u8.json",
+      "brand": "yangwang",
+      "zh": "仰望 U8",
+      "en": "仰望 U8",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "yangwang-u9-.json",
+      "brand": "yangwang",
+      "zh": "仰望 U9 超跑",
+      "en": "仰望 U9 超跑",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "yangwang-u9.json",
+      "brand": "yangwang",
+      "zh": "仰望 U9",
+      "en": "仰望 U9",
+      "year": 2025,
+      "type": "OFFROAD"
+    },
+    {
+      "file": "zeekr-001.json",
+      "brand": "zeekr",
+      "zh": "极氪 001",
+      "en": "极氪 001",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zeekr-001fr.json",
+      "brand": "zeekr",
+      "zh": "极氪 001 FR",
+      "en": "极氪 001 FR",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zeekr-007.json",
+      "brand": "zeekr",
+      "zh": "极氪 007",
+      "en": "极氪 007",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zeekr-009-.json",
+      "brand": "zeekr",
+      "zh": "极氪 009 光辉版",
+      "en": "极氪 009 光辉版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zeekr-009.json",
+      "brand": "zeekr",
+      "zh": "极氪 009",
+      "en": "极氪 009",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zeekr-x-.json",
+      "brand": "zeekr",
+      "zh": "极氪 X 四驱版",
+      "en": "极氪 X 四驱版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zeekr-x.json",
+      "brand": "zeekr",
+      "zh": "极氪 X",
+      "en": "极氪 X",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zhiji-l6.json",
+      "brand": "zhiji",
+      "zh": "智己 L6",
+      "en": "智己 L6",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "zhiji-l7-.json",
+      "brand": "zhiji",
+      "zh": "智己 L7 四驱版",
+      "en": "智己 L7 四驱版",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "zhiji-l7.json",
+      "brand": "zhiji",
+      "zh": "智己 L7",
+      "en": "智己 L7",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "zhiji-ls6.json",
+      "brand": "zhiji",
+      "zh": "智己 LS6",
+      "en": "智己 LS6",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zhiji-ls7-.json",
+      "brand": "zhiji",
+      "zh": "智己 LS7 超长续航版",
+      "en": "智己 LS7 超长续航版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zhiji-ls7.json",
+      "brand": "zhiji",
+      "zh": "智己 LS7",
+      "en": "智己 LS7",
+      "year": 2025,
+      "type": "SEDAN"
+    }
+  ],
+  "fake": [
+    {
+      "file": "byd-ev.json",
+      "brand": "byd",
+      "zh": "唐 EV",
+      "en": "唐 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "cadillac-ct5-vblackwingev.json",
+      "brand": "cadillac",
+      "zh": "CT5-V Blackwing EV",
+      "en": "CT5-V Blackwing EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "cadillac-ct6ev.json",
+      "brand": "cadillac",
+      "zh": "CT6 EV",
+      "en": "CT6 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "cadillac-gt4ev.json",
+      "brand": "cadillac",
+      "zh": "GT4 EV",
+      "en": "GT4 EV",
+      "year": 2025,
+      "type": "SPORTS",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "citroen-c4phev.json",
+      "brand": "citroen",
+      "zh": "C4 PHEV",
+      "en": "C4 PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "citroen-c5xphev.json",
+      "brand": "citroen",
+      "zh": "C5 X PHEV",
+      "en": "C5 X PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "citroen-c6phev.json",
+      "brand": "citroen",
+      "zh": "C6 PHEV",
+      "en": "C6 PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "citroen-dispatchev.json",
+      "brand": "citroen",
+      "zh": "Dispatch EV",
+      "en": "Dispatch EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "ford-ev-broncoev.json",
+      "brand": "ford_ev",
+      "zh": "Bronco EV",
+      "en": "Bronco EV",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "ford-ev-edgeev.json",
+      "brand": "ford_ev",
+      "zh": "Edge EV",
+      "en": "Edge EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "ford-ev-escapephev.json",
+      "brand": "ford_ev",
+      "zh": "Escape PHEV",
+      "en": "Escape PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "ford-ev-explorerphev.json",
+      "brand": "ford_ev",
+      "zh": "Explorer PHEV",
+      "en": "Explorer PHEV",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "ford-ev-mustangdarkhorseev.json",
+      "brand": "ford_ev",
+      "zh": "Mustang Dark Horse EV",
+      "en": "Mustang Dark Horse EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "honda-ev-accorde-phev.json",
+      "brand": "honda_ev",
+      "zh": "Accord e:PHEV",
+      "en": "Accord e:PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "honda-ev-civicev.json",
+      "brand": "honda_ev",
+      "zh": "Civic EV",
+      "en": "Civic EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "honda-ev-hr-vev.json",
+      "brand": "honda_ev",
+      "zh": "HR-V EV",
+      "en": "HR-V EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "hyundai-santafephev.json",
+      "brand": "hyundai",
+      "zh": "Santa Fe PHEV",
+      "en": "Santa Fe PHEV",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "hyundai-tucsonphev.json",
+      "brand": "hyundai",
+      "zh": "Tucson PHEV",
+      "en": "Tucson PHEV",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "infiniti-ev-fxev.json",
+      "brand": "infiniti_ev",
+      "zh": "FX EV",
+      "en": "FX EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "infiniti-ev-gev.json",
+      "brand": "infiniti_ev",
+      "zh": "G EV",
+      "en": "G EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "infiniti-ev-jxev.json",
+      "brand": "infiniti_ev",
+      "zh": "JX EV",
+      "en": "JX EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "infiniti-ev-mev.json",
+      "brand": "infiniti_ev",
+      "zh": "M EV",
+      "en": "M EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "infiniti-ev-q50ev.json",
+      "brand": "infiniti_ev",
+      "zh": "Q50 EV",
+      "en": "Q50 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "infiniti-ev-q60ev.json",
+      "brand": "infiniti_ev",
+      "zh": "Q60 EV",
+      "en": "Q60 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "infiniti-ev-qx55ev.json",
+      "brand": "infiniti_ev",
+      "zh": "QX55 EV",
+      "en": "QX55 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "jetour-x70ev.json",
+      "brand": "jetour",
+      "zh": "捷途 X70 EV",
+      "en": "捷途 X70 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "jetour-x90phev.json",
+      "brand": "jetour",
+      "zh": "捷途 X90 PHEV",
+      "en": "捷途 X90 PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "kia-sorentophev.json",
+      "brand": "kia",
+      "zh": "Sorento PHEV",
+      "en": "Sorento PHEV",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "kia-soulev.json",
+      "brand": "kia",
+      "zh": "Soul EV",
+      "en": "Soul EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "kia-sportagephev.json",
+      "brand": "kia",
+      "zh": "Sportage PHEV",
+      "en": "Sportage PHEV",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "kia-stingerev.json",
+      "brand": "kia",
+      "zh": "Stinger EV",
+      "en": "Stinger EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "li-auto-i9.json",
+      "brand": "li_auto",
+      "zh": "理想 i9",
+      "en": "理想 i9",
+      "year": 2026,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "li-auto-l4.json",
+      "brand": "li_auto",
+      "zh": "理想 L4",
+      "en": "理想 L4",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "li-auto-l5.json",
+      "brand": "li_auto",
+      "zh": "理想 L5",
+      "en": "理想 L5",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "lynkco-10-.json",
+      "brand": "lynkco",
+      "zh": "领克 10 纯电",
+      "en": "领克 10 纯电",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mazda-cx-30ev.json",
+      "brand": "mazda",
+      "zh": "CX-30 EV",
+      "en": "CX-30 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mazda-cx-50ev.json",
+      "brand": "mazda",
+      "zh": "CX-50 EV",
+      "en": "CX-50 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mazda-mazda3ev.json",
+      "brand": "mazda",
+      "zh": "Mazda3 EV",
+      "en": "Mazda3 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mazda-mazda6ev.json",
+      "brand": "mazda",
+      "zh": "Mazda6 EV",
+      "en": "Mazda6 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mazda-mx-5ev.json",
+      "brand": "mazda",
+      "zh": "MX-5 EV",
+      "en": "MX-5 EV",
+      "year": 2025,
+      "type": "SPORTS",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mitsubishi-asxev.json",
+      "brand": "mitsubishi",
+      "zh": "ASX EV",
+      "en": "ASX EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mitsubishi-i-miev.json",
+      "brand": "mitsubishi",
+      "zh": "i-MiEV",
+      "en": "i-MiEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mitsubishi-l200ev.json",
+      "brand": "mitsubishi",
+      "zh": "L200 EV",
+      "en": "L200 EV",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mitsubishi-mirageev.json",
+      "brand": "mitsubishi",
+      "zh": "Mirage EV",
+      "en": "Mirage EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mitsubishi-pajeroev.json",
+      "brand": "mitsubishi",
+      "zh": "Pajero EV",
+      "en": "Pajero EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "mitsubishi-xpanderev.json",
+      "brand": "mitsubishi",
+      "zh": "Xpander EV",
+      "en": "Xpander EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "nissan-ev-altimaev.json",
+      "brand": "nissan_ev",
+      "zh": "Altima EV",
+      "en": "Altima EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "nissan-ev-maximaev.json",
+      "brand": "nissan_ev",
+      "zh": "Maxima EV",
+      "en": "Maxima EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "nissan-ev-rogueev.json",
+      "brand": "nissan_ev",
+      "zh": "Rogue EV",
+      "en": "Rogue EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "peugeot-2008phev.json",
+      "brand": "peugeot",
+      "zh": "2008 PHEV",
+      "en": "2008 PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "peugeot-308phev.json",
+      "brand": "peugeot",
+      "zh": "308 PHEV",
+      "en": "308 PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "porsche-911turbose-hybrid.json",
+      "brand": "porsche",
+      "zh": "911 Turbo S E-Hybrid",
+      "en": "911 Turbo S E-Hybrid",
+      "year": 2025,
+      "type": "SPORTS",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "porsche-panamerae-hybrid.json",
+      "brand": "porsche",
+      "zh": "Panamera E-Hybrid",
+      "en": "Panamera E-Hybrid",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "qichen-t70phev.json",
+      "brand": "qichen",
+      "zh": "启辰 T70 PHEV",
+      "en": "启辰 T70 PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "renault-alpinea110ev.json",
+      "brand": "renault",
+      "zh": "Alpine A110 EV",
+      "en": "Alpine A110 EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "saic-maxus-d90proev.json",
+      "brand": "saic_maxus",
+      "zh": "大通 D90 Pro EV",
+      "en": "大通 D90 Pro EV",
+      "year": 2025,
+      "type": "MPV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "saic-maxus-g90ev.json",
+      "brand": "saic_maxus",
+      "zh": "大通 G90 EV",
+      "en": "大通 G90 EV",
+      "year": 2025,
+      "type": "MPV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "saic-maxus-t90ev.json",
+      "brand": "saic_maxus",
+      "zh": "大通 T90 EV",
+      "en": "大通 T90 EV",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "subaru-ascentev.json",
+      "brand": "subaru",
+      "zh": "Ascent EV",
+      "en": "Ascent EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "subaru-brzev.json",
+      "brand": "subaru",
+      "zh": "BRZ EV",
+      "en": "BRZ EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "subaru-crosstrekhybrid.json",
+      "brand": "subaru",
+      "zh": "Crosstrek Hybrid",
+      "en": "Crosstrek Hybrid",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "subaru-foresterhybrid.json",
+      "brand": "subaru",
+      "zh": "Forester Hybrid",
+      "en": "Forester Hybrid",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "subaru-imprezaev.json",
+      "brand": "subaru",
+      "zh": "Impreza EV",
+      "en": "Impreza EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "subaru-outbackhybrid.json",
+      "brand": "subaru",
+      "zh": "Outback Hybrid",
+      "en": "Outback Hybrid",
+      "year": 2025,
+      "type": "SUV",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "subaru-wrxev.json",
+      "brand": "subaru",
+      "zh": "WRX EV",
+      "en": "WRX EV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    },
+    {
+      "file": "wey-dht-phev.json",
+      "brand": "wey",
+      "zh": "魏牌玛奇朵 DHT-PHEV",
+      "en": "魏牌玛奇朵 DHT-PHEV",
+      "year": 2025,
+      "type": "SEDAN",
+      "reason": "虚构/不存在"
+    }
+  ],
+  "uncertain": [
+    {
+      "file": "aito-s9.json",
+      "brand": "aito",
+      "zh": "问界 S9",
+      "en": "问界 S9",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "audi-etron-a6e-tron.json",
+      "brand": "audi_etron",
+      "zh": "A6 e-tron",
+      "en": "A6 e-tron",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "audi-etron-a8e-tron.json",
+      "brand": "audi_etron",
+      "zh": "A8 e-tron",
+      "en": "A8 e-tron",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "audi-etron-e-tronsportback.json",
+      "brand": "audi_etron",
+      "zh": "e-tron Sportback",
+      "en": "e-tron Sportback",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "bmw-i-i8.json",
+      "brand": "bmw_i",
+      "zh": "i8",
+      "en": "i8",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "byd-d9.json",
+      "brand": "byd",
+      "zh": "腾势 D9",
+      "en": "腾势 D9",
+      "year": 2025,
+      "type": "MPV"
+    },
+    {
+      "file": "byd-plus.json",
+      "brand": "byd",
+      "zh": "元 PLUS",
+      "en": "元 PLUS",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "byd-plusdm-i.json",
+      "brand": "byd",
+      "zh": "宋 PLUS DM-i",
+      "en": "宋 PLUS DM-i",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "byd-u8.json",
+      "brand": "byd",
+      "zh": "仰望 U8",
+      "en": "仰望 U8",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "chery-fengyun-a7.json",
+      "brand": "chery_fengyun",
+      "zh": "风云 A7",
+      "en": "风云 A7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "chery-fengyun-e5.json",
+      "brand": "chery_fengyun",
+      "zh": "风云 E5",
+      "en": "风云 E5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "chery-fengyun-l6.json",
+      "brand": "chery_fengyun",
+      "zh": "风云 L6",
+      "en": "风云 L6",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "chery-fengyun-s7.json",
+      "brand": "chery_fengyun",
+      "zh": "风云 S7",
+      "en": "风云 S7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "deepal-e7.json",
+      "brand": "deepal",
+      "zh": "深蓝 E7",
+      "en": "深蓝 E7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "deepal-l7.json",
+      "brand": "deepal",
+      "zh": "深蓝 L7",
+      "en": "深蓝 L7",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "deepal-s7.json",
+      "brand": "deepal",
+      "zh": "深蓝 S7",
+      "en": "深蓝 S7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "deepal-s7i.json",
+      "brand": "deepal",
+      "zh": "深蓝 S7i",
+      "en": "深蓝 S7i",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "deepal-x7.json",
+      "brand": "deepal",
+      "zh": "深蓝 X7",
+      "en": "深蓝 X7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "denza-x-.json",
+      "brand": "denza",
+      "zh": "腾势 X 混动版",
+      "en": "腾势 X 混动版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "denza-x.json",
+      "brand": "denza",
+      "zh": "腾势 X",
+      "en": "腾势 X",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "feifan-e5.json",
+      "brand": "feifan",
+      "zh": "飞凡 E5",
+      "en": "飞凡 E5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "feifan-er6.json",
+      "brand": "feifan",
+      "zh": "飞凡 ER6",
+      "en": "飞凡 ER6",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "feifan-g7.json",
+      "brand": "feifan",
+      "zh": "飞凡 G7",
+      "en": "飞凡 G7",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "feifan-marvelr.json",
+      "brand": "feifan",
+      "zh": "飞凡 MARVEL R",
+      "en": "飞凡 MARVEL R",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "geely-galaxy-ex2.json",
+      "brand": "geely_galaxy",
+      "zh": "银河星愿 EX2",
+      "en": "银河星愿 EX2",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "geely-galaxy-g6.json",
+      "brand": "geely_galaxy",
+      "zh": "银河 G6",
+      "en": "银河 G6",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "geely-galaxy-l9.json",
+      "brand": "geely_galaxy",
+      "zh": "银河 L9",
+      "en": "银河 L9",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "geely-galaxy-m6.json",
+      "brand": "geely_galaxy",
+      "zh": "银河 M6",
+      "en": "银河 M6",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hechuang-e01.json",
+      "brand": "hechuang",
+      "zh": "合创 E01",
+      "en": "合创 E01",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hozon-01.json",
+      "brand": "hozon",
+      "zh": "哪吒 01",
+      "en": "哪吒 01",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hozon-c01.json",
+      "brand": "hozon",
+      "zh": "哪吒 C01",
+      "en": "哪吒 C01",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hozon-t03.json",
+      "brand": "hozon",
+      "zh": "哪吒 T03",
+      "en": "哪吒 T03",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "hyundai-casperelectric.json",
+      "brand": "hyundai",
+      "zh": "Casper Electric",
+      "en": "Casper Electric",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "hyundai-konaelectric.json",
+      "brand": "hyundai",
+      "zh": "Kona Electric",
+      "en": "Kona Electric",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "hyundai-nexo.json",
+      "brand": "hyundai",
+      "zh": "Nexo",
+      "en": "Nexo",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jetour-e70.json",
+      "brand": "jetour",
+      "zh": "捷途 E70",
+      "en": "捷途 E70",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jetour-l9.json",
+      "brand": "jetour",
+      "zh": "捷途山海 L9",
+      "en": "捷途山海 L9",
+      "year": 2025,
+      "type": "SUV"
+    },
+    {
+      "file": "jetour-t2.json",
+      "brand": "jetour",
+      "zh": "捷途山海 T2",
+      "en": "捷途山海 T2",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jetour-x70se.json",
+      "brand": "jetour",
+      "zh": "捷途 X70 SE",
+      "en": "捷途 X70 SE",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jihu-e10.json",
+      "brand": "jihu",
+      "zh": "极狐 E10",
+      "en": "极狐 E10",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jihu-s-hi-.json",
+      "brand": "jihu",
+      "zh": "极狐阿尔法 S 华为 HI 版",
+      "en": "极狐阿尔法 S 华为 HI 版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jihu-s.json",
+      "brand": "jihu",
+      "zh": "极狐阿尔法 S",
+      "en": "极狐阿尔法 S",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jihu-s5.json",
+      "brand": "jihu",
+      "zh": "极狐阿尔法 S5",
+      "en": "极狐阿尔法 S5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jihu-t-.json",
+      "brand": "jihu",
+      "zh": "极狐阿尔法 T 森林版",
+      "en": "极狐阿尔法 T 森林版",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jihu-t.json",
+      "brand": "jihu",
+      "zh": "极狐阿尔法 T",
+      "en": "极狐阿尔法 T",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "jihu-t5.json",
+      "brand": "jihu",
+      "zh": "极狐阿尔法 T5",
+      "en": "极狐阿尔法 T5",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "leapmotor-s01.json",
+      "brand": "leapmotor",
+      "zh": "零跑 S01",
+      "en": "零跑 S01",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lotus-e11.json",
+      "brand": "lotus",
+      "zh": "路特斯 E11",
+      "en": "路特斯 E11",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lotus-s11.json",
+      "brand": "lotus",
+      "zh": "路特斯 S11",
+      "en": "路特斯 S11",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lotus-type132.json",
+      "brand": "lotus",
+      "zh": "路特斯 Type 132",
+      "en": "路特斯 Type 132",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lynkco-02em-p.json",
+      "brand": "lynkco",
+      "zh": "领克 02 EM-P",
+      "en": "领克 02 EM-P",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "lynkco-03em-p.json",
+      "brand": "lynkco",
+      "zh": "领克 03 EM-P",
+      "en": "领克 03 EM-P",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "ora-.json",
+      "brand": "ora",
+      "zh": "欧拉樱桃猫",
+      "en": "欧拉樱桃猫",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "ora-iq.json",
+      "brand": "ora",
+      "zh": "欧拉 iQ",
+      "en": "欧拉 iQ",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "polestar-polestar1.json",
+      "brand": "polestar",
+      "zh": "Polestar 1",
+      "en": "Polestar 1",
+      "year": 2025,
+      "type": "SPORTS"
+    },
+    {
+      "file": "qichen-ariya.json",
+      "brand": "qichen",
+      "zh": "启辰 Ariya",
+      "en": "启辰 Ariya",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "qichen-dd-i.json",
+      "brand": "qichen",
+      "zh": "启辰星 DD-i",
+      "en": "启辰星 DD-i",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "qichen-e30.json",
+      "brand": "qichen",
+      "zh": "启辰 e30",
+      "en": "启辰 e30",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "qichen-v-online.json",
+      "brand": "qichen",
+      "zh": "启辰 V-Online",
+      "en": "启辰 V-Online",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "qichen-vdd-i.json",
+      "brand": "qichen",
+      "zh": "启辰大 V DD-i",
+      "en": "启辰大 V DD-i",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "renault-clioe-tech.json",
+      "brand": "renault",
+      "zh": "Clio E-Tech",
+      "en": "Clio E-Tech",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "renault-kangooe-tech.json",
+      "brand": "renault",
+      "zh": "Kangoo E-Tech",
+      "en": "Kangoo E-Tech",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "renault-mastere-tech.json",
+      "brand": "renault",
+      "zh": "Master E-Tech",
+      "en": "Master E-Tech",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "toyota-ev-bz1.json",
+      "brand": "toyota_ev",
+      "zh": "bZ1",
+      "en": "bZ1",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "toyota-ev-bz5x.json",
+      "brand": "toyota_ev",
+      "zh": "bZ5X",
+      "en": "bZ5X",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "toyota-ev-e-.json",
+      "brand": "toyota_ev",
+      "zh": "卡罗拉双擎 E+",
+      "en": "卡罗拉双擎 E+",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "volvo-s60recharge.json",
+      "brand": "volvo",
+      "zh": "S60 Recharge",
+      "en": "S60 Recharge",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "volvo-s90recharge.json",
+      "brand": "volvo",
+      "zh": "S90 Recharge",
+      "en": "S90 Recharge",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "voyah-h53.json",
+      "brand": "voyah",
+      "zh": "岚图 H53",
+      "en": "岚图 H53",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "vw-id-id-2.json",
+      "brand": "vw_id",
+      "zh": "ID.2",
+      "en": "ID.2",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "vw-id-id-8.json",
+      "brand": "vw_id",
+      "zh": "ID.8",
+      "en": "ID.8",
+      "year": 2025,
+      "type": "MINI"
+    },
+    {
+      "file": "wey-.json",
+      "brand": "wey",
+      "zh": "魏牌欧拉",
+      "en": "魏牌欧拉",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "wey-p8.json",
+      "brand": "wey",
+      "zh": "魏牌 P8",
+      "en": "魏牌 P8",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zeekr-005.json",
+      "brand": "zeekr",
+      "zh": "极氪 005",
+      "en": "极氪 005",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zhiji-imad.json",
+      "brand": "zhiji",
+      "zh": "智己 IM AD",
+      "en": "智己 IM AD",
+      "year": 2025,
+      "type": "SEDAN"
+    },
+    {
+      "file": "zhiji-l5.json",
+      "brand": "zhiji",
+      "zh": "智己 L5",
+      "en": "智己 L5",
+      "year": 2025,
+      "type": "SUV"
+    }
+  ],
+  "totalReal": 239,
+  "totalFake": 66,
+  "totalUncertain": 76
+}
